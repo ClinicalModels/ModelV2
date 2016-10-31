@@ -15917,6 +15917,29 @@
                 </Attributes>
               </ddl300_300:ToRelationshipEnd>
             </ddl300_300:Relationship>
+            <ddl300_300:Relationship>
+              <ID>1d81d2d8-e2f7-47d2-acf6-643cf1214f89</ID>
+              <ddl300_300:FromRelationshipEnd>
+                <ddl300_300:Multiplicity>Many</ddl300_300:Multiplicity>
+                <ddl300:VisualizationProperties />
+                <DimensionID>PHI Patient SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</DimensionID>
+                <Attributes>
+                  <Attribute>
+                    <AttributeID>person_key</AttributeID>
+                  </Attribute>
+                </Attributes>
+              </ddl300_300:FromRelationshipEnd>
+              <ddl300_300:ToRelationshipEnd>
+                <ddl300_300:Multiplicity>One</ddl300_300:Multiplicity>
+                <ddl300:VisualizationProperties />
+                <DimensionID>PHI Patient Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</DimensionID>
+                <Attributes>
+                  <Attribute>
+                    <AttributeID>person_key</AttributeID>
+                  </Attribute>
+                </Attributes>
+              </ddl300_300:ToRelationshipEnd>
+            </ddl300_300:Relationship>
           </ddl300_300:Relationships>
         </Dimension>
         <Dimension>
@@ -43510,6 +43533,1289 @@
                   <IntermediateGranularityAttributeID>first_mon_date</IntermediateGranularityAttributeID>
                   <Materialization>Regular</Materialization>
                   <ddl300:RelationshipID>bf68096d-2f58-435e-a427-c581f97d83eb</ddl300:RelationshipID>
+                </Dimension>
+                <Dimension xsi:type="ReferenceMeasureGroupDimension">
+                  <CubeDimensionID>PHI Patient Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>RowNumber</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>4</DataSize>
+                          <NullProcessing>Error</NullProcessing>
+                          <Source xsi:type="ddl200_200:RowNumberBinding" />
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>person_key</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>BigInt</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Error</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>person_key</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                      <Type>Granularity</Type>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>per_mon_id</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>BigInt</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>per_mon_id</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>first_mon_date</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Date</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>first_mon_date</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>mh_cur_key</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>BigInt</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>mh_cur_key</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>pcp_cur_key</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>BigInt</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>pcp_cur_key</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>mh_hx_key</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>BigInt</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>mh_hx_key</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>pcp_hx_key</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>BigInt</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>pcp_hx_key</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Patient Status Cur</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Patient_x0020_Status_x0020_Cur</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Language</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Language</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Full Name</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Full_x0020_Name</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>First Name</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>First_x0020_Name</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Last Name</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Last_x0020_Name</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Middle Name</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Middle_x0020_Name</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Address 1</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Address_x0020_1</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Adress 2</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Adress_x0020_2</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>City</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>City</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>State</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>State</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Zipcode</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Zipcode</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Home Phone Number</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Home_x0020_Phone_x0020_Number</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Gender</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Gender</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>SSN</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>SSN</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>DOB</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Date</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>DOB</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Age Current</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Age_x0020_Current</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Alternate Phone Number</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Alternate_x0020_Phone_x0020_Number</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Marital Status</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Marital_x0020_Status</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Race</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Race</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Ethnicity</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Ethnicity</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Homeless Status</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Homeless_x0020_Status</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Homeless Indicator</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>BigInt</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Homeless_x0020_Indicator</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Disability 1</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Disability_x0020_1</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Disability 2</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Disability_x0020_2</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Medical Record Number</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Medical_x0020_Record_x0020_Number</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Address Full</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Address_x0020_Full</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Last Appointment Date</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Date</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Last_x0020_Appointment_x0020_Date</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Last Encounter Date</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Date</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Last_x0020_Encounter_x0020_Date</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Next Appointment Date</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Date</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Next_x0020_Appointment_x0020_Date</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Last Appointment Provider</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Last_x0020_Appointment_x0020_Provider</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Last Encounter Provider</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Last_x0020_Encounter_x0020_Provider</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Next Appointment Provider</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Next_x0020_Appointment_x0020_Provider</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Chart Create Date</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Date</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Chart_x0020_Create_x0020_Date</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Chart Create User</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Chart_x0020_Create_x0020_User</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Person Create Date</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Date</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Person_x0020_Create_x0020_Date</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Person Creat User</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Person_x0020_Creat_x0020_User</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Time as Member</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Time_x0020_as_x0020_Member</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>membership_time_sort</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>BigInt</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>membership_time_sort</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Is Patient New</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Is_x0020_Patient_x0020_New</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Is Patient Established</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Is_x0020_Patient_x0020_Established</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Is Patient Alive</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Is_x0020_Patient_x0020_Alive</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Is Patient Deceased this Month</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Is_x0020_Patient_x0020_Deceased_x0020_this_x0020_Month</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Membership Month</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>BigInt</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Membership_x0020_Month</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Patient Vintage Month</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Patient_x0020_Vintage_x0020_Month</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Patient Vintage Month Range</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Patient_x0020_Vintage_x0020_Month_x0020_Range</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Patient Vintage Month sort</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>BigInt</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Patient_x0020_Vintage_x0020_Month_x0020_sort</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Hedis CRC Den</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Hedis_x0020_CRC_x0020_Den</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Hedis BC Den</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Hedis_x0020_BC_x0020_Den</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Hedis BP Den</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Hedis_x0020_BP_x0020_Den</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Hedis CRC Num</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Hedis_x0020_CRC_x0020_Num</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Hedis BC Num</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Hedis_x0020_BC_x0020_Num</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Hedis BP Num</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Hedis_x0020_BP_x0020_Num</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                  </Attributes>
+                  <IntermediateCubeDimensionID>PHI Patient SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</IntermediateCubeDimensionID>
+                  <IntermediateGranularityAttributeID>person_key</IntermediateGranularityAttributeID>
+                  <Materialization>Regular</Materialization>
+                  <ddl300:RelationshipID>1d81d2d8-e2f7-47d2-acf6-643cf1214f89</ddl300:RelationshipID>
+                </Dimension>
+                <Dimension xsi:type="ReferenceMeasureGroupDimension">
+                  <CubeDimensionID>Medical Home Cur_f6a95c12-9865-4458-bf30-140cb0ea179f</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>RowNumber</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>4</DataSize>
+                          <NullProcessing>Error</NullProcessing>
+                          <Source xsi:type="ddl200_200:RowNumberBinding" />
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>location_key</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>BigInt</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Error</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>Medical_x0020_Home_x0020_Cur_f6a95c12-9865-4458-bf30-140cb0ea179f</TableID>
+                            <ColumnID>location_key</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                      <Type>Granularity</Type>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Medical Home Current</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>Medical_x0020_Home_x0020_Cur_f6a95c12-9865-4458-bf30-140cb0ea179f</TableID>
+                            <ColumnID>Medical_x0020_Home_x0020_Current</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>site_id</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>Medical_x0020_Home_x0020_Cur_f6a95c12-9865-4458-bf30-140cb0ea179f</TableID>
+                            <ColumnID>site_id</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                  </Attributes>
+                  <IntermediateCubeDimensionID>PHI Patient Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</IntermediateCubeDimensionID>
+                  <IntermediateGranularityAttributeID>mh_cur_key</IntermediateGranularityAttributeID>
+                </Dimension>
+                <Dimension xsi:type="ReferenceMeasureGroupDimension">
+                  <CubeDimensionID>PCP Cur_ef6f0bd2-de3c-47dd-9dbb-6ea0dcb153a7</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>RowNumber</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>4</DataSize>
+                          <NullProcessing>Error</NullProcessing>
+                          <Source xsi:type="ddl200_200:RowNumberBinding" />
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>user_key</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>BigInt</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Error</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PCP_x0020_Cur_ef6f0bd2-de3c-47dd-9dbb-6ea0dcb153a7</TableID>
+                            <ColumnID>user_key</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                      <Type>Granularity</Type>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>employee_key</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>BigInt</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PCP_x0020_Cur_ef6f0bd2-de3c-47dd-9dbb-6ea0dcb153a7</TableID>
+                            <ColumnID>employee_key</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>PCP Current</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PCP_x0020_Cur_ef6f0bd2-de3c-47dd-9dbb-6ea0dcb153a7</TableID>
+                            <ColumnID>PCP_x0020_Current</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Resource Name</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PCP_x0020_Cur_ef6f0bd2-de3c-47dd-9dbb-6ea0dcb153a7</TableID>
+                            <ColumnID>Resource_x0020_Name</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Role Status</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PCP_x0020_Cur_ef6f0bd2-de3c-47dd-9dbb-6ea0dcb153a7</TableID>
+                            <ColumnID>Role_x0020_Status</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Degree</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PCP_x0020_Cur_ef6f0bd2-de3c-47dd-9dbb-6ea0dcb153a7</TableID>
+                            <ColumnID>Degree</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Active Provider</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PCP_x0020_Cur_ef6f0bd2-de3c-47dd-9dbb-6ea0dcb153a7</TableID>
+                            <ColumnID>Active_x0020_Provider</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Primary Location for Provider</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PCP_x0020_Cur_ef6f0bd2-de3c-47dd-9dbb-6ea0dcb153a7</TableID>
+                            <ColumnID>Primary_x0020_Location_x0020_for_x0020_Provider</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Primary Site Active Provider 3m</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PCP_x0020_Cur_ef6f0bd2-de3c-47dd-9dbb-6ea0dcb153a7</TableID>
+                            <ColumnID>Primary_x0020_Site_x0020_Active_x0020_Provider_x0020_3m</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Primary Location for Provider 3m</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PCP_x0020_Cur_ef6f0bd2-de3c-47dd-9dbb-6ea0dcb153a7</TableID>
+                            <ColumnID>Primary_x0020_Location_x0020_for_x0020_Provider_x0020_3m</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Secondary Site Active Provider 3m</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PCP_x0020_Cur_ef6f0bd2-de3c-47dd-9dbb-6ea0dcb153a7</TableID>
+                            <ColumnID>Secondary_x0020_Site_x0020_Active_x0020_Provider_x0020_3m</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Secondary Location for Provider 6m</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PCP_x0020_Cur_ef6f0bd2-de3c-47dd-9dbb-6ea0dcb153a7</TableID>
+                            <ColumnID>Secondary_x0020_Location_x0020_for_x0020_Provider_x0020_6m</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Primary Active Provider 6m</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PCP_x0020_Cur_ef6f0bd2-de3c-47dd-9dbb-6ea0dcb153a7</TableID>
+                            <ColumnID>Primary_x0020_Active_x0020_Provider_x0020_6m</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Primary Location for Provider 6m</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PCP_x0020_Cur_ef6f0bd2-de3c-47dd-9dbb-6ea0dcb153a7</TableID>
+                            <ColumnID>Primary_x0020_Location_x0020_for_x0020_Provider_x0020_6m</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Active Provider 12m</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PCP_x0020_Cur_ef6f0bd2-de3c-47dd-9dbb-6ea0dcb153a7</TableID>
+                            <ColumnID>Active_x0020_Provider_x0020_12m</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Primary Location Provider 12m</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PCP_x0020_Cur_ef6f0bd2-de3c-47dd-9dbb-6ea0dcb153a7</TableID>
+                            <ColumnID>Primary_x0020_Location_x0020_Provider_x0020_12m</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>HR Employee Number</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PCP_x0020_Cur_ef6f0bd2-de3c-47dd-9dbb-6ea0dcb153a7</TableID>
+                            <ColumnID>HR_x0020_Employee_x0020_Number</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>HR Employee Title</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PCP_x0020_Cur_ef6f0bd2-de3c-47dd-9dbb-6ea0dcb153a7</TableID>
+                            <ColumnID>HR_x0020_Employee_x0020_Title</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>HR Location ID</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PCP_x0020_Cur_ef6f0bd2-de3c-47dd-9dbb-6ea0dcb153a7</TableID>
+                            <ColumnID>HR_x0020_Location_x0020_ID</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>HR Location Name</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PCP_x0020_Cur_ef6f0bd2-de3c-47dd-9dbb-6ea0dcb153a7</TableID>
+                            <ColumnID>HR_x0020_Location_x0020_Name</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                  </Attributes>
+                  <IntermediateCubeDimensionID>PHI Patient Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</IntermediateCubeDimensionID>
+                  <IntermediateGranularityAttributeID>pcp_cur_key</IntermediateGranularityAttributeID>
                 </Dimension>
               </Dimensions>
               <Partitions>
