@@ -6049,29 +6049,6 @@
               </ddl300_300:ToRelationshipEnd>
             </ddl300_300:Relationship>
             <ddl300_300:Relationship>
-              <ID>4687f490-a719-4d8c-87d3-e3e31d3f3701</ID>
-              <ddl300_300:FromRelationshipEnd>
-                <ddl300_300:Multiplicity>Many</ddl300_300:Multiplicity>
-                <ddl300:VisualizationProperties />
-                <DimensionID>Encounter and Appointment_d1c60146-8607-4288-bcd2-c7711873898a</DimensionID>
-                <Attributes>
-                  <Attribute>
-                    <AttributeID>enc_appt_comp_key</AttributeID>
-                  </Attribute>
-                </Attributes>
-              </ddl300_300:FromRelationshipEnd>
-              <ddl300_300:ToRelationshipEnd>
-                <ddl300_300:Multiplicity>One</ddl300_300:Multiplicity>
-                <ddl300:VisualizationProperties />
-                <DimensionID>Status Enc and Appt_1921557f-6fee-48f6-b863-656bb7d534ef</DimensionID>
-                <Attributes>
-                  <Attribute>
-                    <AttributeID>enc_appt_comp_key</AttributeID>
-                  </Attribute>
-                </Attributes>
-              </ddl300_300:ToRelationshipEnd>
-            </ddl300_300:Relationship>
-            <ddl300_300:Relationship>
               <ID>b9086746-2be4-4396-861d-e6b4b7aea907</ID>
               <ddl300_300:FromRelationshipEnd>
                 <ddl300_300:Multiplicity>Many</ddl300_300:Multiplicity>
@@ -10509,6 +10486,22 @@
         &lt;int&gt;94&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Days to Appt&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;93&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Days Since Enc&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;102&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnWidths&gt;
   &lt;ColumnDisplayIndex&gt;
     &lt;item&gt;
@@ -11007,6 +11000,22 @@
         &lt;int&gt;61&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Days to Appt&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;62&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Days Since Enc&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;63&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnDisplayIndex&gt;
   &lt;ColumnFrozen /&gt;
   &lt;ColumnChecked&gt;
@@ -11077,6 +11086,22 @@
     &lt;item&gt;
       &lt;key&gt;
         &lt;string&gt;Hedis BC Due&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Days to Appt&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Days Since Enc&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -11440,6 +11465,16 @@
                   <AttributeID>Hedis BC Due</AttributeID>
                   <OverrideBehavior>None</OverrideBehavior>
                   <Name>Hedis BC Due</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>Days to Appt</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>Days to Appt</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>Days Since Enc</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>Days Since Enc</Name>
                 </AttributeRelationship>
               </AttributeRelationships>
               <OrderBy>Key</OrderBy>
@@ -13528,6 +13563,56 @@
                 <Source xsi:type="ColumnBinding">
                   <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
                   <ColumnID>Hedis_x0020_BC_x0020_Due</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>Days to Appt</ID>
+              <Name>Days to Appt</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <DataSize>-1</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                    <ColumnID>Days_x0020_to_x0020_Appt</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>-1</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                  <ColumnID>Days_x0020_to_x0020_Appt</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>Days Since Enc</ID>
+              <Name>Days Since Enc</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <DataSize>-1</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                    <ColumnID>Days_x0020_Since_x0020_Enc</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>-1</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                  <ColumnID>Days_x0020_Since_x0020_Enc</ColumnID>
                 </Source>
               </NameColumn>
               <OrderBy>Key</OrderBy>
@@ -18446,554 +18531,6 @@
               </ddl300_300:ToRelationshipEnd>
             </ddl300_300:Relationship>
           </ddl300_300:Relationships>
-        </Dimension>
-        <Dimension>
-          <ID>Status Enc and Appt_1921557f-6fee-48f6-b863-656bb7d534ef</ID>
-          <Name>Status Enc and Appt</Name>
-          <Annotations>
-            <Annotation>
-              <Name>IsQueryEditorUsed</Name>
-              <Value>False</Value>
-            </Annotation>
-            <Annotation>
-              <Name>QueryEditorSerialization</Name>
-            </Annotation>
-            <Annotation>
-              <Name>TableWidgetSerialization</Name>
-            </Annotation>
-            <Annotation>
-              <Name>DataMarketWebBaseUrl</Name>
-            </Annotation>
-            <Annotation>
-              <Name>DataMarketWebQueryUrl</Name>
-            </Annotation>
-          </Annotations>
-          <Source xsi:type="DataSourceViewBinding">
-            <DataSourceViewID>Sandbox</DataSourceViewID>
-          </Source>
-          <UnknownMember valuens="ddl200_200">AutomaticNull</UnknownMember>
-          <ErrorConfiguration>
-            <KeyNotFound>IgnoreError</KeyNotFound>
-            <KeyDuplicate>ReportAndStop</KeyDuplicate>
-            <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
-          </ErrorConfiguration>
-          <StorageMode valuens="ddl200_200">InMemory</StorageMode>
-          <Language>1033</Language>
-          <UnknownMemberName>Unknown</UnknownMemberName>
-          <Attributes>
-            <Attribute>
-              <ID>RowNumber</ID>
-              <Name>RowNumber</Name>
-              <Type valuens="ddl200_200">RowNumber</Type>
-              <Usage>Key</Usage>
-              <KeyColumns>
-                <KeyColumn>
-                  <DataType>Integer</DataType>
-                  <DataSize>4</DataSize>
-                  <NullProcessing>Error</NullProcessing>
-                  <Source xsi:type="ddl200_200:RowNumberBinding" />
-                </KeyColumn>
-              </KeyColumns>
-              <NameColumn>
-                <DataType>WChar</DataType>
-                <DataSize>4</DataSize>
-                <NullProcessing>ZeroOrBlank</NullProcessing>
-                <Source xsi:type="ddl200_200:RowNumberBinding" />
-              </NameColumn>
-              <AttributeRelationships>
-                <AttributeRelationship>
-                  <AttributeID>enc_appt_comp_key</AttributeID>
-                  <Cardinality>One</Cardinality>
-                  <OverrideBehavior>None</OverrideBehavior>
-                  <Name>enc_appt_comp_key</Name>
-                </AttributeRelationship>
-                <AttributeRelationship>
-                  <AttributeID>Status of Appointment</AttributeID>
-                  <OverrideBehavior>None</OverrideBehavior>
-                  <Name>Status of Appointment</Name>
-                </AttributeRelationship>
-                <AttributeRelationship>
-                  <AttributeID>Appt booked with PCP</AttributeID>
-                  <OverrideBehavior>None</OverrideBehavior>
-                  <Name>Appt booked with PCP</Name>
-                </AttributeRelationship>
-                <AttributeRelationship>
-                  <AttributeID>Appt booked with a patient</AttributeID>
-                  <OverrideBehavior>None</OverrideBehavior>
-                  <Name>Appt booked with a patient</Name>
-                </AttributeRelationship>
-                <AttributeRelationship>
-                  <AttributeID>Appt had encounter</AttributeID>
-                  <OverrideBehavior>None</OverrideBehavior>
-                  <Name>Appt had encounter</Name>
-                </AttributeRelationship>
-                <AttributeRelationship>
-                  <AttributeID>Enc had appt</AttributeID>
-                  <OverrideBehavior>None</OverrideBehavior>
-                  <Name>Enc had appt</Name>
-                </AttributeRelationship>
-                <AttributeRelationship>
-                  <AttributeID>Enc billable status</AttributeID>
-                  <OverrideBehavior>None</OverrideBehavior>
-                  <Name>Enc billable status</Name>
-                </AttributeRelationship>
-                <AttributeRelationship>
-                  <AttributeID>Status of Enc</AttributeID>
-                  <OverrideBehavior>None</OverrideBehavior>
-                  <Name>Status of Enc</Name>
-                </AttributeRelationship>
-                <AttributeRelationship>
-                  <AttributeID>Appt was Kept</AttributeID>
-                  <OverrideBehavior>None</OverrideBehavior>
-                  <Name>Appt was Kept</Name>
-                </AttributeRelationship>
-                <AttributeRelationship>
-                  <AttributeID>Appt cancel reason</AttributeID>
-                  <OverrideBehavior>None</OverrideBehavior>
-                  <Name>Appt cancel reason</Name>
-                </AttributeRelationship>
-                <AttributeRelationship>
-                  <AttributeID>Enc had charges</AttributeID>
-                  <OverrideBehavior>None</OverrideBehavior>
-                  <Name>Enc had charges</Name>
-                </AttributeRelationship>
-                <AttributeRelationship>
-                  <AttributeID>Can crossbook with PCP</AttributeID>
-                  <OverrideBehavior>None</OverrideBehavior>
-                  <Name>Can crossbook with PCP</Name>
-                </AttributeRelationship>
-              </AttributeRelationships>
-              <OrderBy>Key</OrderBy>
-              <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
-            </Attribute>
-            <Attribute>
-              <Annotations>
-                <Annotation>
-                  <Name>Format</Name>
-                  <Value>
-                    <Format Format="General" xmlns="" />
-                  </Value>
-                </Annotation>
-              </Annotations>
-              <ID>enc_appt_comp_key</ID>
-              <Name>enc_appt_comp_key</Name>
-              <KeyColumns>
-                <KeyColumn>
-                  <DataType>BigInt</DataType>
-                  <DataSize>-1</DataSize>
-                  <NullProcessing>Error</NullProcessing>
-                  <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                  <Source xsi:type="ColumnBinding">
-                    <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                    <ColumnID>enc_appt_comp_key</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <NameColumn>
-                <DataType>WChar</DataType>
-                <DataSize>-1</DataSize>
-                <NullProcessing>ZeroOrBlank</NullProcessing>
-                <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                <Source xsi:type="ColumnBinding">
-                  <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                  <ColumnID>enc_appt_comp_key</ColumnID>
-                </Source>
-              </NameColumn>
-              <OrderBy>Key</OrderBy>
-            </Attribute>
-            <Attribute>
-              <Annotations>
-                <Annotation>
-                  <Name>Format</Name>
-                  <Value>
-                    <Format Format="Text" xmlns="" />
-                  </Value>
-                </Annotation>
-              </Annotations>
-              <ID>Status of Appointment</ID>
-              <Name>Status of Appointment</Name>
-              <KeyColumns>
-                <KeyColumn>
-                  <DataType>WChar</DataType>
-                  <DataSize>32768</DataSize>
-                  <NullProcessing>Preserve</NullProcessing>
-                  <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                  <Source xsi:type="ColumnBinding">
-                    <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                    <ColumnID>Status_x0020_of_x0020_Appointment</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <NameColumn>
-                <DataType>WChar</DataType>
-                <DataSize>32768</DataSize>
-                <NullProcessing>ZeroOrBlank</NullProcessing>
-                <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                <Source xsi:type="ColumnBinding">
-                  <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                  <ColumnID>Status_x0020_of_x0020_Appointment</ColumnID>
-                </Source>
-              </NameColumn>
-              <OrderBy>Key</OrderBy>
-            </Attribute>
-            <Attribute>
-              <Annotations>
-                <Annotation>
-                  <Name>Format</Name>
-                  <Value>
-                    <Format Format="Text" xmlns="" />
-                  </Value>
-                </Annotation>
-              </Annotations>
-              <ID>Appt booked with PCP</ID>
-              <Name>Appt booked with PCP</Name>
-              <KeyColumns>
-                <KeyColumn>
-                  <DataType>WChar</DataType>
-                  <DataSize>32768</DataSize>
-                  <NullProcessing>Preserve</NullProcessing>
-                  <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                  <Source xsi:type="ColumnBinding">
-                    <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                    <ColumnID>Appt_x0020_booked_x0020_with_x0020_PCP</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <NameColumn>
-                <DataType>WChar</DataType>
-                <DataSize>32768</DataSize>
-                <NullProcessing>ZeroOrBlank</NullProcessing>
-                <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                <Source xsi:type="ColumnBinding">
-                  <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                  <ColumnID>Appt_x0020_booked_x0020_with_x0020_PCP</ColumnID>
-                </Source>
-              </NameColumn>
-              <OrderBy>Key</OrderBy>
-            </Attribute>
-            <Attribute>
-              <Annotations>
-                <Annotation>
-                  <Name>Format</Name>
-                  <Value>
-                    <Format Format="Text" xmlns="" />
-                  </Value>
-                </Annotation>
-              </Annotations>
-              <ID>Appt booked with a patient</ID>
-              <Name>Appt booked with a patient</Name>
-              <KeyColumns>
-                <KeyColumn>
-                  <DataType>WChar</DataType>
-                  <DataSize>32768</DataSize>
-                  <NullProcessing>Preserve</NullProcessing>
-                  <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                  <Source xsi:type="ColumnBinding">
-                    <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                    <ColumnID>Appt_x0020_booked_x0020_with_x0020_a_x0020_patient</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <NameColumn>
-                <DataType>WChar</DataType>
-                <DataSize>32768</DataSize>
-                <NullProcessing>ZeroOrBlank</NullProcessing>
-                <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                <Source xsi:type="ColumnBinding">
-                  <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                  <ColumnID>Appt_x0020_booked_x0020_with_x0020_a_x0020_patient</ColumnID>
-                </Source>
-              </NameColumn>
-              <OrderBy>Key</OrderBy>
-            </Attribute>
-            <Attribute>
-              <Annotations>
-                <Annotation>
-                  <Name>Format</Name>
-                  <Value>
-                    <Format Format="Text" xmlns="" />
-                  </Value>
-                </Annotation>
-              </Annotations>
-              <ID>Appt had encounter</ID>
-              <Name>Appt had encounter</Name>
-              <KeyColumns>
-                <KeyColumn>
-                  <DataType>WChar</DataType>
-                  <DataSize>32768</DataSize>
-                  <NullProcessing>Preserve</NullProcessing>
-                  <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                  <Source xsi:type="ColumnBinding">
-                    <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                    <ColumnID>Appt_x0020_had_x0020_encounter</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <NameColumn>
-                <DataType>WChar</DataType>
-                <DataSize>32768</DataSize>
-                <NullProcessing>ZeroOrBlank</NullProcessing>
-                <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                <Source xsi:type="ColumnBinding">
-                  <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                  <ColumnID>Appt_x0020_had_x0020_encounter</ColumnID>
-                </Source>
-              </NameColumn>
-              <OrderBy>Key</OrderBy>
-            </Attribute>
-            <Attribute>
-              <Annotations>
-                <Annotation>
-                  <Name>Format</Name>
-                  <Value>
-                    <Format Format="Text" xmlns="" />
-                  </Value>
-                </Annotation>
-              </Annotations>
-              <ID>Enc had appt</ID>
-              <Name>Enc had appt</Name>
-              <KeyColumns>
-                <KeyColumn>
-                  <DataType>WChar</DataType>
-                  <DataSize>32768</DataSize>
-                  <NullProcessing>Preserve</NullProcessing>
-                  <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                  <Source xsi:type="ColumnBinding">
-                    <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                    <ColumnID>Enc_x0020_had_x0020_appt</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <NameColumn>
-                <DataType>WChar</DataType>
-                <DataSize>32768</DataSize>
-                <NullProcessing>ZeroOrBlank</NullProcessing>
-                <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                <Source xsi:type="ColumnBinding">
-                  <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                  <ColumnID>Enc_x0020_had_x0020_appt</ColumnID>
-                </Source>
-              </NameColumn>
-              <OrderBy>Key</OrderBy>
-            </Attribute>
-            <Attribute>
-              <Annotations>
-                <Annotation>
-                  <Name>Format</Name>
-                  <Value>
-                    <Format Format="Text" xmlns="" />
-                  </Value>
-                </Annotation>
-              </Annotations>
-              <ID>Enc billable status</ID>
-              <Name>Enc billable status</Name>
-              <KeyColumns>
-                <KeyColumn>
-                  <DataType>WChar</DataType>
-                  <DataSize>32768</DataSize>
-                  <NullProcessing>Preserve</NullProcessing>
-                  <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                  <Source xsi:type="ColumnBinding">
-                    <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                    <ColumnID>Enc_x0020_billable_x0020_status</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <NameColumn>
-                <DataType>WChar</DataType>
-                <DataSize>32768</DataSize>
-                <NullProcessing>ZeroOrBlank</NullProcessing>
-                <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                <Source xsi:type="ColumnBinding">
-                  <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                  <ColumnID>Enc_x0020_billable_x0020_status</ColumnID>
-                </Source>
-              </NameColumn>
-              <OrderBy>Key</OrderBy>
-            </Attribute>
-            <Attribute>
-              <Annotations>
-                <Annotation>
-                  <Name>Format</Name>
-                  <Value>
-                    <Format Format="Text" xmlns="" />
-                  </Value>
-                </Annotation>
-              </Annotations>
-              <ID>Status of Enc</ID>
-              <Name>Status of Enc</Name>
-              <KeyColumns>
-                <KeyColumn>
-                  <DataType>WChar</DataType>
-                  <DataSize>32768</DataSize>
-                  <NullProcessing>Preserve</NullProcessing>
-                  <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                  <Source xsi:type="ColumnBinding">
-                    <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                    <ColumnID>Status_x0020_of_x0020_Enc</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <NameColumn>
-                <DataType>WChar</DataType>
-                <DataSize>32768</DataSize>
-                <NullProcessing>ZeroOrBlank</NullProcessing>
-                <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                <Source xsi:type="ColumnBinding">
-                  <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                  <ColumnID>Status_x0020_of_x0020_Enc</ColumnID>
-                </Source>
-              </NameColumn>
-              <OrderBy>Key</OrderBy>
-            </Attribute>
-            <Attribute>
-              <Annotations>
-                <Annotation>
-                  <Name>Format</Name>
-                  <Value>
-                    <Format Format="Text" xmlns="" />
-                  </Value>
-                </Annotation>
-              </Annotations>
-              <ID>Appt was Kept</ID>
-              <Name>Appt was Kept</Name>
-              <KeyColumns>
-                <KeyColumn>
-                  <DataType>WChar</DataType>
-                  <DataSize>32768</DataSize>
-                  <NullProcessing>Preserve</NullProcessing>
-                  <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                  <Source xsi:type="ColumnBinding">
-                    <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                    <ColumnID>Appt_x0020_was_x0020_Kept</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <NameColumn>
-                <DataType>WChar</DataType>
-                <DataSize>32768</DataSize>
-                <NullProcessing>ZeroOrBlank</NullProcessing>
-                <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                <Source xsi:type="ColumnBinding">
-                  <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                  <ColumnID>Appt_x0020_was_x0020_Kept</ColumnID>
-                </Source>
-              </NameColumn>
-              <OrderBy>Key</OrderBy>
-            </Attribute>
-            <Attribute>
-              <Annotations>
-                <Annotation>
-                  <Name>Format</Name>
-                  <Value>
-                    <Format Format="Text" xmlns="" />
-                  </Value>
-                </Annotation>
-              </Annotations>
-              <ID>Appt cancel reason</ID>
-              <Name>Appt cancel reason</Name>
-              <KeyColumns>
-                <KeyColumn>
-                  <DataType>WChar</DataType>
-                  <DataSize>32768</DataSize>
-                  <NullProcessing>Preserve</NullProcessing>
-                  <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                  <Source xsi:type="ColumnBinding">
-                    <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                    <ColumnID>Appt_x0020_cancel_x0020_reason</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <NameColumn>
-                <DataType>WChar</DataType>
-                <DataSize>32768</DataSize>
-                <NullProcessing>ZeroOrBlank</NullProcessing>
-                <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                <Source xsi:type="ColumnBinding">
-                  <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                  <ColumnID>Appt_x0020_cancel_x0020_reason</ColumnID>
-                </Source>
-              </NameColumn>
-              <OrderBy>Key</OrderBy>
-            </Attribute>
-            <Attribute>
-              <Annotations>
-                <Annotation>
-                  <Name>Format</Name>
-                  <Value>
-                    <Format Format="Text" xmlns="" />
-                  </Value>
-                </Annotation>
-              </Annotations>
-              <ID>Enc had charges</ID>
-              <Name>Enc had charges</Name>
-              <KeyColumns>
-                <KeyColumn>
-                  <DataType>WChar</DataType>
-                  <DataSize>32768</DataSize>
-                  <NullProcessing>Preserve</NullProcessing>
-                  <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                  <Source xsi:type="ColumnBinding">
-                    <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                    <ColumnID>Enc_x0020_had_x0020_charges</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <NameColumn>
-                <DataType>WChar</DataType>
-                <DataSize>32768</DataSize>
-                <NullProcessing>ZeroOrBlank</NullProcessing>
-                <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                <Source xsi:type="ColumnBinding">
-                  <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                  <ColumnID>Enc_x0020_had_x0020_charges</ColumnID>
-                </Source>
-              </NameColumn>
-              <OrderBy>Key</OrderBy>
-            </Attribute>
-            <Attribute>
-              <Annotations>
-                <Annotation>
-                  <Name>Format</Name>
-                  <Value>
-                    <Format Format="Text" xmlns="" />
-                  </Value>
-                </Annotation>
-              </Annotations>
-              <ID>Can crossbook with PCP</ID>
-              <Name>Can crossbook with PCP</Name>
-              <KeyColumns>
-                <KeyColumn>
-                  <DataType>WChar</DataType>
-                  <DataSize>32768</DataSize>
-                  <NullProcessing>Preserve</NullProcessing>
-                  <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                  <Source xsi:type="ColumnBinding">
-                    <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                    <ColumnID>Can_x0020_crossbook_x0020_with_x0020_PCP</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <NameColumn>
-                <DataType>WChar</DataType>
-                <DataSize>32768</DataSize>
-                <NullProcessing>ZeroOrBlank</NullProcessing>
-                <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                <Source xsi:type="ColumnBinding">
-                  <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                  <ColumnID>Can_x0020_crossbook_x0020_with_x0020_PCP</ColumnID>
-                </Source>
-              </NameColumn>
-              <OrderBy>Key</OrderBy>
-            </Attribute>
-          </Attributes>
-          <ProactiveCaching>
-            <SilenceInterval>-PT1S</SilenceInterval>
-            <Latency>-PT1S</Latency>
-            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
-            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-            <Source xsi:type="ProactiveCachingInheritedBinding" />
-          </ProactiveCaching>
         </Dimension>
         <Dimension>
           <ID>Task Lists_bc68d352-fa7b-4ee4-b9b7-a79d8a612ccd</ID>
@@ -24136,6 +23673,12 @@
                 <Attribute>
                   <AttributeID>Hedis BC Due</AttributeID>
                 </Attribute>
+                <Attribute>
+                  <AttributeID>Days to Appt</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Days Since Enc</AttributeID>
+                </Attribute>
               </Attributes>
             </Dimension>
             <Dimension>
@@ -24463,53 +24006,6 @@
                 </Attribute>
                 <Attribute>
                   <AttributeID>Nbr Slots as Overbooked</AttributeID>
-                </Attribute>
-              </Attributes>
-            </Dimension>
-            <Dimension>
-              <ID>Status Enc and Appt_1921557f-6fee-48f6-b863-656bb7d534ef</ID>
-              <Name>Status Enc and Appt</Name>
-              <DimensionID>Status Enc and Appt_1921557f-6fee-48f6-b863-656bb7d534ef</DimensionID>
-              <Attributes>
-                <Attribute>
-                  <AttributeID>RowNumber</AttributeID>
-                  <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>enc_appt_comp_key</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Status of Appointment</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Appt booked with PCP</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Appt booked with a patient</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Appt had encounter</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Enc had appt</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Enc billable status</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Status of Enc</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Appt was Kept</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Appt cancel reason</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Enc had charges</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Can crossbook with PCP</AttributeID>
                 </Attribute>
               </Attributes>
             </Dimension>
@@ -29701,6 +29197,34 @@
                         </KeyColumn>
                       </KeyColumns>
                     </Attribute>
+                    <Attribute>
+                      <AttributeID>Days to Appt</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Days_x0020_to_x0020_Appt</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Days Since Enc</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Days_x0020_Since_x0020_Enc</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
                   </Attributes>
                   <IntermediateCubeDimensionID>Encounter and Appointment_d1c60146-8607-4288-bcd2-c7711873898a</IntermediateCubeDimensionID>
                   <IntermediateGranularityAttributeID>person_key</IntermediateGranularityAttributeID>
@@ -31742,207 +31266,6 @@
                   <IntermediateGranularityAttributeID>enc_app_date</IntermediateGranularityAttributeID>
                   <Materialization>Regular</Materialization>
                   <ddl300:RelationshipID>752f19af-1a5b-4acc-8ade-d1a5e7ef323c</ddl300:RelationshipID>
-                </Dimension>
-                <Dimension xsi:type="ReferenceMeasureGroupDimension">
-                  <CubeDimensionID>Status Enc and Appt_1921557f-6fee-48f6-b863-656bb7d534ef</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>RowNumber</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Integer</DataType>
-                          <DataSize>4</DataSize>
-                          <NullProcessing>Error</NullProcessing>
-                          <Source xsi:type="ddl200_200:RowNumberBinding" />
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>enc_appt_comp_key</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>BigInt</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Error</NullProcessing>
-                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                            <ColumnID>enc_appt_comp_key</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                      <Type>Granularity</Type>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Status of Appointment</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>WChar</DataType>
-                          <DataSize>32768</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                            <ColumnID>Status_x0020_of_x0020_Appointment</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Appt booked with PCP</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>WChar</DataType>
-                          <DataSize>32768</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                            <ColumnID>Appt_x0020_booked_x0020_with_x0020_PCP</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Appt booked with a patient</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>WChar</DataType>
-                          <DataSize>32768</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                            <ColumnID>Appt_x0020_booked_x0020_with_x0020_a_x0020_patient</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Appt had encounter</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>WChar</DataType>
-                          <DataSize>32768</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                            <ColumnID>Appt_x0020_had_x0020_encounter</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Enc had appt</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>WChar</DataType>
-                          <DataSize>32768</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                            <ColumnID>Enc_x0020_had_x0020_appt</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Enc billable status</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>WChar</DataType>
-                          <DataSize>32768</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                            <ColumnID>Enc_x0020_billable_x0020_status</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Status of Enc</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>WChar</DataType>
-                          <DataSize>32768</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                            <ColumnID>Status_x0020_of_x0020_Enc</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Appt was Kept</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>WChar</DataType>
-                          <DataSize>32768</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                            <ColumnID>Appt_x0020_was_x0020_Kept</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Appt cancel reason</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>WChar</DataType>
-                          <DataSize>32768</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                            <ColumnID>Appt_x0020_cancel_x0020_reason</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Enc had charges</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>WChar</DataType>
-                          <DataSize>32768</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                            <ColumnID>Enc_x0020_had_x0020_charges</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Can crossbook with PCP</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>WChar</DataType>
-                          <DataSize>32768</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                            <ColumnID>Can_x0020_crossbook_x0020_with_x0020_PCP</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                  </Attributes>
-                  <IntermediateCubeDimensionID>Encounter and Appointment_d1c60146-8607-4288-bcd2-c7711873898a</IntermediateCubeDimensionID>
-                  <IntermediateGranularityAttributeID>enc_appt_comp_key</IntermediateGranularityAttributeID>
-                  <Materialization>Regular</Materialization>
-                  <ddl300:RelationshipID>4687f490-a719-4d8c-87d3-e3e31d3f3701</ddl300:RelationshipID>
                 </Dimension>
                 <Dimension xsi:type="ReferenceMeasureGroupDimension">
                   <CubeDimensionID>Category and Event_35d93ddd-59e4-4540-b6f8-b5395aaee64e</CubeDimensionID>
@@ -36156,6 +35479,34 @@
                         </KeyColumn>
                       </KeyColumns>
                     </Attribute>
+                    <Attribute>
+                      <AttributeID>Days to Appt</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Days_x0020_to_x0020_Appt</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Days Since Enc</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Days_x0020_Since_x0020_Enc</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
                   </Attributes>
                   <IntermediateCubeDimensionID>Encounter and Appointment_d1c60146-8607-4288-bcd2-c7711873898a</IntermediateCubeDimensionID>
                   <IntermediateGranularityAttributeID>person_key</IntermediateGranularityAttributeID>
@@ -37806,205 +37157,6 @@
                   </Attributes>
                   <IntermediateCubeDimensionID>Encounter and Appointment_d1c60146-8607-4288-bcd2-c7711873898a</IntermediateCubeDimensionID>
                   <IntermediateGranularityAttributeID>enc_app_date</IntermediateGranularityAttributeID>
-                </Dimension>
-                <Dimension xsi:type="ReferenceMeasureGroupDimension">
-                  <CubeDimensionID>Status Enc and Appt_1921557f-6fee-48f6-b863-656bb7d534ef</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>RowNumber</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Integer</DataType>
-                          <DataSize>4</DataSize>
-                          <NullProcessing>Error</NullProcessing>
-                          <Source xsi:type="ddl200_200:RowNumberBinding" />
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>enc_appt_comp_key</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>BigInt</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Error</NullProcessing>
-                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                            <ColumnID>enc_appt_comp_key</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                      <Type>Granularity</Type>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Status of Appointment</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>WChar</DataType>
-                          <DataSize>32768</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                            <ColumnID>Status_x0020_of_x0020_Appointment</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Appt booked with PCP</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>WChar</DataType>
-                          <DataSize>32768</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                            <ColumnID>Appt_x0020_booked_x0020_with_x0020_PCP</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Appt booked with a patient</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>WChar</DataType>
-                          <DataSize>32768</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                            <ColumnID>Appt_x0020_booked_x0020_with_x0020_a_x0020_patient</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Appt had encounter</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>WChar</DataType>
-                          <DataSize>32768</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                            <ColumnID>Appt_x0020_had_x0020_encounter</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Enc had appt</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>WChar</DataType>
-                          <DataSize>32768</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                            <ColumnID>Enc_x0020_had_x0020_appt</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Enc billable status</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>WChar</DataType>
-                          <DataSize>32768</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                            <ColumnID>Enc_x0020_billable_x0020_status</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Status of Enc</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>WChar</DataType>
-                          <DataSize>32768</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                            <ColumnID>Status_x0020_of_x0020_Enc</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Appt was Kept</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>WChar</DataType>
-                          <DataSize>32768</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                            <ColumnID>Appt_x0020_was_x0020_Kept</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Appt cancel reason</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>WChar</DataType>
-                          <DataSize>32768</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                            <ColumnID>Appt_x0020_cancel_x0020_reason</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Enc had charges</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>WChar</DataType>
-                          <DataSize>32768</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                            <ColumnID>Enc_x0020_had_x0020_charges</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Can crossbook with PCP</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>WChar</DataType>
-                          <DataSize>32768</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                            <ColumnID>Can_x0020_crossbook_x0020_with_x0020_PCP</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                  </Attributes>
-                  <IntermediateCubeDimensionID>Encounter and Appointment_d1c60146-8607-4288-bcd2-c7711873898a</IntermediateCubeDimensionID>
-                  <IntermediateGranularityAttributeID>enc_appt_comp_key</IntermediateGranularityAttributeID>
                 </Dimension>
                 <Dimension xsi:type="ReferenceMeasureGroupDimension">
                   <CubeDimensionID>Medical Home Cur_f6a95c12-9865-4458-bf30-140cb0ea179f</CubeDimensionID>
@@ -40289,6 +39441,34 @@
                         </KeyColumn>
                       </KeyColumns>
                     </Attribute>
+                    <Attribute>
+                      <AttributeID>Days to Appt</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Days_x0020_to_x0020_Appt</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Days Since Enc</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Days_x0020_Since_x0020_Enc</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
                   </Attributes>
                   <ddl200_200:ShareDimensionStorage>Shared</ddl200_200:ShareDimensionStorage>
                 </Dimension>
@@ -41192,6 +40372,22 @@
         &lt;int&gt;94&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Days to Appt&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;93&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Days Since Enc&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;102&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnWidths&gt;
   &lt;ColumnDisplayIndex&gt;
     &lt;item&gt;
@@ -41690,6 +40886,22 @@
         &lt;int&gt;61&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Days to Appt&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;62&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Days Since Enc&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;63&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnDisplayIndex&gt;
   &lt;ColumnFrozen /&gt;
   &lt;ColumnChecked&gt;
@@ -41760,6 +40972,22 @@
     &lt;item&gt;
       &lt;key&gt;
         &lt;string&gt;Hedis BC Due&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Days to Appt&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Days Since Enc&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -45052,6 +44280,34 @@
                         </KeyColumn>
                       </KeyColumns>
                     </Attribute>
+                    <Attribute>
+                      <AttributeID>Days to Appt</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Days_x0020_to_x0020_Appt</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Days Since Enc</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Days_x0020_Since_x0020_Enc</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
                   </Attributes>
                   <IntermediateCubeDimensionID>PHI Patient SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</IntermediateCubeDimensionID>
                   <IntermediateGranularityAttributeID>person_key</IntermediateGranularityAttributeID>
@@ -47588,277 +46844,6 @@
                   <Source xsi:type="QueryBinding">
                     <DataSourceID>8fbc5f95-2a43-4976-9dfe-f5a578e0a753</DataSourceID>
                     <QueryDefinition>SELECT [fdt].[Schedule].* 		FROM [fdt].[Schedule]</QueryDefinition>
-                  </Source>
-                  <StorageMode valuens="ddl200_200">InMemory</StorageMode>
-                  <ProcessingMode>Regular</ProcessingMode>
-                  <ErrorConfiguration>
-                    <KeyNotFound>IgnoreError</KeyNotFound>
-                    <KeyDuplicate>ReportAndStop</KeyDuplicate>
-                    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
-                  </ErrorConfiguration>
-                  <ProactiveCaching>
-                    <SilenceInterval>-PT1S</SilenceInterval>
-                    <Latency>-PT1S</Latency>
-                    <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
-                    <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-                    <Source xsi:type="ProactiveCachingInheritedBinding" />
-                  </ProactiveCaching>
-                </Partition>
-              </Partitions>
-              <ProactiveCaching>
-                <SilenceInterval>-PT1S</SilenceInterval>
-                <Latency>-PT1S</Latency>
-                <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
-                <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-                <Source xsi:type="ProactiveCachingInheritedBinding" />
-              </ProactiveCaching>
-            </MeasureGroup>
-            <MeasureGroup>
-              <ID>Status Enc and Appt_1921557f-6fee-48f6-b863-656bb7d534ef</ID>
-              <Name>Status Enc and Appt</Name>
-              <Measures>
-                <Measure>
-                  <ID>Status Enc and Appt_1921557f-6fee-48f6-b863-656bb7d534ef</ID>
-                  <Name>_Count Status Enc and Appt</Name>
-                  <AggregateFunction>Count</AggregateFunction>
-                  <DataType>BigInt</DataType>
-                  <Source>
-                    <DataType>BigInt</DataType>
-                    <DataSize>8</DataSize>
-                    <Source xsi:type="RowBinding">
-                      <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                    </Source>
-                  </Source>
-                  <Visible>false</Visible>
-                </Measure>
-              </Measures>
-              <StorageMode valuens="ddl200_200">InMemory</StorageMode>
-              <ErrorConfiguration>
-                <KeyNotFound>IgnoreError</KeyNotFound>
-                <KeyDuplicate>ReportAndStop</KeyDuplicate>
-                <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
-              </ErrorConfiguration>
-              <ProcessingMode>Regular</ProcessingMode>
-              <Dimensions>
-                <Dimension xsi:type="DegenerateMeasureGroupDimension">
-                  <CubeDimensionID>Status Enc and Appt_1921557f-6fee-48f6-b863-656bb7d534ef</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>RowNumber</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Integer</DataType>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>Status_x0020_Enc_x0020_and_x0020_Appt</TableID>
-                            <ColumnID>RowNumber</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                      <Type>Granularity</Type>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>enc_appt_comp_key</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>BigInt</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                            <ColumnID>enc_appt_comp_key</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Status of Appointment</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>WChar</DataType>
-                          <DataSize>32768</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                            <ColumnID>Status_x0020_of_x0020_Appointment</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Appt booked with PCP</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>WChar</DataType>
-                          <DataSize>32768</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                            <ColumnID>Appt_x0020_booked_x0020_with_x0020_PCP</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Appt booked with a patient</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>WChar</DataType>
-                          <DataSize>32768</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                            <ColumnID>Appt_x0020_booked_x0020_with_x0020_a_x0020_patient</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Appt had encounter</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>WChar</DataType>
-                          <DataSize>32768</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                            <ColumnID>Appt_x0020_had_x0020_encounter</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Enc had appt</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>WChar</DataType>
-                          <DataSize>32768</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                            <ColumnID>Enc_x0020_had_x0020_appt</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Enc billable status</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>WChar</DataType>
-                          <DataSize>32768</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                            <ColumnID>Enc_x0020_billable_x0020_status</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Status of Enc</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>WChar</DataType>
-                          <DataSize>32768</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                            <ColumnID>Status_x0020_of_x0020_Enc</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Appt was Kept</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>WChar</DataType>
-                          <DataSize>32768</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                            <ColumnID>Appt_x0020_was_x0020_Kept</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Appt cancel reason</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>WChar</DataType>
-                          <DataSize>32768</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                            <ColumnID>Appt_x0020_cancel_x0020_reason</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Enc had charges</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>WChar</DataType>
-                          <DataSize>32768</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                            <ColumnID>Enc_x0020_had_x0020_charges</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Can crossbook with PCP</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>WChar</DataType>
-                          <DataSize>32768</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef</TableID>
-                            <ColumnID>Can_x0020_crossbook_x0020_with_x0020_PCP</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                  </Attributes>
-                  <ddl200_200:ShareDimensionStorage>Shared</ddl200_200:ShareDimensionStorage>
-                </Dimension>
-              </Dimensions>
-              <Partitions>
-                <Partition>
-                  <ID>Status Enc and Appt_1921557f-6fee-48f6-b863-656bb7d534ef</ID>
-                  <Name>Status Enc and Appt</Name>
-                  <Annotations>
-                    <Annotation>
-                      <Name>IsQueryEditorUsed</Name>
-                      <Value>False</Value>
-                    </Annotation>
-                    <Annotation>
-                      <Name>QueryEditorSerialization</Name>
-                    </Annotation>
-                    <Annotation>
-                      <Name>TableWidgetSerialization</Name>
-                    </Annotation>
-                  </Annotations>
-                  <Source xsi:type="QueryBinding">
-                    <DataSourceID>8fbc5f95-2a43-4976-9dfe-f5a578e0a753</DataSourceID>
-                    <QueryDefinition>SELECT [fdt].[Status Enc and Appt].* 		FROM [fdt].[Status Enc and Appt]</QueryDefinition>
                   </Source>
                   <StorageMode valuens="ddl200_200">InMemory</StorageMode>
                   <ProcessingMode>Regular</ProcessingMode>
@@ -50709,6 +49694,8 @@ ALTER CUBE CURRENTCUBE UPDATE DIMENSION Measures, Default_Member = [__No measure
                           <xs:element name="Hedis_x0020_CRC_x0020_Due" msprop:DbColumnName="Hedis CRC Due" msprop:FriendlyName="Hedis CRC Due" type="xs:int" minOccurs="0" />
                           <xs:element name="Hedis_x0020_BP_x0020_Due" msprop:DbColumnName="Hedis BP Due" msprop:FriendlyName="Hedis BP Due" type="xs:int" minOccurs="0" />
                           <xs:element name="Hedis_x0020_BC_x0020_Due" msprop:DbColumnName="Hedis BC Due" msprop:FriendlyName="Hedis BC Due" type="xs:int" minOccurs="0" />
+                          <xs:element name="Days_x0020_to_x0020_Appt" msprop:DbColumnName="Days to Appt" msprop:FriendlyName="Days to Appt" type="xs:int" minOccurs="0" />
+                          <xs:element name="Days_x0020_Since_x0020_Enc" msprop:DbColumnName="Days Since Enc" msprop:FriendlyName="Days Since Enc" type="xs:int" minOccurs="0" />
                         </xs:sequence>
                       </xs:complexType>
                     </xs:element>
@@ -51016,90 +50003,6 @@ ALTER CUBE CURRENTCUBE UPDATE DIMENSION Measures, Default_Member = [__No measure
                           <xs:element name="Nbr_x0020_Slots_x0020_Avail_x0020_Final" msprop:DbColumnName="Nbr Slots Avail Final" msprop:FriendlyName="Nbr Slots Avail Final" type="xs:long" minOccurs="0" />
                           <xs:element name="Nbr_x0020_Slots_x0020_Any_x0020_Kind" msprop:DbColumnName="Nbr Slots Any Kind" msprop:FriendlyName="Nbr Slots Any Kind" type="xs:long" minOccurs="0" />
                           <xs:element name="Nbr_x0020_Slots_x0020_as_x0020_Overbooked" msprop:DbColumnName="Nbr Slots as Overbooked" msprop:FriendlyName="Nbr Slots as Overbooked" type="xs:long" minOccurs="0" />
-                        </xs:sequence>
-                      </xs:complexType>
-                    </xs:element>
-                    <xs:element name="Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef" msdata:Locale="" msprop:IsLogical="True" msprop:FriendlyName="Status Enc and Appt" msprop:DbSchemaName="fdt" msprop:DbTableName="Status Enc and Appt" msprop:TableType="View" msprop:Description="Status Enc and Appt" msprop:QueryDefinition="      SELECT [fdt].[Status Enc and Appt].*   FROM [fdt].[Status Enc and Appt] ">
-                      <xs:complexType>
-                        <xs:sequence>
-                          <xs:element name="enc_appt_comp_key" msprop:DbColumnName="enc_appt_comp_key" msprop:FriendlyName="enc_appt_comp_key" type="xs:long" />
-                          <xs:element name="Status_x0020_of_x0020_Appointment" msprop:DbColumnName="Status of Appointment" msprop:FriendlyName="Status of Appointment" minOccurs="0">
-                            <xs:simpleType>
-                              <xs:restriction base="xs:string">
-                                <xs:maxLength value="32768" />
-                              </xs:restriction>
-                            </xs:simpleType>
-                          </xs:element>
-                          <xs:element name="Appt_x0020_booked_x0020_with_x0020_PCP" msprop:DbColumnName="Appt booked with PCP" msprop:FriendlyName="Appt booked with PCP" minOccurs="0">
-                            <xs:simpleType>
-                              <xs:restriction base="xs:string">
-                                <xs:maxLength value="32768" />
-                              </xs:restriction>
-                            </xs:simpleType>
-                          </xs:element>
-                          <xs:element name="Appt_x0020_booked_x0020_with_x0020_a_x0020_patient" msprop:DbColumnName="Appt booked with a patient" msprop:FriendlyName="Appt booked with a patient" minOccurs="0">
-                            <xs:simpleType>
-                              <xs:restriction base="xs:string">
-                                <xs:maxLength value="32768" />
-                              </xs:restriction>
-                            </xs:simpleType>
-                          </xs:element>
-                          <xs:element name="Appt_x0020_had_x0020_encounter" msprop:DbColumnName="Appt had encounter" msprop:FriendlyName="Appt had encounter" minOccurs="0">
-                            <xs:simpleType>
-                              <xs:restriction base="xs:string">
-                                <xs:maxLength value="32768" />
-                              </xs:restriction>
-                            </xs:simpleType>
-                          </xs:element>
-                          <xs:element name="Enc_x0020_had_x0020_appt" msprop:DbColumnName="Enc had appt" msprop:FriendlyName="Enc had appt" minOccurs="0">
-                            <xs:simpleType>
-                              <xs:restriction base="xs:string">
-                                <xs:maxLength value="32768" />
-                              </xs:restriction>
-                            </xs:simpleType>
-                          </xs:element>
-                          <xs:element name="Enc_x0020_billable_x0020_status" msprop:DbColumnName="Enc billable status" msprop:FriendlyName="Enc billable status" minOccurs="0">
-                            <xs:simpleType>
-                              <xs:restriction base="xs:string">
-                                <xs:maxLength value="32768" />
-                              </xs:restriction>
-                            </xs:simpleType>
-                          </xs:element>
-                          <xs:element name="Status_x0020_of_x0020_Enc" msprop:DbColumnName="Status of Enc" msprop:FriendlyName="Status of Enc" minOccurs="0">
-                            <xs:simpleType>
-                              <xs:restriction base="xs:string">
-                                <xs:maxLength value="32768" />
-                              </xs:restriction>
-                            </xs:simpleType>
-                          </xs:element>
-                          <xs:element name="Appt_x0020_was_x0020_Kept" msprop:DbColumnName="Appt was Kept" msprop:FriendlyName="Appt was Kept" minOccurs="0">
-                            <xs:simpleType>
-                              <xs:restriction base="xs:string">
-                                <xs:maxLength value="32768" />
-                              </xs:restriction>
-                            </xs:simpleType>
-                          </xs:element>
-                          <xs:element name="Appt_x0020_cancel_x0020_reason" msprop:DbColumnName="Appt cancel reason" msprop:FriendlyName="Appt cancel reason" minOccurs="0">
-                            <xs:simpleType>
-                              <xs:restriction base="xs:string">
-                                <xs:maxLength value="32768" />
-                              </xs:restriction>
-                            </xs:simpleType>
-                          </xs:element>
-                          <xs:element name="Enc_x0020_had_x0020_charges" msprop:DbColumnName="Enc had charges" msprop:FriendlyName="Enc had charges" minOccurs="0">
-                            <xs:simpleType>
-                              <xs:restriction base="xs:string">
-                                <xs:maxLength value="32768" />
-                              </xs:restriction>
-                            </xs:simpleType>
-                          </xs:element>
-                          <xs:element name="Can_x0020_crossbook_x0020_with_x0020_PCP" msprop:DbColumnName="Can crossbook with PCP" msprop:FriendlyName="Can crossbook with PCP" minOccurs="0">
-                            <xs:simpleType>
-                              <xs:restriction base="xs:string">
-                                <xs:maxLength value="32768" />
-                              </xs:restriction>
-                            </xs:simpleType>
-                          </xs:element>
                         </xs:sequence>
                       </xs:complexType>
                     </xs:element>
@@ -51573,10 +50476,6 @@ ALTER CUBE CURRENTCUBE UPDATE DIMENSION Measures, Default_Member = [__No measure
                 <xs:unique name="Schedule_0b0a95cb-c225-46e0-ba12-274d6de58fc6_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
                   <xs:selector xpath=".//Schedule_0b0a95cb-c225-46e0-ba12-274d6de58fc6" />
                   <xs:field xpath="slot_key" />
-                </xs:unique>
-                <xs:unique name="Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
-                  <xs:selector xpath=".//Status_x0020_Enc_x0020_and_x0020_Appt_1921557f-6fee-48f6-b863-656bb7d534ef" />
-                  <xs:field xpath="enc_appt_comp_key" />
                 </xs:unique>
                 <xs:unique name="Task_x0020_Lists_bc68d352-fa7b-4ee4-b9b7-a79d8a612ccd_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
                   <xs:selector xpath=".//Task_x0020_Lists_bc68d352-fa7b-4ee4-b9b7-a79d8a612ccd" />
