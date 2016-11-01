@@ -2361,10 +2361,10 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;enc_appt_comp_key&lt;/string&gt;
+        &lt;string&gt;Status of Appointment&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;184&lt;/int&gt;
+        &lt;int&gt;138&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -2815,6 +2815,86 @@
         &lt;int&gt;199&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Booking PCP&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;89&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Appt booked with a patient&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;160&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Appt had encounter&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;126&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Enc had appt&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;93&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Enc billable status&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;115&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Status of Enc&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;94&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Appt was Kept&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;100&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Appt cancel reason&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;122&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Enc had charges&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;109&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Can crossbook with PCP&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;145&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnWidths&gt;
   &lt;ColumnDisplayIndex&gt;
     &lt;item&gt;
@@ -2875,10 +2955,10 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;enc_appt_comp_key&lt;/string&gt;
+        &lt;string&gt;Status of Appointment&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;7&lt;/int&gt;
+        &lt;int&gt;63&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -2886,7 +2966,7 @@
         &lt;string&gt;event_id&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;8&lt;/int&gt;
+        &lt;int&gt;7&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -2894,7 +2974,7 @@
         &lt;string&gt;enc_app_date&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;9&lt;/int&gt;
+        &lt;int&gt;8&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -2902,7 +2982,7 @@
         &lt;string&gt;user_appt_created&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;10&lt;/int&gt;
+        &lt;int&gt;9&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -2910,7 +2990,7 @@
         &lt;string&gt;user_checkout&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;11&lt;/int&gt;
+        &lt;int&gt;10&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -2918,7 +2998,7 @@
         &lt;string&gt;user_readyforprovider&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;12&lt;/int&gt;
+        &lt;int&gt;11&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -2926,7 +3006,7 @@
         &lt;string&gt;user_enc_created&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;13&lt;/int&gt;
+        &lt;int&gt;12&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -2934,7 +3014,7 @@
         &lt;string&gt;user_charted&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;14&lt;/int&gt;
+        &lt;int&gt;13&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -2942,7 +3022,7 @@
         &lt;string&gt;enc_nbr&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;15&lt;/int&gt;
+        &lt;int&gt;14&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -2950,7 +3030,7 @@
         &lt;string&gt;Enc Number&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;16&lt;/int&gt;
+        &lt;int&gt;15&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -2958,7 +3038,7 @@
         &lt;string&gt;event_key&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;17&lt;/int&gt;
+        &lt;int&gt;16&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -2966,7 +3046,7 @@
         &lt;string&gt;enc_status&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;18&lt;/int&gt;
+        &lt;int&gt;17&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -2974,7 +3054,7 @@
         &lt;string&gt;appt_status&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;19&lt;/int&gt;
+        &lt;int&gt;18&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -2982,7 +3062,7 @@
         &lt;string&gt;appt_w_pcp_status_txt&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;20&lt;/int&gt;
+        &lt;int&gt;19&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -2990,7 +3070,7 @@
         &lt;string&gt;enc_slot_type&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;21&lt;/int&gt;
+        &lt;int&gt;20&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -2998,7 +3078,7 @@
         &lt;string&gt;appt_duration&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;22&lt;/int&gt;
+        &lt;int&gt;21&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -3006,7 +3086,7 @@
         &lt;string&gt;Appt Duration&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;23&lt;/int&gt;
+        &lt;int&gt;22&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -3014,7 +3094,7 @@
         &lt;string&gt;appt_time&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;24&lt;/int&gt;
+        &lt;int&gt;23&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -3022,7 +3102,7 @@
         &lt;string&gt;Appt Booked with PCP&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;25&lt;/int&gt;
+        &lt;int&gt;24&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -3030,7 +3110,7 @@
         &lt;string&gt;Appt Booked Not with PCP&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;26&lt;/int&gt;
+        &lt;int&gt;25&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -3038,7 +3118,7 @@
         &lt;string&gt;All Appt&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;27&lt;/int&gt;
+        &lt;int&gt;26&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -3046,7 +3126,7 @@
         &lt;string&gt;Appt without a Pt&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;28&lt;/int&gt;
+        &lt;int&gt;27&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -3054,7 +3134,7 @@
         &lt;string&gt;Appt Kept with Enc&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;29&lt;/int&gt;
+        &lt;int&gt;28&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -3062,7 +3142,7 @@
         &lt;string&gt;Appt Kept with No Enc&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;30&lt;/int&gt;
+        &lt;int&gt;29&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -3070,7 +3150,7 @@
         &lt;string&gt;Appt in Future&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;31&lt;/int&gt;
+        &lt;int&gt;30&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -3078,7 +3158,7 @@
         &lt;string&gt;Appt No Show&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;32&lt;/int&gt;
+        &lt;int&gt;31&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -3086,7 +3166,7 @@
         &lt;string&gt;Appt No Show with No Patient&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;33&lt;/int&gt;
+        &lt;int&gt;32&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -3094,7 +3174,7 @@
         &lt;string&gt;Appt Future with No Patient&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;34&lt;/int&gt;
+        &lt;int&gt;33&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -3102,7 +3182,7 @@
         &lt;string&gt;Appt Cancelled&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;35&lt;/int&gt;
+        &lt;int&gt;34&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -3110,7 +3190,7 @@
         &lt;string&gt;Appt Deleted&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;36&lt;/int&gt;
+        &lt;int&gt;35&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -3118,7 +3198,7 @@
         &lt;string&gt;Appt Rescheduled&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;37&lt;/int&gt;
+        &lt;int&gt;36&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -3126,7 +3206,7 @@
         &lt;string&gt;Enc or Appt&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;38&lt;/int&gt;
+        &lt;int&gt;37&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -3134,7 +3214,7 @@
         &lt;string&gt;Encounters&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;39&lt;/int&gt;
+        &lt;int&gt;38&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -3142,7 +3222,7 @@
         &lt;string&gt;Billable Encounters&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;40&lt;/int&gt;
+        &lt;int&gt;39&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -3150,7 +3230,7 @@
         &lt;string&gt;Non-billable Encounters&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;41&lt;/int&gt;
+        &lt;int&gt;40&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -3158,7 +3238,7 @@
         &lt;string&gt;Billable Enc with Appt&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;42&lt;/int&gt;
+        &lt;int&gt;41&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -3166,7 +3246,7 @@
         &lt;string&gt;Non-Billable Enc with Appt&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;43&lt;/int&gt;
+        &lt;int&gt;42&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -3174,7 +3254,7 @@
         &lt;string&gt;Billable Appts with Enc Kept&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;44&lt;/int&gt;
+        &lt;int&gt;43&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -3182,7 +3262,7 @@
         &lt;string&gt;Non-Billable Appts with Enc Kept&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;45&lt;/int&gt;
+        &lt;int&gt;44&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -3190,7 +3270,7 @@
         &lt;string&gt;Unduplicated&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;46&lt;/int&gt;
+        &lt;int&gt;45&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -3198,7 +3278,7 @@
         &lt;string&gt;Days from Booked to Appt&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;47&lt;/int&gt;
+        &lt;int&gt;46&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -3206,7 +3286,7 @@
         &lt;string&gt;Min from Appt Time to Kept&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;48&lt;/int&gt;
+        &lt;int&gt;47&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -3214,7 +3294,7 @@
         &lt;string&gt;Min from Kept to Checkout&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;49&lt;/int&gt;
+        &lt;int&gt;48&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -3222,7 +3302,7 @@
         &lt;string&gt;Min Kept to Ready for Prov&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;50&lt;/int&gt;
+        &lt;int&gt;49&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -3230,7 +3310,7 @@
         &lt;string&gt;Min from Kept to Charted&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;51&lt;/int&gt;
+        &lt;int&gt;50&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -3238,7 +3318,7 @@
         &lt;string&gt;Mins from Kept to Charted&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;52&lt;/int&gt;
+        &lt;int&gt;51&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -3246,7 +3326,7 @@
         &lt;string&gt;Min from Ready for Prov to Checkout&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;53&lt;/int&gt;
+        &lt;int&gt;52&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -3254,7 +3334,7 @@
         &lt;string&gt;Date of Appointment Made&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;54&lt;/int&gt;
+        &lt;int&gt;53&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -3262,7 +3342,7 @@
         &lt;string&gt;Payer&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;55&lt;/int&gt;
+        &lt;int&gt;54&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -3270,7 +3350,7 @@
         &lt;string&gt;Payer 1 Name&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;56&lt;/int&gt;
+        &lt;int&gt;55&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -3278,7 +3358,7 @@
         &lt;string&gt;Payer 1 Financial Class&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;57&lt;/int&gt;
+        &lt;int&gt;56&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -3286,7 +3366,7 @@
         &lt;string&gt;Payer 2 Name&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;58&lt;/int&gt;
+        &lt;int&gt;57&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -3294,7 +3374,7 @@
         &lt;string&gt;Payer 2 Financial Class&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;59&lt;/int&gt;
+        &lt;int&gt;58&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -3302,7 +3382,7 @@
         &lt;string&gt;Payer 3 Name&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;60&lt;/int&gt;
+        &lt;int&gt;59&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -3310,7 +3390,7 @@
         &lt;string&gt;Payer 3 Financial Class&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;61&lt;/int&gt;
+        &lt;int&gt;60&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -3318,7 +3398,7 @@
         &lt;string&gt;Date of Last Appointment&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;62&lt;/int&gt;
+        &lt;int&gt;61&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -3326,7 +3406,87 @@
         &lt;string&gt;Date of Last Encounter&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;63&lt;/int&gt;
+        &lt;int&gt;62&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Booking PCP&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;64&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Appt booked with a patient&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;65&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Appt had encounter&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;66&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Enc had appt&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;67&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Enc billable status&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;68&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Status of Enc&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;69&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Appt was Kept&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;70&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Appt cancel reason&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;71&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Enc had charges&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;72&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Can crossbook with PCP&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;73&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
   &lt;/ColumnDisplayIndex&gt;
@@ -3335,6 +3495,94 @@
     &lt;item&gt;
       &lt;key&gt;
         &lt;string&gt;person_key&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Status of Appointment&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;false&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Booking PCP&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;false&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Appt booked with a patient&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;false&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Appt had encounter&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;false&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Enc had appt&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;false&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Enc billable status&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Status of Enc&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Appt was Kept&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Appt cancel reason&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Enc had charges&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Can crossbook with PCP&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -3418,11 +3666,6 @@
                   <AttributeID>per_mon_id</AttributeID>
                   <OverrideBehavior>None</OverrideBehavior>
                   <Name>per_mon_id</Name>
-                </AttributeRelationship>
-                <AttributeRelationship>
-                  <AttributeID>enc_appt_comp_key</AttributeID>
-                  <OverrideBehavior>None</OverrideBehavior>
-                  <Name>enc_appt_comp_key</Name>
                 </AttributeRelationship>
                 <AttributeRelationship>
                   <AttributeID>event_id</AttributeID>
@@ -3709,6 +3952,36 @@
                   <OverrideBehavior>None</OverrideBehavior>
                   <Name>person_key</Name>
                 </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>Enc billable status</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>Enc billable status</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>Status of Enc</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>Status of Enc</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>Appt was Kept</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>Appt was Kept</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>Appt cancel reason</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>Appt cancel reason</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>Enc had charges</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>Enc had charges</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>Can crossbook with PCP</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>Can crossbook with PCP</Name>
+                </AttributeRelationship>
               </AttributeRelationships>
               <OrderBy>Key</OrderBy>
               <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
@@ -3919,41 +4192,6 @@
                 <Source xsi:type="ColumnBinding">
                   <TableID>Encounter_x0020_and_x0020_Appointment_d1c60146-8607-4288-bcd2-c7711873898a</TableID>
                   <ColumnID>per_mon_id</ColumnID>
-                </Source>
-              </NameColumn>
-              <OrderBy>Key</OrderBy>
-            </Attribute>
-            <Attribute>
-              <Annotations>
-                <Annotation>
-                  <Name>Format</Name>
-                  <Value>
-                    <Format Format="General" xmlns="" />
-                  </Value>
-                </Annotation>
-              </Annotations>
-              <ID>enc_appt_comp_key</ID>
-              <Name>enc_appt_comp_key</Name>
-              <KeyColumns>
-                <KeyColumn>
-                  <DataType>BigInt</DataType>
-                  <DataSize>-1</DataSize>
-                  <NullProcessing>Preserve</NullProcessing>
-                  <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                  <Source xsi:type="ColumnBinding">
-                    <TableID>Encounter_x0020_and_x0020_Appointment_d1c60146-8607-4288-bcd2-c7711873898a</TableID>
-                    <ColumnID>enc_appt_comp_key</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <NameColumn>
-                <DataType>WChar</DataType>
-                <DataSize>-1</DataSize>
-                <NullProcessing>ZeroOrBlank</NullProcessing>
-                <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                <Source xsi:type="ColumnBinding">
-                  <TableID>Encounter_x0020_and_x0020_Appointment_d1c60146-8607-4288-bcd2-c7711873898a</TableID>
-                  <ColumnID>enc_appt_comp_key</ColumnID>
                 </Source>
               </NameColumn>
               <OrderBy>Key</OrderBy>
@@ -5943,6 +6181,156 @@
                 <Source xsi:type="ColumnBinding">
                   <TableID>Encounter_x0020_and_x0020_Appointment_d1c60146-8607-4288-bcd2-c7711873898a</TableID>
                   <ColumnID>person_key</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>Enc billable status</ID>
+              <Name>Enc billable status</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>32768</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>Encounter_x0020_and_x0020_Appointment_d1c60146-8607-4288-bcd2-c7711873898a</TableID>
+                    <ColumnID>Enc_x0020_billable_x0020_status</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>32768</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>Encounter_x0020_and_x0020_Appointment_d1c60146-8607-4288-bcd2-c7711873898a</TableID>
+                  <ColumnID>Enc_x0020_billable_x0020_status</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>Status of Enc</ID>
+              <Name>Status of Enc</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>32768</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>Encounter_x0020_and_x0020_Appointment_d1c60146-8607-4288-bcd2-c7711873898a</TableID>
+                    <ColumnID>Status_x0020_of_x0020_Enc</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>32768</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>Encounter_x0020_and_x0020_Appointment_d1c60146-8607-4288-bcd2-c7711873898a</TableID>
+                  <ColumnID>Status_x0020_of_x0020_Enc</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>Appt was Kept</ID>
+              <Name>Appt was Kept</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>32768</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>Encounter_x0020_and_x0020_Appointment_d1c60146-8607-4288-bcd2-c7711873898a</TableID>
+                    <ColumnID>Appt_x0020_was_x0020_Kept</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>32768</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>Encounter_x0020_and_x0020_Appointment_d1c60146-8607-4288-bcd2-c7711873898a</TableID>
+                  <ColumnID>Appt_x0020_was_x0020_Kept</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>Appt cancel reason</ID>
+              <Name>Appt cancel reason</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>32768</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>Encounter_x0020_and_x0020_Appointment_d1c60146-8607-4288-bcd2-c7711873898a</TableID>
+                    <ColumnID>Appt_x0020_cancel_x0020_reason</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>32768</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>Encounter_x0020_and_x0020_Appointment_d1c60146-8607-4288-bcd2-c7711873898a</TableID>
+                  <ColumnID>Appt_x0020_cancel_x0020_reason</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>Enc had charges</ID>
+              <Name>Enc had charges</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>32768</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>Encounter_x0020_and_x0020_Appointment_d1c60146-8607-4288-bcd2-c7711873898a</TableID>
+                    <ColumnID>Enc_x0020_had_x0020_charges</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>32768</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>Encounter_x0020_and_x0020_Appointment_d1c60146-8607-4288-bcd2-c7711873898a</TableID>
+                  <ColumnID>Enc_x0020_had_x0020_charges</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>Can crossbook with PCP</ID>
+              <Name>Can crossbook with PCP</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>32768</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>Encounter_x0020_and_x0020_Appointment_d1c60146-8607-4288-bcd2-c7711873898a</TableID>
+                    <ColumnID>Can_x0020_crossbook_x0020_with_x0020_PCP</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>32768</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>Encounter_x0020_and_x0020_Appointment_d1c60146-8607-4288-bcd2-c7711873898a</TableID>
+                  <ColumnID>Can_x0020_crossbook_x0020_with_x0020_PCP</ColumnID>
                 </Source>
               </NameColumn>
               <OrderBy>Key</OrderBy>
@@ -9232,6 +9620,14 @@
         &lt;int&gt;102&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;PCP Cur&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;69&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnWidths&gt;
   &lt;ColumnDisplayIndex&gt;
     &lt;item&gt;
@@ -9746,6 +10142,14 @@
         &lt;int&gt;63&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;PCP Cur&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;64&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnDisplayIndex&gt;
   &lt;ColumnFrozen /&gt;
   &lt;ColumnChecked&gt;
@@ -9832,6 +10236,14 @@
     &lt;item&gt;
       &lt;key&gt;
         &lt;string&gt;Days Since Enc&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;PCP Cur&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -10205,6 +10617,11 @@
                   <AttributeID>Days Since Enc</AttributeID>
                   <OverrideBehavior>None</OverrideBehavior>
                   <Name>Days Since Enc</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>PCP Cur</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>PCP Cur</Name>
                 </AttributeRelationship>
               </AttributeRelationships>
               <OrderBy>Key</OrderBy>
@@ -12347,6 +12764,31 @@
               </NameColumn>
               <OrderBy>Key</OrderBy>
             </Attribute>
+            <Attribute>
+              <ID>PCP Cur</ID>
+              <Name>PCP Cur</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>32768</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                    <ColumnID>PCP_x0020_Cur</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>32768</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                  <ColumnID>PCP_x0020_Cur</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
           </Attributes>
           <ProactiveCaching>
             <SilenceInterval>-PT1S</SilenceInterval>
@@ -12779,6 +13221,14 @@
         &lt;int&gt;93&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;PCP Hx&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;65&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnWidths&gt;
   &lt;ColumnDisplayIndex&gt;
     &lt;item&gt;
@@ -13141,6 +13591,14 @@
         &lt;int&gt;44&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;PCP Hx&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;45&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnDisplayIndex&gt;
   &lt;ColumnFrozen /&gt;
   &lt;ColumnChecked&gt;
@@ -13211,6 +13669,14 @@
     &lt;item&gt;
       &lt;key&gt;
         &lt;string&gt;Hedis BP Due&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;PCP Hx&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -13488,6 +13954,11 @@
                   <AttributeID>Hedis BP Due</AttributeID>
                   <OverrideBehavior>None</OverrideBehavior>
                   <Name>Hedis BP Due</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>PCP Hx</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>PCP Hx</Name>
                 </AttributeRelationship>
               </AttributeRelationships>
               <OrderBy>Key</OrderBy>
@@ -14974,6 +15445,31 @@
                 <Source xsi:type="ColumnBinding">
                   <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
                   <ColumnID>Hedis_x0020_BP_x0020_Due</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>PCP Hx</ID>
+              <Name>PCP Hx</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>32768</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                    <ColumnID>PCP_x0020_Hx</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>32768</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                  <ColumnID>PCP_x0020_Hx</ColumnID>
                 </Source>
               </NameColumn>
               <OrderBy>Key</OrderBy>
@@ -21563,9 +22059,6 @@
                   <AttributeID>per_mon_id</AttributeID>
                 </Attribute>
                 <Attribute>
-                  <AttributeID>enc_appt_comp_key</AttributeID>
-                </Attribute>
-                <Attribute>
                   <AttributeID>event_id</AttributeID>
                 </Attribute>
                 <Attribute>
@@ -21735,6 +22228,24 @@
                 </Attribute>
                 <Attribute>
                   <AttributeID>person_key</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Enc billable status</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Status of Enc</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Appt was Kept</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Appt cancel reason</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Enc had charges</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Can crossbook with PCP</AttributeID>
                 </Attribute>
               </Attributes>
             </Dimension>
@@ -22170,6 +22681,9 @@
                 <Attribute>
                   <AttributeID>Days Since Enc</AttributeID>
                 </Attribute>
+                <Attribute>
+                  <AttributeID>PCP Cur</AttributeID>
+                </Attribute>
               </Attributes>
             </Dimension>
             <Dimension>
@@ -22315,6 +22829,9 @@
                 </Attribute>
                 <Attribute>
                   <AttributeID>Hedis BP Due</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>PCP Hx</AttributeID>
                 </Attribute>
               </Attributes>
             </Dimension>
@@ -25861,21 +26378,6 @@
                       </KeyColumns>
                     </Attribute>
                     <Attribute>
-                      <AttributeID>enc_appt_comp_key</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>BigInt</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>Encounter_x0020_and_x0020_Appointment_d1c60146-8607-4288-bcd2-c7711873898a</TableID>
-                            <ColumnID>enc_appt_comp_key</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
                       <AttributeID>event_id</AttributeID>
                       <KeyColumns>
                         <KeyColumn>
@@ -26725,6 +27227,90 @@
                           <Source xsi:type="ColumnBinding">
                             <TableID>Encounter_x0020_and_x0020_Appointment_d1c60146-8607-4288-bcd2-c7711873898a</TableID>
                             <ColumnID>person_key</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Enc billable status</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>Encounter_x0020_and_x0020_Appointment_d1c60146-8607-4288-bcd2-c7711873898a</TableID>
+                            <ColumnID>Enc_x0020_billable_x0020_status</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Status of Enc</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>Encounter_x0020_and_x0020_Appointment_d1c60146-8607-4288-bcd2-c7711873898a</TableID>
+                            <ColumnID>Status_x0020_of_x0020_Enc</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Appt was Kept</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>Encounter_x0020_and_x0020_Appointment_d1c60146-8607-4288-bcd2-c7711873898a</TableID>
+                            <ColumnID>Appt_x0020_was_x0020_Kept</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Appt cancel reason</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>Encounter_x0020_and_x0020_Appointment_d1c60146-8607-4288-bcd2-c7711873898a</TableID>
+                            <ColumnID>Appt_x0020_cancel_x0020_reason</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Enc had charges</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>Encounter_x0020_and_x0020_Appointment_d1c60146-8607-4288-bcd2-c7711873898a</TableID>
+                            <ColumnID>Enc_x0020_had_x0020_charges</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Can crossbook with PCP</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>Encounter_x0020_and_x0020_Appointment_d1c60146-8607-4288-bcd2-c7711873898a</TableID>
+                            <ColumnID>Can_x0020_crossbook_x0020_with_x0020_PCP</ColumnID>
                           </Source>
                         </KeyColumn>
                       </KeyColumns>
@@ -27692,6 +28278,20 @@
                           <Source xsi:type="ColumnBinding">
                             <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
                             <ColumnID>Days_x0020_Since_x0020_Enc</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>PCP Cur</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>PCP_x0020_Cur</ColumnID>
                           </Source>
                         </KeyColumn>
                       </KeyColumns>
@@ -29924,10 +30524,10 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;enc_appt_comp_key&lt;/string&gt;
+        &lt;string&gt;Status of Appointment&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;184&lt;/int&gt;
+        &lt;int&gt;138&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30378,6 +30978,86 @@
         &lt;int&gt;199&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Booking PCP&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;89&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Appt booked with a patient&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;160&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Appt had encounter&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;126&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Enc had appt&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;93&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Enc billable status&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;115&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Status of Enc&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;94&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Appt was Kept&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;100&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Appt cancel reason&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;122&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Enc had charges&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;109&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Can crossbook with PCP&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;145&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnWidths&gt;
   &lt;ColumnDisplayIndex&gt;
     &lt;item&gt;
@@ -30438,10 +31118,10 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;enc_appt_comp_key&lt;/string&gt;
+        &lt;string&gt;Status of Appointment&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;7&lt;/int&gt;
+        &lt;int&gt;63&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30449,7 +31129,7 @@
         &lt;string&gt;event_id&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;8&lt;/int&gt;
+        &lt;int&gt;7&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30457,7 +31137,7 @@
         &lt;string&gt;enc_app_date&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;9&lt;/int&gt;
+        &lt;int&gt;8&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30465,7 +31145,7 @@
         &lt;string&gt;user_appt_created&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;10&lt;/int&gt;
+        &lt;int&gt;9&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30473,7 +31153,7 @@
         &lt;string&gt;user_checkout&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;11&lt;/int&gt;
+        &lt;int&gt;10&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30481,7 +31161,7 @@
         &lt;string&gt;user_readyforprovider&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;12&lt;/int&gt;
+        &lt;int&gt;11&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30489,7 +31169,7 @@
         &lt;string&gt;user_enc_created&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;13&lt;/int&gt;
+        &lt;int&gt;12&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30497,7 +31177,7 @@
         &lt;string&gt;user_charted&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;14&lt;/int&gt;
+        &lt;int&gt;13&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30505,7 +31185,7 @@
         &lt;string&gt;enc_nbr&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;15&lt;/int&gt;
+        &lt;int&gt;14&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30513,7 +31193,7 @@
         &lt;string&gt;Enc Number&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;16&lt;/int&gt;
+        &lt;int&gt;15&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30521,7 +31201,7 @@
         &lt;string&gt;event_key&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;17&lt;/int&gt;
+        &lt;int&gt;16&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30529,7 +31209,7 @@
         &lt;string&gt;enc_status&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;18&lt;/int&gt;
+        &lt;int&gt;17&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30537,7 +31217,7 @@
         &lt;string&gt;appt_status&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;19&lt;/int&gt;
+        &lt;int&gt;18&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30545,7 +31225,7 @@
         &lt;string&gt;appt_w_pcp_status_txt&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;20&lt;/int&gt;
+        &lt;int&gt;19&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30553,7 +31233,7 @@
         &lt;string&gt;enc_slot_type&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;21&lt;/int&gt;
+        &lt;int&gt;20&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30561,7 +31241,7 @@
         &lt;string&gt;appt_duration&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;22&lt;/int&gt;
+        &lt;int&gt;21&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30569,7 +31249,7 @@
         &lt;string&gt;Appt Duration&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;23&lt;/int&gt;
+        &lt;int&gt;22&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30577,7 +31257,7 @@
         &lt;string&gt;appt_time&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;24&lt;/int&gt;
+        &lt;int&gt;23&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30585,7 +31265,7 @@
         &lt;string&gt;Appt Booked with PCP&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;25&lt;/int&gt;
+        &lt;int&gt;24&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30593,7 +31273,7 @@
         &lt;string&gt;Appt Booked Not with PCP&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;26&lt;/int&gt;
+        &lt;int&gt;25&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30601,7 +31281,7 @@
         &lt;string&gt;All Appt&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;27&lt;/int&gt;
+        &lt;int&gt;26&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30609,7 +31289,7 @@
         &lt;string&gt;Appt without a Pt&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;28&lt;/int&gt;
+        &lt;int&gt;27&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30617,7 +31297,7 @@
         &lt;string&gt;Appt Kept with Enc&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;29&lt;/int&gt;
+        &lt;int&gt;28&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30625,7 +31305,7 @@
         &lt;string&gt;Appt Kept with No Enc&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;30&lt;/int&gt;
+        &lt;int&gt;29&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30633,7 +31313,7 @@
         &lt;string&gt;Appt in Future&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;31&lt;/int&gt;
+        &lt;int&gt;30&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30641,7 +31321,7 @@
         &lt;string&gt;Appt No Show&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;32&lt;/int&gt;
+        &lt;int&gt;31&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30649,7 +31329,7 @@
         &lt;string&gt;Appt No Show with No Patient&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;33&lt;/int&gt;
+        &lt;int&gt;32&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30657,7 +31337,7 @@
         &lt;string&gt;Appt Future with No Patient&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;34&lt;/int&gt;
+        &lt;int&gt;33&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30665,7 +31345,7 @@
         &lt;string&gt;Appt Cancelled&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;35&lt;/int&gt;
+        &lt;int&gt;34&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30673,7 +31353,7 @@
         &lt;string&gt;Appt Deleted&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;36&lt;/int&gt;
+        &lt;int&gt;35&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30681,7 +31361,7 @@
         &lt;string&gt;Appt Rescheduled&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;37&lt;/int&gt;
+        &lt;int&gt;36&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30689,7 +31369,7 @@
         &lt;string&gt;Enc or Appt&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;38&lt;/int&gt;
+        &lt;int&gt;37&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30697,7 +31377,7 @@
         &lt;string&gt;Encounters&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;39&lt;/int&gt;
+        &lt;int&gt;38&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30705,7 +31385,7 @@
         &lt;string&gt;Billable Encounters&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;40&lt;/int&gt;
+        &lt;int&gt;39&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30713,7 +31393,7 @@
         &lt;string&gt;Non-billable Encounters&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;41&lt;/int&gt;
+        &lt;int&gt;40&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30721,7 +31401,7 @@
         &lt;string&gt;Billable Enc with Appt&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;42&lt;/int&gt;
+        &lt;int&gt;41&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30729,7 +31409,7 @@
         &lt;string&gt;Non-Billable Enc with Appt&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;43&lt;/int&gt;
+        &lt;int&gt;42&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30737,7 +31417,7 @@
         &lt;string&gt;Billable Appts with Enc Kept&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;44&lt;/int&gt;
+        &lt;int&gt;43&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30745,7 +31425,7 @@
         &lt;string&gt;Non-Billable Appts with Enc Kept&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;45&lt;/int&gt;
+        &lt;int&gt;44&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30753,7 +31433,7 @@
         &lt;string&gt;Unduplicated&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;46&lt;/int&gt;
+        &lt;int&gt;45&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30761,7 +31441,7 @@
         &lt;string&gt;Days from Booked to Appt&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;47&lt;/int&gt;
+        &lt;int&gt;46&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30769,7 +31449,7 @@
         &lt;string&gt;Min from Appt Time to Kept&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;48&lt;/int&gt;
+        &lt;int&gt;47&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30777,7 +31457,7 @@
         &lt;string&gt;Min from Kept to Checkout&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;49&lt;/int&gt;
+        &lt;int&gt;48&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30785,7 +31465,7 @@
         &lt;string&gt;Min Kept to Ready for Prov&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;50&lt;/int&gt;
+        &lt;int&gt;49&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30793,7 +31473,7 @@
         &lt;string&gt;Min from Kept to Charted&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;51&lt;/int&gt;
+        &lt;int&gt;50&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30801,7 +31481,7 @@
         &lt;string&gt;Mins from Kept to Charted&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;52&lt;/int&gt;
+        &lt;int&gt;51&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30809,7 +31489,7 @@
         &lt;string&gt;Min from Ready for Prov to Checkout&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;53&lt;/int&gt;
+        &lt;int&gt;52&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30817,7 +31497,7 @@
         &lt;string&gt;Date of Appointment Made&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;54&lt;/int&gt;
+        &lt;int&gt;53&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30825,7 +31505,7 @@
         &lt;string&gt;Payer&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;55&lt;/int&gt;
+        &lt;int&gt;54&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30833,7 +31513,7 @@
         &lt;string&gt;Payer 1 Name&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;56&lt;/int&gt;
+        &lt;int&gt;55&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30841,7 +31521,7 @@
         &lt;string&gt;Payer 1 Financial Class&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;57&lt;/int&gt;
+        &lt;int&gt;56&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30849,7 +31529,7 @@
         &lt;string&gt;Payer 2 Name&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;58&lt;/int&gt;
+        &lt;int&gt;57&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30857,7 +31537,7 @@
         &lt;string&gt;Payer 2 Financial Class&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;59&lt;/int&gt;
+        &lt;int&gt;58&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30865,7 +31545,7 @@
         &lt;string&gt;Payer 3 Name&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;60&lt;/int&gt;
+        &lt;int&gt;59&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30873,7 +31553,7 @@
         &lt;string&gt;Payer 3 Financial Class&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;61&lt;/int&gt;
+        &lt;int&gt;60&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30881,7 +31561,7 @@
         &lt;string&gt;Date of Last Appointment&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;62&lt;/int&gt;
+        &lt;int&gt;61&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -30889,7 +31569,87 @@
         &lt;string&gt;Date of Last Encounter&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;63&lt;/int&gt;
+        &lt;int&gt;62&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Booking PCP&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;64&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Appt booked with a patient&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;65&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Appt had encounter&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;66&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Enc had appt&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;67&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Enc billable status&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;68&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Status of Enc&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;69&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Appt was Kept&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;70&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Appt cancel reason&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;71&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Enc had charges&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;72&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Can crossbook with PCP&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;73&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
   &lt;/ColumnDisplayIndex&gt;
@@ -30898,6 +31658,94 @@
     &lt;item&gt;
       &lt;key&gt;
         &lt;string&gt;person_key&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Status of Appointment&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;false&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Booking PCP&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;false&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Appt booked with a patient&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;false&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Appt had encounter&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;false&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Enc had appt&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;false&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Enc billable status&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Status of Enc&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Appt was Kept&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Appt cancel reason&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Enc had charges&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Can crossbook with PCP&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -30923,7 +31771,7 @@
                   </Annotations>
                   <Source xsi:type="QueryBinding">
                     <DataSourceID>8fbc5f95-2a43-4976-9dfe-f5a578e0a753</DataSourceID>
-                    <QueryDefinition>SELECT [fdt].[Encounter and Appointment].* 		FROM [fdt].[Encounter and Appointment]</QueryDefinition>
+                    <QueryDefinition>SELECT [fdt].[Encounter and Appointment].[enc_appt_key],[fdt].[Encounter and Appointment].[person_key],[fdt].[Encounter and Appointment].[user_resource],[fdt].[Encounter and Appointment].[enc_rendering_key],[fdt].[Encounter and Appointment].[provider_key],[fdt].[Encounter and Appointment].[location_key],[fdt].[Encounter and Appointment].[per_mon_id],[fdt].[Encounter and Appointment].[event_id],[fdt].[Encounter and Appointment].[enc_app_date],[fdt].[Encounter and Appointment].[user_appt_created],[fdt].[Encounter and Appointment].[user_checkout],[fdt].[Encounter and Appointment].[user_readyforprovider],[fdt].[Encounter and Appointment].[user_enc_created],[fdt].[Encounter and Appointment].[user_charted],[fdt].[Encounter and Appointment].[enc_nbr],[fdt].[Encounter and Appointment].[Enc Number],[fdt].[Encounter and Appointment].[event_key],[fdt].[Encounter and Appointment].[enc_status],[fdt].[Encounter and Appointment].[appt_status],[fdt].[Encounter and Appointment].[appt_w_pcp_status_txt],[fdt].[Encounter and Appointment].[enc_slot_type],[fdt].[Encounter and Appointment].[appt_duration],[fdt].[Encounter and Appointment].[Appt Duration],[fdt].[Encounter and Appointment].[appt_time],[fdt].[Encounter and Appointment].[Appt Booked with PCP],[fdt].[Encounter and Appointment].[Appt Booked Not with PCP],[fdt].[Encounter and Appointment].[All Appt],[fdt].[Encounter and Appointment].[Appt without a Pt],[fdt].[Encounter and Appointment].[Appt Kept with Enc],[fdt].[Encounter and Appointment].[Appt Kept with No Enc],[fdt].[Encounter and Appointment].[Appt in Future],[fdt].[Encounter and Appointment].[Appt No Show],[fdt].[Encounter and Appointment].[Appt No Show with No Patient],[fdt].[Encounter and Appointment].[Appt Future with No Patient],[fdt].[Encounter and Appointment].[Appt Cancelled],[fdt].[Encounter and Appointment].[Appt Deleted],[fdt].[Encounter and Appointment].[Appt Rescheduled],[fdt].[Encounter and Appointment].[Enc or Appt],[fdt].[Encounter and Appointment].[Encounters],[fdt].[Encounter and Appointment].[Billable Encounters],[fdt].[Encounter and Appointment].[Non-billable Encounters],[fdt].[Encounter and Appointment].[Billable Enc with Appt],[fdt].[Encounter and Appointment].[Non-Billable Enc with Appt],[fdt].[Encounter and Appointment].[Billable Appts with Enc Kept],[fdt].[Encounter and Appointment].[Non-Billable Appts with Enc Kept],[fdt].[Encounter and Appointment].[Unduplicated],[fdt].[Encounter and Appointment].[Days from Booked to Appt],[fdt].[Encounter and Appointment].[Min from Appt Time to Kept],[fdt].[Encounter and Appointment].[Min from Kept to Checkout],[fdt].[Encounter and Appointment].[Min Kept to Ready for Prov],[fdt].[Encounter and Appointment].[Min from Kept to Charted],[fdt].[Encounter and Appointment].[Mins from Kept to Charted],[fdt].[Encounter and Appointment].[Min from Ready for Prov to Checkout],[fdt].[Encounter and Appointment].[Date of Appointment Made],[fdt].[Encounter and Appointment].[Payer],[fdt].[Encounter and Appointment].[Payer 1 Name],[fdt].[Encounter and Appointment].[Payer 1 Financial Class],[fdt].[Encounter and Appointment].[Payer 2 Name],[fdt].[Encounter and Appointment].[Payer 2 Financial Class],[fdt].[Encounter and Appointment].[Payer 3 Name],[fdt].[Encounter and Appointment].[Payer 3 Financial Class],[fdt].[Encounter and Appointment].[Date of Last Appointment],[fdt].[Encounter and Appointment].[Date of Last Encounter],[fdt].[Encounter and Appointment].[Enc billable status],[fdt].[Encounter and Appointment].[Status of Enc],[fdt].[Encounter and Appointment].[Appt was Kept],[fdt].[Encounter and Appointment].[Appt cancel reason],[fdt].[Encounter and Appointment].[Enc had charges],[fdt].[Encounter and Appointment].[Can crossbook with PCP] 		FROM [fdt].[Encounter and Appointment]</QueryDefinition>
                   </Source>
                   <StorageMode valuens="ddl200_200">InMemory</StorageMode>
                   <ProcessingMode>Regular</ProcessingMode>
@@ -31594,21 +32442,6 @@
                           <Source xsi:type="ColumnBinding">
                             <TableID>Encounter_x0020_and_x0020_Appointment_d1c60146-8607-4288-bcd2-c7711873898a</TableID>
                             <ColumnID>per_mon_id</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>enc_appt_comp_key</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>BigInt</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>Encounter_x0020_and_x0020_Appointment_d1c60146-8607-4288-bcd2-c7711873898a</TableID>
-                            <ColumnID>enc_appt_comp_key</ColumnID>
                           </Source>
                         </KeyColumn>
                       </KeyColumns>
@@ -32463,6 +33296,90 @@
                           <Source xsi:type="ColumnBinding">
                             <TableID>Encounter_x0020_and_x0020_Appointment_d1c60146-8607-4288-bcd2-c7711873898a</TableID>
                             <ColumnID>person_key</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Enc billable status</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>Encounter_x0020_and_x0020_Appointment_d1c60146-8607-4288-bcd2-c7711873898a</TableID>
+                            <ColumnID>Enc_x0020_billable_x0020_status</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Status of Enc</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>Encounter_x0020_and_x0020_Appointment_d1c60146-8607-4288-bcd2-c7711873898a</TableID>
+                            <ColumnID>Status_x0020_of_x0020_Enc</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Appt was Kept</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>Encounter_x0020_and_x0020_Appointment_d1c60146-8607-4288-bcd2-c7711873898a</TableID>
+                            <ColumnID>Appt_x0020_was_x0020_Kept</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Appt cancel reason</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>Encounter_x0020_and_x0020_Appointment_d1c60146-8607-4288-bcd2-c7711873898a</TableID>
+                            <ColumnID>Appt_x0020_cancel_x0020_reason</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Enc had charges</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>Encounter_x0020_and_x0020_Appointment_d1c60146-8607-4288-bcd2-c7711873898a</TableID>
+                            <ColumnID>Enc_x0020_had_x0020_charges</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Can crossbook with PCP</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>Encounter_x0020_and_x0020_Appointment_d1c60146-8607-4288-bcd2-c7711873898a</TableID>
+                            <ColumnID>Can_x0020_crossbook_x0020_with_x0020_PCP</ColumnID>
                           </Source>
                         </KeyColumn>
                       </KeyColumns>
@@ -33433,6 +34350,20 @@
                           <Source xsi:type="ColumnBinding">
                             <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
                             <ColumnID>Days_x0020_Since_x0020_Enc</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>PCP Cur</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>PCP_x0020_Cur</ColumnID>
                           </Source>
                         </KeyColumn>
                       </KeyColumns>
@@ -37399,6 +38330,20 @@
                         </KeyColumn>
                       </KeyColumns>
                     </Attribute>
+                    <Attribute>
+                      <AttributeID>PCP Cur</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>PCP_x0020_Cur</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
                   </Attributes>
                   <ddl200_200:ShareDimensionStorage>Shared</ddl200_200:ShareDimensionStorage>
                 </Dimension>
@@ -38318,6 +39263,14 @@
         &lt;int&gt;102&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;PCP Cur&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;69&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnWidths&gt;
   &lt;ColumnDisplayIndex&gt;
     &lt;item&gt;
@@ -38832,6 +39785,14 @@
         &lt;int&gt;63&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;PCP Cur&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;64&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnDisplayIndex&gt;
   &lt;ColumnFrozen /&gt;
   &lt;ColumnChecked&gt;
@@ -38918,6 +39879,14 @@
     &lt;item&gt;
       &lt;key&gt;
         &lt;string&gt;Days Since Enc&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;PCP Cur&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -39674,6 +40643,20 @@
                           <Source xsi:type="ColumnBinding">
                             <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
                             <ColumnID>Hedis_x0020_BP_x0020_Due</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>PCP Hx</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                            <ColumnID>PCP_x0020_Hx</ColumnID>
                           </Source>
                         </KeyColumn>
                       </KeyColumns>
@@ -42238,6 +43221,20 @@
                         </KeyColumn>
                       </KeyColumns>
                     </Attribute>
+                    <Attribute>
+                      <AttributeID>PCP Cur</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>PCP_x0020_Cur</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
                   </Attributes>
                   <IntermediateCubeDimensionID>PHI Patient SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</IntermediateCubeDimensionID>
                   <IntermediateGranularityAttributeID>person_key</IntermediateGranularityAttributeID>
@@ -43004,6 +44001,14 @@
         &lt;int&gt;93&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;PCP Hx&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;65&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnWidths&gt;
   &lt;ColumnDisplayIndex&gt;
     &lt;item&gt;
@@ -43366,6 +44371,14 @@
         &lt;int&gt;44&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;PCP Hx&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;45&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnDisplayIndex&gt;
   &lt;ColumnFrozen /&gt;
   &lt;ColumnChecked&gt;
@@ -43436,6 +44449,14 @@
     &lt;item&gt;
       &lt;key&gt;
         &lt;string&gt;Hedis BP Due&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;PCP Hx&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -47338,7 +48359,7 @@ ALTER CUBE CURRENTCUBE UPDATE DIMENSION Measures, Default_Member = [__No measure
                         </xs:sequence>
                       </xs:complexType>
                     </xs:element>
-                    <xs:element name="Encounter_x0020_and_x0020_Appointment_d1c60146-8607-4288-bcd2-c7711873898a" msdata:Locale="" msprop:IsLogical="True" msprop:FriendlyName="Encounter and Appointment" msprop:DbSchemaName="fdt" msprop:DbTableName="Encounter and Appointment" msprop:TableType="View" msprop:Description="Encounter and Appointment" msprop:QueryDefinition="      SELECT [fdt].[Encounter and Appointment].*   FROM [fdt].[Encounter and Appointment] ">
+                    <xs:element name="Encounter_x0020_and_x0020_Appointment_d1c60146-8607-4288-bcd2-c7711873898a" msdata:Locale="" msprop:IsLogical="True" msprop:FriendlyName="Encounter and Appointment" msprop:DbSchemaName="fdt" msprop:DbTableName="Encounter and Appointment" msprop:TableType="View" msprop:Description="Encounter and Appointment" msprop:QueryDefinition="      SELECT [fdt].[Encounter and Appointment].[enc_appt_key],[fdt].[Encounter and Appointment].[person_key],[fdt].[Encounter and Appointment].[user_resource],[fdt].[Encounter and Appointment].[enc_rendering_key],[fdt].[Encounter and Appointment].[provider_key],[fdt].[Encounter and Appointment].[location_key],[fdt].[Encounter and Appointment].[per_mon_id],[fdt].[Encounter and Appointment].[event_id],[fdt].[Encounter and Appointment].[enc_app_date],[fdt].[Encounter and Appointment].[user_appt_created],[fdt].[Encounter and Appointment].[user_checkout],[fdt].[Encounter and Appointment].[user_readyforprovider],[fdt].[Encounter and Appointment].[user_enc_created],[fdt].[Encounter and Appointment].[user_charted],[fdt].[Encounter and Appointment].[enc_nbr],[fdt].[Encounter and Appointment].[Enc Number],[fdt].[Encounter and Appointment].[event_key],[fdt].[Encounter and Appointment].[enc_status],[fdt].[Encounter and Appointment].[appt_status],[fdt].[Encounter and Appointment].[appt_w_pcp_status_txt],[fdt].[Encounter and Appointment].[enc_slot_type],[fdt].[Encounter and Appointment].[appt_duration],[fdt].[Encounter and Appointment].[Appt Duration],[fdt].[Encounter and Appointment].[appt_time],[fdt].[Encounter and Appointment].[Appt Booked with PCP],[fdt].[Encounter and Appointment].[Appt Booked Not with PCP],[fdt].[Encounter and Appointment].[All Appt],[fdt].[Encounter and Appointment].[Appt without a Pt],[fdt].[Encounter and Appointment].[Appt Kept with Enc],[fdt].[Encounter and Appointment].[Appt Kept with No Enc],[fdt].[Encounter and Appointment].[Appt in Future],[fdt].[Encounter and Appointment].[Appt No Show],[fdt].[Encounter and Appointment].[Appt No Show with No Patient],[fdt].[Encounter and Appointment].[Appt Future with No Patient],[fdt].[Encounter and Appointment].[Appt Cancelled],[fdt].[Encounter and Appointment].[Appt Deleted],[fdt].[Encounter and Appointment].[Appt Rescheduled],[fdt].[Encounter and Appointment].[Enc or Appt],[fdt].[Encounter and Appointment].[Encounters],[fdt].[Encounter and Appointment].[Billable Encounters],[fdt].[Encounter and Appointment].[Non-billable Encounters],[fdt].[Encounter and Appointment].[Billable Enc with Appt],[fdt].[Encounter and Appointment].[Non-Billable Enc with Appt],[fdt].[Encounter and Appointment].[Billable Appts with Enc Kept],[fdt].[Encounter and Appointment].[Non-Billable Appts with Enc Kept],[fdt].[Encounter and Appointment].[Unduplicated],[fdt].[Encounter and Appointment].[Days from Booked to Appt],[fdt].[Encounter and Appointment].[Min from Appt Time to Kept],[fdt].[Encounter and Appointment].[Min from Kept to Checkout],[fdt].[Encounter and Appointment].[Min Kept to Ready for Prov],[fdt].[Encounter and Appointment].[Min from Kept to Charted],[fdt].[Encounter and Appointment].[Mins from Kept to Charted],[fdt].[Encounter and Appointment].[Min from Ready for Prov to Checkout],[fdt].[Encounter and Appointment].[Date of Appointment Made],[fdt].[Encounter and Appointment].[Payer],[fdt].[Encounter and Appointment].[Payer 1 Name],[fdt].[Encounter and Appointment].[Payer 1 Financial Class],[fdt].[Encounter and Appointment].[Payer 2 Name],[fdt].[Encounter and Appointment].[Payer 2 Financial Class],[fdt].[Encounter and Appointment].[Payer 3 Name],[fdt].[Encounter and Appointment].[Payer 3 Financial Class],[fdt].[Encounter and Appointment].[Date of Last Appointment],[fdt].[Encounter and Appointment].[Date of Last Encounter],[fdt].[Encounter and Appointment].[Enc billable status],[fdt].[Encounter and Appointment].[Status of Enc],[fdt].[Encounter and Appointment].[Appt was Kept],[fdt].[Encounter and Appointment].[Appt cancel reason],[fdt].[Encounter and Appointment].[Enc had charges],[fdt].[Encounter and Appointment].[Can crossbook with PCP]   FROM [fdt].[Encounter and Appointment] ">
                       <xs:complexType>
                         <xs:sequence>
                           <xs:element name="enc_appt_key" msprop:DbColumnName="enc_appt_key" msprop:FriendlyName="enc_appt_key" type="xs:long" />
@@ -47353,7 +48374,6 @@ ALTER CUBE CURRENTCUBE UPDATE DIMENSION Measures, Default_Member = [__No measure
                           <xs:element name="provider_key" msprop:DbColumnName="provider_key" msprop:FriendlyName="provider_key" type="xs:long" minOccurs="0" />
                           <xs:element name="location_key" msprop:DbColumnName="location_key" msprop:FriendlyName="location_key" type="xs:long" minOccurs="0" />
                           <xs:element name="per_mon_id" msprop:DbColumnName="per_mon_id" msprop:FriendlyName="per_mon_id" type="xs:long" minOccurs="0" />
-                          <xs:element name="enc_appt_comp_key" msprop:DbColumnName="enc_appt_comp_key" msprop:FriendlyName="enc_appt_comp_key" type="xs:long" minOccurs="0" />
                           <xs:element name="event_id" msprop:DbColumnName="event_id" msprop:FriendlyName="event_id" minOccurs="0">
                             <xs:simpleType>
                               <xs:restriction base="xs:string">
@@ -47513,6 +48533,48 @@ ALTER CUBE CURRENTCUBE UPDATE DIMENSION Measures, Default_Member = [__No measure
                           <xs:element name="Date_x0020_of_x0020_Last_x0020_Appointment" msprop:DbColumnName="Date of Last Appointment" msprop:FriendlyName="Date of Last Appointment" type="xs:dateTime" minOccurs="0" />
                           <xs:element name="Date_x0020_of_x0020_Last_x0020_Encounter" msprop:DbColumnName="Date of Last Encounter" msprop:FriendlyName="Date of Last Encounter" type="xs:dateTime" minOccurs="0" />
                           <xs:element name="person_key" msprop:DbColumnName="person_key" msprop:FriendlyName="person_key" type="xs:int" minOccurs="0" />
+                          <xs:element name="Enc_x0020_billable_x0020_status" msprop:DbColumnName="Enc billable status" msprop:FriendlyName="Enc billable status" minOccurs="0">
+                            <xs:simpleType>
+                              <xs:restriction base="xs:string">
+                                <xs:maxLength value="32768" />
+                              </xs:restriction>
+                            </xs:simpleType>
+                          </xs:element>
+                          <xs:element name="Status_x0020_of_x0020_Enc" msprop:DbColumnName="Status of Enc" msprop:FriendlyName="Status of Enc" minOccurs="0">
+                            <xs:simpleType>
+                              <xs:restriction base="xs:string">
+                                <xs:maxLength value="32768" />
+                              </xs:restriction>
+                            </xs:simpleType>
+                          </xs:element>
+                          <xs:element name="Appt_x0020_was_x0020_Kept" msprop:DbColumnName="Appt was Kept" msprop:FriendlyName="Appt was Kept" minOccurs="0">
+                            <xs:simpleType>
+                              <xs:restriction base="xs:string">
+                                <xs:maxLength value="32768" />
+                              </xs:restriction>
+                            </xs:simpleType>
+                          </xs:element>
+                          <xs:element name="Appt_x0020_cancel_x0020_reason" msprop:DbColumnName="Appt cancel reason" msprop:FriendlyName="Appt cancel reason" minOccurs="0">
+                            <xs:simpleType>
+                              <xs:restriction base="xs:string">
+                                <xs:maxLength value="32768" />
+                              </xs:restriction>
+                            </xs:simpleType>
+                          </xs:element>
+                          <xs:element name="Enc_x0020_had_x0020_charges" msprop:DbColumnName="Enc had charges" msprop:FriendlyName="Enc had charges" minOccurs="0">
+                            <xs:simpleType>
+                              <xs:restriction base="xs:string">
+                                <xs:maxLength value="32768" />
+                              </xs:restriction>
+                            </xs:simpleType>
+                          </xs:element>
+                          <xs:element name="Can_x0020_crossbook_x0020_with_x0020_PCP" msprop:DbColumnName="Can crossbook with PCP" msprop:FriendlyName="Can crossbook with PCP" minOccurs="0">
+                            <xs:simpleType>
+                              <xs:restriction base="xs:string">
+                                <xs:maxLength value="32768" />
+                              </xs:restriction>
+                            </xs:simpleType>
+                          </xs:element>
                         </xs:sequence>
                       </xs:complexType>
                     </xs:element>
@@ -48160,6 +49222,13 @@ ALTER CUBE CURRENTCUBE UPDATE DIMENSION Measures, Default_Member = [__No measure
                           <xs:element name="Hedis_x0020_BC_x0020_Due" msprop:DbColumnName="Hedis BC Due" msprop:FriendlyName="Hedis BC Due" type="xs:int" minOccurs="0" />
                           <xs:element name="Days_x0020_to_x0020_Appt" msprop:DbColumnName="Days to Appt" msprop:FriendlyName="Days to Appt" type="xs:int" minOccurs="0" />
                           <xs:element name="Days_x0020_Since_x0020_Enc" msprop:DbColumnName="Days Since Enc" msprop:FriendlyName="Days Since Enc" type="xs:int" minOccurs="0" />
+                          <xs:element name="PCP_x0020_Cur" msprop:DbColumnName="PCP Cur" msprop:FriendlyName="PCP Cur" minOccurs="0">
+                            <xs:simpleType>
+                              <xs:restriction base="xs:string">
+                                <xs:maxLength value="32768" />
+                              </xs:restriction>
+                            </xs:simpleType>
+                          </xs:element>
                         </xs:sequence>
                       </xs:complexType>
                     </xs:element>
@@ -48265,6 +49334,13 @@ ALTER CUBE CURRENTCUBE UPDATE DIMENSION Measures, Default_Member = [__No measure
                           <xs:element name="Hedis_x0020_CRC_x0020_Due" msprop:DbColumnName="Hedis CRC Due" msprop:FriendlyName="Hedis CRC Due" type="xs:int" minOccurs="0" />
                           <xs:element name="Hedis_x0020_BC_x0020_Due" msprop:DbColumnName="Hedis BC Due" msprop:FriendlyName="Hedis BC Due" type="xs:int" minOccurs="0" />
                           <xs:element name="Hedis_x0020_BP_x0020_Due" msprop:DbColumnName="Hedis BP Due" msprop:FriendlyName="Hedis BP Due" type="xs:int" minOccurs="0" />
+                          <xs:element name="PCP_x0020_Hx" msprop:DbColumnName="PCP Hx" msprop:FriendlyName="PCP Hx" minOccurs="0">
+                            <xs:simpleType>
+                              <xs:restriction base="xs:string">
+                                <xs:maxLength value="32768" />
+                              </xs:restriction>
+                            </xs:simpleType>
+                          </xs:element>
                         </xs:sequence>
                       </xs:complexType>
                     </xs:element>
