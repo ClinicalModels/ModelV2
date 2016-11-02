@@ -19270,7 +19270,8 @@
                   <ColumnID>Year</ColumnID>
                 </Source>
               </NameColumn>
-              <OrderBy>Key</OrderBy>
+              <OrderBy>AttributeKey</OrderBy>
+              <OrderByAttributeID>Year_sort</OrderByAttributeID>
             </Attribute>
             <Attribute>
               <Annotations>
@@ -19412,7 +19413,8 @@
                   <ColumnID>Quarter</ColumnID>
                 </Source>
               </NameColumn>
-              <OrderBy>Key</OrderBy>
+              <OrderBy>AttributeKey</OrderBy>
+              <OrderByAttributeID>Quarter_sort</OrderByAttributeID>
             </Attribute>
             <Attribute>
               <Annotations>
@@ -19483,7 +19485,8 @@
                   <ColumnID>Month</ColumnID>
                 </Source>
               </NameColumn>
-              <OrderBy>Key</OrderBy>
+              <OrderBy>AttributeKey</OrderBy>
+              <OrderByAttributeID>Month_sort</OrderByAttributeID>
             </Attribute>
             <Attribute>
               <Annotations>
@@ -19554,7 +19557,8 @@
                   <ColumnID>Week</ColumnID>
                 </Source>
               </NameColumn>
-              <OrderBy>Key</OrderBy>
+              <OrderBy>AttributeKey</OrderBy>
+              <OrderByAttributeID>week_sort</OrderByAttributeID>
             </Attribute>
             <Attribute>
               <Annotations>
@@ -48167,12 +48171,12 @@ ALTER CUBE CURRENTCUBE UPDATE DIMENSION Measures, Default_Member = [__No measure
 ----------------------------------------------------------
 
 
-CREATE MEASURE 'PHI Patient Cur'[Hedis CRC Score]=Fixed((divide(SUM('PHI Patient Cur'[Hedis CRC Num]),SUM('PHI Patient Cur'[Hedis CRC Den]))),2);
-CREATE MEASURE 'PHI Patient SCD'[Hedis CRC Hx]=Fixed((divide(SUM('PHI Patient SCD'[Hedis CRC Num]),SUM('PHI Patient SCD'[Hedis CRC Den]))),2);
-CREATE MEASURE 'PHI Patient SCD'[Hedis BP Hx]=Fixed((divide(SUM('PHI Patient SCD'[Hedis BP Num]),SUM('PHI Patient SCD'[Hedis BP Den]))),2);
-CREATE MEASURE 'PHI Patient SCD'[Hedis BC Hx]=Fixed((divide(SUM('PHI Patient SCD'[Hedis BC Num]),SUM('PHI Patient SCD'[Hedis BC Den]))),2);
-CREATE MEASURE 'PHI Patient Cur'[Hedis BC Score]=Fixed((divide(SUM('PHI Patient Cur'[Hedis BC Num]),SUM('PHI Patient Cur'[Hedis BC Den]))),2);
-CREATE MEASURE 'PHI Patient Cur'[Hedis BP Score]=Fixed((divide(SUM('PHI Patient Cur'[Hedis BP Num]),SUM('PHI Patient Cur'[Hedis BP Den]))),2);
+CREATE MEASURE 'PHI Patient Cur'[Hedis CRC Score]=(divide(SUM('PHI Patient Cur'[Hedis CRC Num]),SUM('PHI Patient Cur'[Hedis CRC Den])));
+CREATE MEASURE 'PHI Patient SCD'[Hedis CRC Hx]=(divide(SUM('PHI Patient SCD'[Hedis CRC Num]),SUM('PHI Patient SCD'[Hedis CRC Den])));
+CREATE MEASURE 'PHI Patient SCD'[Hedis BP Hx]=(divide(SUM('PHI Patient SCD'[Hedis BP Num]),SUM('PHI Patient SCD'[Hedis BP Den])));
+CREATE MEASURE 'PHI Patient SCD'[Hedis BC Hx]=(divide(SUM('PHI Patient SCD'[Hedis BC Num]),SUM('PHI Patient SCD'[Hedis BC Den])));
+CREATE MEASURE 'PHI Patient Cur'[Hedis BC Score]=(divide(SUM('PHI Patient Cur'[Hedis BC Num]),SUM('PHI Patient Cur'[Hedis BC Den])));
+CREATE MEASURE 'PHI Patient Cur'[Hedis BP Score]=(divide(SUM('PHI Patient Cur'[Hedis BP Num]),SUM('PHI Patient Cur'[Hedis BP Den])));
 </Text>
                 </Command>
               </Commands>
