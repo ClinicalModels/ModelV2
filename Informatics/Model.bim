@@ -48167,12 +48167,12 @@ ALTER CUBE CURRENTCUBE UPDATE DIMENSION Measures, Default_Member = [__No measure
 ----------------------------------------------------------
 
 
-CREATE MEASURE 'PHI Patient Cur'[Hedis CRC Score]=Fixed((divide(SUM('PHI Patient Cur'[Hedis CRC Num]),SUM('PHI Patient Cur'[Hedis CRC Den])) * 100),2);
-CREATE MEASURE 'PHI Patient SCD'[Hedis CRC Hx]=Fixed((divide(SUM('PHI Patient SCD'[Hedis CRC Num]),SUM('PHI Patient SCD'[Hedis CRC Den])) * 100),2);
-CREATE MEASURE 'PHI Patient SCD'[Hedis BP Hx]=Fixed((divide(SUM('PHI Patient SCD'[Hedis BP Num]),SUM('PHI Patient SCD'[Hedis BP Den])) * 100),2);
-CREATE MEASURE 'PHI Patient SCD'[Hedis BC Hx]=Fixed((divide(SUM('PHI Patient SCD'[Hedis BC Num]),SUM('PHI Patient SCD'[Hedis BC Den])) * 100),2);
-CREATE MEASURE 'PHI Patient Cur'[Hedis BC Score]=Fixed((divide(SUM('PHI Patient Cur'[Hedis BC Num]),SUM('PHI Patient Cur'[Hedis BC Den])) * 100),2);
-CREATE MEASURE 'PHI Patient Cur'[Hedis BP Score]=Fixed((divide(SUM('PHI Patient Cur'[Hedis BP Num]),SUM('PHI Patient Cur'[Hedis BP Den])) * 100),2);
+CREATE MEASURE 'PHI Patient Cur'[Hedis CRC Score]=Fixed((divide(SUM('PHI Patient Cur'[Hedis CRC Num]),SUM('PHI Patient Cur'[Hedis CRC Den]))),2);
+CREATE MEASURE 'PHI Patient SCD'[Hedis CRC Hx]=Fixed((divide(SUM('PHI Patient SCD'[Hedis CRC Num]),SUM('PHI Patient SCD'[Hedis CRC Den]))),2);
+CREATE MEASURE 'PHI Patient SCD'[Hedis BP Hx]=Fixed((divide(SUM('PHI Patient SCD'[Hedis BP Num]),SUM('PHI Patient SCD'[Hedis BP Den]))),2);
+CREATE MEASURE 'PHI Patient SCD'[Hedis BC Hx]=Fixed((divide(SUM('PHI Patient SCD'[Hedis BC Num]),SUM('PHI Patient SCD'[Hedis BC Den]))),2);
+CREATE MEASURE 'PHI Patient Cur'[Hedis BC Score]=Fixed((divide(SUM('PHI Patient Cur'[Hedis BC Num]),SUM('PHI Patient Cur'[Hedis BC Den]))),2);
+CREATE MEASURE 'PHI Patient Cur'[Hedis BP Score]=Fixed((divide(SUM('PHI Patient Cur'[Hedis BP Num]),SUM('PHI Patient Cur'[Hedis BP Den]))),2);
 </Text>
                 </Command>
               </Commands>
@@ -48190,13 +48190,13 @@ CREATE MEASURE 'PHI Patient Cur'[Hedis BP Score]=Fixed((divide(SUM('PHI Patient 
                     <Annotation>
                       <Name>Format</Name>
                       <Value>
-                        <Format Format="General" xmlns="" />
+                        <Format Format="Percentage" Accuracy="2" xmlns="" />
                       </Value>
                     </Annotation>
                   </Annotations>
                   <CalculationReference>[Hedis CRC Score]</CalculationReference>
                   <CalculationType>Member</CalculationType>
-                  <FormatString>''</FormatString>
+                  <FormatString>'0.00 %;-0.00 %;0.00 %'</FormatString>
                 </CalculationProperty>
                 <CalculationProperty>
                   <Annotations>
@@ -48211,13 +48211,13 @@ CREATE MEASURE 'PHI Patient Cur'[Hedis BP Score]=Fixed((divide(SUM('PHI Patient 
                     <Annotation>
                       <Name>Format</Name>
                       <Value>
-                        <Format Format="General" xmlns="" />
+                        <Format Format="Percentage" Accuracy="2" xmlns="" />
                       </Value>
                     </Annotation>
                   </Annotations>
                   <CalculationReference>[Hedis CRC Hx]</CalculationReference>
                   <CalculationType>Member</CalculationType>
-                  <FormatString>''</FormatString>
+                  <FormatString>'0.00 %;-0.00 %;0.00 %'</FormatString>
                 </CalculationProperty>
                 <CalculationProperty>
                   <Annotations>
@@ -48232,13 +48232,13 @@ CREATE MEASURE 'PHI Patient Cur'[Hedis BP Score]=Fixed((divide(SUM('PHI Patient 
                     <Annotation>
                       <Name>Format</Name>
                       <Value>
-                        <Format Format="General" xmlns="" />
+                        <Format Format="Percentage" Accuracy="2" xmlns="" />
                       </Value>
                     </Annotation>
                   </Annotations>
                   <CalculationReference>[Hedis BP Hx]</CalculationReference>
                   <CalculationType>Member</CalculationType>
-                  <FormatString>''</FormatString>
+                  <FormatString>'0.00 %;-0.00 %;0.00 %'</FormatString>
                 </CalculationProperty>
                 <CalculationProperty>
                   <Annotations>
@@ -48253,13 +48253,13 @@ CREATE MEASURE 'PHI Patient Cur'[Hedis BP Score]=Fixed((divide(SUM('PHI Patient 
                     <Annotation>
                       <Name>Format</Name>
                       <Value>
-                        <Format Format="General" xmlns="" />
+                        <Format Format="Percentage" Accuracy="2" xmlns="" />
                       </Value>
                     </Annotation>
                   </Annotations>
                   <CalculationReference>[Hedis BC Hx]</CalculationReference>
                   <CalculationType>Member</CalculationType>
-                  <FormatString>''</FormatString>
+                  <FormatString>'0.00 %;-0.00 %;0.00 %'</FormatString>
                 </CalculationProperty>
                 <CalculationProperty>
                   <Annotations>
@@ -48274,13 +48274,13 @@ CREATE MEASURE 'PHI Patient Cur'[Hedis BP Score]=Fixed((divide(SUM('PHI Patient 
                     <Annotation>
                       <Name>Format</Name>
                       <Value>
-                        <Format Format="General" xmlns="" />
+                        <Format Format="Percentage" Accuracy="2" xmlns="" />
                       </Value>
                     </Annotation>
                   </Annotations>
                   <CalculationReference>[Hedis BC Score]</CalculationReference>
                   <CalculationType>Member</CalculationType>
-                  <FormatString>''</FormatString>
+                  <FormatString>'0.00 %;-0.00 %;0.00 %'</FormatString>
                 </CalculationProperty>
                 <CalculationProperty>
                   <Annotations>
@@ -48295,13 +48295,13 @@ CREATE MEASURE 'PHI Patient Cur'[Hedis BP Score]=Fixed((divide(SUM('PHI Patient 
                     <Annotation>
                       <Name>Format</Name>
                       <Value>
-                        <Format Format="General" xmlns="" />
+                        <Format Format="Percentage" Accuracy="2" xmlns="" />
                       </Value>
                     </Annotation>
                   </Annotations>
                   <CalculationReference>[Hedis BP Score]</CalculationReference>
                   <CalculationType>Member</CalculationType>
-                  <FormatString>''</FormatString>
+                  <FormatString>'0.00 %;-0.00 %;0.00 %'</FormatString>
                 </CalculationProperty>
                 <CalculationProperty>
                   <CalculationReference>Measures.[__No measures defined]</CalculationReference>
