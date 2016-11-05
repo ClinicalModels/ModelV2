@@ -46161,6 +46161,9 @@ CREATE MEASURE 'PHI Patient Cur'[Hedis BC Score]=(divide(SUM('PHI Patient Cur'[H
 CREATE MEASURE 'PHI Patient Cur'[Hedis BP Score]=(divide(SUM('PHI Patient Cur'[Hedis BP Num]),SUM('PHI Patient Cur'[Hedis BP Den])));
 CREATE MEASURE 'PHI Patient SCD'[18M Active]=CALCULATE(SUM([Number Active Pt Past 18 Months]),LASTDATE('PHI Patient SCD'[first_mon_date]));
 CREATE MEASURE 'PHI Patient SCD'[24M Active]=CALCULATE(SUM([Number Active Pt Past 24 Months]),LASTDATE('PHI Patient SCD'[first_mon_date]));
+CREATE MEASURE 'PHI Patient SCD'[12M Active]=CALCULATE(SUM([Number Active Pt Past 12 Months]),LASTDATE('PHI Patient SCD'[first_mon_date]));
+CREATE MEASURE 'PHI Patient SCD'[6M Active]=CALCULATE(SUM([Number Active Pt Past 6 Months]),LASTDATE('PHI Patient SCD'[first_mon_date]));
+CREATE MEASURE 'PHI Patient SCD'[3M Active]=CALCULATE(SUM([Number Active Pt Past 3 Months]),LASTDATE('PHI Patient SCD'[first_mon_date]));
 </Text>
                 </Command>
               </Commands>
@@ -46330,6 +46333,69 @@ CREATE MEASURE 'PHI Patient SCD'[24M Active]=CALCULATE(SUM([Number Active Pt Pas
                     </Annotation>
                   </Annotations>
                   <CalculationReference>[24M Active]</CalculationReference>
+                  <CalculationType>Member</CalculationType>
+                  <FormatString>''</FormatString>
+                </CalculationProperty>
+                <CalculationProperty>
+                  <Annotations>
+                    <Annotation>
+                      <Name>Type</Name>
+                      <Value>User</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>IsPrivate</Name>
+                      <Value>False</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>Format</Name>
+                      <Value>
+                        <Format Format="General" xmlns="" />
+                      </Value>
+                    </Annotation>
+                  </Annotations>
+                  <CalculationReference>[12M Active]</CalculationReference>
+                  <CalculationType>Member</CalculationType>
+                  <FormatString>''</FormatString>
+                </CalculationProperty>
+                <CalculationProperty>
+                  <Annotations>
+                    <Annotation>
+                      <Name>Type</Name>
+                      <Value>User</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>IsPrivate</Name>
+                      <Value>False</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>Format</Name>
+                      <Value>
+                        <Format Format="General" xmlns="" />
+                      </Value>
+                    </Annotation>
+                  </Annotations>
+                  <CalculationReference>[6M Active]</CalculationReference>
+                  <CalculationType>Member</CalculationType>
+                  <FormatString>''</FormatString>
+                </CalculationProperty>
+                <CalculationProperty>
+                  <Annotations>
+                    <Annotation>
+                      <Name>Type</Name>
+                      <Value>User</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>IsPrivate</Name>
+                      <Value>False</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>Format</Name>
+                      <Value>
+                        <Format Format="General" xmlns="" />
+                      </Value>
+                    </Annotation>
+                  </Annotations>
+                  <CalculationReference>[3M Active]</CalculationReference>
                   <CalculationType>Member</CalculationType>
                   <FormatString>''</FormatString>
                 </CalculationProperty>
