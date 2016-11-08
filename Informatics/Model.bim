@@ -8856,10 +8856,10 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;Age Current&lt;/string&gt;
+        &lt;string&gt;Age Cur&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;89&lt;/int&gt;
+        &lt;int&gt;69&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -9158,6 +9158,14 @@
         &lt;int&gt;88&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Age Range Cur&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;103&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnWidths&gt;
   &lt;ColumnDisplayIndex&gt;
     &lt;item&gt;
@@ -9386,10 +9394,10 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;Age Current&lt;/string&gt;
+        &lt;string&gt;Age Cur&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;28&lt;/int&gt;
+        &lt;int&gt;65&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -9397,7 +9405,7 @@
         &lt;string&gt;Alternate Phone Number&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;29&lt;/int&gt;
+        &lt;int&gt;28&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -9405,7 +9413,7 @@
         &lt;string&gt;Marital Status&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;30&lt;/int&gt;
+        &lt;int&gt;29&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -9413,7 +9421,7 @@
         &lt;string&gt;Race&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;31&lt;/int&gt;
+        &lt;int&gt;30&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -9421,7 +9429,7 @@
         &lt;string&gt;Ethnicity&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;32&lt;/int&gt;
+        &lt;int&gt;31&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -9429,7 +9437,7 @@
         &lt;string&gt;Homeless Status&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;33&lt;/int&gt;
+        &lt;int&gt;32&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -9437,7 +9445,7 @@
         &lt;string&gt;Homeless Indicator&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;34&lt;/int&gt;
+        &lt;int&gt;33&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -9445,7 +9453,7 @@
         &lt;string&gt;Disability 1&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;35&lt;/int&gt;
+        &lt;int&gt;34&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -9453,7 +9461,7 @@
         &lt;string&gt;Disability 2&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;36&lt;/int&gt;
+        &lt;int&gt;35&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -9461,7 +9469,7 @@
         &lt;string&gt;Medical Record Number&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;37&lt;/int&gt;
+        &lt;int&gt;36&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -9469,7 +9477,7 @@
         &lt;string&gt;Address Full&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;38&lt;/int&gt;
+        &lt;int&gt;37&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -9477,7 +9485,7 @@
         &lt;string&gt;Last Appointment Date&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;39&lt;/int&gt;
+        &lt;int&gt;38&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -9485,7 +9493,7 @@
         &lt;string&gt;Last Encounter Date&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;40&lt;/int&gt;
+        &lt;int&gt;39&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -9493,7 +9501,7 @@
         &lt;string&gt;Next Appointment Date&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;41&lt;/int&gt;
+        &lt;int&gt;40&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -9501,7 +9509,7 @@
         &lt;string&gt;Last Appointment Provider&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;42&lt;/int&gt;
+        &lt;int&gt;41&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -9509,7 +9517,7 @@
         &lt;string&gt;Last Encounter Provider&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;43&lt;/int&gt;
+        &lt;int&gt;42&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -9517,7 +9525,7 @@
         &lt;string&gt;Next Appointment Provider&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;44&lt;/int&gt;
+        &lt;int&gt;43&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -9525,7 +9533,7 @@
         &lt;string&gt;Chart Create Date&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;45&lt;/int&gt;
+        &lt;int&gt;44&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -9533,7 +9541,7 @@
         &lt;string&gt;Chart Create User&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;46&lt;/int&gt;
+        &lt;int&gt;45&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -9541,7 +9549,7 @@
         &lt;string&gt;Person Create Date&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;47&lt;/int&gt;
+        &lt;int&gt;46&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -9549,7 +9557,7 @@
         &lt;string&gt;Person Creat User&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;48&lt;/int&gt;
+        &lt;int&gt;47&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -9557,7 +9565,7 @@
         &lt;string&gt;Time as Member&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;49&lt;/int&gt;
+        &lt;int&gt;48&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -9565,7 +9573,7 @@
         &lt;string&gt;membership_time_sort&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;50&lt;/int&gt;
+        &lt;int&gt;49&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -9573,7 +9581,7 @@
         &lt;string&gt;Is Patient New&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;51&lt;/int&gt;
+        &lt;int&gt;50&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -9581,7 +9589,7 @@
         &lt;string&gt;Is Patient Established&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;52&lt;/int&gt;
+        &lt;int&gt;51&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -9589,7 +9597,7 @@
         &lt;string&gt;Is Patient Alive&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;53&lt;/int&gt;
+        &lt;int&gt;52&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -9597,7 +9605,7 @@
         &lt;string&gt;Is Patient Deceased this Month&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;54&lt;/int&gt;
+        &lt;int&gt;53&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -9605,7 +9613,7 @@
         &lt;string&gt;Membership Month&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;55&lt;/int&gt;
+        &lt;int&gt;54&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -9613,7 +9621,7 @@
         &lt;string&gt;Patient Vintage Month&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;56&lt;/int&gt;
+        &lt;int&gt;55&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -9621,7 +9629,7 @@
         &lt;string&gt;Patient Vintage Month Range&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;57&lt;/int&gt;
+        &lt;int&gt;56&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -9629,7 +9637,7 @@
         &lt;string&gt;Patient Vintage Month sort&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;58&lt;/int&gt;
+        &lt;int&gt;57&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -9637,7 +9645,7 @@
         &lt;string&gt;Hedis CRC Due&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;59&lt;/int&gt;
+        &lt;int&gt;58&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -9645,7 +9653,7 @@
         &lt;string&gt;Hedis BP Due&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;60&lt;/int&gt;
+        &lt;int&gt;59&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -9653,7 +9661,7 @@
         &lt;string&gt;Hedis BC Due&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;61&lt;/int&gt;
+        &lt;int&gt;60&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -9661,7 +9669,7 @@
         &lt;string&gt;Days to Appt&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;62&lt;/int&gt;
+        &lt;int&gt;61&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -9669,7 +9677,7 @@
         &lt;string&gt;Days Since Enc&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;63&lt;/int&gt;
+        &lt;int&gt;62&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -9677,7 +9685,7 @@
         &lt;string&gt;PCP Cur&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;64&lt;/int&gt;
+        &lt;int&gt;63&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -9685,7 +9693,15 @@
         &lt;string&gt;Last Enc MA&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;65&lt;/int&gt;
+        &lt;int&gt;64&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Age Range Cur&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;66&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
   &lt;/ColumnDisplayIndex&gt;
@@ -9790,6 +9806,22 @@
     &lt;item&gt;
       &lt;key&gt;
         &lt;string&gt;Last Enc MA&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Age Cur&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Age Range Cur&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -9953,11 +9985,6 @@
                   <AttributeID>DOB</AttributeID>
                   <OverrideBehavior>None</OverrideBehavior>
                   <Name>DOB</Name>
-                </AttributeRelationship>
-                <AttributeRelationship>
-                  <AttributeID>Age Current</AttributeID>
-                  <OverrideBehavior>None</OverrideBehavior>
-                  <Name>Age Current</Name>
                 </AttributeRelationship>
                 <AttributeRelationship>
                   <AttributeID>Alternate Phone Number</AttributeID>
@@ -10173,6 +10200,16 @@
                   <AttributeID>Last Enc MA</AttributeID>
                   <OverrideBehavior>None</OverrideBehavior>
                   <Name>Last Enc MA</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>Age Cur</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>Age Cur</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>Age Range Cur</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>Age Range Cur</Name>
                 </AttributeRelationship>
               </AttributeRelationships>
               <OrderBy>Key</OrderBy>
@@ -10949,41 +10986,6 @@
               </NameColumn>
               <OrderBy>Key</OrderBy>
               <ddl300_300:FormatString>General Date</ddl300_300:FormatString>
-            </Attribute>
-            <Attribute>
-              <Annotations>
-                <Annotation>
-                  <Name>Format</Name>
-                  <Value>
-                    <Format Format="Text" xmlns="" />
-                  </Value>
-                </Annotation>
-              </Annotations>
-              <ID>Age Current</ID>
-              <Name>Age Current</Name>
-              <KeyColumns>
-                <KeyColumn>
-                  <DataType>WChar</DataType>
-                  <DataSize>32768</DataSize>
-                  <NullProcessing>Preserve</NullProcessing>
-                  <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                  <Source xsi:type="ColumnBinding">
-                    <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                    <ColumnID>Age_x0020_Current</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <NameColumn>
-                <DataType>WChar</DataType>
-                <DataSize>32768</DataSize>
-                <NullProcessing>ZeroOrBlank</NullProcessing>
-                <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                <Source xsi:type="ColumnBinding">
-                  <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                  <ColumnID>Age_x0020_Current</ColumnID>
-                </Source>
-              </NameColumn>
-              <OrderBy>Key</OrderBy>
             </Attribute>
             <Attribute>
               <Annotations>
@@ -12365,6 +12367,56 @@
               </NameColumn>
               <OrderBy>Key</OrderBy>
             </Attribute>
+            <Attribute>
+              <ID>Age Cur</ID>
+              <Name>Age Cur</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <DataSize>-1</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                    <ColumnID>Age_x0020_Cur</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>-1</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                  <ColumnID>Age_x0020_Cur</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>Age Range Cur</ID>
+              <Name>Age Range Cur</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>32768</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                    <ColumnID>Age_x0020_Range_x0020_Cur</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>32768</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                  <ColumnID>Age_x0020_Range_x0020_Cur</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
           </Attributes>
           <ProactiveCaching>
             <SilenceInterval>-PT1S</SilenceInterval>
@@ -12546,15 +12598,15 @@
         &lt;string&gt;Age Hx&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;65&lt;/int&gt;
+        &lt;int&gt;100&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;Age Historical&lt;/string&gt;
+        &lt;string&gt;Age Range Hx&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;95&lt;/int&gt;
+        &lt;int&gt;99&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12562,7 +12614,7 @@
         &lt;string&gt;Age_Hx_sort&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;93&lt;/int&gt;
+        &lt;int&gt;139&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12805,6 +12857,30 @@
         &lt;int&gt;65&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Number Active Pt Past 1 Months&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;184&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last BP Sys&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;85&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last BP Dia&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;83&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnWidths&gt;
   &lt;ColumnDisplayIndex&gt;
     &lt;item&gt;
@@ -12921,10 +12997,10 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;Age Historical&lt;/string&gt;
+        &lt;string&gt;Age Range Hx&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;14&lt;/int&gt;
+        &lt;int&gt;48&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12932,7 +13008,7 @@
         &lt;string&gt;Age_Hx_sort&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;15&lt;/int&gt;
+        &lt;int&gt;14&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12940,7 +13016,7 @@
         &lt;string&gt;Patient Vintage Month&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;16&lt;/int&gt;
+        &lt;int&gt;15&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12948,7 +13024,7 @@
         &lt;string&gt;Patient Vintage Month Range&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;17&lt;/int&gt;
+        &lt;int&gt;16&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12956,7 +13032,7 @@
         &lt;string&gt;Patient Vintage Month sort&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;18&lt;/int&gt;
+        &lt;int&gt;17&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12964,7 +13040,7 @@
         &lt;string&gt;Number of New Patients this Month&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;19&lt;/int&gt;
+        &lt;int&gt;18&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12972,7 +13048,7 @@
         &lt;string&gt;Number of Patient Members&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;20&lt;/int&gt;
+        &lt;int&gt;19&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12980,7 +13056,7 @@
         &lt;string&gt;Number of Patients Deceased&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;21&lt;/int&gt;
+        &lt;int&gt;20&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12988,7 +13064,7 @@
         &lt;string&gt;Number of Patients Deceased this Month&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;22&lt;/int&gt;
+        &lt;int&gt;21&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12996,7 +13072,7 @@
         &lt;string&gt;Number Active Pt Past 3 Months&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;23&lt;/int&gt;
+        &lt;int&gt;22&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -13004,7 +13080,7 @@
         &lt;string&gt;Number Active Pt Past 6 Months&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;24&lt;/int&gt;
+        &lt;int&gt;23&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -13012,7 +13088,7 @@
         &lt;string&gt;Number Active Pt Past 12 Months&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;25&lt;/int&gt;
+        &lt;int&gt;24&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -13020,7 +13096,7 @@
         &lt;string&gt;Number Active Pt Past 18 Months&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;26&lt;/int&gt;
+        &lt;int&gt;25&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -13028,7 +13104,7 @@
         &lt;string&gt;Number Active Pt Past 24 Months&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;27&lt;/int&gt;
+        &lt;int&gt;26&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -13036,7 +13112,7 @@
         &lt;string&gt;Number Inactive Pt Past 3 Months&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;28&lt;/int&gt;
+        &lt;int&gt;27&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -13044,7 +13120,7 @@
         &lt;string&gt;Number Inactive Pt Past 6 Months&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;29&lt;/int&gt;
+        &lt;int&gt;28&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -13052,7 +13128,7 @@
         &lt;string&gt;Number Inactive Pt Past 12 Months&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;30&lt;/int&gt;
+        &lt;int&gt;29&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -13060,7 +13136,7 @@
         &lt;string&gt;Number Inactive Pt Past 18 Months&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;31&lt;/int&gt;
+        &lt;int&gt;30&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -13068,7 +13144,7 @@
         &lt;string&gt;Number Inactive Pt Past 24 Months&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;32&lt;/int&gt;
+        &lt;int&gt;31&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -13076,7 +13152,7 @@
         &lt;string&gt;Number of Patients with Medical Home Change&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;33&lt;/int&gt;
+        &lt;int&gt;32&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -13084,7 +13160,7 @@
         &lt;string&gt;Number of Patients with PCP Change&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;34&lt;/int&gt;
+        &lt;int&gt;33&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -13092,7 +13168,7 @@
         &lt;string&gt;Number of Patients Never Active&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;35&lt;/int&gt;
+        &lt;int&gt;34&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -13100,7 +13176,7 @@
         &lt;string&gt;Hedis CRC Den&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;36&lt;/int&gt;
+        &lt;int&gt;35&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -13108,7 +13184,7 @@
         &lt;string&gt;Hedis BC Den&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;37&lt;/int&gt;
+        &lt;int&gt;36&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -13116,7 +13192,7 @@
         &lt;string&gt;Hedis BP Den&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;38&lt;/int&gt;
+        &lt;int&gt;37&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -13124,7 +13200,7 @@
         &lt;string&gt;Hedis CRC Num&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;39&lt;/int&gt;
+        &lt;int&gt;38&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -13132,7 +13208,7 @@
         &lt;string&gt;Hedis BC Num&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;40&lt;/int&gt;
+        &lt;int&gt;39&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -13140,7 +13216,7 @@
         &lt;string&gt;Hedis BP Num&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;41&lt;/int&gt;
+        &lt;int&gt;40&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -13148,7 +13224,7 @@
         &lt;string&gt;Hedis CRC Due&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;42&lt;/int&gt;
+        &lt;int&gt;41&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -13156,7 +13232,7 @@
         &lt;string&gt;Hedis BC Due&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;43&lt;/int&gt;
+        &lt;int&gt;42&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -13164,7 +13240,7 @@
         &lt;string&gt;Hedis BP Due&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;44&lt;/int&gt;
+        &lt;int&gt;43&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -13172,7 +13248,31 @@
         &lt;string&gt;PCP Hx&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
+        &lt;int&gt;44&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Number Active Pt Past 1 Months&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
         &lt;int&gt;45&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last BP Sys&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;46&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last BP Dia&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;47&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
   &lt;/ColumnDisplayIndex&gt;
@@ -13253,6 +13353,38 @@
     &lt;item&gt;
       &lt;key&gt;
         &lt;string&gt;PCP Hx&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Number Active Pt Past 1 Months&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last BP Sys&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last BP Dia&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Age Range Hx&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -13375,11 +13507,6 @@
                   <AttributeID>Age Hx</AttributeID>
                   <OverrideBehavior>None</OverrideBehavior>
                   <Name>Age Hx</Name>
-                </AttributeRelationship>
-                <AttributeRelationship>
-                  <AttributeID>Age Historical</AttributeID>
-                  <OverrideBehavior>None</OverrideBehavior>
-                  <Name>Age Historical</Name>
                 </AttributeRelationship>
                 <AttributeRelationship>
                   <AttributeID>Age_Hx_sort</AttributeID>
@@ -13535,6 +13662,26 @@
                   <AttributeID>PCP Hx</AttributeID>
                   <OverrideBehavior>None</OverrideBehavior>
                   <Name>PCP Hx</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>Number Active Pt Past 1 Months</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>Number Active Pt Past 1 Months</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>Last BP Sys</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>Last BP Sys</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>Last BP Dia</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>Last BP Dia</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>Age Range Hx</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>Age Range Hx</Name>
                 </AttributeRelationship>
               </AttributeRelationships>
               <OrderBy>Key</OrderBy>
@@ -14026,41 +14173,6 @@
                 <Source xsi:type="ColumnBinding">
                   <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
                   <ColumnID>Age_x0020_Hx</ColumnID>
-                </Source>
-              </NameColumn>
-              <OrderBy>Key</OrderBy>
-            </Attribute>
-            <Attribute>
-              <Annotations>
-                <Annotation>
-                  <Name>Format</Name>
-                  <Value>
-                    <Format Format="Text" xmlns="" />
-                  </Value>
-                </Annotation>
-              </Annotations>
-              <ID>Age Historical</ID>
-              <Name>Age Historical</Name>
-              <KeyColumns>
-                <KeyColumn>
-                  <DataType>WChar</DataType>
-                  <DataSize>32768</DataSize>
-                  <NullProcessing>Preserve</NullProcessing>
-                  <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                  <Source xsi:type="ColumnBinding">
-                    <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
-                    <ColumnID>Age_x0020_Historical</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <NameColumn>
-                <DataType>WChar</DataType>
-                <DataSize>32768</DataSize>
-                <NullProcessing>ZeroOrBlank</NullProcessing>
-                <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                <Source xsi:type="ColumnBinding">
-                  <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
-                  <ColumnID>Age_x0020_Historical</ColumnID>
                 </Source>
               </NameColumn>
               <OrderBy>Key</OrderBy>
@@ -15046,6 +15158,106 @@
                 <Source xsi:type="ColumnBinding">
                   <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
                   <ColumnID>PCP_x0020_Hx</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>Number Active Pt Past 1 Months</ID>
+              <Name>Number Active Pt Past 1 Months</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <DataSize>-1</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                    <ColumnID>Number_x0020_Active_x0020_Pt_x0020_Past_x0020_1_x0020_Months</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>-1</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                  <ColumnID>Number_x0020_Active_x0020_Pt_x0020_Past_x0020_1_x0020_Months</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>Last BP Sys</ID>
+              <Name>Last BP Sys</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Double</DataType>
+                  <DataSize>-1</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                    <ColumnID>Last_x0020_BP_x0020_Sys</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>-1</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                  <ColumnID>Last_x0020_BP_x0020_Sys</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>Last BP Dia</ID>
+              <Name>Last BP Dia</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Double</DataType>
+                  <DataSize>-1</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                    <ColumnID>Last_x0020_BP_x0020_Dia</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>-1</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                  <ColumnID>Last_x0020_BP_x0020_Dia</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>Age Range Hx</ID>
+              <Name>Age Range Hx</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>32768</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                    <ColumnID>Age_x0020_Range_x0020_Hx</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>32768</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                  <ColumnID>Age_x0020_Range_x0020_Hx</ColumnID>
                 </Source>
               </NameColumn>
               <OrderBy>Key</OrderBy>
@@ -21143,9 +21355,6 @@
                   <AttributeID>DOB</AttributeID>
                 </Attribute>
                 <Attribute>
-                  <AttributeID>Age Current</AttributeID>
-                </Attribute>
-                <Attribute>
                   <AttributeID>Alternate Phone Number</AttributeID>
                 </Attribute>
                 <Attribute>
@@ -21274,6 +21483,12 @@
                 <Attribute>
                   <AttributeID>Last Enc MA</AttributeID>
                 </Attribute>
+                <Attribute>
+                  <AttributeID>Age Cur</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Age Range Cur</AttributeID>
+                </Attribute>
               </Attributes>
             </Dimension>
             <Dimension>
@@ -21326,9 +21541,6 @@
                 </Attribute>
                 <Attribute>
                   <AttributeID>Age Hx</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Age Historical</AttributeID>
                 </Attribute>
                 <Attribute>
                   <AttributeID>Age_Hx_sort</AttributeID>
@@ -21422,6 +21634,18 @@
                 </Attribute>
                 <Attribute>
                   <AttributeID>PCP Hx</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Number Active Pt Past 1 Months</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Last BP Sys</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Last BP Dia</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Age Range Hx</AttributeID>
                 </Attribute>
               </Attributes>
             </Dimension>
@@ -25879,21 +26103,6 @@
                       </KeyColumns>
                     </Attribute>
                     <Attribute>
-                      <AttributeID>Age Current</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>WChar</DataType>
-                          <DataSize>32768</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Age_x0020_Current</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
                       <AttributeID>Alternate Phone Number</AttributeID>
                       <KeyColumns>
                         <KeyColumn>
@@ -26521,6 +26730,34 @@
                           <Source xsi:type="ColumnBinding">
                             <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
                             <ColumnID>Last_x0020_Enc_x0020_MA</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Age Cur</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Age_x0020_Cur</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Age Range Cur</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Age_x0020_Range_x0020_Cur</ColumnID>
                           </Source>
                         </KeyColumn>
                       </KeyColumns>
@@ -32077,21 +32314,6 @@
                       </KeyColumns>
                     </Attribute>
                     <Attribute>
-                      <AttributeID>Age Current</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>WChar</DataType>
-                          <DataSize>32768</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Age_x0020_Current</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
                       <AttributeID>Alternate Phone Number</AttributeID>
                       <KeyColumns>
                         <KeyColumn>
@@ -32719,6 +32941,34 @@
                           <Source xsi:type="ColumnBinding">
                             <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
                             <ColumnID>Last_x0020_Enc_x0020_MA</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Age Cur</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Age_x0020_Cur</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Age Range Cur</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Age_x0020_Range_x0020_Cur</ColumnID>
                           </Source>
                         </KeyColumn>
                       </KeyColumns>
@@ -36067,21 +36317,6 @@
                       </KeyColumns>
                     </Attribute>
                     <Attribute>
-                      <AttributeID>Age Current</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>WChar</DataType>
-                          <DataSize>32768</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Age_x0020_Current</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
                       <AttributeID>Alternate Phone Number</AttributeID>
                       <KeyColumns>
                         <KeyColumn>
@@ -36709,6 +36944,34 @@
                           <Source xsi:type="ColumnBinding">
                             <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
                             <ColumnID>Last_x0020_Enc_x0020_MA</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Age Cur</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Age_x0020_Cur</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Age Range Cur</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Age_x0020_Range_x0020_Cur</ColumnID>
                           </Source>
                         </KeyColumn>
                       </KeyColumns>
@@ -37346,10 +37609,10 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;Age Current&lt;/string&gt;
+        &lt;string&gt;Age Cur&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;89&lt;/int&gt;
+        &lt;int&gt;69&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -37648,6 +37911,14 @@
         &lt;int&gt;88&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Age Range Cur&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;103&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnWidths&gt;
   &lt;ColumnDisplayIndex&gt;
     &lt;item&gt;
@@ -37876,10 +38147,10 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;Age Current&lt;/string&gt;
+        &lt;string&gt;Age Cur&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;28&lt;/int&gt;
+        &lt;int&gt;65&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -37887,7 +38158,7 @@
         &lt;string&gt;Alternate Phone Number&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;29&lt;/int&gt;
+        &lt;int&gt;28&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -37895,7 +38166,7 @@
         &lt;string&gt;Marital Status&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;30&lt;/int&gt;
+        &lt;int&gt;29&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -37903,7 +38174,7 @@
         &lt;string&gt;Race&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;31&lt;/int&gt;
+        &lt;int&gt;30&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -37911,7 +38182,7 @@
         &lt;string&gt;Ethnicity&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;32&lt;/int&gt;
+        &lt;int&gt;31&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -37919,7 +38190,7 @@
         &lt;string&gt;Homeless Status&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;33&lt;/int&gt;
+        &lt;int&gt;32&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -37927,7 +38198,7 @@
         &lt;string&gt;Homeless Indicator&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;34&lt;/int&gt;
+        &lt;int&gt;33&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -37935,7 +38206,7 @@
         &lt;string&gt;Disability 1&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;35&lt;/int&gt;
+        &lt;int&gt;34&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -37943,7 +38214,7 @@
         &lt;string&gt;Disability 2&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;36&lt;/int&gt;
+        &lt;int&gt;35&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -37951,7 +38222,7 @@
         &lt;string&gt;Medical Record Number&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;37&lt;/int&gt;
+        &lt;int&gt;36&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -37959,7 +38230,7 @@
         &lt;string&gt;Address Full&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;38&lt;/int&gt;
+        &lt;int&gt;37&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -37967,7 +38238,7 @@
         &lt;string&gt;Last Appointment Date&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;39&lt;/int&gt;
+        &lt;int&gt;38&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -37975,7 +38246,7 @@
         &lt;string&gt;Last Encounter Date&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;40&lt;/int&gt;
+        &lt;int&gt;39&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -37983,7 +38254,7 @@
         &lt;string&gt;Next Appointment Date&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;41&lt;/int&gt;
+        &lt;int&gt;40&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -37991,7 +38262,7 @@
         &lt;string&gt;Last Appointment Provider&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;42&lt;/int&gt;
+        &lt;int&gt;41&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -37999,7 +38270,7 @@
         &lt;string&gt;Last Encounter Provider&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;43&lt;/int&gt;
+        &lt;int&gt;42&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -38007,7 +38278,7 @@
         &lt;string&gt;Next Appointment Provider&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;44&lt;/int&gt;
+        &lt;int&gt;43&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -38015,7 +38286,7 @@
         &lt;string&gt;Chart Create Date&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;45&lt;/int&gt;
+        &lt;int&gt;44&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -38023,7 +38294,7 @@
         &lt;string&gt;Chart Create User&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;46&lt;/int&gt;
+        &lt;int&gt;45&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -38031,7 +38302,7 @@
         &lt;string&gt;Person Create Date&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;47&lt;/int&gt;
+        &lt;int&gt;46&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -38039,7 +38310,7 @@
         &lt;string&gt;Person Creat User&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;48&lt;/int&gt;
+        &lt;int&gt;47&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -38047,7 +38318,7 @@
         &lt;string&gt;Time as Member&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;49&lt;/int&gt;
+        &lt;int&gt;48&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -38055,7 +38326,7 @@
         &lt;string&gt;membership_time_sort&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;50&lt;/int&gt;
+        &lt;int&gt;49&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -38063,7 +38334,7 @@
         &lt;string&gt;Is Patient New&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;51&lt;/int&gt;
+        &lt;int&gt;50&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -38071,7 +38342,7 @@
         &lt;string&gt;Is Patient Established&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;52&lt;/int&gt;
+        &lt;int&gt;51&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -38079,7 +38350,7 @@
         &lt;string&gt;Is Patient Alive&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;53&lt;/int&gt;
+        &lt;int&gt;52&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -38087,7 +38358,7 @@
         &lt;string&gt;Is Patient Deceased this Month&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;54&lt;/int&gt;
+        &lt;int&gt;53&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -38095,7 +38366,7 @@
         &lt;string&gt;Membership Month&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;55&lt;/int&gt;
+        &lt;int&gt;54&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -38103,7 +38374,7 @@
         &lt;string&gt;Patient Vintage Month&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;56&lt;/int&gt;
+        &lt;int&gt;55&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -38111,7 +38382,7 @@
         &lt;string&gt;Patient Vintage Month Range&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;57&lt;/int&gt;
+        &lt;int&gt;56&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -38119,7 +38390,7 @@
         &lt;string&gt;Patient Vintage Month sort&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;58&lt;/int&gt;
+        &lt;int&gt;57&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -38127,7 +38398,7 @@
         &lt;string&gt;Hedis CRC Due&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;59&lt;/int&gt;
+        &lt;int&gt;58&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -38135,7 +38406,7 @@
         &lt;string&gt;Hedis BP Due&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;60&lt;/int&gt;
+        &lt;int&gt;59&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -38143,7 +38414,7 @@
         &lt;string&gt;Hedis BC Due&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;61&lt;/int&gt;
+        &lt;int&gt;60&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -38151,7 +38422,7 @@
         &lt;string&gt;Days to Appt&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;62&lt;/int&gt;
+        &lt;int&gt;61&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -38159,7 +38430,7 @@
         &lt;string&gt;Days Since Enc&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;63&lt;/int&gt;
+        &lt;int&gt;62&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -38167,7 +38438,7 @@
         &lt;string&gt;PCP Cur&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;64&lt;/int&gt;
+        &lt;int&gt;63&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -38175,7 +38446,15 @@
         &lt;string&gt;Last Enc MA&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;65&lt;/int&gt;
+        &lt;int&gt;64&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Age Range Cur&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;66&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
   &lt;/ColumnDisplayIndex&gt;
@@ -38280,6 +38559,22 @@
     &lt;item&gt;
       &lt;key&gt;
         &lt;string&gt;Last Enc MA&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Age Cur&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Age Range Cur&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -38580,21 +38875,6 @@
                           <Source xsi:type="ColumnBinding">
                             <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
                             <ColumnID>Age_x0020_Hx</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Age Historical</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>WChar</DataType>
-                          <DataSize>32768</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
-                            <ColumnID>Age_x0020_Historical</ColumnID>
                           </Source>
                         </KeyColumn>
                       </KeyColumns>
@@ -39050,6 +39330,62 @@
                           <Source xsi:type="ColumnBinding">
                             <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
                             <ColumnID>PCP_x0020_Hx</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Number Active Pt Past 1 Months</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                            <ColumnID>Number_x0020_Active_x0020_Pt_x0020_Past_x0020_1_x0020_Months</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Last BP Sys</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Double</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                            <ColumnID>Last_x0020_BP_x0020_Sys</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Last BP Dia</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Double</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                            <ColumnID>Last_x0020_BP_x0020_Dia</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Age Range Hx</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                            <ColumnID>Age_x0020_Range_x0020_Hx</ColumnID>
                           </Source>
                         </KeyColumn>
                       </KeyColumns>
@@ -40996,21 +41332,6 @@
                       </KeyColumns>
                     </Attribute>
                     <Attribute>
-                      <AttributeID>Age Current</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>WChar</DataType>
-                          <DataSize>32768</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <InvalidXmlCharacters>Remove</InvalidXmlCharacters>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Age_x0020_Current</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
                       <AttributeID>Alternate Phone Number</AttributeID>
                       <KeyColumns>
                         <KeyColumn>
@@ -41642,6 +41963,34 @@
                         </KeyColumn>
                       </KeyColumns>
                     </Attribute>
+                    <Attribute>
+                      <AttributeID>Age Cur</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Age_x0020_Cur</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Age Range Cur</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Age_x0020_Range_x0020_Cur</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
                   </Attributes>
                   <IntermediateCubeDimensionID>PHI Patient SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</IntermediateCubeDimensionID>
                   <IntermediateGranularityAttributeID>person_key</IntermediateGranularityAttributeID>
@@ -42157,15 +42506,15 @@
         &lt;string&gt;Age Hx&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;65&lt;/int&gt;
+        &lt;int&gt;100&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;Age Historical&lt;/string&gt;
+        &lt;string&gt;Age Range Hx&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;95&lt;/int&gt;
+        &lt;int&gt;99&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42173,7 +42522,7 @@
         &lt;string&gt;Age_Hx_sort&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;93&lt;/int&gt;
+        &lt;int&gt;139&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42416,6 +42765,30 @@
         &lt;int&gt;65&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Number Active Pt Past 1 Months&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;184&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last BP Sys&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;85&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last BP Dia&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;83&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnWidths&gt;
   &lt;ColumnDisplayIndex&gt;
     &lt;item&gt;
@@ -42532,10 +42905,10 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;Age Historical&lt;/string&gt;
+        &lt;string&gt;Age Range Hx&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;14&lt;/int&gt;
+        &lt;int&gt;48&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42543,7 +42916,7 @@
         &lt;string&gt;Age_Hx_sort&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;15&lt;/int&gt;
+        &lt;int&gt;14&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42551,7 +42924,7 @@
         &lt;string&gt;Patient Vintage Month&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;16&lt;/int&gt;
+        &lt;int&gt;15&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42559,7 +42932,7 @@
         &lt;string&gt;Patient Vintage Month Range&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;17&lt;/int&gt;
+        &lt;int&gt;16&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42567,7 +42940,7 @@
         &lt;string&gt;Patient Vintage Month sort&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;18&lt;/int&gt;
+        &lt;int&gt;17&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42575,7 +42948,7 @@
         &lt;string&gt;Number of New Patients this Month&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;19&lt;/int&gt;
+        &lt;int&gt;18&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42583,7 +42956,7 @@
         &lt;string&gt;Number of Patient Members&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;20&lt;/int&gt;
+        &lt;int&gt;19&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42591,7 +42964,7 @@
         &lt;string&gt;Number of Patients Deceased&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;21&lt;/int&gt;
+        &lt;int&gt;20&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42599,7 +42972,7 @@
         &lt;string&gt;Number of Patients Deceased this Month&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;22&lt;/int&gt;
+        &lt;int&gt;21&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42607,7 +42980,7 @@
         &lt;string&gt;Number Active Pt Past 3 Months&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;23&lt;/int&gt;
+        &lt;int&gt;22&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42615,7 +42988,7 @@
         &lt;string&gt;Number Active Pt Past 6 Months&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;24&lt;/int&gt;
+        &lt;int&gt;23&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42623,7 +42996,7 @@
         &lt;string&gt;Number Active Pt Past 12 Months&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;25&lt;/int&gt;
+        &lt;int&gt;24&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42631,7 +43004,7 @@
         &lt;string&gt;Number Active Pt Past 18 Months&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;26&lt;/int&gt;
+        &lt;int&gt;25&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42639,7 +43012,7 @@
         &lt;string&gt;Number Active Pt Past 24 Months&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;27&lt;/int&gt;
+        &lt;int&gt;26&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42647,7 +43020,7 @@
         &lt;string&gt;Number Inactive Pt Past 3 Months&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;28&lt;/int&gt;
+        &lt;int&gt;27&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42655,7 +43028,7 @@
         &lt;string&gt;Number Inactive Pt Past 6 Months&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;29&lt;/int&gt;
+        &lt;int&gt;28&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42663,7 +43036,7 @@
         &lt;string&gt;Number Inactive Pt Past 12 Months&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;30&lt;/int&gt;
+        &lt;int&gt;29&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42671,7 +43044,7 @@
         &lt;string&gt;Number Inactive Pt Past 18 Months&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;31&lt;/int&gt;
+        &lt;int&gt;30&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42679,7 +43052,7 @@
         &lt;string&gt;Number Inactive Pt Past 24 Months&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;32&lt;/int&gt;
+        &lt;int&gt;31&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42687,7 +43060,7 @@
         &lt;string&gt;Number of Patients with Medical Home Change&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;33&lt;/int&gt;
+        &lt;int&gt;32&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42695,7 +43068,7 @@
         &lt;string&gt;Number of Patients with PCP Change&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;34&lt;/int&gt;
+        &lt;int&gt;33&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42703,7 +43076,7 @@
         &lt;string&gt;Number of Patients Never Active&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;35&lt;/int&gt;
+        &lt;int&gt;34&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42711,7 +43084,7 @@
         &lt;string&gt;Hedis CRC Den&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;36&lt;/int&gt;
+        &lt;int&gt;35&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42719,7 +43092,7 @@
         &lt;string&gt;Hedis BC Den&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;37&lt;/int&gt;
+        &lt;int&gt;36&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42727,7 +43100,7 @@
         &lt;string&gt;Hedis BP Den&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;38&lt;/int&gt;
+        &lt;int&gt;37&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42735,7 +43108,7 @@
         &lt;string&gt;Hedis CRC Num&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;39&lt;/int&gt;
+        &lt;int&gt;38&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42743,7 +43116,7 @@
         &lt;string&gt;Hedis BC Num&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;40&lt;/int&gt;
+        &lt;int&gt;39&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42751,7 +43124,7 @@
         &lt;string&gt;Hedis BP Num&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;41&lt;/int&gt;
+        &lt;int&gt;40&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42759,7 +43132,7 @@
         &lt;string&gt;Hedis CRC Due&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;42&lt;/int&gt;
+        &lt;int&gt;41&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42767,7 +43140,7 @@
         &lt;string&gt;Hedis BC Due&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;43&lt;/int&gt;
+        &lt;int&gt;42&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42775,7 +43148,7 @@
         &lt;string&gt;Hedis BP Due&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;44&lt;/int&gt;
+        &lt;int&gt;43&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42783,7 +43156,31 @@
         &lt;string&gt;PCP Hx&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
+        &lt;int&gt;44&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Number Active Pt Past 1 Months&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
         &lt;int&gt;45&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last BP Sys&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;46&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last BP Dia&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;47&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
   &lt;/ColumnDisplayIndex&gt;
@@ -42864,6 +43261,38 @@
     &lt;item&gt;
       &lt;key&gt;
         &lt;string&gt;PCP Hx&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Number Active Pt Past 1 Months&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last BP Sys&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last BP Dia&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Age Range Hx&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -47308,13 +47737,6 @@ CREATE MEASURE 'PHI Patient SCD'[3M Active]=CALCULATE(SUM([Number Active Pt Past
                             </xs:simpleType>
                           </xs:element>
                           <xs:element name="DOB" msprop:DbColumnName="DOB" msprop:FriendlyName="DOB" type="xs:dateTime" minOccurs="0" />
-                          <xs:element name="Age_x0020_Current" msprop:DbColumnName="Age Current" msprop:FriendlyName="Age Current" minOccurs="0">
-                            <xs:simpleType>
-                              <xs:restriction base="xs:string">
-                                <xs:maxLength value="32768" />
-                              </xs:restriction>
-                            </xs:simpleType>
-                          </xs:element>
                           <xs:element name="Alternate_x0020_Phone_x0020_Number" msprop:DbColumnName="Alternate Phone Number" msprop:FriendlyName="Alternate Phone Number" minOccurs="0">
                             <xs:simpleType>
                               <xs:restriction base="xs:string">
@@ -47496,6 +47918,14 @@ CREATE MEASURE 'PHI Patient SCD'[3M Active]=CALCULATE(SUM([Number Active Pt Past
                               </xs:restriction>
                             </xs:simpleType>
                           </xs:element>
+                          <xs:element name="Age_x0020_Cur" msprop:DbColumnName="Age Cur" msprop:FriendlyName="Age Cur" type="xs:int" minOccurs="0" />
+                          <xs:element name="Age_x0020_Range_x0020_Cur" msprop:DbColumnName="Age Range Cur" msprop:FriendlyName="Age Range Cur" minOccurs="0">
+                            <xs:simpleType>
+                              <xs:restriction base="xs:string">
+                                <xs:maxLength value="32768" />
+                              </xs:restriction>
+                            </xs:simpleType>
+                          </xs:element>
                         </xs:sequence>
                       </xs:complexType>
                     </xs:element>
@@ -47552,13 +47982,6 @@ CREATE MEASURE 'PHI Patient SCD'[3M Active]=CALCULATE(SUM([Number Active Pt Past
                           </xs:element>
                           <xs:element name="Membership_x0020_Month" msprop:DbColumnName="Membership Month" msprop:FriendlyName="Membership Month" type="xs:long" minOccurs="0" />
                           <xs:element name="Age_x0020_Hx" msprop:DbColumnName="Age Hx" msprop:FriendlyName="Age Hx" type="xs:long" minOccurs="0" />
-                          <xs:element name="Age_x0020_Historical" msprop:DbColumnName="Age Historical" msprop:FriendlyName="Age Historical" minOccurs="0">
-                            <xs:simpleType>
-                              <xs:restriction base="xs:string">
-                                <xs:maxLength value="32768" />
-                              </xs:restriction>
-                            </xs:simpleType>
-                          </xs:element>
                           <xs:element name="Age_Hx_sort" msprop:DbColumnName="Age_Hx_sort" msprop:FriendlyName="Age_Hx_sort" type="xs:long" minOccurs="0" />
                           <xs:element name="Patient_x0020_Vintage_x0020_Month" msprop:DbColumnName="Patient Vintage Month" msprop:FriendlyName="Patient Vintage Month" minOccurs="0">
                             <xs:simpleType>
@@ -47602,6 +48025,16 @@ CREATE MEASURE 'PHI Patient SCD'[3M Active]=CALCULATE(SUM([Number Active Pt Past
                           <xs:element name="Hedis_x0020_BC_x0020_Due" msprop:DbColumnName="Hedis BC Due" msprop:FriendlyName="Hedis BC Due" type="xs:int" minOccurs="0" />
                           <xs:element name="Hedis_x0020_BP_x0020_Due" msprop:DbColumnName="Hedis BP Due" msprop:FriendlyName="Hedis BP Due" type="xs:int" minOccurs="0" />
                           <xs:element name="PCP_x0020_Hx" msprop:DbColumnName="PCP Hx" msprop:FriendlyName="PCP Hx" minOccurs="0">
+                            <xs:simpleType>
+                              <xs:restriction base="xs:string">
+                                <xs:maxLength value="32768" />
+                              </xs:restriction>
+                            </xs:simpleType>
+                          </xs:element>
+                          <xs:element name="Number_x0020_Active_x0020_Pt_x0020_Past_x0020_1_x0020_Months" msprop:DbColumnName="Number Active Pt Past 1 Months" msprop:FriendlyName="Number Active Pt Past 1 Months" type="xs:int" minOccurs="0" />
+                          <xs:element name="Last_x0020_BP_x0020_Sys" msprop:DbColumnName="Last BP Sys" msprop:FriendlyName="Last BP Sys" type="xs:decimal" minOccurs="0" />
+                          <xs:element name="Last_x0020_BP_x0020_Dia" msprop:DbColumnName="Last BP Dia" msprop:FriendlyName="Last BP Dia" type="xs:decimal" minOccurs="0" />
+                          <xs:element name="Age_x0020_Range_x0020_Hx" msprop:DbColumnName="Age Range Hx" msprop:FriendlyName="Age Range Hx" minOccurs="0">
                             <xs:simpleType>
                               <xs:restriction base="xs:string">
                                 <xs:maxLength value="32768" />
