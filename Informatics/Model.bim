@@ -10849,7 +10849,7 @@
         &lt;string&gt;Deceased&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;77&lt;/int&gt;
+        &lt;int&gt;131&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -11022,18 +11022,18 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;ED 12Mon&lt;/string&gt;
+        &lt;string&gt;Hosp 12M&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;78&lt;/int&gt;
+        &lt;int&gt;77&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;Hosp 12Mon&lt;/string&gt;
+        &lt;string&gt;ED 12M&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;89&lt;/int&gt;
+        &lt;int&gt;66&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -11066,6 +11066,22 @@
       &lt;/key&gt;
       &lt;value&gt;
         &lt;int&gt;80&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;All DAO&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;66&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;All Due&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;63&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
   &lt;/ColumnWidths&gt;
@@ -11307,7 +11323,7 @@
         &lt;string&gt;Deceased Status&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;56&lt;/int&gt;
+        &lt;int&gt;55&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -11488,15 +11504,7 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;ED 12Mon&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;51&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Hosp 12Mon&lt;/string&gt;
+        &lt;string&gt;Hosp 12M&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;int&gt;57&lt;/int&gt;
@@ -11504,10 +11512,18 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
+        &lt;string&gt;ED 12M&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;56&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
         &lt;string&gt;ACP Comp&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;52&lt;/int&gt;
+        &lt;int&gt;51&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -11515,7 +11531,7 @@
         &lt;string&gt;ACP Part&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;53&lt;/int&gt;
+        &lt;int&gt;52&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -11523,7 +11539,7 @@
         &lt;string&gt;ACP None&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;54&lt;/int&gt;
+        &lt;int&gt;53&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -11531,7 +11547,23 @@
         &lt;string&gt;RFA Comp&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;55&lt;/int&gt;
+        &lt;int&gt;54&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;All DAO&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;59&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;All Due&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;58&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
   &lt;/ColumnDisplayIndex&gt;
@@ -11843,7 +11875,7 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;ED 12Mon&lt;/string&gt;
+        &lt;string&gt;Hosp 12M&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -11851,7 +11883,7 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;Hosp 12Mon&lt;/string&gt;
+        &lt;string&gt;ED 12M&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -11884,6 +11916,22 @@
     &lt;item&gt;
       &lt;key&gt;
         &lt;string&gt;RFA Comp&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;All DAO&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;All Due&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -12078,11 +12126,6 @@
                   <Name>Status Hx</Name>
                 </AttributeRelationship>
                 <AttributeRelationship>
-                  <AttributeID>Deceased this Month</AttributeID>
-                  <OverrideBehavior>None</OverrideBehavior>
-                  <Name>Deceased this Month</Name>
-                </AttributeRelationship>
-                <AttributeRelationship>
                   <AttributeID>Vintage Month</AttributeID>
                   <OverrideBehavior>None</OverrideBehavior>
                   <Name>Vintage Month</Name>
@@ -12193,11 +12236,6 @@
                   <Name>AD Denom</Name>
                 </AttributeRelationship>
                 <AttributeRelationship>
-                  <AttributeID>ED 12Mon</AttributeID>
-                  <OverrideBehavior>None</OverrideBehavior>
-                  <Name>ED 12Mon</Name>
-                </AttributeRelationship>
-                <AttributeRelationship>
                   <AttributeID>ACP Comp</AttributeID>
                   <OverrideBehavior>None</OverrideBehavior>
                   <Name>ACP Comp</Name>
@@ -12218,14 +12256,34 @@
                   <Name>RFA Comp</Name>
                 </AttributeRelationship>
                 <AttributeRelationship>
+                  <AttributeID>ED 12M</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>ED 12M</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>Hosp 12M</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>Hosp 12M</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
                   <AttributeID>Deceased Status</AttributeID>
                   <OverrideBehavior>None</OverrideBehavior>
                   <Name>Deceased Status</Name>
                 </AttributeRelationship>
                 <AttributeRelationship>
-                  <AttributeID>Hosp 12Mon</AttributeID>
+                  <AttributeID>Deceased this Month</AttributeID>
                   <OverrideBehavior>None</OverrideBehavior>
-                  <Name>Hosp 12Mon</Name>
+                  <Name>Deceased this Month</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>All Due</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>All Due</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>All DAO</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>All DAO</Name>
                 </AttributeRelationship>
               </AttributeRelationships>
               <OrderBy>Key</OrderBy>
@@ -13079,39 +13137,6 @@
               <OrderBy>Key</OrderBy>
             </Attribute>
             <Attribute>
-              <Annotations>
-                <Annotation>
-                  <Name>Format</Name>
-                  <Value>
-                    <Format Format="General" xmlns="" />
-                  </Value>
-                </Annotation>
-              </Annotations>
-              <ID>Deceased this Month</ID>
-              <Name>Deceased this Month</Name>
-              <KeyColumns>
-                <KeyColumn>
-                  <DataType>BigInt</DataType>
-                  <DataSize>32768</DataSize>
-                  <NullProcessing>Preserve</NullProcessing>
-                  <Source xsi:type="ColumnBinding">
-                    <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
-                    <ColumnID>Deceased_x0020_this_x0020_Month</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <NameColumn>
-                <DataType>WChar</DataType>
-                <DataSize>32768</DataSize>
-                <NullProcessing>ZeroOrBlank</NullProcessing>
-                <Source xsi:type="ColumnBinding">
-                  <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
-                  <ColumnID>Deceased_x0020_this_x0020_Month</ColumnID>
-                </Source>
-              </NameColumn>
-              <OrderBy>Key</OrderBy>
-            </Attribute>
-            <Attribute>
               <ID>Vintage Month</ID>
               <Name>Vintage Month</Name>
               <KeyColumns>
@@ -13668,31 +13693,6 @@
               <OrderBy>Key</OrderBy>
             </Attribute>
             <Attribute>
-              <ID>ED 12Mon</ID>
-              <Name>ED 12Mon</Name>
-              <KeyColumns>
-                <KeyColumn>
-                  <DataType>Integer</DataType>
-                  <DataSize>-1</DataSize>
-                  <NullProcessing>Preserve</NullProcessing>
-                  <Source xsi:type="ColumnBinding">
-                    <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
-                    <ColumnID>ED_x0020_12Mon</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <NameColumn>
-                <DataType>WChar</DataType>
-                <DataSize>-1</DataSize>
-                <NullProcessing>ZeroOrBlank</NullProcessing>
-                <Source xsi:type="ColumnBinding">
-                  <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
-                  <ColumnID>ED_x0020_12Mon</ColumnID>
-                </Source>
-              </NameColumn>
-              <OrderBy>Key</OrderBy>
-            </Attribute>
-            <Attribute>
               <ID>ACP Comp</ID>
               <Name>ACP Comp</Name>
               <KeyColumns>
@@ -13793,6 +13793,56 @@
               <OrderBy>Key</OrderBy>
             </Attribute>
             <Attribute>
+              <ID>ED 12M</ID>
+              <Name>ED 12M</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <DataSize>-1</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                    <ColumnID>ED_x0020_12M</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>-1</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                  <ColumnID>ED_x0020_12M</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>Hosp 12M</ID>
+              <Name>Hosp 12M</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <DataSize>-1</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                    <ColumnID>Hosp_x0020_12M</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>-1</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                  <ColumnID>Hosp_x0020_12M</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
               <ID>Deceased Status</ID>
               <Name>Deceased Status</Name>
               <KeyColumns>
@@ -13818,8 +13868,8 @@
               <OrderBy>Key</OrderBy>
             </Attribute>
             <Attribute>
-              <ID>Hosp 12Mon</ID>
-              <Name>Hosp 12Mon</Name>
+              <ID>Deceased this Month</ID>
+              <Name>Deceased this Month</Name>
               <KeyColumns>
                 <KeyColumn>
                   <DataType>Integer</DataType>
@@ -13827,7 +13877,7 @@
                   <NullProcessing>Preserve</NullProcessing>
                   <Source xsi:type="ColumnBinding">
                     <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
-                    <ColumnID>Hosp_x0020_12Mon</ColumnID>
+                    <ColumnID>Deceased_x0020_this_x0020_Month</ColumnID>
                   </Source>
                 </KeyColumn>
               </KeyColumns>
@@ -13837,7 +13887,57 @@
                 <NullProcessing>ZeroOrBlank</NullProcessing>
                 <Source xsi:type="ColumnBinding">
                   <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
-                  <ColumnID>Hosp_x0020_12Mon</ColumnID>
+                  <ColumnID>Deceased_x0020_this_x0020_Month</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>All Due</ID>
+              <Name>All Due</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <DataSize>-1</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                    <ColumnID>All_x0020_Due</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>-1</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                  <ColumnID>All_x0020_Due</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>All DAO</ID>
+              <Name>All DAO</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <DataSize>-1</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                    <ColumnID>All_x0020_DAO</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>-1</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                  <ColumnID>All_x0020_DAO</ColumnID>
                 </Source>
               </NameColumn>
               <OrderBy>Key</OrderBy>
@@ -20014,9 +20114,6 @@
                   <AttributeID>Status Hx</AttributeID>
                 </Attribute>
                 <Attribute>
-                  <AttributeID>Deceased this Month</AttributeID>
-                </Attribute>
-                <Attribute>
                   <AttributeID>Vintage Month</AttributeID>
                 </Attribute>
                 <Attribute>
@@ -20089,9 +20186,6 @@
                   <AttributeID>AD Denom</AttributeID>
                 </Attribute>
                 <Attribute>
-                  <AttributeID>ED 12Mon</AttributeID>
-                </Attribute>
-                <Attribute>
                   <AttributeID>ACP Comp</AttributeID>
                 </Attribute>
                 <Attribute>
@@ -20104,10 +20198,22 @@
                   <AttributeID>RFA Comp</AttributeID>
                 </Attribute>
                 <Attribute>
+                  <AttributeID>ED 12M</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Hosp 12M</AttributeID>
+                </Attribute>
+                <Attribute>
                   <AttributeID>Deceased Status</AttributeID>
                 </Attribute>
                 <Attribute>
-                  <AttributeID>Hosp 12Mon</AttributeID>
+                  <AttributeID>Deceased this Month</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>All Due</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>All DAO</AttributeID>
                 </Attribute>
               </Attributes>
             </Dimension>
@@ -36020,20 +36126,6 @@
                       </KeyColumns>
                     </Attribute>
                     <Attribute>
-                      <AttributeID>Deceased this Month</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>BigInt</DataType>
-                          <DataSize>32768</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
-                            <ColumnID>Deceased_x0020_this_x0020_Month</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
                       <AttributeID>Vintage Month</AttributeID>
                       <KeyColumns>
                         <KeyColumn>
@@ -36342,20 +36434,6 @@
                       </KeyColumns>
                     </Attribute>
                     <Attribute>
-                      <AttributeID>ED 12Mon</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Integer</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
-                            <ColumnID>ED_x0020_12Mon</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
                       <AttributeID>ACP Comp</AttributeID>
                       <KeyColumns>
                         <KeyColumn>
@@ -36412,6 +36490,34 @@
                       </KeyColumns>
                     </Attribute>
                     <Attribute>
+                      <AttributeID>ED 12M</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                            <ColumnID>ED_x0020_12M</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Hosp 12M</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                            <ColumnID>Hosp_x0020_12M</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
                       <AttributeID>Deceased Status</AttributeID>
                       <KeyColumns>
                         <KeyColumn>
@@ -36426,7 +36532,7 @@
                       </KeyColumns>
                     </Attribute>
                     <Attribute>
-                      <AttributeID>Hosp 12Mon</AttributeID>
+                      <AttributeID>Deceased this Month</AttributeID>
                       <KeyColumns>
                         <KeyColumn>
                           <DataType>Integer</DataType>
@@ -36434,7 +36540,35 @@
                           <NullProcessing>Preserve</NullProcessing>
                           <Source xsi:type="ColumnBinding">
                             <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
-                            <ColumnID>Hosp_x0020_12Mon</ColumnID>
+                            <ColumnID>Deceased_x0020_this_x0020_Month</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>All Due</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                            <ColumnID>All_x0020_Due</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>All DAO</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                            <ColumnID>All_x0020_DAO</ColumnID>
                           </Source>
                         </KeyColumn>
                       </KeyColumns>
@@ -39173,7 +39307,7 @@
         &lt;string&gt;Deceased&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;77&lt;/int&gt;
+        &lt;int&gt;131&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -39346,18 +39480,18 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;ED 12Mon&lt;/string&gt;
+        &lt;string&gt;Hosp 12M&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;78&lt;/int&gt;
+        &lt;int&gt;77&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;Hosp 12Mon&lt;/string&gt;
+        &lt;string&gt;ED 12M&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;89&lt;/int&gt;
+        &lt;int&gt;66&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -39390,6 +39524,22 @@
       &lt;/key&gt;
       &lt;value&gt;
         &lt;int&gt;80&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;All DAO&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;66&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;All Due&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;63&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
   &lt;/ColumnWidths&gt;
@@ -39631,7 +39781,7 @@
         &lt;string&gt;Deceased Status&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;56&lt;/int&gt;
+        &lt;int&gt;55&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -39812,15 +39962,7 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;ED 12Mon&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;51&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Hosp 12Mon&lt;/string&gt;
+        &lt;string&gt;Hosp 12M&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;int&gt;57&lt;/int&gt;
@@ -39828,10 +39970,18 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
+        &lt;string&gt;ED 12M&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;56&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
         &lt;string&gt;ACP Comp&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;52&lt;/int&gt;
+        &lt;int&gt;51&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -39839,7 +39989,7 @@
         &lt;string&gt;ACP Part&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;53&lt;/int&gt;
+        &lt;int&gt;52&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -39847,7 +39997,7 @@
         &lt;string&gt;ACP None&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;54&lt;/int&gt;
+        &lt;int&gt;53&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -39855,7 +40005,23 @@
         &lt;string&gt;RFA Comp&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;55&lt;/int&gt;
+        &lt;int&gt;54&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;All DAO&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;59&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;All Due&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;58&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
   &lt;/ColumnDisplayIndex&gt;
@@ -40167,7 +40333,7 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;ED 12Mon&lt;/string&gt;
+        &lt;string&gt;Hosp 12M&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -40175,7 +40341,7 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;Hosp 12Mon&lt;/string&gt;
+        &lt;string&gt;ED 12M&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -40208,6 +40374,22 @@
     &lt;item&gt;
       &lt;key&gt;
         &lt;string&gt;RFA Comp&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;All DAO&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;All Due&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -44750,13 +44932,6 @@ CREATE MEASURE 'PHI Patient SCD'[RFA Comp %]=(divide(SUM('PHI Patient SCD'[RFA C
                               </xs:restriction>
                             </xs:simpleType>
                           </xs:element>
-                          <xs:element name="Deceased_x0020_this_x0020_Month" msprop:DbColumnName="Deceased this Month" msprop:FriendlyName="Deceased this Month" minOccurs="0">
-                            <xs:simpleType>
-                              <xs:restriction base="xs:string">
-                                <xs:maxLength value="32768" />
-                              </xs:restriction>
-                            </xs:simpleType>
-                          </xs:element>
                           <xs:element name="Vintage_x0020_Month" msprop:DbColumnName="Vintage Month" msprop:FriendlyName="Vintage Month" minOccurs="0">
                             <xs:simpleType>
                               <xs:restriction base="xs:string">
@@ -44791,11 +44966,12 @@ CREATE MEASURE 'PHI Patient SCD'[RFA Comp %]=(divide(SUM('PHI Patient SCD'[RFA C
                           <xs:element name="CRC_x0020_ONC" msprop:DbColumnName="CRC ONC" msprop:FriendlyName="CRC ONC" type="xs:int" minOccurs="0" />
                           <xs:element name="BC_x0020_ONC" msprop:DbColumnName="BC ONC" msprop:FriendlyName="BC ONC" type="xs:int" minOccurs="0" />
                           <xs:element name="AD_x0020_Denom" msprop:DbColumnName="AD Denom" msprop:FriendlyName="AD Denom" type="xs:int" minOccurs="0" />
-                          <xs:element name="ED_x0020_12Mon" msprop:DbColumnName="ED 12Mon" msprop:FriendlyName="ED 12Mon" type="xs:int" minOccurs="0" />
                           <xs:element name="ACP_x0020_Comp" msprop:DbColumnName="ACP Comp" msprop:FriendlyName="ACP Comp" type="xs:int" minOccurs="0" />
                           <xs:element name="ACP_x0020_Part" msprop:DbColumnName="ACP Part" msprop:FriendlyName="ACP Part" type="xs:int" minOccurs="0" />
                           <xs:element name="ACP_x0020_None" msprop:DbColumnName="ACP None" msprop:FriendlyName="ACP None" type="xs:int" minOccurs="0" />
                           <xs:element name="RFA_x0020_Comp" msprop:DbColumnName="RFA Comp" msprop:FriendlyName="RFA Comp" type="xs:int" minOccurs="0" />
+                          <xs:element name="ED_x0020_12M" msprop:DbColumnName="ED 12M" msprop:FriendlyName="ED 12M" type="xs:int" minOccurs="0" />
+                          <xs:element name="Hosp_x0020_12M" msprop:DbColumnName="Hosp 12M" msprop:FriendlyName="Hosp 12M" type="xs:int" minOccurs="0" />
                           <xs:element name="Deceased_x0020_Status" msprop:DbColumnName="Deceased Status" msprop:FriendlyName="Deceased Status" minOccurs="0">
                             <xs:simpleType>
                               <xs:restriction base="xs:string">
@@ -44803,7 +44979,9 @@ CREATE MEASURE 'PHI Patient SCD'[RFA Comp %]=(divide(SUM('PHI Patient SCD'[RFA C
                               </xs:restriction>
                             </xs:simpleType>
                           </xs:element>
-                          <xs:element name="Hosp_x0020_12Mon" msprop:DbColumnName="Hosp 12Mon" msprop:FriendlyName="Hosp 12Mon" type="xs:int" minOccurs="0" />
+                          <xs:element name="Deceased_x0020_this_x0020_Month" msprop:DbColumnName="Deceased this Month" msprop:FriendlyName="Deceased this Month" type="xs:int" minOccurs="0" />
+                          <xs:element name="All_x0020_Due" msprop:DbColumnName="All Due" msprop:FriendlyName="All Due" type="xs:int" minOccurs="0" />
+                          <xs:element name="All_x0020_DAO" msprop:DbColumnName="All DAO" msprop:FriendlyName="All DAO" type="xs:int" minOccurs="0" />
                         </xs:sequence>
                       </xs:complexType>
                     </xs:element>
