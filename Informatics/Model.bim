@@ -6731,10 +6731,10 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;Deceased this Month&lt;/string&gt;
+        &lt;string&gt;Deceased Status&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;130&lt;/int&gt;
+        &lt;int&gt;111&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -6952,7 +6952,7 @@
         &lt;string&gt;Vintage Month Range&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;66&lt;/int&gt;
+        &lt;int&gt;65&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -7328,7 +7328,7 @@
         &lt;string&gt;Vintage Month&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;65&lt;/int&gt;
+        &lt;int&gt;64&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -7341,10 +7341,10 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;Deceased this Month&lt;/string&gt;
+        &lt;string&gt;Deceased Status&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;64&lt;/int&gt;
+        &lt;int&gt;75&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -7432,7 +7432,7 @@
         &lt;string&gt;Has Dm2&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;67&lt;/int&gt;
+        &lt;int&gt;66&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -7440,7 +7440,7 @@
         &lt;string&gt;Has CKD&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;68&lt;/int&gt;
+        &lt;int&gt;67&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -7448,7 +7448,7 @@
         &lt;string&gt;Last Med Date&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;69&lt;/int&gt;
+        &lt;int&gt;68&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -7456,7 +7456,7 @@
         &lt;string&gt;Last Med Provider&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;70&lt;/int&gt;
+        &lt;int&gt;69&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -7464,7 +7464,7 @@
         &lt;string&gt;Last Med MA&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;71&lt;/int&gt;
+        &lt;int&gt;70&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -7472,7 +7472,7 @@
         &lt;string&gt;Days Since ED&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;72&lt;/int&gt;
+        &lt;int&gt;71&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -7480,7 +7480,7 @@
         &lt;string&gt;Days Since DC&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;73&lt;/int&gt;
+        &lt;int&gt;72&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -7488,7 +7488,7 @@
         &lt;string&gt; Last Med Team&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;74&lt;/int&gt;
+        &lt;int&gt;73&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -7496,7 +7496,7 @@
         &lt;string&gt;Next Appt Team&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;75&lt;/int&gt;
+        &lt;int&gt;74&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
   &lt;/ColumnDisplayIndex&gt;
@@ -7632,7 +7632,7 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;Deceased this Month&lt;/string&gt;
+        &lt;string&gt;Deceased Status&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -8096,11 +8096,6 @@
                   <Name>Status Cur</Name>
                 </AttributeRelationship>
                 <AttributeRelationship>
-                  <AttributeID>Deceased this Month</AttributeID>
-                  <OverrideBehavior>None</OverrideBehavior>
-                  <Name>Deceased this Month</Name>
-                </AttributeRelationship>
-                <AttributeRelationship>
                   <AttributeID>Vintage Month</AttributeID>
                   <OverrideBehavior>None</OverrideBehavior>
                   <Name>Vintage Month</Name>
@@ -8154,6 +8149,11 @@
                   <AttributeID>Next Appt Team</AttributeID>
                   <OverrideBehavior>None</OverrideBehavior>
                   <Name>Next Appt Team</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>Deceased Status</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>Deceased Status</Name>
                 </AttributeRelationship>
               </AttributeRelationships>
               <OrderBy>Key</OrderBy>
@@ -10256,31 +10256,6 @@
               <OrderBy>Key</OrderBy>
             </Attribute>
             <Attribute>
-              <ID>Deceased this Month</ID>
-              <Name>Deceased this Month</Name>
-              <KeyColumns>
-                <KeyColumn>
-                  <DataType>WChar</DataType>
-                  <DataSize>32768</DataSize>
-                  <NullProcessing>Preserve</NullProcessing>
-                  <Source xsi:type="ColumnBinding">
-                    <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                    <ColumnID>Deceased_x0020_this_x0020_Month</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <NameColumn>
-                <DataType>WChar</DataType>
-                <DataSize>32768</DataSize>
-                <NullProcessing>ZeroOrBlank</NullProcessing>
-                <Source xsi:type="ColumnBinding">
-                  <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                  <ColumnID>Deceased_x0020_this_x0020_Month</ColumnID>
-                </Source>
-              </NameColumn>
-              <OrderBy>Key</OrderBy>
-            </Attribute>
-            <Attribute>
               <ID>Vintage Month</ID>
               <Name>Vintage Month</Name>
               <KeyColumns>
@@ -10551,6 +10526,31 @@
                 <Source xsi:type="ColumnBinding">
                   <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
                   <ColumnID>Next_x0020_Appt_x0020_Team</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>Deceased Status</ID>
+              <Name>Deceased Status</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>32768</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                    <ColumnID>Deceased_x0020_Status</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>32768</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                  <ColumnID>Deceased_x0020_Status</ColumnID>
                 </Source>
               </NameColumn>
               <OrderBy>Key</OrderBy>
@@ -10838,10 +10838,10 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;Nbr Deceased this Month&lt;/string&gt;
+        &lt;string&gt;Deceased Status&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;150&lt;/int&gt;
+        &lt;int&gt;111&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -11030,10 +11030,10 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;DC 12Mon&lt;/string&gt;
+        &lt;string&gt;Hosp 12Mon&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;79&lt;/int&gt;
+        &lt;int&gt;89&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -11115,7 +11115,7 @@
         &lt;string&gt;Never Act&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;48&lt;/int&gt;
+        &lt;int&gt;47&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -11163,7 +11163,7 @@
         &lt;string&gt;PCP Change&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;47&lt;/int&gt;
+        &lt;int&gt;46&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -11203,7 +11203,7 @@
         &lt;string&gt;MedHome Change&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;46&lt;/int&gt;
+        &lt;int&gt;45&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -11211,7 +11211,7 @@
         &lt;string&gt;24M InAct&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;45&lt;/int&gt;
+        &lt;int&gt;44&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -11227,7 +11227,7 @@
         &lt;string&gt;18M InAct&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;44&lt;/int&gt;
+        &lt;int&gt;43&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -11235,7 +11235,7 @@
         &lt;string&gt;12M InAct&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;43&lt;/int&gt;
+        &lt;int&gt;42&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -11243,7 +11243,7 @@
         &lt;string&gt;6M InAct&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;42&lt;/int&gt;
+        &lt;int&gt;41&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -11251,7 +11251,7 @@
         &lt;string&gt;3M InAct&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;41&lt;/int&gt;
+        &lt;int&gt;40&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -11259,7 +11259,7 @@
         &lt;string&gt;24M Act&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;40&lt;/int&gt;
+        &lt;int&gt;39&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -11267,7 +11267,7 @@
         &lt;string&gt;18M Act&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;39&lt;/int&gt;
+        &lt;int&gt;38&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -11275,7 +11275,7 @@
         &lt;string&gt;12M Act&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;38&lt;/int&gt;
+        &lt;int&gt;37&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -11283,7 +11283,7 @@
         &lt;string&gt;6M Act&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;37&lt;/int&gt;
+        &lt;int&gt;36&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -11291,7 +11291,7 @@
         &lt;string&gt;3M Act&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;36&lt;/int&gt;
+        &lt;int&gt;35&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -11299,15 +11299,15 @@
         &lt;string&gt;1M Act&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;35&lt;/int&gt;
+        &lt;int&gt;34&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;Nbr Deceased this Month&lt;/string&gt;
+        &lt;string&gt;Deceased Status&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;34&lt;/int&gt;
+        &lt;int&gt;56&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -11467,7 +11467,7 @@
         &lt;string&gt;CRC ONC&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;49&lt;/int&gt;
+        &lt;int&gt;48&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -11475,7 +11475,7 @@
         &lt;string&gt;BC ONC&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;50&lt;/int&gt;
+        &lt;int&gt;49&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -11483,7 +11483,7 @@
         &lt;string&gt;AD Denom&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;51&lt;/int&gt;
+        &lt;int&gt;50&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -11491,15 +11491,15 @@
         &lt;string&gt;ED 12Mon&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;52&lt;/int&gt;
+        &lt;int&gt;51&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;DC 12Mon&lt;/string&gt;
+        &lt;string&gt;Hosp 12Mon&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;53&lt;/int&gt;
+        &lt;int&gt;57&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -11507,7 +11507,7 @@
         &lt;string&gt;ACP Comp&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;54&lt;/int&gt;
+        &lt;int&gt;52&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -11515,7 +11515,7 @@
         &lt;string&gt;ACP Part&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;55&lt;/int&gt;
+        &lt;int&gt;53&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -11523,7 +11523,7 @@
         &lt;string&gt;ACP None&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;56&lt;/int&gt;
+        &lt;int&gt;54&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -11531,7 +11531,7 @@
         &lt;string&gt;RFA Comp&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;57&lt;/int&gt;
+        &lt;int&gt;55&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
   &lt;/ColumnDisplayIndex&gt;
@@ -11699,7 +11699,7 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;Nbr Deceased this Month&lt;/string&gt;
+        &lt;string&gt;Deceased Status&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -11851,7 +11851,7 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;DC 12Mon&lt;/string&gt;
+        &lt;string&gt;Hosp 12Mon&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -12108,11 +12108,6 @@
                   <Name>Deceased</Name>
                 </AttributeRelationship>
                 <AttributeRelationship>
-                  <AttributeID>Nbr Deceased this Month</AttributeID>
-                  <OverrideBehavior>None</OverrideBehavior>
-                  <Name>Nbr Deceased this Month</Name>
-                </AttributeRelationship>
-                <AttributeRelationship>
                   <AttributeID>1M Act</AttributeID>
                   <OverrideBehavior>None</OverrideBehavior>
                   <Name>1M Act</Name>
@@ -12203,11 +12198,6 @@
                   <Name>ED 12Mon</Name>
                 </AttributeRelationship>
                 <AttributeRelationship>
-                  <AttributeID>DC 12Mon</AttributeID>
-                  <OverrideBehavior>None</OverrideBehavior>
-                  <Name>DC 12Mon</Name>
-                </AttributeRelationship>
-                <AttributeRelationship>
                   <AttributeID>ACP Comp</AttributeID>
                   <OverrideBehavior>None</OverrideBehavior>
                   <Name>ACP Comp</Name>
@@ -12226,6 +12216,16 @@
                   <AttributeID>RFA Comp</AttributeID>
                   <OverrideBehavior>None</OverrideBehavior>
                   <Name>RFA Comp</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>Deceased Status</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>Deceased Status</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>Hosp 12Mon</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>Hosp 12Mon</Name>
                 </AttributeRelationship>
               </AttributeRelationships>
               <OrderBy>Key</OrderBy>
@@ -13079,11 +13079,19 @@
               <OrderBy>Key</OrderBy>
             </Attribute>
             <Attribute>
+              <Annotations>
+                <Annotation>
+                  <Name>Format</Name>
+                  <Value>
+                    <Format Format="General" xmlns="" />
+                  </Value>
+                </Annotation>
+              </Annotations>
               <ID>Deceased this Month</ID>
               <Name>Deceased this Month</Name>
               <KeyColumns>
                 <KeyColumn>
-                  <DataType>WChar</DataType>
+                  <DataType>BigInt</DataType>
                   <DataSize>32768</DataSize>
                   <NullProcessing>Preserve</NullProcessing>
                   <Source xsi:type="ColumnBinding">
@@ -13224,31 +13232,6 @@
                 <Source xsi:type="ColumnBinding">
                   <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
                   <ColumnID>Deceased</ColumnID>
-                </Source>
-              </NameColumn>
-              <OrderBy>Key</OrderBy>
-            </Attribute>
-            <Attribute>
-              <ID>Nbr Deceased this Month</ID>
-              <Name>Nbr Deceased this Month</Name>
-              <KeyColumns>
-                <KeyColumn>
-                  <DataType>Integer</DataType>
-                  <DataSize>-1</DataSize>
-                  <NullProcessing>Preserve</NullProcessing>
-                  <Source xsi:type="ColumnBinding">
-                    <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
-                    <ColumnID>Nbr_x0020_Deceased_x0020_this_x0020_Month</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <NameColumn>
-                <DataType>WChar</DataType>
-                <DataSize>-1</DataSize>
-                <NullProcessing>ZeroOrBlank</NullProcessing>
-                <Source xsi:type="ColumnBinding">
-                  <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
-                  <ColumnID>Nbr_x0020_Deceased_x0020_this_x0020_Month</ColumnID>
                 </Source>
               </NameColumn>
               <OrderBy>Key</OrderBy>
@@ -13710,31 +13693,6 @@
               <OrderBy>Key</OrderBy>
             </Attribute>
             <Attribute>
-              <ID>DC 12Mon</ID>
-              <Name>DC 12Mon</Name>
-              <KeyColumns>
-                <KeyColumn>
-                  <DataType>Integer</DataType>
-                  <DataSize>-1</DataSize>
-                  <NullProcessing>Preserve</NullProcessing>
-                  <Source xsi:type="ColumnBinding">
-                    <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
-                    <ColumnID>DC_x0020_12Mon</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <NameColumn>
-                <DataType>WChar</DataType>
-                <DataSize>-1</DataSize>
-                <NullProcessing>ZeroOrBlank</NullProcessing>
-                <Source xsi:type="ColumnBinding">
-                  <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
-                  <ColumnID>DC_x0020_12Mon</ColumnID>
-                </Source>
-              </NameColumn>
-              <OrderBy>Key</OrderBy>
-            </Attribute>
-            <Attribute>
               <ID>ACP Comp</ID>
               <Name>ACP Comp</Name>
               <KeyColumns>
@@ -13830,6 +13788,56 @@
                 <Source xsi:type="ColumnBinding">
                   <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
                   <ColumnID>RFA_x0020_Comp</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>Deceased Status</ID>
+              <Name>Deceased Status</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>32768</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                    <ColumnID>Deceased_x0020_Status</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>32768</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                  <ColumnID>Deceased_x0020_Status</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>Hosp 12Mon</ID>
+              <Name>Hosp 12Mon</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <DataSize>-1</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                    <ColumnID>Hosp_x0020_12Mon</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>-1</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                  <ColumnID>Hosp_x0020_12Mon</ColumnID>
                 </Source>
               </NameColumn>
               <OrderBy>Key</OrderBy>
@@ -19868,9 +19876,6 @@
                   <AttributeID>Status Cur</AttributeID>
                 </Attribute>
                 <Attribute>
-                  <AttributeID>Deceased this Month</AttributeID>
-                </Attribute>
-                <Attribute>
                   <AttributeID>Vintage Month</AttributeID>
                 </Attribute>
                 <Attribute>
@@ -19902,6 +19907,9 @@
                 </Attribute>
                 <Attribute>
                   <AttributeID>Next Appt Team</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Deceased Status</AttributeID>
                 </Attribute>
               </Attributes>
             </Dimension>
@@ -20024,9 +20032,6 @@
                   <AttributeID>Deceased</AttributeID>
                 </Attribute>
                 <Attribute>
-                  <AttributeID>Nbr Deceased this Month</AttributeID>
-                </Attribute>
-                <Attribute>
                   <AttributeID>1M Act</AttributeID>
                   <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
                 </Attribute>
@@ -20087,9 +20092,6 @@
                   <AttributeID>ED 12Mon</AttributeID>
                 </Attribute>
                 <Attribute>
-                  <AttributeID>DC 12Mon</AttributeID>
-                </Attribute>
-                <Attribute>
                   <AttributeID>ACP Comp</AttributeID>
                 </Attribute>
                 <Attribute>
@@ -20100,6 +20102,12 @@
                 </Attribute>
                 <Attribute>
                   <AttributeID>RFA Comp</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Deceased Status</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Hosp 12Mon</AttributeID>
                 </Attribute>
               </Attributes>
             </Dimension>
@@ -24742,20 +24750,6 @@
                       </KeyColumns>
                     </Attribute>
                     <Attribute>
-                      <AttributeID>Deceased this Month</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>WChar</DataType>
-                          <DataSize>32768</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Deceased_x0020_this_x0020_Month</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
                       <AttributeID>Vintage Month</AttributeID>
                       <KeyColumns>
                         <KeyColumn>
@@ -24905,6 +24899,20 @@
                           <Source xsi:type="ColumnBinding">
                             <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
                             <ColumnID>Next_x0020_Appt_x0020_Team</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Deceased Status</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Deceased_x0020_Status</ColumnID>
                           </Source>
                         </KeyColumn>
                       </KeyColumns>
@@ -30794,20 +30802,6 @@
                       </KeyColumns>
                     </Attribute>
                     <Attribute>
-                      <AttributeID>Deceased this Month</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>WChar</DataType>
-                          <DataSize>32768</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Deceased_x0020_this_x0020_Month</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
                       <AttributeID>Vintage Month</AttributeID>
                       <KeyColumns>
                         <KeyColumn>
@@ -30957,6 +30951,20 @@
                           <Source xsi:type="ColumnBinding">
                             <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
                             <ColumnID>Next_x0020_Appt_x0020_Team</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Deceased Status</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Deceased_x0020_Status</ColumnID>
                           </Source>
                         </KeyColumn>
                       </KeyColumns>
@@ -33818,20 +33826,6 @@
                       </KeyColumns>
                     </Attribute>
                     <Attribute>
-                      <AttributeID>Deceased this Month</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>WChar</DataType>
-                          <DataSize>32768</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Deceased_x0020_this_x0020_Month</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
                       <AttributeID>Vintage Month</AttributeID>
                       <KeyColumns>
                         <KeyColumn>
@@ -33981,6 +33975,20 @@
                           <Source xsi:type="ColumnBinding">
                             <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
                             <ColumnID>Next_x0020_Appt_x0020_Team</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Deceased Status</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Deceased_x0020_Status</ColumnID>
                           </Source>
                         </KeyColumn>
                       </KeyColumns>
@@ -34521,10 +34529,10 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;Deceased this Month&lt;/string&gt;
+        &lt;string&gt;Deceased Status&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;130&lt;/int&gt;
+        &lt;int&gt;111&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -34742,7 +34750,7 @@
         &lt;string&gt;Vintage Month Range&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;66&lt;/int&gt;
+        &lt;int&gt;65&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -35118,7 +35126,7 @@
         &lt;string&gt;Vintage Month&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;65&lt;/int&gt;
+        &lt;int&gt;64&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -35131,10 +35139,10 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;Deceased this Month&lt;/string&gt;
+        &lt;string&gt;Deceased Status&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;64&lt;/int&gt;
+        &lt;int&gt;75&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -35222,7 +35230,7 @@
         &lt;string&gt;Has Dm2&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;67&lt;/int&gt;
+        &lt;int&gt;66&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -35230,7 +35238,7 @@
         &lt;string&gt;Has CKD&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;68&lt;/int&gt;
+        &lt;int&gt;67&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -35238,7 +35246,7 @@
         &lt;string&gt;Last Med Date&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;69&lt;/int&gt;
+        &lt;int&gt;68&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -35246,7 +35254,7 @@
         &lt;string&gt;Last Med Provider&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;70&lt;/int&gt;
+        &lt;int&gt;69&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -35254,7 +35262,7 @@
         &lt;string&gt;Last Med MA&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;71&lt;/int&gt;
+        &lt;int&gt;70&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -35262,7 +35270,7 @@
         &lt;string&gt;Days Since ED&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;72&lt;/int&gt;
+        &lt;int&gt;71&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -35270,7 +35278,7 @@
         &lt;string&gt;Days Since DC&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;73&lt;/int&gt;
+        &lt;int&gt;72&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -35278,7 +35286,7 @@
         &lt;string&gt; Last Med Team&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;74&lt;/int&gt;
+        &lt;int&gt;73&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -35286,7 +35294,7 @@
         &lt;string&gt;Next Appt Team&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;75&lt;/int&gt;
+        &lt;int&gt;74&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
   &lt;/ColumnDisplayIndex&gt;
@@ -35422,7 +35430,7 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;Deceased this Month&lt;/string&gt;
+        &lt;string&gt;Deceased Status&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -36015,7 +36023,7 @@
                       <AttributeID>Deceased this Month</AttributeID>
                       <KeyColumns>
                         <KeyColumn>
-                          <DataType>WChar</DataType>
+                          <DataType>BigInt</DataType>
                           <DataSize>32768</DataSize>
                           <NullProcessing>Preserve</NullProcessing>
                           <Source xsi:type="ColumnBinding">
@@ -36091,20 +36099,6 @@
                           <Source xsi:type="ColumnBinding">
                             <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
                             <ColumnID>Deceased</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Nbr Deceased this Month</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Integer</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
-                            <ColumnID>Nbr_x0020_Deceased_x0020_this_x0020_Month</ColumnID>
                           </Source>
                         </KeyColumn>
                       </KeyColumns>
@@ -36362,20 +36356,6 @@
                       </KeyColumns>
                     </Attribute>
                     <Attribute>
-                      <AttributeID>DC 12Mon</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Integer</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
-                            <ColumnID>DC_x0020_12Mon</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
                       <AttributeID>ACP Comp</AttributeID>
                       <KeyColumns>
                         <KeyColumn>
@@ -36427,6 +36407,34 @@
                           <Source xsi:type="ColumnBinding">
                             <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
                             <ColumnID>RFA_x0020_Comp</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Deceased Status</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                            <ColumnID>Deceased_x0020_Status</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Hosp 12Mon</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                            <ColumnID>Hosp_x0020_12Mon</ColumnID>
                           </Source>
                         </KeyColumn>
                       </KeyColumns>
@@ -38666,20 +38674,6 @@
                       </KeyColumns>
                     </Attribute>
                     <Attribute>
-                      <AttributeID>Deceased this Month</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>WChar</DataType>
-                          <DataSize>32768</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Deceased_x0020_this_x0020_Month</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
                       <AttributeID>Vintage Month</AttributeID>
                       <KeyColumns>
                         <KeyColumn>
@@ -38829,6 +38823,20 @@
                           <Source xsi:type="ColumnBinding">
                             <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
                             <ColumnID>Next_x0020_Appt_x0020_Team</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Deceased Status</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Deceased_x0020_Status</ColumnID>
                           </Source>
                         </KeyColumn>
                       </KeyColumns>
@@ -39154,10 +39162,10 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;Nbr Deceased this Month&lt;/string&gt;
+        &lt;string&gt;Deceased Status&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;150&lt;/int&gt;
+        &lt;int&gt;111&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -39346,10 +39354,10 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;DC 12Mon&lt;/string&gt;
+        &lt;string&gt;Hosp 12Mon&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;79&lt;/int&gt;
+        &lt;int&gt;89&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -39431,7 +39439,7 @@
         &lt;string&gt;Never Act&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;48&lt;/int&gt;
+        &lt;int&gt;47&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -39479,7 +39487,7 @@
         &lt;string&gt;PCP Change&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;47&lt;/int&gt;
+        &lt;int&gt;46&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -39519,7 +39527,7 @@
         &lt;string&gt;MedHome Change&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;46&lt;/int&gt;
+        &lt;int&gt;45&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -39527,7 +39535,7 @@
         &lt;string&gt;24M InAct&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;45&lt;/int&gt;
+        &lt;int&gt;44&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -39543,7 +39551,7 @@
         &lt;string&gt;18M InAct&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;44&lt;/int&gt;
+        &lt;int&gt;43&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -39551,7 +39559,7 @@
         &lt;string&gt;12M InAct&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;43&lt;/int&gt;
+        &lt;int&gt;42&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -39559,7 +39567,7 @@
         &lt;string&gt;6M InAct&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;42&lt;/int&gt;
+        &lt;int&gt;41&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -39567,7 +39575,7 @@
         &lt;string&gt;3M InAct&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;41&lt;/int&gt;
+        &lt;int&gt;40&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -39575,7 +39583,7 @@
         &lt;string&gt;24M Act&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;40&lt;/int&gt;
+        &lt;int&gt;39&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -39583,7 +39591,7 @@
         &lt;string&gt;18M Act&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;39&lt;/int&gt;
+        &lt;int&gt;38&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -39591,7 +39599,7 @@
         &lt;string&gt;12M Act&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;38&lt;/int&gt;
+        &lt;int&gt;37&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -39599,7 +39607,7 @@
         &lt;string&gt;6M Act&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;37&lt;/int&gt;
+        &lt;int&gt;36&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -39607,7 +39615,7 @@
         &lt;string&gt;3M Act&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;36&lt;/int&gt;
+        &lt;int&gt;35&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -39615,15 +39623,15 @@
         &lt;string&gt;1M Act&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;35&lt;/int&gt;
+        &lt;int&gt;34&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;Nbr Deceased this Month&lt;/string&gt;
+        &lt;string&gt;Deceased Status&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;34&lt;/int&gt;
+        &lt;int&gt;56&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -39783,7 +39791,7 @@
         &lt;string&gt;CRC ONC&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;49&lt;/int&gt;
+        &lt;int&gt;48&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -39791,7 +39799,7 @@
         &lt;string&gt;BC ONC&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;50&lt;/int&gt;
+        &lt;int&gt;49&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -39799,7 +39807,7 @@
         &lt;string&gt;AD Denom&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;51&lt;/int&gt;
+        &lt;int&gt;50&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -39807,15 +39815,15 @@
         &lt;string&gt;ED 12Mon&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;52&lt;/int&gt;
+        &lt;int&gt;51&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;DC 12Mon&lt;/string&gt;
+        &lt;string&gt;Hosp 12Mon&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;53&lt;/int&gt;
+        &lt;int&gt;57&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -39823,7 +39831,7 @@
         &lt;string&gt;ACP Comp&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;54&lt;/int&gt;
+        &lt;int&gt;52&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -39831,7 +39839,7 @@
         &lt;string&gt;ACP Part&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;55&lt;/int&gt;
+        &lt;int&gt;53&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -39839,7 +39847,7 @@
         &lt;string&gt;ACP None&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;56&lt;/int&gt;
+        &lt;int&gt;54&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -39847,7 +39855,7 @@
         &lt;string&gt;RFA Comp&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;57&lt;/int&gt;
+        &lt;int&gt;55&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
   &lt;/ColumnDisplayIndex&gt;
@@ -40015,7 +40023,7 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;Nbr Deceased this Month&lt;/string&gt;
+        &lt;string&gt;Deceased Status&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -40167,7 +40175,7 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;DC 12Mon&lt;/string&gt;
+        &lt;string&gt;Hosp 12Mon&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -44612,13 +44620,6 @@ CREATE MEASURE 'PHI Patient SCD'[RFA Comp %]=(divide(SUM('PHI Patient SCD'[RFA C
                               </xs:restriction>
                             </xs:simpleType>
                           </xs:element>
-                          <xs:element name="Deceased_x0020_this_x0020_Month" msprop:DbColumnName="Deceased this Month" msprop:FriendlyName="Deceased this Month" minOccurs="0">
-                            <xs:simpleType>
-                              <xs:restriction base="xs:string">
-                                <xs:maxLength value="32768" />
-                              </xs:restriction>
-                            </xs:simpleType>
-                          </xs:element>
                           <xs:element name="Vintage_x0020_Month" msprop:DbColumnName="Vintage Month" msprop:FriendlyName="Vintage Month" minOccurs="0">
                             <xs:simpleType>
                               <xs:restriction base="xs:string">
@@ -44660,6 +44661,13 @@ CREATE MEASURE 'PHI Patient SCD'[RFA Comp %]=(divide(SUM('PHI Patient SCD'[RFA C
                             </xs:simpleType>
                           </xs:element>
                           <xs:element name="Next_x0020_Appt_x0020_Team" msprop:DbColumnName="Next Appt Team" msprop:FriendlyName="Next Appt Team" minOccurs="0">
+                            <xs:simpleType>
+                              <xs:restriction base="xs:string">
+                                <xs:maxLength value="32768" />
+                              </xs:restriction>
+                            </xs:simpleType>
+                          </xs:element>
+                          <xs:element name="Deceased_x0020_Status" msprop:DbColumnName="Deceased Status" msprop:FriendlyName="Deceased Status" minOccurs="0">
                             <xs:simpleType>
                               <xs:restriction base="xs:string">
                                 <xs:maxLength value="32768" />
@@ -44766,7 +44774,6 @@ CREATE MEASURE 'PHI Patient SCD'[RFA Comp %]=(divide(SUM('PHI Patient SCD'[RFA C
                           <xs:element name="New_x0020_this_x0020_Month" msprop:DbColumnName="New this Month" msprop:FriendlyName="New this Month" type="xs:int" minOccurs="0" />
                           <xs:element name="Patients" msprop:DbColumnName="Patients" msprop:FriendlyName="Patients" type="xs:int" minOccurs="0" />
                           <xs:element name="Deceased" msprop:DbColumnName="Deceased" msprop:FriendlyName="Deceased" type="xs:int" minOccurs="0" />
-                          <xs:element name="Nbr_x0020_Deceased_x0020_this_x0020_Month" msprop:DbColumnName="Nbr Deceased this Month" msprop:FriendlyName="Nbr Deceased this Month" type="xs:int" minOccurs="0" />
                           <xs:element name="_x0031_M_x0020_Act" msprop:DbColumnName="1M Act" msprop:FriendlyName="1M Act" type="xs:int" minOccurs="0" />
                           <xs:element name="_x0033_M_x0020_Act" msprop:DbColumnName="3M Act" msprop:FriendlyName="3M Act" type="xs:int" minOccurs="0" />
                           <xs:element name="_x0036_M_x0020_Act" msprop:DbColumnName="6M Act" msprop:FriendlyName="6M Act" type="xs:int" minOccurs="0" />
@@ -44785,11 +44792,18 @@ CREATE MEASURE 'PHI Patient SCD'[RFA Comp %]=(divide(SUM('PHI Patient SCD'[RFA C
                           <xs:element name="BC_x0020_ONC" msprop:DbColumnName="BC ONC" msprop:FriendlyName="BC ONC" type="xs:int" minOccurs="0" />
                           <xs:element name="AD_x0020_Denom" msprop:DbColumnName="AD Denom" msprop:FriendlyName="AD Denom" type="xs:int" minOccurs="0" />
                           <xs:element name="ED_x0020_12Mon" msprop:DbColumnName="ED 12Mon" msprop:FriendlyName="ED 12Mon" type="xs:int" minOccurs="0" />
-                          <xs:element name="DC_x0020_12Mon" msprop:DbColumnName="DC 12Mon" msprop:FriendlyName="DC 12Mon" type="xs:int" minOccurs="0" />
                           <xs:element name="ACP_x0020_Comp" msprop:DbColumnName="ACP Comp" msprop:FriendlyName="ACP Comp" type="xs:int" minOccurs="0" />
                           <xs:element name="ACP_x0020_Part" msprop:DbColumnName="ACP Part" msprop:FriendlyName="ACP Part" type="xs:int" minOccurs="0" />
                           <xs:element name="ACP_x0020_None" msprop:DbColumnName="ACP None" msprop:FriendlyName="ACP None" type="xs:int" minOccurs="0" />
                           <xs:element name="RFA_x0020_Comp" msprop:DbColumnName="RFA Comp" msprop:FriendlyName="RFA Comp" type="xs:int" minOccurs="0" />
+                          <xs:element name="Deceased_x0020_Status" msprop:DbColumnName="Deceased Status" msprop:FriendlyName="Deceased Status" minOccurs="0">
+                            <xs:simpleType>
+                              <xs:restriction base="xs:string">
+                                <xs:maxLength value="32768" />
+                              </xs:restriction>
+                            </xs:simpleType>
+                          </xs:element>
+                          <xs:element name="Hosp_x0020_12Mon" msprop:DbColumnName="Hosp 12Mon" msprop:FriendlyName="Hosp 12Mon" type="xs:int" minOccurs="0" />
                         </xs:sequence>
                       </xs:complexType>
                     </xs:element>
