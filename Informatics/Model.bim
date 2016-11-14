@@ -1598,6 +1598,14 @@
         &lt;int&gt;145&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Team&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;56&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnWidths&gt;
   &lt;ColumnDisplayIndex&gt;
     &lt;item&gt;
@@ -2192,6 +2200,14 @@
         &lt;int&gt;67&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Team&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;74&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnDisplayIndex&gt;
   &lt;ColumnFrozen /&gt;
   &lt;ColumnChecked&gt;
@@ -2334,6 +2350,14 @@
     &lt;item&gt;
       &lt;key&gt;
         &lt;string&gt;User Resource&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Team&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -2757,6 +2781,11 @@
                   <AttributeID>Enc had appt</AttributeID>
                   <OverrideBehavior>None</OverrideBehavior>
                   <Name>Enc had appt</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>Team</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>Team</Name>
                 </AttributeRelationship>
               </AttributeRelationships>
               <OrderBy>Key</OrderBy>
@@ -5184,6 +5213,31 @@
               </NameColumn>
               <OrderBy>Key</OrderBy>
             </Attribute>
+            <Attribute>
+              <ID>Team</ID>
+              <Name>Team</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>32768</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>Encounter_x0020_and_x0020_Appointment_d1c60146-8607-4288-bcd2-c7711873898a</TableID>
+                    <ColumnID>Team</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>32768</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>Encounter_x0020_and_x0020_Appointment_d1c60146-8607-4288-bcd2-c7711873898a</TableID>
+                  <ColumnID>Team</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
           </Attributes>
           <ProactiveCaching>
             <SilenceInterval>-PT1S</SilenceInterval>
@@ -6819,6 +6873,22 @@
         &lt;int&gt;99&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt; Last Med Team&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;105&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Next Appt Team&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;108&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnWidths&gt;
   &lt;ColumnDisplayIndex&gt;
     &lt;item&gt;
@@ -7413,6 +7483,22 @@
         &lt;int&gt;73&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt; Last Med Team&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;74&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Next Appt Team&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;75&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnDisplayIndex&gt;
   &lt;ColumnFrozen /&gt;
   &lt;ColumnChecked&gt;
@@ -7619,6 +7705,22 @@
     &lt;item&gt;
       &lt;key&gt;
         &lt;string&gt;Days Since DC&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt; Last Med Team&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Next Appt Team&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -8042,6 +8144,16 @@
                   <AttributeID>Days Since DC</AttributeID>
                   <OverrideBehavior>None</OverrideBehavior>
                   <Name>Days Since DC</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>Last Med Team</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>Last Med Team</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>Next Appt Team</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>Next Appt Team</Name>
                 </AttributeRelationship>
               </AttributeRelationships>
               <OrderBy>Key</OrderBy>
@@ -10389,6 +10501,56 @@
                 <Source xsi:type="ColumnBinding">
                   <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
                   <ColumnID>Days_x0020_Since_x0020_DC</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>Last Med Team</ID>
+              <Name>Last Med Team</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>32768</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                    <ColumnID>_x0020_Last_x0020_Med_x0020_Team</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>32768</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                  <ColumnID>_x0020_Last_x0020_Med_x0020_Team</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>Next Appt Team</ID>
+              <Name>Next Appt Team</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>32768</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                    <ColumnID>Next_x0020_Appt_x0020_Team</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>32768</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                  <ColumnID>Next_x0020_Appt_x0020_Team</ColumnID>
                 </Source>
               </NameColumn>
               <OrderBy>Key</OrderBy>
@@ -19395,6 +19557,9 @@
                 <Attribute>
                   <AttributeID>Enc had appt</AttributeID>
                 </Attribute>
+                <Attribute>
+                  <AttributeID>Team</AttributeID>
+                </Attribute>
               </Attributes>
             </Dimension>
             <Dimension>
@@ -19731,6 +19896,12 @@
                 </Attribute>
                 <Attribute>
                   <AttributeID>Days Since DC</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Last Med Team</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Next Appt Team</AttributeID>
                 </Attribute>
               </Attributes>
             </Dimension>
@@ -23594,6 +23765,20 @@
                         </KeyColumn>
                       </KeyColumns>
                     </Attribute>
+                    <Attribute>
+                      <AttributeID>Team</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>Encounter_x0020_and_x0020_Appointment_d1c60146-8607-4288-bcd2-c7711873898a</TableID>
+                            <ColumnID>Team</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
                   </Attributes>
                   <ddl200_200:ShareDimensionStorage>Shared</ddl200_200:ShareDimensionStorage>
                 </Dimension>
@@ -24692,6 +24877,34 @@
                           <Source xsi:type="ColumnBinding">
                             <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
                             <ColumnID>Days_x0020_Since_x0020_DC</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Last Med Team</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>_x0020_Last_x0020_Med_x0020_Team</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Next Appt Team</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Next_x0020_Appt_x0020_Team</ColumnID>
                           </Source>
                         </KeyColumn>
                       </KeyColumns>
@@ -27139,6 +27352,14 @@
         &lt;int&gt;145&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Team&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;56&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnWidths&gt;
   &lt;ColumnDisplayIndex&gt;
     &lt;item&gt;
@@ -27733,6 +27954,14 @@
         &lt;int&gt;67&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Team&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;74&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnDisplayIndex&gt;
   &lt;ColumnFrozen /&gt;
   &lt;ColumnChecked&gt;
@@ -27875,6 +28104,14 @@
     &lt;item&gt;
       &lt;key&gt;
         &lt;string&gt;User Resource&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Team&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -29577,6 +29814,20 @@
                         </KeyColumn>
                       </KeyColumns>
                     </Attribute>
+                    <Attribute>
+                      <AttributeID>Team</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>Encounter_x0020_and_x0020_Appointment_d1c60146-8607-4288-bcd2-c7711873898a</TableID>
+                            <ColumnID>Team</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
                   </Attributes>
                   <IntermediateCubeDimensionID>Patient Vitals_4f0fe5b2-567f-4c4e-9b11-df02601b09e9</IntermediateCubeDimensionID>
                   <IntermediateGranularityAttributeID>enc_appt_key</IntermediateGranularityAttributeID>
@@ -30678,6 +30929,34 @@
                           <Source xsi:type="ColumnBinding">
                             <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
                             <ColumnID>Days_x0020_Since_x0020_DC</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Last Med Team</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>_x0020_Last_x0020_Med_x0020_Team</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Next Appt Team</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Next_x0020_Appt_x0020_Team</ColumnID>
                           </Source>
                         </KeyColumn>
                       </KeyColumns>
@@ -33678,6 +33957,34 @@
                         </KeyColumn>
                       </KeyColumns>
                     </Attribute>
+                    <Attribute>
+                      <AttributeID>Last Med Team</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>_x0020_Last_x0020_Med_x0020_Team</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Next Appt Team</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Next_x0020_Appt_x0020_Team</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
                   </Attributes>
                   <ddl200_200:ShareDimensionStorage>Shared</ddl200_200:ShareDimensionStorage>
                 </Dimension>
@@ -34356,6 +34663,22 @@
         &lt;int&gt;99&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt; Last Med Team&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;105&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Next Appt Team&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;108&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnWidths&gt;
   &lt;ColumnDisplayIndex&gt;
     &lt;item&gt;
@@ -34950,6 +35273,22 @@
         &lt;int&gt;73&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt; Last Med Team&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;74&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Next Appt Team&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;75&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnDisplayIndex&gt;
   &lt;ColumnFrozen /&gt;
   &lt;ColumnChecked&gt;
@@ -35156,6 +35495,22 @@
     &lt;item&gt;
       &lt;key&gt;
         &lt;string&gt;Days Since DC&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt; Last Med Team&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Next Appt Team&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -38446,6 +38801,34 @@
                           <Source xsi:type="ColumnBinding">
                             <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
                             <ColumnID>Days_x0020_Since_x0020_DC</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Last Med Team</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>_x0020_Last_x0020_Med_x0020_Team</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Next Appt Team</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Next_x0020_Appt_x0020_Team</ColumnID>
                           </Source>
                         </KeyColumn>
                       </KeyColumns>
@@ -43849,6 +44232,13 @@ CREATE MEASURE 'PHI Patient SCD'[RFA Comp %]=(divide(SUM('PHI Patient SCD'[RFA C
                               </xs:restriction>
                             </xs:simpleType>
                           </xs:element>
+                          <xs:element name="Team" msprop:DbColumnName="Team" msprop:FriendlyName="Team" minOccurs="0">
+                            <xs:simpleType>
+                              <xs:restriction base="xs:string">
+                                <xs:maxLength value="32768" />
+                              </xs:restriction>
+                            </xs:simpleType>
+                          </xs:element>
                         </xs:sequence>
                       </xs:complexType>
                     </xs:element>
@@ -44262,6 +44652,20 @@ CREATE MEASURE 'PHI Patient SCD'[RFA Comp %]=(divide(SUM('PHI Patient SCD'[RFA C
                           </xs:element>
                           <xs:element name="Days_x0020_Since_x0020_ED" msprop:DbColumnName="Days Since ED" msprop:FriendlyName="Days Since ED" type="xs:int" minOccurs="0" />
                           <xs:element name="Days_x0020_Since_x0020_DC" msprop:DbColumnName="Days Since DC" msprop:FriendlyName="Days Since DC" type="xs:int" minOccurs="0" />
+                          <xs:element name="_x0020_Last_x0020_Med_x0020_Team" msprop:DbColumnName=" Last Med Team" msprop:FriendlyName="Last Med Team" minOccurs="0">
+                            <xs:simpleType>
+                              <xs:restriction base="xs:string">
+                                <xs:maxLength value="32768" />
+                              </xs:restriction>
+                            </xs:simpleType>
+                          </xs:element>
+                          <xs:element name="Next_x0020_Appt_x0020_Team" msprop:DbColumnName="Next Appt Team" msprop:FriendlyName="Next Appt Team" minOccurs="0">
+                            <xs:simpleType>
+                              <xs:restriction base="xs:string">
+                                <xs:maxLength value="32768" />
+                              </xs:restriction>
+                            </xs:simpleType>
+                          </xs:element>
                         </xs:sequence>
                       </xs:complexType>
                     </xs:element>
