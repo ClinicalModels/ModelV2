@@ -7045,6 +7045,46 @@
         &lt;int&gt;86&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last ACP Doc Date&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;120&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last BH Date&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;92&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last ACP Date&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;99&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last BH Provider&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;109&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last BH MA&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;84&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnWidths&gt;
   &lt;ColumnDisplayIndex&gt;
     &lt;item&gt;
@@ -7703,6 +7743,46 @@
         &lt;int&gt;81&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last ACP Doc Date&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;82&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last BH Date&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;83&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last ACP Date&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;84&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last BH Provider&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;85&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last BH MA&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;86&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnDisplayIndex&gt;
   &lt;ColumnFrozen /&gt;
   &lt;ColumnChecked&gt;
@@ -7973,6 +8053,46 @@
     &lt;item&gt;
       &lt;key&gt;
         &lt;string&gt;MH Cur Site&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last ACP Doc Date&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last BH Date&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last ACP Date&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last BH Provider&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last BH MA&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -8268,51 +8388,6 @@
                   <Name>Patient Vintage Month sort</Name>
                 </AttributeRelationship>
                 <AttributeRelationship>
-                  <AttributeID>Hedis CRC Den</AttributeID>
-                  <OverrideBehavior>None</OverrideBehavior>
-                  <Name>Hedis CRC Den</Name>
-                </AttributeRelationship>
-                <AttributeRelationship>
-                  <AttributeID>Hedis BC Den</AttributeID>
-                  <OverrideBehavior>None</OverrideBehavior>
-                  <Name>Hedis BC Den</Name>
-                </AttributeRelationship>
-                <AttributeRelationship>
-                  <AttributeID>Hedis BP Den</AttributeID>
-                  <OverrideBehavior>None</OverrideBehavior>
-                  <Name>Hedis BP Den</Name>
-                </AttributeRelationship>
-                <AttributeRelationship>
-                  <AttributeID>Hedis CRC Num</AttributeID>
-                  <OverrideBehavior>None</OverrideBehavior>
-                  <Name>Hedis CRC Num</Name>
-                </AttributeRelationship>
-                <AttributeRelationship>
-                  <AttributeID>Hedis BC Num</AttributeID>
-                  <OverrideBehavior>None</OverrideBehavior>
-                  <Name>Hedis BC Num</Name>
-                </AttributeRelationship>
-                <AttributeRelationship>
-                  <AttributeID>Hedis BP Num</AttributeID>
-                  <OverrideBehavior>None</OverrideBehavior>
-                  <Name>Hedis BP Num</Name>
-                </AttributeRelationship>
-                <AttributeRelationship>
-                  <AttributeID>Hedis CRC Due</AttributeID>
-                  <OverrideBehavior>None</OverrideBehavior>
-                  <Name>Hedis CRC Due</Name>
-                </AttributeRelationship>
-                <AttributeRelationship>
-                  <AttributeID>Hedis BP Due</AttributeID>
-                  <OverrideBehavior>None</OverrideBehavior>
-                  <Name>Hedis BP Due</Name>
-                </AttributeRelationship>
-                <AttributeRelationship>
-                  <AttributeID>Hedis BC Due</AttributeID>
-                  <OverrideBehavior>None</OverrideBehavior>
-                  <Name>Hedis BC Due</Name>
-                </AttributeRelationship>
-                <AttributeRelationship>
                   <AttributeID>Days to Appt</AttributeID>
                   <OverrideBehavior>None</OverrideBehavior>
                   <Name>Days to Appt</Name>
@@ -8436,6 +8511,31 @@
                   <AttributeID>MH Cur Site</AttributeID>
                   <OverrideBehavior>None</OverrideBehavior>
                   <Name>MH Cur Site</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>Last ACP Doc Date</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>Last ACP Doc Date</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>Last BH Date</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>Last BH Date</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>Last ACP Date</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>Last ACP Date</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>Last BH Provider</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>Last BH Provider</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>Last BH MA</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>Last BH MA</Name>
                 </AttributeRelationship>
               </AttributeRelationships>
               <OrderBy>Key</OrderBy>
@@ -10138,231 +10238,6 @@
               <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
             </Attribute>
             <Attribute>
-              <ID>Hedis CRC Den</ID>
-              <Name>Hedis CRC Den</Name>
-              <KeyColumns>
-                <KeyColumn>
-                  <DataType>Integer</DataType>
-                  <DataSize>-1</DataSize>
-                  <NullProcessing>Preserve</NullProcessing>
-                  <Source xsi:type="ColumnBinding">
-                    <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                    <ColumnID>Hedis_x0020_CRC_x0020_Den</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <NameColumn>
-                <DataType>WChar</DataType>
-                <DataSize>-1</DataSize>
-                <NullProcessing>ZeroOrBlank</NullProcessing>
-                <Source xsi:type="ColumnBinding">
-                  <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                  <ColumnID>Hedis_x0020_CRC_x0020_Den</ColumnID>
-                </Source>
-              </NameColumn>
-              <OrderBy>Key</OrderBy>
-            </Attribute>
-            <Attribute>
-              <ID>Hedis BC Den</ID>
-              <Name>Hedis BC Den</Name>
-              <KeyColumns>
-                <KeyColumn>
-                  <DataType>Integer</DataType>
-                  <DataSize>-1</DataSize>
-                  <NullProcessing>Preserve</NullProcessing>
-                  <Source xsi:type="ColumnBinding">
-                    <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                    <ColumnID>Hedis_x0020_BC_x0020_Den</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <NameColumn>
-                <DataType>WChar</DataType>
-                <DataSize>-1</DataSize>
-                <NullProcessing>ZeroOrBlank</NullProcessing>
-                <Source xsi:type="ColumnBinding">
-                  <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                  <ColumnID>Hedis_x0020_BC_x0020_Den</ColumnID>
-                </Source>
-              </NameColumn>
-              <OrderBy>Key</OrderBy>
-            </Attribute>
-            <Attribute>
-              <ID>Hedis BP Den</ID>
-              <Name>Hedis BP Den</Name>
-              <KeyColumns>
-                <KeyColumn>
-                  <DataType>Integer</DataType>
-                  <DataSize>-1</DataSize>
-                  <NullProcessing>Preserve</NullProcessing>
-                  <Source xsi:type="ColumnBinding">
-                    <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                    <ColumnID>Hedis_x0020_BP_x0020_Den</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <NameColumn>
-                <DataType>WChar</DataType>
-                <DataSize>-1</DataSize>
-                <NullProcessing>ZeroOrBlank</NullProcessing>
-                <Source xsi:type="ColumnBinding">
-                  <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                  <ColumnID>Hedis_x0020_BP_x0020_Den</ColumnID>
-                </Source>
-              </NameColumn>
-              <OrderBy>Key</OrderBy>
-            </Attribute>
-            <Attribute>
-              <ID>Hedis CRC Num</ID>
-              <Name>Hedis CRC Num</Name>
-              <KeyColumns>
-                <KeyColumn>
-                  <DataType>Integer</DataType>
-                  <DataSize>-1</DataSize>
-                  <NullProcessing>Preserve</NullProcessing>
-                  <Source xsi:type="ColumnBinding">
-                    <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                    <ColumnID>Hedis_x0020_CRC_x0020_Num</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <NameColumn>
-                <DataType>WChar</DataType>
-                <DataSize>-1</DataSize>
-                <NullProcessing>ZeroOrBlank</NullProcessing>
-                <Source xsi:type="ColumnBinding">
-                  <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                  <ColumnID>Hedis_x0020_CRC_x0020_Num</ColumnID>
-                </Source>
-              </NameColumn>
-              <OrderBy>Key</OrderBy>
-            </Attribute>
-            <Attribute>
-              <ID>Hedis BC Num</ID>
-              <Name>Hedis BC Num</Name>
-              <KeyColumns>
-                <KeyColumn>
-                  <DataType>Integer</DataType>
-                  <DataSize>-1</DataSize>
-                  <NullProcessing>Preserve</NullProcessing>
-                  <Source xsi:type="ColumnBinding">
-                    <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                    <ColumnID>Hedis_x0020_BC_x0020_Num</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <NameColumn>
-                <DataType>WChar</DataType>
-                <DataSize>-1</DataSize>
-                <NullProcessing>ZeroOrBlank</NullProcessing>
-                <Source xsi:type="ColumnBinding">
-                  <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                  <ColumnID>Hedis_x0020_BC_x0020_Num</ColumnID>
-                </Source>
-              </NameColumn>
-              <OrderBy>Key</OrderBy>
-            </Attribute>
-            <Attribute>
-              <ID>Hedis BP Num</ID>
-              <Name>Hedis BP Num</Name>
-              <KeyColumns>
-                <KeyColumn>
-                  <DataType>Integer</DataType>
-                  <DataSize>-1</DataSize>
-                  <NullProcessing>Preserve</NullProcessing>
-                  <Source xsi:type="ColumnBinding">
-                    <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                    <ColumnID>Hedis_x0020_BP_x0020_Num</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <NameColumn>
-                <DataType>WChar</DataType>
-                <DataSize>-1</DataSize>
-                <NullProcessing>ZeroOrBlank</NullProcessing>
-                <Source xsi:type="ColumnBinding">
-                  <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                  <ColumnID>Hedis_x0020_BP_x0020_Num</ColumnID>
-                </Source>
-              </NameColumn>
-              <OrderBy>Key</OrderBy>
-            </Attribute>
-            <Attribute>
-              <ID>Hedis CRC Due</ID>
-              <Name>Hedis CRC Due</Name>
-              <KeyColumns>
-                <KeyColumn>
-                  <DataType>Integer</DataType>
-                  <DataSize>-1</DataSize>
-                  <NullProcessing>Preserve</NullProcessing>
-                  <Source xsi:type="ColumnBinding">
-                    <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                    <ColumnID>Hedis_x0020_CRC_x0020_Due</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <NameColumn>
-                <DataType>WChar</DataType>
-                <DataSize>-1</DataSize>
-                <NullProcessing>ZeroOrBlank</NullProcessing>
-                <Source xsi:type="ColumnBinding">
-                  <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                  <ColumnID>Hedis_x0020_CRC_x0020_Due</ColumnID>
-                </Source>
-              </NameColumn>
-              <OrderBy>Key</OrderBy>
-            </Attribute>
-            <Attribute>
-              <ID>Hedis BP Due</ID>
-              <Name>Hedis BP Due</Name>
-              <KeyColumns>
-                <KeyColumn>
-                  <DataType>Integer</DataType>
-                  <DataSize>-1</DataSize>
-                  <NullProcessing>Preserve</NullProcessing>
-                  <Source xsi:type="ColumnBinding">
-                    <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                    <ColumnID>Hedis_x0020_BP_x0020_Due</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <NameColumn>
-                <DataType>WChar</DataType>
-                <DataSize>-1</DataSize>
-                <NullProcessing>ZeroOrBlank</NullProcessing>
-                <Source xsi:type="ColumnBinding">
-                  <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                  <ColumnID>Hedis_x0020_BP_x0020_Due</ColumnID>
-                </Source>
-              </NameColumn>
-              <OrderBy>Key</OrderBy>
-            </Attribute>
-            <Attribute>
-              <ID>Hedis BC Due</ID>
-              <Name>Hedis BC Due</Name>
-              <KeyColumns>
-                <KeyColumn>
-                  <DataType>Integer</DataType>
-                  <DataSize>-1</DataSize>
-                  <NullProcessing>Preserve</NullProcessing>
-                  <Source xsi:type="ColumnBinding">
-                    <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                    <ColumnID>Hedis_x0020_BC_x0020_Due</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <NameColumn>
-                <DataType>WChar</DataType>
-                <DataSize>-1</DataSize>
-                <NullProcessing>ZeroOrBlank</NullProcessing>
-                <Source xsi:type="ColumnBinding">
-                  <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                  <ColumnID>Hedis_x0020_BC_x0020_Due</ColumnID>
-                </Source>
-              </NameColumn>
-              <OrderBy>Key</OrderBy>
-            </Attribute>
-            <Attribute>
               <ID>Days to Appt</ID>
               <Name>Days to Appt</Name>
               <KeyColumns>
@@ -10983,6 +10858,131 @@
                 <Source xsi:type="ColumnBinding">
                   <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
                   <ColumnID>MH_x0020_Cur_x0020_Site</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>Last ACP Doc Date</ID>
+              <Name>Last ACP Doc Date</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Date</DataType>
+                  <DataSize>-1</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                    <ColumnID>Last_x0020_ACP_x0020_Doc_x0020_Date</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>-1</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                  <ColumnID>Last_x0020_ACP_x0020_Doc_x0020_Date</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>Last BH Date</ID>
+              <Name>Last BH Date</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Date</DataType>
+                  <DataSize>-1</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                    <ColumnID>Last_x0020_BH_x0020_Date</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>-1</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                  <ColumnID>Last_x0020_BH_x0020_Date</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>Last ACP Date</ID>
+              <Name>Last ACP Date</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Date</DataType>
+                  <DataSize>-1</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                    <ColumnID>Last_x0020_ACP_x0020_Date</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>-1</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                  <ColumnID>Last_x0020_ACP_x0020_Date</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>Last BH Provider</ID>
+              <Name>Last BH Provider</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>32768</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                    <ColumnID>Last_x0020_BH_x0020_Provider</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>32768</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                  <ColumnID>Last_x0020_BH_x0020_Provider</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>Last BH MA</ID>
+              <Name>Last BH MA</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>32768</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                    <ColumnID>Last_x0020_BH_x0020_MA</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>32768</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                  <ColumnID>Last_x0020_BH_x0020_MA</ColumnID>
                 </Source>
               </NameColumn>
               <OrderBy>Key</OrderBy>
@@ -11740,6 +11740,22 @@
         &lt;int&gt;149&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N Visit Only&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;107&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N No Docs&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;102&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnWidths&gt;
   &lt;ColumnDisplayIndex&gt;
     &lt;item&gt;
@@ -12446,6 +12462,22 @@
         &lt;int&gt;86&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N Visit Only&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;88&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N No Docs&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;89&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnDisplayIndex&gt;
   &lt;ColumnFrozen /&gt;
   &lt;ColumnChecked&gt;
@@ -13041,6 +13073,22 @@
         &lt;boolean&gt;true&lt;/boolean&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N Visit Only&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N No Docs&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnChecked&gt;
   &lt;ColumnFilter /&gt;
   &lt;SelectionFilter /&gt;
@@ -13528,6 +13576,16 @@
                   <AttributeID>ACP N AD Only</AttributeID>
                   <OverrideBehavior>None</OverrideBehavior>
                   <Name>ACP N AD Only</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>ACP N Visit Only</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>ACP N Visit Only</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>ACP N No Docs</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>ACP N No Docs</Name>
                 </AttributeRelationship>
               </AttributeRelationships>
               <OrderBy>Key</OrderBy>
@@ -15886,6 +15944,56 @@
                 <Source xsi:type="ColumnBinding">
                   <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
                   <ColumnID>ACP_x0020_N_x0020_AD_x0020_Only</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>ACP N Visit Only</ID>
+              <Name>ACP N Visit Only</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <DataSize>-1</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                    <ColumnID>ACP_x0020_N_x0020_Visit_x0020_Only</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>-1</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                  <ColumnID>ACP_x0020_N_x0020_Visit_x0020_Only</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>ACP N No Docs</ID>
+              <Name>ACP N No Docs</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <DataSize>-1</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                    <ColumnID>ACP_x0020_N_x0020_No_x0020_Docs</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>-1</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                  <ColumnID>ACP_x0020_N_x0020_No_x0020_Docs</ColumnID>
                 </Source>
               </NameColumn>
               <OrderBy>Key</OrderBy>
@@ -22292,33 +22400,6 @@
                   <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
                 </Attribute>
                 <Attribute>
-                  <AttributeID>Hedis CRC Den</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Hedis BC Den</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Hedis BP Den</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Hedis CRC Num</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Hedis BC Num</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Hedis BP Num</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Hedis CRC Due</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Hedis BP Due</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Hedis BC Due</AttributeID>
-                </Attribute>
-                <Attribute>
                   <AttributeID>Days to Appt</AttributeID>
                 </Attribute>
                 <Attribute>
@@ -22392,6 +22473,21 @@
                 </Attribute>
                 <Attribute>
                   <AttributeID>MH Cur Site</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Last ACP Doc Date</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Last BH Date</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Last ACP Date</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Last BH Provider</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Last BH MA</AttributeID>
                 </Attribute>
               </Attributes>
             </Dimension>
@@ -22684,6 +22780,12 @@
                 </Attribute>
                 <Attribute>
                   <AttributeID>ACP N AD Only</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>ACP N Visit Only</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>ACP N No Docs</AttributeID>
                 </Attribute>
               </Attributes>
             </Dimension>
@@ -27136,132 +27238,6 @@
                       </KeyColumns>
                     </Attribute>
                     <Attribute>
-                      <AttributeID>Hedis CRC Den</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Integer</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Hedis_x0020_CRC_x0020_Den</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Hedis BC Den</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Integer</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Hedis_x0020_BC_x0020_Den</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Hedis BP Den</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Integer</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Hedis_x0020_BP_x0020_Den</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Hedis CRC Num</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Integer</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Hedis_x0020_CRC_x0020_Num</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Hedis BC Num</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Integer</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Hedis_x0020_BC_x0020_Num</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Hedis BP Num</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Integer</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Hedis_x0020_BP_x0020_Num</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Hedis CRC Due</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Integer</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Hedis_x0020_CRC_x0020_Due</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Hedis BP Due</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Integer</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Hedis_x0020_BP_x0020_Due</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Hedis BC Due</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Integer</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Hedis_x0020_BC_x0020_Due</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
                       <AttributeID>Days to Appt</AttributeID>
                       <KeyColumns>
                         <KeyColumn>
@@ -27607,6 +27583,76 @@
                           <Source xsi:type="ColumnBinding">
                             <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
                             <ColumnID>MH_x0020_Cur_x0020_Site</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Last ACP Doc Date</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Date</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Last_x0020_ACP_x0020_Doc_x0020_Date</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Last BH Date</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Date</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Last_x0020_BH_x0020_Date</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Last ACP Date</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Date</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Last_x0020_ACP_x0020_Date</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Last BH Provider</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Last_x0020_BH_x0020_Provider</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Last BH MA</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Last_x0020_BH_x0020_MA</ColumnID>
                           </Source>
                         </KeyColumn>
                       </KeyColumns>
@@ -33348,132 +33394,6 @@
                       </KeyColumns>
                     </Attribute>
                     <Attribute>
-                      <AttributeID>Hedis CRC Den</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Integer</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Hedis_x0020_CRC_x0020_Den</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Hedis BC Den</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Integer</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Hedis_x0020_BC_x0020_Den</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Hedis BP Den</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Integer</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Hedis_x0020_BP_x0020_Den</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Hedis CRC Num</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Integer</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Hedis_x0020_CRC_x0020_Num</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Hedis BC Num</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Integer</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Hedis_x0020_BC_x0020_Num</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Hedis BP Num</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Integer</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Hedis_x0020_BP_x0020_Num</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Hedis CRC Due</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Integer</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Hedis_x0020_CRC_x0020_Due</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Hedis BP Due</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Integer</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Hedis_x0020_BP_x0020_Due</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Hedis BC Due</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Integer</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Hedis_x0020_BC_x0020_Due</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
                       <AttributeID>Days to Appt</AttributeID>
                       <KeyColumns>
                         <KeyColumn>
@@ -33819,6 +33739,76 @@
                           <Source xsi:type="ColumnBinding">
                             <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
                             <ColumnID>MH_x0020_Cur_x0020_Site</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Last ACP Doc Date</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Date</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Last_x0020_ACP_x0020_Doc_x0020_Date</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Last BH Date</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Date</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Last_x0020_BH_x0020_Date</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Last ACP Date</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Date</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Last_x0020_ACP_x0020_Date</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Last BH Provider</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Last_x0020_BH_x0020_Provider</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Last BH MA</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Last_x0020_BH_x0020_MA</ColumnID>
                           </Source>
                         </KeyColumn>
                       </KeyColumns>
@@ -36456,132 +36446,6 @@
                       </KeyColumns>
                     </Attribute>
                     <Attribute>
-                      <AttributeID>Hedis CRC Den</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Integer</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Hedis_x0020_CRC_x0020_Den</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Hedis BC Den</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Integer</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Hedis_x0020_BC_x0020_Den</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Hedis BP Den</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Integer</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Hedis_x0020_BP_x0020_Den</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Hedis CRC Num</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Integer</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Hedis_x0020_CRC_x0020_Num</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Hedis BC Num</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Integer</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Hedis_x0020_BC_x0020_Num</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Hedis BP Num</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Integer</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Hedis_x0020_BP_x0020_Num</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Hedis CRC Due</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Integer</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Hedis_x0020_CRC_x0020_Due</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Hedis BP Due</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Integer</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Hedis_x0020_BP_x0020_Due</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Hedis BC Due</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Integer</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Hedis_x0020_BC_x0020_Due</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
                       <AttributeID>Days to Appt</AttributeID>
                       <KeyColumns>
                         <KeyColumn>
@@ -36927,6 +36791,76 @@
                           <Source xsi:type="ColumnBinding">
                             <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
                             <ColumnID>MH_x0020_Cur_x0020_Site</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Last ACP Doc Date</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Date</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Last_x0020_ACP_x0020_Doc_x0020_Date</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Last BH Date</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Date</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Last_x0020_BH_x0020_Date</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Last ACP Date</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Date</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Last_x0020_ACP_x0020_Date</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Last BH Provider</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Last_x0020_BH_x0020_Provider</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Last BH MA</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Last_x0020_BH_x0020_MA</ColumnID>
                           </Source>
                         </KeyColumn>
                       </KeyColumns>
@@ -37673,6 +37607,46 @@
         &lt;int&gt;86&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last ACP Doc Date&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;120&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last BH Date&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;92&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last ACP Date&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;99&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last BH Provider&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;109&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last BH MA&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;84&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnWidths&gt;
   &lt;ColumnDisplayIndex&gt;
     &lt;item&gt;
@@ -38331,6 +38305,46 @@
         &lt;int&gt;81&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last ACP Doc Date&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;82&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last BH Date&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;83&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last ACP Date&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;84&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last BH Provider&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;85&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last BH MA&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;86&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnDisplayIndex&gt;
   &lt;ColumnFrozen /&gt;
   &lt;ColumnChecked&gt;
@@ -38601,6 +38615,46 @@
     &lt;item&gt;
       &lt;key&gt;
         &lt;string&gt;MH Cur Site&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last ACP Doc Date&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last BH Date&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last ACP Date&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last BH Provider&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last BH MA&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -39937,6 +39991,34 @@
                           <Source xsi:type="ColumnBinding">
                             <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
                             <ColumnID>ACP_x0020_N_x0020_AD_x0020_Only</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>ACP N Visit Only</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                            <ColumnID>ACP_x0020_N_x0020_Visit_x0020_Only</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>ACP N No Docs</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                            <ColumnID>ACP_x0020_N_x0020_No_x0020_Docs</ColumnID>
                           </Source>
                         </KeyColumn>
                       </KeyColumns>
@@ -41952,132 +42034,6 @@
                       </KeyColumns>
                     </Attribute>
                     <Attribute>
-                      <AttributeID>Hedis CRC Den</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Integer</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Hedis_x0020_CRC_x0020_Den</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Hedis BC Den</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Integer</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Hedis_x0020_BC_x0020_Den</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Hedis BP Den</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Integer</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Hedis_x0020_BP_x0020_Den</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Hedis CRC Num</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Integer</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Hedis_x0020_CRC_x0020_Num</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Hedis BC Num</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Integer</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Hedis_x0020_BC_x0020_Num</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Hedis BP Num</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Integer</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Hedis_x0020_BP_x0020_Num</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Hedis CRC Due</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Integer</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Hedis_x0020_CRC_x0020_Due</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Hedis BP Due</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Integer</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Hedis_x0020_BP_x0020_Due</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Hedis BC Due</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Integer</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Hedis_x0020_BC_x0020_Due</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
                       <AttributeID>Days to Appt</AttributeID>
                       <KeyColumns>
                         <KeyColumn>
@@ -42423,6 +42379,76 @@
                           <Source xsi:type="ColumnBinding">
                             <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
                             <ColumnID>MH_x0020_Cur_x0020_Site</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Last ACP Doc Date</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Date</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Last_x0020_ACP_x0020_Doc_x0020_Date</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Last BH Date</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Date</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Last_x0020_BH_x0020_Date</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Last ACP Date</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Date</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Last_x0020_ACP_x0020_Date</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Last BH Provider</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Last_x0020_BH_x0020_Provider</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Last BH MA</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Last_x0020_BH_x0020_MA</ColumnID>
                           </Source>
                         </KeyColumn>
                       </KeyColumns>
@@ -43218,6 +43244,22 @@
         &lt;int&gt;149&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N Visit Only&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;107&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N No Docs&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;102&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnWidths&gt;
   &lt;ColumnDisplayIndex&gt;
     &lt;item&gt;
@@ -43924,6 +43966,22 @@
         &lt;int&gt;86&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N Visit Only&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;88&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N No Docs&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;89&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnDisplayIndex&gt;
   &lt;ColumnFrozen /&gt;
   &lt;ColumnChecked&gt;
@@ -44514,6 +44572,22 @@
     &lt;item&gt;
       &lt;key&gt;
         &lt;string&gt;ACP N AD and Polst Only&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N Visit Only&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N No Docs&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -48190,12 +48264,9 @@ ALTER CUBE CURRENTCUBE UPDATE DIMENSION Measures, Default_Member = [__No measure
 ----------------------------------------------------------
 
 
-CREATE MEASURE 'PHI Patient Cur'[Hedis CRC Score]=(divide(SUM('PHI Patient Cur'[Hedis CRC Num]),SUM('PHI Patient Cur'[Hedis CRC Den])));
 CREATE MEASURE 'PHI Patient SCD'[Hedis CRC Hx]=(divide(SUM('PHI Patient SCD'[Hedis CRC Num]),SUM('PHI Patient SCD'[Hedis CRC Den])));
 CREATE MEASURE 'PHI Patient SCD'[Hedis BP Hx]=(divide(SUM('PHI Patient SCD'[Hedis BP Num]),SUM('PHI Patient SCD'[Hedis BP Den])));
 CREATE MEASURE 'PHI Patient SCD'[Hedis BC Hx]=(divide(SUM('PHI Patient SCD'[Hedis BC Num]),SUM('PHI Patient SCD'[Hedis BC Den])));
-CREATE MEASURE 'PHI Patient Cur'[Hedis BC Score]=(divide(SUM('PHI Patient Cur'[Hedis BC Num]),SUM('PHI Patient Cur'[Hedis BC Den])));
-CREATE MEASURE 'PHI Patient Cur'[Hedis BP Score]=(divide(SUM('PHI Patient Cur'[Hedis BP Num]),SUM('PHI Patient Cur'[Hedis BP Den])));
 CREATE MEASURE 'PHI Patient SCD'[18M Active]=CALCULATE(SUM([18M Act]),LASTDATE('PHI Patient SCD'[first_mon_date]));
 CREATE MEASURE 'PHI Patient SCD'[24M Active]=CALCULATE(SUM([24M Act]),LASTDATE('PHI Patient SCD'[first_mon_date]));
 CREATE MEASURE 'PHI Patient SCD'[12M Active]=CALCULATE(SUM([12M Act]),LASTDATE('PHI Patient SCD'[first_mon_date]));
@@ -48223,31 +48294,12 @@ CREATE MEASURE 'PHI Patient SCD'[ACP % Polst Only]=(divide(SUM('PHI Patient SCD'
 CREATE MEASURE 'PHI Patient SCD'[ACP % AD Only]=(divide(SUM('PHI Patient SCD'[ACP N AD Only]),SUM('PHI Patient SCD'[AD Denom])));
 CREATE MEASURE 'PHI Patient SCD'[ACP % AD and Polst Only]=(divide(SUM('PHI Patient SCD'[ACP N AD and Polst Only]),SUM('PHI Patient SCD'[AD Denom])));
 CREATE MEASURE 'PHI Patient SCD'[ACP % None]=(divide(SUM('PHI Patient SCD'[ACP N None]),SUM('PHI Patient SCD'[AD Denom])));
+CREATE MEASURE 'PHI Patient SCD'[ACP % Visit Only]=(divide(SUM('PHI Patient SCD'[ACP N Visit Only]),SUM('PHI Patient SCD'[AD Denom])));
+CREATE MEASURE 'PHI Patient SCD'[ACP % No Docs]=(divide(SUM('PHI Patient SCD'[ACP N No Docs]),SUM('PHI Patient SCD'[AD Denom])));
 </Text>
                 </Command>
               </Commands>
               <CalculationProperties>
-                <CalculationProperty>
-                  <Annotations>
-                    <Annotation>
-                      <Name>Type</Name>
-                      <Value>User</Value>
-                    </Annotation>
-                    <Annotation>
-                      <Name>IsPrivate</Name>
-                      <Value>False</Value>
-                    </Annotation>
-                    <Annotation>
-                      <Name>Format</Name>
-                      <Value>
-                        <Format Format="Percentage" Accuracy="2" xmlns="" />
-                      </Value>
-                    </Annotation>
-                  </Annotations>
-                  <CalculationReference>[Hedis CRC Score]</CalculationReference>
-                  <CalculationType>Member</CalculationType>
-                  <FormatString>'0.00 %;-0.00 %;0.00 %'</FormatString>
-                </CalculationProperty>
                 <CalculationProperty>
                   <Annotations>
                     <Annotation>
@@ -48308,48 +48360,6 @@ CREATE MEASURE 'PHI Patient SCD'[ACP % None]=(divide(SUM('PHI Patient SCD'[ACP N
                     </Annotation>
                   </Annotations>
                   <CalculationReference>[Hedis BC Hx]</CalculationReference>
-                  <CalculationType>Member</CalculationType>
-                  <FormatString>'0.00 %;-0.00 %;0.00 %'</FormatString>
-                </CalculationProperty>
-                <CalculationProperty>
-                  <Annotations>
-                    <Annotation>
-                      <Name>Type</Name>
-                      <Value>User</Value>
-                    </Annotation>
-                    <Annotation>
-                      <Name>IsPrivate</Name>
-                      <Value>False</Value>
-                    </Annotation>
-                    <Annotation>
-                      <Name>Format</Name>
-                      <Value>
-                        <Format Format="Percentage" Accuracy="2" xmlns="" />
-                      </Value>
-                    </Annotation>
-                  </Annotations>
-                  <CalculationReference>[Hedis BC Score]</CalculationReference>
-                  <CalculationType>Member</CalculationType>
-                  <FormatString>'0.00 %;-0.00 %;0.00 %'</FormatString>
-                </CalculationProperty>
-                <CalculationProperty>
-                  <Annotations>
-                    <Annotation>
-                      <Name>Type</Name>
-                      <Value>User</Value>
-                    </Annotation>
-                    <Annotation>
-                      <Name>IsPrivate</Name>
-                      <Value>False</Value>
-                    </Annotation>
-                    <Annotation>
-                      <Name>Format</Name>
-                      <Value>
-                        <Format Format="Percentage" Accuracy="2" xmlns="" />
-                      </Value>
-                    </Annotation>
-                  </Annotations>
-                  <CalculationReference>[Hedis BP Score]</CalculationReference>
                   <CalculationType>Member</CalculationType>
                   <FormatString>'0.00 %;-0.00 %;0.00 %'</FormatString>
                 </CalculationProperty>
@@ -48917,6 +48927,48 @@ CREATE MEASURE 'PHI Patient SCD'[ACP % None]=(divide(SUM('PHI Patient SCD'[ACP N
                     </Annotation>
                   </Annotations>
                   <CalculationReference>[ACP % None]</CalculationReference>
+                  <CalculationType>Member</CalculationType>
+                  <FormatString>'0.00 %;-0.00 %;0.00 %'</FormatString>
+                </CalculationProperty>
+                <CalculationProperty>
+                  <Annotations>
+                    <Annotation>
+                      <Name>Type</Name>
+                      <Value>User</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>IsPrivate</Name>
+                      <Value>False</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>Format</Name>
+                      <Value>
+                        <Format Format="Percentage" Accuracy="2" xmlns="" />
+                      </Value>
+                    </Annotation>
+                  </Annotations>
+                  <CalculationReference>[ACP % Visit Only]</CalculationReference>
+                  <CalculationType>Member</CalculationType>
+                  <FormatString>'0.00 %;-0.00 %;0.00 %'</FormatString>
+                </CalculationProperty>
+                <CalculationProperty>
+                  <Annotations>
+                    <Annotation>
+                      <Name>Type</Name>
+                      <Value>User</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>IsPrivate</Name>
+                      <Value>False</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>Format</Name>
+                      <Value>
+                        <Format Format="Percentage" Accuracy="2" xmlns="" />
+                      </Value>
+                    </Annotation>
+                  </Annotations>
+                  <CalculationReference>[ACP % No Docs]</CalculationReference>
                   <CalculationType>Member</CalculationType>
                   <FormatString>'0.00 %;-0.00 %;0.00 %'</FormatString>
                 </CalculationProperty>
@@ -49779,6 +49831,23 @@ CREATE MEASURE 'PHI Patient SCD'[ACP % None]=(divide(SUM('PHI Patient SCD'[ACP N
                               </xs:restriction>
                             </xs:simpleType>
                           </xs:element>
+                          <xs:element name="Last_x0020_ACP_x0020_Doc_x0020_Date" msprop:DbColumnName="Last ACP Doc Date" msprop:FriendlyName="Last ACP Doc Date" type="xs:dateTime" minOccurs="0" />
+                          <xs:element name="Last_x0020_BH_x0020_Date" msprop:DbColumnName="Last BH Date" msprop:FriendlyName="Last BH Date" type="xs:dateTime" minOccurs="0" />
+                          <xs:element name="Last_x0020_ACP_x0020_Date" msprop:DbColumnName="Last ACP Date" msprop:FriendlyName="Last ACP Date" type="xs:dateTime" minOccurs="0" />
+                          <xs:element name="Last_x0020_BH_x0020_Provider" msprop:DbColumnName="Last BH Provider" msprop:FriendlyName="Last BH Provider" minOccurs="0">
+                            <xs:simpleType>
+                              <xs:restriction base="xs:string">
+                                <xs:maxLength value="32768" />
+                              </xs:restriction>
+                            </xs:simpleType>
+                          </xs:element>
+                          <xs:element name="Last_x0020_BH_x0020_MA" msprop:DbColumnName="Last BH MA" msprop:FriendlyName="Last BH MA" minOccurs="0">
+                            <xs:simpleType>
+                              <xs:restriction base="xs:string">
+                                <xs:maxLength value="32768" />
+                              </xs:restriction>
+                            </xs:simpleType>
+                          </xs:element>
                         </xs:sequence>
                       </xs:complexType>
                     </xs:element>
@@ -49951,6 +50020,8 @@ CREATE MEASURE 'PHI Patient SCD'[ACP % None]=(divide(SUM('PHI Patient SCD'[ACP N
                           <xs:element name="ACP_x0020_N_x0020_Polst_x0020_Only" msprop:DbColumnName="ACP N Polst Only" msprop:FriendlyName="ACP N Polst Only" type="xs:int" minOccurs="0" />
                           <xs:element name="ACP_x0020_N_x0020_AD_x0020_and_x0020_Polst_x0020_Only" msprop:DbColumnName="ACP N AD and Polst Only" msprop:FriendlyName="ACP N AD and Polst Only" type="xs:int" minOccurs="0" />
                           <xs:element name="ACP_x0020_N_x0020_AD_x0020_Only" msprop:DbColumnName="ACP N AD Only" msprop:FriendlyName="ACP N AD Only" type="xs:int" minOccurs="0" />
+                          <xs:element name="ACP_x0020_N_x0020_Visit_x0020_Only" msprop:DbColumnName="ACP N Visit Only" msprop:FriendlyName="ACP N Visit Only" type="xs:int" minOccurs="0" />
+                          <xs:element name="ACP_x0020_N_x0020_No_x0020_Docs" msprop:DbColumnName="ACP N No Docs" msprop:FriendlyName="ACP N No Docs" type="xs:int" minOccurs="0" />
                         </xs:sequence>
                       </xs:complexType>
                     </xs:element>
