@@ -11726,10 +11726,10 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;ACP N AD Polst Only&lt;/string&gt;
+        &lt;string&gt;ACP N AD Only&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;128&lt;/int&gt;
+        &lt;int&gt;102&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12432,10 +12432,10 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;ACP N AD Polst Only&lt;/string&gt;
+        &lt;string&gt;ACP N AD Only&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;86&lt;/int&gt;
+        &lt;int&gt;87&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12443,7 +12443,7 @@
         &lt;string&gt;ACP N AD and Polst Only&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;87&lt;/int&gt;
+        &lt;int&gt;86&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
   &lt;/ColumnDisplayIndex&gt;
@@ -13027,7 +13027,7 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;ACP N AD Polst Only&lt;/string&gt;
+        &lt;string&gt;ACP N AD Only&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -13520,14 +13520,14 @@
                   <Name>ACP N Polst Only</Name>
                 </AttributeRelationship>
                 <AttributeRelationship>
-                  <AttributeID>ACP N AD Polst Only</AttributeID>
-                  <OverrideBehavior>None</OverrideBehavior>
-                  <Name>ACP N AD Polst Only</Name>
-                </AttributeRelationship>
-                <AttributeRelationship>
                   <AttributeID>ACP N AD and Polst Only</AttributeID>
                   <OverrideBehavior>None</OverrideBehavior>
                   <Name>ACP N AD and Polst Only</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>ACP N AD Only</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>ACP N AD Only</Name>
                 </AttributeRelationship>
               </AttributeRelationships>
               <OrderBy>Key</OrderBy>
@@ -15841,31 +15841,6 @@
               <OrderBy>Key</OrderBy>
             </Attribute>
             <Attribute>
-              <ID>ACP N AD Polst Only</ID>
-              <Name>ACP N AD Polst Only</Name>
-              <KeyColumns>
-                <KeyColumn>
-                  <DataType>Integer</DataType>
-                  <DataSize>-1</DataSize>
-                  <NullProcessing>Preserve</NullProcessing>
-                  <Source xsi:type="ColumnBinding">
-                    <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
-                    <ColumnID>ACP_x0020_N_x0020_AD_x0020_Polst_x0020_Only</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <NameColumn>
-                <DataType>WChar</DataType>
-                <DataSize>-1</DataSize>
-                <NullProcessing>ZeroOrBlank</NullProcessing>
-                <Source xsi:type="ColumnBinding">
-                  <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
-                  <ColumnID>ACP_x0020_N_x0020_AD_x0020_Polst_x0020_Only</ColumnID>
-                </Source>
-              </NameColumn>
-              <OrderBy>Key</OrderBy>
-            </Attribute>
-            <Attribute>
               <ID>ACP N AD and Polst Only</ID>
               <Name>ACP N AD and Polst Only</Name>
               <KeyColumns>
@@ -15886,6 +15861,31 @@
                 <Source xsi:type="ColumnBinding">
                   <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
                   <ColumnID>ACP_x0020_N_x0020_AD_x0020_and_x0020_Polst_x0020_Only</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>ACP N AD Only</ID>
+              <Name>ACP N AD Only</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <DataSize>-1</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                    <ColumnID>ACP_x0020_N_x0020_AD_x0020_Only</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>-1</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                  <ColumnID>ACP_x0020_N_x0020_AD_x0020_Only</ColumnID>
                 </Source>
               </NameColumn>
               <OrderBy>Key</OrderBy>
@@ -22680,10 +22680,10 @@
                   <AttributeID>ACP N Polst Only</AttributeID>
                 </Attribute>
                 <Attribute>
-                  <AttributeID>ACP N AD Polst Only</AttributeID>
+                  <AttributeID>ACP N AD and Polst Only</AttributeID>
                 </Attribute>
                 <Attribute>
-                  <AttributeID>ACP N AD and Polst Only</AttributeID>
+                  <AttributeID>ACP N AD Only</AttributeID>
                 </Attribute>
               </Attributes>
             </Dimension>
@@ -39914,20 +39914,6 @@
                       </KeyColumns>
                     </Attribute>
                     <Attribute>
-                      <AttributeID>ACP N AD Polst Only</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Integer</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
-                            <ColumnID>ACP_x0020_N_x0020_AD_x0020_Polst_x0020_Only</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
                       <AttributeID>ACP N AD and Polst Only</AttributeID>
                       <KeyColumns>
                         <KeyColumn>
@@ -39937,6 +39923,20 @@
                           <Source xsi:type="ColumnBinding">
                             <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
                             <ColumnID>ACP_x0020_N_x0020_AD_x0020_and_x0020_Polst_x0020_Only</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>ACP N AD Only</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                            <ColumnID>ACP_x0020_N_x0020_AD_x0020_Only</ColumnID>
                           </Source>
                         </KeyColumn>
                       </KeyColumns>
@@ -43204,10 +43204,10 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;ACP N AD Polst Only&lt;/string&gt;
+        &lt;string&gt;ACP N AD Only&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;128&lt;/int&gt;
+        &lt;int&gt;102&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -43910,10 +43910,10 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;ACP N AD Polst Only&lt;/string&gt;
+        &lt;string&gt;ACP N AD Only&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;86&lt;/int&gt;
+        &lt;int&gt;87&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -43921,7 +43921,7 @@
         &lt;string&gt;ACP N AD and Polst Only&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;87&lt;/int&gt;
+        &lt;int&gt;86&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
   &lt;/ColumnDisplayIndex&gt;
@@ -44505,7 +44505,7 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;ACP N AD Polst Only&lt;/string&gt;
+        &lt;string&gt;ACP N AD Only&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -48220,7 +48220,7 @@ CREATE MEASURE 'PHI Patient SCD'[ACP % Polst]=(divide(SUM('PHI Patient SCD'[ACP 
 CREATE MEASURE 'PHI Patient SCD'[ACP % AD]=(divide(SUM('PHI Patient SCD'[ACP N AD]),SUM('PHI Patient SCD'[AD Denom])));
 CREATE MEASURE 'PHI Patient SCD'[ACP % Polst or AD]=(divide(SUM('PHI Patient SCD'[ACP N Polst or AD]),SUM('PHI Patient SCD'[AD Denom])));
 CREATE MEASURE 'PHI Patient SCD'[ACP % Polst Only]=(divide(SUM('PHI Patient SCD'[ACP N Polst Only]),SUM('PHI Patient SCD'[AD Denom])));
-CREATE MEASURE 'PHI Patient SCD'[ACP % AD Only]=(divide(SUM('PHI Patient SCD'[ACP N AD and Polst Only]),SUM('PHI Patient SCD'[AD Denom])));
+CREATE MEASURE 'PHI Patient SCD'[ACP % AD Only]=(divide(SUM('PHI Patient SCD'[ACP N AD Only]),SUM('PHI Patient SCD'[AD Denom])));
 CREATE MEASURE 'PHI Patient SCD'[ACP % AD and Polst Only]=(divide(SUM('PHI Patient SCD'[ACP N AD and Polst Only]),SUM('PHI Patient SCD'[AD Denom])));
 CREATE MEASURE 'PHI Patient SCD'[ACP % None]=(divide(SUM('PHI Patient SCD'[ACP N None]),SUM('PHI Patient SCD'[AD Denom])));
 </Text>
@@ -49949,8 +49949,8 @@ CREATE MEASURE 'PHI Patient SCD'[ACP % None]=(divide(SUM('PHI Patient SCD'[ACP N
                           <xs:element name="ACP_x0020_N_x0020_AD" msprop:DbColumnName="ACP N AD" msprop:FriendlyName="ACP N AD" type="xs:int" minOccurs="0" />
                           <xs:element name="ACP_x0020_N_x0020_Polst_x0020_or_x0020_AD" msprop:DbColumnName="ACP N Polst or AD" msprop:FriendlyName="ACP N Polst or AD" type="xs:int" minOccurs="0" />
                           <xs:element name="ACP_x0020_N_x0020_Polst_x0020_Only" msprop:DbColumnName="ACP N Polst Only" msprop:FriendlyName="ACP N Polst Only" type="xs:int" minOccurs="0" />
-                          <xs:element name="ACP_x0020_N_x0020_AD_x0020_Polst_x0020_Only" msprop:DbColumnName="ACP N AD Polst Only" msprop:FriendlyName="ACP N AD Polst Only" type="xs:int" minOccurs="0" />
                           <xs:element name="ACP_x0020_N_x0020_AD_x0020_and_x0020_Polst_x0020_Only" msprop:DbColumnName="ACP N AD and Polst Only" msprop:FriendlyName="ACP N AD and Polst Only" type="xs:int" minOccurs="0" />
+                          <xs:element name="ACP_x0020_N_x0020_AD_x0020_Only" msprop:DbColumnName="ACP N AD Only" msprop:FriendlyName="ACP N AD Only" type="xs:int" minOccurs="0" />
                         </xs:sequence>
                       </xs:complexType>
                     </xs:element>
