@@ -11470,26 +11470,26 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;ACP Comp&lt;/string&gt;
+        &lt;string&gt;ACP N None&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;80&lt;/int&gt;
+        &lt;int&gt;88&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;ACP Part&lt;/string&gt;
+        &lt;string&gt;ACP N Visit&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;73&lt;/int&gt;
+        &lt;int&gt;82&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;ACP None&lt;/string&gt;
+        &lt;string&gt;ACP N Comp&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;78&lt;/int&gt;
+        &lt;int&gt;90&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -11674,6 +11674,70 @@
       &lt;/key&gt;
       &lt;value&gt;
         &lt;int&gt;82&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N Visit Dx&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;98&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N Visit CPT&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;104&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N Polst&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;86&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N AD&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;77&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N Polst or AD&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;116&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N Polst Only&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;111&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N AD Polst Only&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;128&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N AD and Polst Only&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;149&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
   &lt;/ColumnWidths&gt;
@@ -11915,7 +11979,7 @@
         &lt;string&gt;Deceased Status&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;55&lt;/int&gt;
+        &lt;int&gt;52&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12099,7 +12163,7 @@
         &lt;string&gt;Hosp 12M&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;57&lt;/int&gt;
+        &lt;int&gt;54&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12107,204 +12171,20 @@
         &lt;string&gt;ED 12M&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;56&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;ACP Comp&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;51&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;ACP Part&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;52&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;ACP None&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
         &lt;int&gt;53&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;RFA Comp&lt;/string&gt;
+        &lt;string&gt;ACP N None&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;54&lt;/int&gt;
+        &lt;int&gt;79&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;All DAO&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;59&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;All Due&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;58&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;PCP Hx Team&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;60&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;multi_ed_12mon_flag&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;61&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;dc_12mon_flag&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;62&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;BH 12M&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;63&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;multi_bh_12mon_flag&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;64&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;UDS CRC Den&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;65&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;UDS BP Den&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;66&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;UDS CRC Num&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;67&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;UDS BP Num&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;68&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;IQ CRC Den&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;69&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;IQ BP Den&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;70&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;IQ CRC Num&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;71&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;IQ BP Num&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;72&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;IQ DM2 Den&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;73&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;iq_dm2_o9_num&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;74&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;IQ DM2 Num&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;75&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;IQ BC Den&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;76&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;IQ BC Num&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;77&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;MH Hx&lt;/string&gt;
+        &lt;string&gt;ACP N Visit&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;int&gt;78&lt;/int&gt;
@@ -12312,10 +12192,258 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
+        &lt;string&gt;ACP N Comp&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;77&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;RFA Comp&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;51&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;All DAO&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;56&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;All Due&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;55&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;PCP Hx Team&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;57&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;multi_ed_12mon_flag&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;58&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;dc_12mon_flag&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;59&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;BH 12M&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;60&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;multi_bh_12mon_flag&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;61&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;UDS CRC Den&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;62&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;UDS BP Den&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;63&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;UDS CRC Num&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;64&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;UDS BP Num&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;65&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;IQ CRC Den&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;66&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;IQ BP Den&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;67&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;IQ CRC Num&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;68&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;IQ BP Num&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;69&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;IQ DM2 Den&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;70&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;iq_dm2_o9_num&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;71&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;IQ DM2 Num&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;72&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;IQ BC Den&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;73&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;IQ BC Num&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;74&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;MH Hx&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;75&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
         &lt;string&gt;MH Hx Site&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;79&lt;/int&gt;
+        &lt;int&gt;76&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N Visit Dx&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;80&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N Visit CPT&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;81&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N Polst&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;82&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N AD&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;83&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N Polst or AD&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;84&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N Polst Only&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;85&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N AD Polst Only&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;86&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N AD and Polst Only&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;87&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
   &lt;/ColumnDisplayIndex&gt;
@@ -12643,7 +12771,7 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;ACP Comp&lt;/string&gt;
+        &lt;string&gt;ACP N None&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -12651,7 +12779,7 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;ACP Part&lt;/string&gt;
+        &lt;string&gt;ACP N Visit&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -12659,7 +12787,7 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;ACP None&lt;/string&gt;
+        &lt;string&gt;ACP N Comp&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -12844,6 +12972,70 @@
     &lt;item&gt;
       &lt;key&gt;
         &lt;string&gt;MH Hx Site&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N Visit Dx&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N Visit CPT&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N Polst&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N AD&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N Polst or AD&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N Polst Only&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N AD Polst Only&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N AD and Polst Only&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -13148,21 +13340,6 @@
                   <Name>AD Denom</Name>
                 </AttributeRelationship>
                 <AttributeRelationship>
-                  <AttributeID>ACP Comp</AttributeID>
-                  <OverrideBehavior>None</OverrideBehavior>
-                  <Name>ACP Comp</Name>
-                </AttributeRelationship>
-                <AttributeRelationship>
-                  <AttributeID>ACP Part</AttributeID>
-                  <OverrideBehavior>None</OverrideBehavior>
-                  <Name>ACP Part</Name>
-                </AttributeRelationship>
-                <AttributeRelationship>
-                  <AttributeID>ACP None</AttributeID>
-                  <OverrideBehavior>None</OverrideBehavior>
-                  <Name>ACP None</Name>
-                </AttributeRelationship>
-                <AttributeRelationship>
                   <AttributeID>RFA Comp</AttributeID>
                   <OverrideBehavior>None</OverrideBehavior>
                   <Name>RFA Comp</Name>
@@ -13296,6 +13473,61 @@
                   <AttributeID>MH Hx Site</AttributeID>
                   <OverrideBehavior>None</OverrideBehavior>
                   <Name>MH Hx Site</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>ACP N Comp</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>ACP N Comp</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>ACP N Visit</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>ACP N Visit</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>ACP N None</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>ACP N None</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>ACP N Visit Dx</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>ACP N Visit Dx</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>ACP N Visit CPT</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>ACP N Visit CPT</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>ACP N Polst</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>ACP N Polst</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>ACP N AD</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>ACP N AD</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>ACP N Polst or AD</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>ACP N Polst or AD</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>ACP N Polst Only</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>ACP N Polst Only</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>ACP N AD Polst Only</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>ACP N AD Polst Only</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>ACP N AD and Polst Only</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>ACP N AD and Polst Only</Name>
                 </AttributeRelationship>
               </AttributeRelationships>
               <OrderBy>Key</OrderBy>
@@ -14705,81 +14937,6 @@
               <OrderBy>Key</OrderBy>
             </Attribute>
             <Attribute>
-              <ID>ACP Comp</ID>
-              <Name>ACP Comp</Name>
-              <KeyColumns>
-                <KeyColumn>
-                  <DataType>Integer</DataType>
-                  <DataSize>-1</DataSize>
-                  <NullProcessing>Preserve</NullProcessing>
-                  <Source xsi:type="ColumnBinding">
-                    <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
-                    <ColumnID>ACP_x0020_Comp</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <NameColumn>
-                <DataType>WChar</DataType>
-                <DataSize>-1</DataSize>
-                <NullProcessing>ZeroOrBlank</NullProcessing>
-                <Source xsi:type="ColumnBinding">
-                  <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
-                  <ColumnID>ACP_x0020_Comp</ColumnID>
-                </Source>
-              </NameColumn>
-              <OrderBy>Key</OrderBy>
-            </Attribute>
-            <Attribute>
-              <ID>ACP Part</ID>
-              <Name>ACP Part</Name>
-              <KeyColumns>
-                <KeyColumn>
-                  <DataType>Integer</DataType>
-                  <DataSize>-1</DataSize>
-                  <NullProcessing>Preserve</NullProcessing>
-                  <Source xsi:type="ColumnBinding">
-                    <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
-                    <ColumnID>ACP_x0020_Part</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <NameColumn>
-                <DataType>WChar</DataType>
-                <DataSize>-1</DataSize>
-                <NullProcessing>ZeroOrBlank</NullProcessing>
-                <Source xsi:type="ColumnBinding">
-                  <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
-                  <ColumnID>ACP_x0020_Part</ColumnID>
-                </Source>
-              </NameColumn>
-              <OrderBy>Key</OrderBy>
-            </Attribute>
-            <Attribute>
-              <ID>ACP None</ID>
-              <Name>ACP None</Name>
-              <KeyColumns>
-                <KeyColumn>
-                  <DataType>Integer</DataType>
-                  <DataSize>-1</DataSize>
-                  <NullProcessing>Preserve</NullProcessing>
-                  <Source xsi:type="ColumnBinding">
-                    <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
-                    <ColumnID>ACP_x0020_None</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <NameColumn>
-                <DataType>WChar</DataType>
-                <DataSize>-1</DataSize>
-                <NullProcessing>ZeroOrBlank</NullProcessing>
-                <Source xsi:type="ColumnBinding">
-                  <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
-                  <ColumnID>ACP_x0020_None</ColumnID>
-                </Source>
-              </NameColumn>
-              <OrderBy>Key</OrderBy>
-            </Attribute>
-            <Attribute>
               <ID>RFA Comp</ID>
               <Name>RFA Comp</Name>
               <KeyColumns>
@@ -15454,6 +15611,281 @@
                 <Source xsi:type="ColumnBinding">
                   <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
                   <ColumnID>MH_x0020_Hx_x0020_Site</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>ACP N Comp</ID>
+              <Name>ACP N Comp</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <DataSize>-1</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                    <ColumnID>ACP_x0020_N_x0020_Comp</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>-1</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                  <ColumnID>ACP_x0020_N_x0020_Comp</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>ACP N Visit</ID>
+              <Name>ACP N Visit</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <DataSize>-1</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                    <ColumnID>ACP_x0020_N_x0020_Visit</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>-1</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                  <ColumnID>ACP_x0020_N_x0020_Visit</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>ACP N None</ID>
+              <Name>ACP N None</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <DataSize>-1</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                    <ColumnID>ACP_x0020_N_x0020_None</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>-1</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                  <ColumnID>ACP_x0020_N_x0020_None</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>ACP N Visit Dx</ID>
+              <Name>ACP N Visit Dx</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <DataSize>-1</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                    <ColumnID>ACP_x0020_N_x0020_Visit_x0020_Dx</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>-1</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                  <ColumnID>ACP_x0020_N_x0020_Visit_x0020_Dx</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>ACP N Visit CPT</ID>
+              <Name>ACP N Visit CPT</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <DataSize>-1</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                    <ColumnID>ACP_x0020_N_x0020_Visit_x0020_CPT</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>-1</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                  <ColumnID>ACP_x0020_N_x0020_Visit_x0020_CPT</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>ACP N Polst</ID>
+              <Name>ACP N Polst</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <DataSize>-1</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                    <ColumnID>ACP_x0020_N_x0020_Polst</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>-1</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                  <ColumnID>ACP_x0020_N_x0020_Polst</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>ACP N AD</ID>
+              <Name>ACP N AD</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <DataSize>-1</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                    <ColumnID>ACP_x0020_N_x0020_AD</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>-1</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                  <ColumnID>ACP_x0020_N_x0020_AD</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>ACP N Polst or AD</ID>
+              <Name>ACP N Polst or AD</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <DataSize>-1</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                    <ColumnID>ACP_x0020_N_x0020_Polst_x0020_or_x0020_AD</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>-1</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                  <ColumnID>ACP_x0020_N_x0020_Polst_x0020_or_x0020_AD</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>ACP N Polst Only</ID>
+              <Name>ACP N Polst Only</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <DataSize>-1</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                    <ColumnID>ACP_x0020_N_x0020_Polst_x0020_Only</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>-1</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                  <ColumnID>ACP_x0020_N_x0020_Polst_x0020_Only</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>ACP N AD Polst Only</ID>
+              <Name>ACP N AD Polst Only</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <DataSize>-1</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                    <ColumnID>ACP_x0020_N_x0020_AD_x0020_Polst_x0020_Only</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>-1</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                  <ColumnID>ACP_x0020_N_x0020_AD_x0020_Polst_x0020_Only</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>ACP N AD and Polst Only</ID>
+              <Name>ACP N AD and Polst Only</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <DataSize>-1</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                    <ColumnID>ACP_x0020_N_x0020_AD_x0020_and_x0020_Polst_x0020_Only</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>-1</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                  <ColumnID>ACP_x0020_N_x0020_AD_x0020_and_x0020_Polst_x0020_Only</ColumnID>
                 </Source>
               </NameColumn>
               <OrderBy>Key</OrderBy>
@@ -22136,15 +22568,6 @@
                   <AttributeID>AD Denom</AttributeID>
                 </Attribute>
                 <Attribute>
-                  <AttributeID>ACP Comp</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>ACP Part</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>ACP None</AttributeID>
-                </Attribute>
-                <Attribute>
                   <AttributeID>RFA Comp</AttributeID>
                 </Attribute>
                 <Attribute>
@@ -22228,6 +22651,39 @@
                 </Attribute>
                 <Attribute>
                   <AttributeID>MH Hx Site</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>ACP N Comp</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>ACP N Visit</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>ACP N None</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>ACP N Visit Dx</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>ACP N Visit CPT</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>ACP N Polst</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>ACP N AD</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>ACP N Polst or AD</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>ACP N Polst Only</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>ACP N AD Polst Only</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>ACP N AD and Polst Only</AttributeID>
                 </Attribute>
               </Attributes>
             </Dimension>
@@ -38954,48 +39410,6 @@
                       </KeyColumns>
                     </Attribute>
                     <Attribute>
-                      <AttributeID>ACP Comp</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Integer</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
-                            <ColumnID>ACP_x0020_Comp</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>ACP Part</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Integer</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
-                            <ColumnID>ACP_x0020_Part</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>ACP None</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Integer</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
-                            <ColumnID>ACP_x0020_None</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
                       <AttributeID>RFA Comp</AttributeID>
                       <KeyColumns>
                         <KeyColumn>
@@ -39369,6 +39783,160 @@
                           <Source xsi:type="ColumnBinding">
                             <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
                             <ColumnID>MH_x0020_Hx_x0020_Site</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>ACP N Comp</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                            <ColumnID>ACP_x0020_N_x0020_Comp</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>ACP N Visit</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                            <ColumnID>ACP_x0020_N_x0020_Visit</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>ACP N None</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                            <ColumnID>ACP_x0020_N_x0020_None</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>ACP N Visit Dx</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                            <ColumnID>ACP_x0020_N_x0020_Visit_x0020_Dx</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>ACP N Visit CPT</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                            <ColumnID>ACP_x0020_N_x0020_Visit_x0020_CPT</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>ACP N Polst</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                            <ColumnID>ACP_x0020_N_x0020_Polst</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>ACP N AD</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                            <ColumnID>ACP_x0020_N_x0020_AD</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>ACP N Polst or AD</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                            <ColumnID>ACP_x0020_N_x0020_Polst_x0020_or_x0020_AD</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>ACP N Polst Only</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                            <ColumnID>ACP_x0020_N_x0020_Polst_x0020_Only</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>ACP N AD Polst Only</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                            <ColumnID>ACP_x0020_N_x0020_AD_x0020_Polst_x0020_Only</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>ACP N AD and Polst Only</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                            <ColumnID>ACP_x0020_N_x0020_AD_x0020_and_x0020_Polst_x0020_Only</ColumnID>
                           </Source>
                         </KeyColumn>
                       </KeyColumns>
@@ -42380,26 +42948,26 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;ACP Comp&lt;/string&gt;
+        &lt;string&gt;ACP N None&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;80&lt;/int&gt;
+        &lt;int&gt;88&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;ACP Part&lt;/string&gt;
+        &lt;string&gt;ACP N Visit&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;73&lt;/int&gt;
+        &lt;int&gt;82&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;ACP None&lt;/string&gt;
+        &lt;string&gt;ACP N Comp&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;78&lt;/int&gt;
+        &lt;int&gt;90&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42584,6 +43152,70 @@
       &lt;/key&gt;
       &lt;value&gt;
         &lt;int&gt;82&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N Visit Dx&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;98&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N Visit CPT&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;104&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N Polst&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;86&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N AD&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;77&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N Polst or AD&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;116&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N Polst Only&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;111&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N AD Polst Only&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;128&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N AD and Polst Only&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;149&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
   &lt;/ColumnWidths&gt;
@@ -42825,7 +43457,7 @@
         &lt;string&gt;Deceased Status&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;55&lt;/int&gt;
+        &lt;int&gt;52&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -43009,7 +43641,7 @@
         &lt;string&gt;Hosp 12M&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;57&lt;/int&gt;
+        &lt;int&gt;54&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -43017,204 +43649,20 @@
         &lt;string&gt;ED 12M&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;56&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;ACP Comp&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;51&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;ACP Part&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;52&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;ACP None&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
         &lt;int&gt;53&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;RFA Comp&lt;/string&gt;
+        &lt;string&gt;ACP N None&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;54&lt;/int&gt;
+        &lt;int&gt;79&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;All DAO&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;59&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;All Due&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;58&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;PCP Hx Team&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;60&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;multi_ed_12mon_flag&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;61&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;dc_12mon_flag&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;62&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;BH 12M&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;63&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;multi_bh_12mon_flag&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;64&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;UDS CRC Den&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;65&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;UDS BP Den&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;66&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;UDS CRC Num&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;67&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;UDS BP Num&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;68&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;IQ CRC Den&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;69&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;IQ BP Den&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;70&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;IQ CRC Num&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;71&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;IQ BP Num&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;72&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;IQ DM2 Den&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;73&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;iq_dm2_o9_num&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;74&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;IQ DM2 Num&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;75&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;IQ BC Den&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;76&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;IQ BC Num&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;77&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;MH Hx&lt;/string&gt;
+        &lt;string&gt;ACP N Visit&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;int&gt;78&lt;/int&gt;
@@ -43222,10 +43670,258 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
+        &lt;string&gt;ACP N Comp&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;77&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;RFA Comp&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;51&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;All DAO&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;56&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;All Due&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;55&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;PCP Hx Team&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;57&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;multi_ed_12mon_flag&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;58&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;dc_12mon_flag&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;59&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;BH 12M&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;60&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;multi_bh_12mon_flag&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;61&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;UDS CRC Den&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;62&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;UDS BP Den&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;63&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;UDS CRC Num&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;64&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;UDS BP Num&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;65&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;IQ CRC Den&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;66&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;IQ BP Den&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;67&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;IQ CRC Num&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;68&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;IQ BP Num&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;69&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;IQ DM2 Den&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;70&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;iq_dm2_o9_num&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;71&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;IQ DM2 Num&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;72&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;IQ BC Den&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;73&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;IQ BC Num&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;74&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;MH Hx&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;75&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
         &lt;string&gt;MH Hx Site&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;79&lt;/int&gt;
+        &lt;int&gt;76&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N Visit Dx&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;80&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N Visit CPT&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;81&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N Polst&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;82&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N AD&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;83&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N Polst or AD&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;84&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N Polst Only&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;85&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N AD Polst Only&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;86&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N AD and Polst Only&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;87&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
   &lt;/ColumnDisplayIndex&gt;
@@ -43553,7 +44249,7 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;ACP Comp&lt;/string&gt;
+        &lt;string&gt;ACP N None&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -43561,7 +44257,7 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;ACP Part&lt;/string&gt;
+        &lt;string&gt;ACP N Visit&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -43569,7 +44265,7 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;ACP None&lt;/string&gt;
+        &lt;string&gt;ACP N Comp&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -43754,6 +44450,70 @@
     &lt;item&gt;
       &lt;key&gt;
         &lt;string&gt;MH Hx Site&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N Visit Dx&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N Visit CPT&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N Polst&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N AD&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N Polst or AD&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N Polst Only&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N AD Polst Only&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;ACP N AD and Polst Only&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -47442,9 +48202,6 @@ CREATE MEASURE 'PHI Patient SCD'[12M Active]=CALCULATE(SUM([12M Act]),LASTDATE('
 CREATE MEASURE 'PHI Patient SCD'[6M Active]=CALCULATE(SUM([6M Act]),LASTDATE('PHI Patient SCD'[first_mon_date]));
 CREATE MEASURE 'PHI Patient SCD'[3M Active]=CALCULATE(SUM([3M Act]),LASTDATE('PHI Patient SCD'[first_mon_date]));
 CREATE MEASURE 'PHI Patient SCD'[1M Active]=CALCULATE(SUM([1M Act]),LASTDATE('PHI Patient SCD'[first_mon_date]));
-CREATE MEASURE 'PHI Patient SCD'[ACP Comp %]=(divide(SUM('PHI Patient SCD'[ACP Comp]),SUM('PHI Patient SCD'[AD Denom])));
-CREATE MEASURE 'PHI Patient SCD'[ACP Part %]=(divide(SUM('PHI Patient SCD'[ACP Part]),SUM('PHI Patient SCD'[AD Denom])));
-CREATE MEASURE 'PHI Patient SCD'[ACP Incomp %]=(divide(SUM('PHI Patient SCD'[ACP None]),SUM('PHI Patient SCD'[AD Denom])));
 CREATE MEASURE 'PHI Patient SCD'[RFA Comp %]=(divide(SUM('PHI Patient SCD'[RFA Comp]),SUM('PHI Patient SCD'[AD Denom])));
 CREATE MEASURE 'PHI Patient SCD'[ED 12M %]=(divide(SUM('PHI Patient SCD'[multi_ed_12mon_flag]),SUM('PHI Patient SCD'[18M Act])));
 CREATE MEASURE 'PHI Patient SCD'[DC 12M %]=(divide(SUM('PHI Patient SCD'[dc_12mon_flag]),SUM('PHI Patient SCD'[18M Act])));
@@ -47455,6 +48212,17 @@ CREATE MEASURE 'PHI Patient SCD'[UDS BP Hx]=(divide(SUM('PHI Patient SCD'[UDS BP
 CREATE MEASURE 'PHI Patient SCD'[UDS CRC Hx]=(divide(SUM('PHI Patient SCD'[UDS CRC Num]),SUM('PHI Patient SCD'[UDS CRC Den])));
 CREATE MEASURE 'PHI Patient SCD'[IQ DM2 Hx]=(divide(SUM('PHI Patient SCD'[IQ DM2 Num]),SUM('PHI Patient SCD'[IQ DM2 Den])));
 CREATE MEASURE 'PHI Patient SCD'[IQ BC Hx]=(divide(SUM('PHI Patient SCD'[IQ BC Num]),SUM('PHI Patient SCD'[IQ BC Den])));
+CREATE MEASURE 'PHI Patient SCD'[ACP % Comp]=(divide(SUM('PHI Patient SCD'[ACP N Comp]),SUM('PHI Patient SCD'[AD Denom])));
+CREATE MEASURE 'PHI Patient SCD'[ACP % Visit]=(divide(SUM('PHI Patient SCD'[ACP N Visit]),SUM('PHI Patient SCD'[AD Denom])));
+CREATE MEASURE 'PHI Patient SCD'[ACP % Visit Dx]=(divide(SUM('PHI Patient SCD'[ACP N Visit Dx]),SUM('PHI Patient SCD'[AD Denom])));
+CREATE MEASURE 'PHI Patient SCD'[ACP % Visit CPT]=(divide(SUM('PHI Patient SCD'[ACP N Visit CPT]),SUM('PHI Patient SCD'[AD Denom])));
+CREATE MEASURE 'PHI Patient SCD'[ACP % Polst]=(divide(SUM('PHI Patient SCD'[ACP N Polst]),SUM('PHI Patient SCD'[AD Denom])));
+CREATE MEASURE 'PHI Patient SCD'[ACP % AD]=(divide(SUM('PHI Patient SCD'[ACP N AD]),SUM('PHI Patient SCD'[AD Denom])));
+CREATE MEASURE 'PHI Patient SCD'[ACP % Polst or AD]=(divide(SUM('PHI Patient SCD'[ACP N Polst or AD]),SUM('PHI Patient SCD'[AD Denom])));
+CREATE MEASURE 'PHI Patient SCD'[ACP % Polst Only]=(divide(SUM('PHI Patient SCD'[ACP N Polst Only]),SUM('PHI Patient SCD'[AD Denom])));
+CREATE MEASURE 'PHI Patient SCD'[ACP % AD Only]=(divide(SUM('PHI Patient SCD'[ACP N AD and Polst Only]),SUM('PHI Patient SCD'[AD Denom])));
+CREATE MEASURE 'PHI Patient SCD'[ACP % AD and Polst Only]=(divide(SUM('PHI Patient SCD'[ACP N AD and Polst Only]),SUM('PHI Patient SCD'[AD Denom])));
+CREATE MEASURE 'PHI Patient SCD'[ACP % None]=(divide(SUM('PHI Patient SCD'[ACP N None]),SUM('PHI Patient SCD'[AD Denom])));
 </Text>
                 </Command>
               </Commands>
@@ -47728,69 +48496,6 @@ CREATE MEASURE 'PHI Patient SCD'[IQ BC Hx]=(divide(SUM('PHI Patient SCD'[IQ BC N
                       </Value>
                     </Annotation>
                   </Annotations>
-                  <CalculationReference>[ACP Comp %]</CalculationReference>
-                  <CalculationType>Member</CalculationType>
-                  <FormatString>'0.00 %;-0.00 %;0.00 %'</FormatString>
-                </CalculationProperty>
-                <CalculationProperty>
-                  <Annotations>
-                    <Annotation>
-                      <Name>Type</Name>
-                      <Value>User</Value>
-                    </Annotation>
-                    <Annotation>
-                      <Name>IsPrivate</Name>
-                      <Value>False</Value>
-                    </Annotation>
-                    <Annotation>
-                      <Name>Format</Name>
-                      <Value>
-                        <Format Format="Percentage" Accuracy="2" xmlns="" />
-                      </Value>
-                    </Annotation>
-                  </Annotations>
-                  <CalculationReference>[ACP Part %]</CalculationReference>
-                  <CalculationType>Member</CalculationType>
-                  <FormatString>'0.00 %;-0.00 %;0.00 %'</FormatString>
-                </CalculationProperty>
-                <CalculationProperty>
-                  <Annotations>
-                    <Annotation>
-                      <Name>Type</Name>
-                      <Value>User</Value>
-                    </Annotation>
-                    <Annotation>
-                      <Name>IsPrivate</Name>
-                      <Value>False</Value>
-                    </Annotation>
-                    <Annotation>
-                      <Name>Format</Name>
-                      <Value>
-                        <Format Format="Percentage" Accuracy="2" xmlns="" />
-                      </Value>
-                    </Annotation>
-                  </Annotations>
-                  <CalculationReference>[ACP Incomp %]</CalculationReference>
-                  <CalculationType>Member</CalculationType>
-                  <FormatString>'0.00 %;-0.00 %;0.00 %'</FormatString>
-                </CalculationProperty>
-                <CalculationProperty>
-                  <Annotations>
-                    <Annotation>
-                      <Name>Type</Name>
-                      <Value>User</Value>
-                    </Annotation>
-                    <Annotation>
-                      <Name>IsPrivate</Name>
-                      <Value>False</Value>
-                    </Annotation>
-                    <Annotation>
-                      <Name>Format</Name>
-                      <Value>
-                        <Format Format="Percentage" Accuracy="2" xmlns="" />
-                      </Value>
-                    </Annotation>
-                  </Annotations>
                   <CalculationReference>[RFA Comp %]</CalculationReference>
                   <CalculationType>Member</CalculationType>
                   <FormatString>'0.00 %;-0.00 %;0.00 %'</FormatString>
@@ -47981,6 +48686,237 @@ CREATE MEASURE 'PHI Patient SCD'[IQ BC Hx]=(divide(SUM('PHI Patient SCD'[IQ BC N
                     </Annotation>
                   </Annotations>
                   <CalculationReference>[IQ BC Hx]</CalculationReference>
+                  <CalculationType>Member</CalculationType>
+                  <FormatString>'0.00 %;-0.00 %;0.00 %'</FormatString>
+                </CalculationProperty>
+                <CalculationProperty>
+                  <Annotations>
+                    <Annotation>
+                      <Name>Type</Name>
+                      <Value>User</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>IsPrivate</Name>
+                      <Value>False</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>Format</Name>
+                      <Value>
+                        <Format Format="Percentage" Accuracy="2" xmlns="" />
+                      </Value>
+                    </Annotation>
+                  </Annotations>
+                  <CalculationReference>[ACP % Comp]</CalculationReference>
+                  <CalculationType>Member</CalculationType>
+                  <FormatString>'0.00 %;-0.00 %;0.00 %'</FormatString>
+                </CalculationProperty>
+                <CalculationProperty>
+                  <Annotations>
+                    <Annotation>
+                      <Name>Type</Name>
+                      <Value>User</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>IsPrivate</Name>
+                      <Value>False</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>Format</Name>
+                      <Value>
+                        <Format Format="Percentage" Accuracy="2" xmlns="" />
+                      </Value>
+                    </Annotation>
+                  </Annotations>
+                  <CalculationReference>[ACP % Visit]</CalculationReference>
+                  <CalculationType>Member</CalculationType>
+                  <FormatString>'0.00 %;-0.00 %;0.00 %'</FormatString>
+                </CalculationProperty>
+                <CalculationProperty>
+                  <Annotations>
+                    <Annotation>
+                      <Name>Type</Name>
+                      <Value>User</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>IsPrivate</Name>
+                      <Value>False</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>Format</Name>
+                      <Value>
+                        <Format Format="Percentage" Accuracy="2" xmlns="" />
+                      </Value>
+                    </Annotation>
+                  </Annotations>
+                  <CalculationReference>[ACP % Visit Dx]</CalculationReference>
+                  <CalculationType>Member</CalculationType>
+                  <FormatString>'0.00 %;-0.00 %;0.00 %'</FormatString>
+                </CalculationProperty>
+                <CalculationProperty>
+                  <Annotations>
+                    <Annotation>
+                      <Name>Type</Name>
+                      <Value>User</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>IsPrivate</Name>
+                      <Value>False</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>Format</Name>
+                      <Value>
+                        <Format Format="Percentage" Accuracy="2" xmlns="" />
+                      </Value>
+                    </Annotation>
+                  </Annotations>
+                  <CalculationReference>[ACP % Visit CPT]</CalculationReference>
+                  <CalculationType>Member</CalculationType>
+                  <FormatString>'0.00 %;-0.00 %;0.00 %'</FormatString>
+                </CalculationProperty>
+                <CalculationProperty>
+                  <Annotations>
+                    <Annotation>
+                      <Name>Type</Name>
+                      <Value>User</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>IsPrivate</Name>
+                      <Value>False</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>Format</Name>
+                      <Value>
+                        <Format Format="Percentage" Accuracy="2" xmlns="" />
+                      </Value>
+                    </Annotation>
+                  </Annotations>
+                  <CalculationReference>[ACP % Polst]</CalculationReference>
+                  <CalculationType>Member</CalculationType>
+                  <FormatString>'0.00 %;-0.00 %;0.00 %'</FormatString>
+                </CalculationProperty>
+                <CalculationProperty>
+                  <Annotations>
+                    <Annotation>
+                      <Name>Type</Name>
+                      <Value>User</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>IsPrivate</Name>
+                      <Value>False</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>Format</Name>
+                      <Value>
+                        <Format Format="Percentage" Accuracy="2" xmlns="" />
+                      </Value>
+                    </Annotation>
+                  </Annotations>
+                  <CalculationReference>[ACP % AD]</CalculationReference>
+                  <CalculationType>Member</CalculationType>
+                  <FormatString>'0.00 %;-0.00 %;0.00 %'</FormatString>
+                </CalculationProperty>
+                <CalculationProperty>
+                  <Annotations>
+                    <Annotation>
+                      <Name>Type</Name>
+                      <Value>User</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>IsPrivate</Name>
+                      <Value>False</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>Format</Name>
+                      <Value>
+                        <Format Format="Percentage" Accuracy="2" xmlns="" />
+                      </Value>
+                    </Annotation>
+                  </Annotations>
+                  <CalculationReference>[ACP % Polst or AD]</CalculationReference>
+                  <CalculationType>Member</CalculationType>
+                  <FormatString>'0.00 %;-0.00 %;0.00 %'</FormatString>
+                </CalculationProperty>
+                <CalculationProperty>
+                  <Annotations>
+                    <Annotation>
+                      <Name>Type</Name>
+                      <Value>User</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>IsPrivate</Name>
+                      <Value>False</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>Format</Name>
+                      <Value>
+                        <Format Format="Percentage" Accuracy="2" xmlns="" />
+                      </Value>
+                    </Annotation>
+                  </Annotations>
+                  <CalculationReference>[ACP % Polst Only]</CalculationReference>
+                  <CalculationType>Member</CalculationType>
+                  <FormatString>'0.00 %;-0.00 %;0.00 %'</FormatString>
+                </CalculationProperty>
+                <CalculationProperty>
+                  <Annotations>
+                    <Annotation>
+                      <Name>Type</Name>
+                      <Value>User</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>IsPrivate</Name>
+                      <Value>False</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>Format</Name>
+                      <Value>
+                        <Format Format="Percentage" Accuracy="2" xmlns="" />
+                      </Value>
+                    </Annotation>
+                  </Annotations>
+                  <CalculationReference>[ACP % AD Only]</CalculationReference>
+                  <CalculationType>Member</CalculationType>
+                  <FormatString>'0.00 %;-0.00 %;0.00 %'</FormatString>
+                </CalculationProperty>
+                <CalculationProperty>
+                  <Annotations>
+                    <Annotation>
+                      <Name>Type</Name>
+                      <Value>User</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>IsPrivate</Name>
+                      <Value>False</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>Format</Name>
+                      <Value>
+                        <Format Format="Percentage" Accuracy="2" xmlns="" />
+                      </Value>
+                    </Annotation>
+                  </Annotations>
+                  <CalculationReference>[ACP % AD and Polst Only]</CalculationReference>
+                  <CalculationType>Member</CalculationType>
+                  <FormatString>'0.00 %;-0.00 %;0.00 %'</FormatString>
+                </CalculationProperty>
+                <CalculationProperty>
+                  <Annotations>
+                    <Annotation>
+                      <Name>Type</Name>
+                      <Value>User</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>IsPrivate</Name>
+                      <Value>False</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>Format</Name>
+                      <Value>
+                        <Format Format="Percentage" Accuracy="2" xmlns="" />
+                      </Value>
+                    </Annotation>
+                  </Annotations>
+                  <CalculationReference>[ACP % None]</CalculationReference>
                   <CalculationType>Member</CalculationType>
                   <FormatString>'0.00 %;-0.00 %;0.00 %'</FormatString>
                 </CalculationProperty>
@@ -48953,9 +49889,6 @@ CREATE MEASURE 'PHI Patient SCD'[IQ BC Hx]=(divide(SUM('PHI Patient SCD'[IQ BC N
                           <xs:element name="CRC_x0020_ONC" msprop:DbColumnName="CRC ONC" msprop:FriendlyName="CRC ONC" type="xs:int" minOccurs="0" />
                           <xs:element name="BC_x0020_ONC" msprop:DbColumnName="BC ONC" msprop:FriendlyName="BC ONC" type="xs:int" minOccurs="0" />
                           <xs:element name="AD_x0020_Denom" msprop:DbColumnName="AD Denom" msprop:FriendlyName="AD Denom" type="xs:int" minOccurs="0" />
-                          <xs:element name="ACP_x0020_Comp" msprop:DbColumnName="ACP Comp" msprop:FriendlyName="ACP Comp" type="xs:int" minOccurs="0" />
-                          <xs:element name="ACP_x0020_Part" msprop:DbColumnName="ACP Part" msprop:FriendlyName="ACP Part" type="xs:int" minOccurs="0" />
-                          <xs:element name="ACP_x0020_None" msprop:DbColumnName="ACP None" msprop:FriendlyName="ACP None" type="xs:int" minOccurs="0" />
                           <xs:element name="RFA_x0020_Comp" msprop:DbColumnName="RFA Comp" msprop:FriendlyName="RFA Comp" type="xs:int" minOccurs="0" />
                           <xs:element name="ED_x0020_12M" msprop:DbColumnName="ED 12M" msprop:FriendlyName="ED 12M" type="xs:int" minOccurs="0" />
                           <xs:element name="Hosp_x0020_12M" msprop:DbColumnName="Hosp 12M" msprop:FriendlyName="Hosp 12M" type="xs:int" minOccurs="0" />
@@ -49007,6 +49940,17 @@ CREATE MEASURE 'PHI Patient SCD'[IQ BC Hx]=(divide(SUM('PHI Patient SCD'[IQ BC N
                               </xs:restriction>
                             </xs:simpleType>
                           </xs:element>
+                          <xs:element name="ACP_x0020_N_x0020_Comp" msprop:DbColumnName="ACP N Comp" msprop:FriendlyName="ACP N Comp" type="xs:int" minOccurs="0" />
+                          <xs:element name="ACP_x0020_N_x0020_Visit" msprop:DbColumnName="ACP N Visit" msprop:FriendlyName="ACP N Visit" type="xs:int" minOccurs="0" />
+                          <xs:element name="ACP_x0020_N_x0020_None" msprop:DbColumnName="ACP N None" msprop:FriendlyName="ACP N None" type="xs:int" minOccurs="0" />
+                          <xs:element name="ACP_x0020_N_x0020_Visit_x0020_Dx" msprop:DbColumnName="ACP N Visit Dx" msprop:FriendlyName="ACP N Visit Dx" type="xs:int" minOccurs="0" />
+                          <xs:element name="ACP_x0020_N_x0020_Visit_x0020_CPT" msprop:DbColumnName="ACP N Visit CPT" msprop:FriendlyName="ACP N Visit CPT" type="xs:int" minOccurs="0" />
+                          <xs:element name="ACP_x0020_N_x0020_Polst" msprop:DbColumnName="ACP N Polst" msprop:FriendlyName="ACP N Polst" type="xs:int" minOccurs="0" />
+                          <xs:element name="ACP_x0020_N_x0020_AD" msprop:DbColumnName="ACP N AD" msprop:FriendlyName="ACP N AD" type="xs:int" minOccurs="0" />
+                          <xs:element name="ACP_x0020_N_x0020_Polst_x0020_or_x0020_AD" msprop:DbColumnName="ACP N Polst or AD" msprop:FriendlyName="ACP N Polst or AD" type="xs:int" minOccurs="0" />
+                          <xs:element name="ACP_x0020_N_x0020_Polst_x0020_Only" msprop:DbColumnName="ACP N Polst Only" msprop:FriendlyName="ACP N Polst Only" type="xs:int" minOccurs="0" />
+                          <xs:element name="ACP_x0020_N_x0020_AD_x0020_Polst_x0020_Only" msprop:DbColumnName="ACP N AD Polst Only" msprop:FriendlyName="ACP N AD Polst Only" type="xs:int" minOccurs="0" />
+                          <xs:element name="ACP_x0020_N_x0020_AD_x0020_and_x0020_Polst_x0020_Only" msprop:DbColumnName="ACP N AD and Polst Only" msprop:FriendlyName="ACP N AD and Polst Only" type="xs:int" minOccurs="0" />
                         </xs:sequence>
                       </xs:complexType>
                     </xs:element>
