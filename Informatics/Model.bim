@@ -6567,50 +6567,10 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;Hedis CRC Den&lt;/string&gt;
+        &lt;string&gt;Days Since BH&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;102&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Hedis BC Den&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;94&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Hedis BP Den&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;93&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Hedis CRC Num&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;104&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Hedis BC Num&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;96&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Hedis BP Num&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;95&lt;/int&gt;
+        &lt;int&gt;98&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -7148,7 +7108,7 @@
         &lt;string&gt;Vintage Month Range&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;65&lt;/int&gt;
+        &lt;int&gt;59&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -7265,479 +7225,7 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;Hedis CRC Den&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;21&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Hedis BC Den&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;22&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Hedis BP Den&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;23&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Hedis CRC Num&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;24&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Hedis BC Num&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;25&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Hedis BP Num&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;26&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Age Cur&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;61&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Alternate Phone Number&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;27&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Marital Status&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;28&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Race&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;29&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Ethnicity&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;30&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Homeless Status&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;31&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Homeless Indicator&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;32&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Disability 1&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;33&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Disability 2&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;34&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Medical Record Number&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;35&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Address Full&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;36&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Last Appointment Date&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;37&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Last Encounter Date&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;38&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Next Appointment Date&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;39&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Last Appointment Provider&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;40&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Last Encounter Provider&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;41&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Next Appointment Provider&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;42&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Chart Create Date&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;43&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Chart Create User&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;44&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Person Create Date&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;45&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Person Creat User&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;46&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Time as Member&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;47&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;membership_time_sort&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;48&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Is Patient New&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;49&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Is Patient Established&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;50&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Is Patient Alive&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;51&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Vintage Month&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;64&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Membership Month&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;52&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Deceased Status&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;75&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Status Cur&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;63&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Patient Vintage Month sort&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;53&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Hedis CRC Due&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;54&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Hedis BP Due&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;55&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Hedis BC Due&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;56&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Days to Appt&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;57&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Days Since Enc&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;58&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;PCP Cur&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;59&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Last Enc MA&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;60&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Age Range Cur&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;62&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Has Dm2&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;66&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Has CKD&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;67&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Last Med Date&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;68&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Last Med Provider&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;69&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Last Med MA&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;70&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Days Since ED&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;71&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Days Since DC&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;72&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt; Last Med Team&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;73&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Next Appt Team&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;74&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;PCP Cur Team&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;76&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Avg Cycle Time&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;77&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Days Since Med&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;78&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;High NS 12M&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;79&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;MH Cur&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;80&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;MH Cur Site&lt;/string&gt;
+        &lt;string&gt;Days Since BH&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;int&gt;81&lt;/int&gt;
@@ -7745,10 +7233,442 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
+        &lt;string&gt;Age Cur&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;55&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Alternate Phone Number&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;21&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Marital Status&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;22&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Race&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;23&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Ethnicity&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;24&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Homeless Status&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;25&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Homeless Indicator&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;26&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Disability 1&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;27&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Disability 2&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;28&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Medical Record Number&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;29&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Address Full&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;30&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last Appointment Date&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;31&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last Encounter Date&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;32&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Next Appointment Date&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;33&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last Appointment Provider&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;34&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last Encounter Provider&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;35&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Next Appointment Provider&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;36&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Chart Create Date&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;37&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Chart Create User&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;38&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Person Create Date&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;39&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Person Creat User&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;40&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Time as Member&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;41&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;membership_time_sort&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;42&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Is Patient New&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;43&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Is Patient Established&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;44&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Is Patient Alive&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;45&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Vintage Month&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;58&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Membership Month&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;46&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Deceased Status&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;69&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Status Cur&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;57&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Patient Vintage Month sort&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;47&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Hedis CRC Due&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;48&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Hedis BP Due&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;49&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Hedis BC Due&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;50&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Days to Appt&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;51&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Days Since Enc&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;52&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;PCP Cur&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;53&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last Enc MA&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;54&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Age Range Cur&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;56&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Has Dm2&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;60&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Has CKD&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;61&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last Med Date&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;62&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last Med Provider&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;63&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last Med MA&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;64&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Days Since ED&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;65&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Days Since DC&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;66&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt; Last Med Team&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;67&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Next Appt Team&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;68&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;PCP Cur Team&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;70&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Avg Cycle Time&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;71&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Days Since Med&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;72&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;High NS 12M&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;73&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;MH Cur&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;74&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;MH Cur Site&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;75&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
         &lt;string&gt;Last ACP Doc Date&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;82&lt;/int&gt;
+        &lt;int&gt;76&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -7756,7 +7676,7 @@
         &lt;string&gt;Last BH Date&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;83&lt;/int&gt;
+        &lt;int&gt;77&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -7764,7 +7684,7 @@
         &lt;string&gt;Last ACP Date&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;84&lt;/int&gt;
+        &lt;int&gt;78&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -7772,7 +7692,7 @@
         &lt;string&gt;Last BH Provider&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;85&lt;/int&gt;
+        &lt;int&gt;79&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -7780,7 +7700,7 @@
         &lt;string&gt;Last BH MA&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;86&lt;/int&gt;
+        &lt;int&gt;80&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
   &lt;/ColumnDisplayIndex&gt;
@@ -7788,47 +7708,7 @@
   &lt;ColumnChecked&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;Hedis CRC Den&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;boolean&gt;true&lt;/boolean&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Hedis BC Den&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;boolean&gt;true&lt;/boolean&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Hedis BP Den&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;boolean&gt;true&lt;/boolean&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Hedis CRC Num&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;boolean&gt;true&lt;/boolean&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Hedis BC Num&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;boolean&gt;true&lt;/boolean&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Hedis BP Num&lt;/string&gt;
+        &lt;string&gt;Days Since BH&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -7839,7 +7719,7 @@
         &lt;string&gt;Hedis CRC Due&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;boolean&gt;true&lt;/boolean&gt;
+        &lt;boolean&gt;false&lt;/boolean&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -7847,7 +7727,7 @@
         &lt;string&gt;Hedis BP Due&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;boolean&gt;true&lt;/boolean&gt;
+        &lt;boolean&gt;false&lt;/boolean&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -7855,7 +7735,7 @@
         &lt;string&gt;Hedis BC Due&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;boolean&gt;true&lt;/boolean&gt;
+        &lt;boolean&gt;false&lt;/boolean&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -8063,7 +7943,7 @@
         &lt;string&gt;Last ACP Doc Date&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;boolean&gt;true&lt;/boolean&gt;
+        &lt;boolean&gt;false&lt;/boolean&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -8079,7 +7959,7 @@
         &lt;string&gt;Last ACP Date&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;boolean&gt;true&lt;/boolean&gt;
+        &lt;boolean&gt;false&lt;/boolean&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -8513,19 +8393,9 @@
                   <Name>MH Cur Site</Name>
                 </AttributeRelationship>
                 <AttributeRelationship>
-                  <AttributeID>Last ACP Doc Date</AttributeID>
-                  <OverrideBehavior>None</OverrideBehavior>
-                  <Name>Last ACP Doc Date</Name>
-                </AttributeRelationship>
-                <AttributeRelationship>
                   <AttributeID>Last BH Date</AttributeID>
                   <OverrideBehavior>None</OverrideBehavior>
                   <Name>Last BH Date</Name>
-                </AttributeRelationship>
-                <AttributeRelationship>
-                  <AttributeID>Last ACP Date</AttributeID>
-                  <OverrideBehavior>None</OverrideBehavior>
-                  <Name>Last ACP Date</Name>
                 </AttributeRelationship>
                 <AttributeRelationship>
                   <AttributeID>Last BH Provider</AttributeID>
@@ -8536,6 +8406,11 @@
                   <AttributeID>Last BH MA</AttributeID>
                   <OverrideBehavior>None</OverrideBehavior>
                   <Name>Last BH MA</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>Days Since BH</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>Days Since BH</Name>
                 </AttributeRelationship>
               </AttributeRelationships>
               <OrderBy>Key</OrderBy>
@@ -10863,31 +10738,6 @@
               <OrderBy>Key</OrderBy>
             </Attribute>
             <Attribute>
-              <ID>Last ACP Doc Date</ID>
-              <Name>Last ACP Doc Date</Name>
-              <KeyColumns>
-                <KeyColumn>
-                  <DataType>Date</DataType>
-                  <DataSize>-1</DataSize>
-                  <NullProcessing>Preserve</NullProcessing>
-                  <Source xsi:type="ColumnBinding">
-                    <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                    <ColumnID>Last_x0020_ACP_x0020_Doc_x0020_Date</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <NameColumn>
-                <DataType>WChar</DataType>
-                <DataSize>-1</DataSize>
-                <NullProcessing>ZeroOrBlank</NullProcessing>
-                <Source xsi:type="ColumnBinding">
-                  <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                  <ColumnID>Last_x0020_ACP_x0020_Doc_x0020_Date</ColumnID>
-                </Source>
-              </NameColumn>
-              <OrderBy>Key</OrderBy>
-            </Attribute>
-            <Attribute>
               <ID>Last BH Date</ID>
               <Name>Last BH Date</Name>
               <KeyColumns>
@@ -10908,31 +10758,6 @@
                 <Source xsi:type="ColumnBinding">
                   <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
                   <ColumnID>Last_x0020_BH_x0020_Date</ColumnID>
-                </Source>
-              </NameColumn>
-              <OrderBy>Key</OrderBy>
-            </Attribute>
-            <Attribute>
-              <ID>Last ACP Date</ID>
-              <Name>Last ACP Date</Name>
-              <KeyColumns>
-                <KeyColumn>
-                  <DataType>Date</DataType>
-                  <DataSize>-1</DataSize>
-                  <NullProcessing>Preserve</NullProcessing>
-                  <Source xsi:type="ColumnBinding">
-                    <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                    <ColumnID>Last_x0020_ACP_x0020_Date</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <NameColumn>
-                <DataType>WChar</DataType>
-                <DataSize>-1</DataSize>
-                <NullProcessing>ZeroOrBlank</NullProcessing>
-                <Source xsi:type="ColumnBinding">
-                  <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                  <ColumnID>Last_x0020_ACP_x0020_Date</ColumnID>
                 </Source>
               </NameColumn>
               <OrderBy>Key</OrderBy>
@@ -10983,6 +10808,31 @@
                 <Source xsi:type="ColumnBinding">
                   <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
                   <ColumnID>Last_x0020_BH_x0020_MA</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>Days Since BH</ID>
+              <Name>Days Since BH</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <DataSize>-1</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                    <ColumnID>Days_x0020_Since_x0020_BH</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>-1</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                  <ColumnID>Days_x0020_Since_x0020_BH</ColumnID>
                 </Source>
               </NameColumn>
               <OrderBy>Key</OrderBy>
@@ -11756,6 +11606,46 @@
         &lt;int&gt;102&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last AD Date&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;93&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last Polst Date&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;102&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last AD Scan&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;93&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last Polst Scan&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;102&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last ACP Date&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;99&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnWidths&gt;
   &lt;ColumnDisplayIndex&gt;
     &lt;item&gt;
@@ -12478,6 +12368,46 @@
         &lt;int&gt;89&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last AD Date&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;90&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last Polst Date&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;91&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last AD Scan&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;92&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last Polst Scan&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;93&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last ACP Date&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;94&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnDisplayIndex&gt;
   &lt;ColumnFrozen /&gt;
   &lt;ColumnChecked&gt;
@@ -13089,6 +13019,46 @@
         &lt;boolean&gt;true&lt;/boolean&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last AD Date&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last Polst Date&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last AD Scan&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last Polst Scan&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last ACP Date&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnChecked&gt;
   &lt;ColumnFilter /&gt;
   &lt;SelectionFilter /&gt;
@@ -13586,6 +13556,31 @@
                   <AttributeID>ACP N No Docs</AttributeID>
                   <OverrideBehavior>None</OverrideBehavior>
                   <Name>ACP N No Docs</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>Last AD Date</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>Last AD Date</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>Last Polst Date</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>Last Polst Date</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>Last AD Scan</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>Last AD Scan</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>Last Polst Scan</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>Last Polst Scan</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>Last ACP Date</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>Last ACP Date</Name>
                 </AttributeRelationship>
               </AttributeRelationships>
               <OrderBy>Key</OrderBy>
@@ -15994,6 +15989,131 @@
                 <Source xsi:type="ColumnBinding">
                   <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
                   <ColumnID>ACP_x0020_N_x0020_No_x0020_Docs</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>Last AD Date</ID>
+              <Name>Last AD Date</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Date</DataType>
+                  <DataSize>-1</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                    <ColumnID>Last_x0020_AD_x0020_Date</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>-1</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                  <ColumnID>Last_x0020_AD_x0020_Date</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>Last Polst Date</ID>
+              <Name>Last Polst Date</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Date</DataType>
+                  <DataSize>-1</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                    <ColumnID>Last_x0020_Polst_x0020_Date</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>-1</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                  <ColumnID>Last_x0020_Polst_x0020_Date</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>Last AD Scan</ID>
+              <Name>Last AD Scan</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Date</DataType>
+                  <DataSize>-1</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                    <ColumnID>Last_x0020_AD_x0020_Scan</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>-1</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                  <ColumnID>Last_x0020_AD_x0020_Scan</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>Last Polst Scan</ID>
+              <Name>Last Polst Scan</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Date</DataType>
+                  <DataSize>-1</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                    <ColumnID>Last_x0020_Polst_x0020_Scan</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>-1</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                  <ColumnID>Last_x0020_Polst_x0020_Scan</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>Last ACP Date</ID>
+              <Name>Last ACP Date</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Date</DataType>
+                  <DataSize>-1</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                    <ColumnID>Last_x0020_ACP_x0020_Date</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>-1</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                  <ColumnID>Last_x0020_ACP_x0020_Date</ColumnID>
                 </Source>
               </NameColumn>
               <OrderBy>Key</OrderBy>
@@ -22475,19 +22595,16 @@
                   <AttributeID>MH Cur Site</AttributeID>
                 </Attribute>
                 <Attribute>
-                  <AttributeID>Last ACP Doc Date</AttributeID>
-                </Attribute>
-                <Attribute>
                   <AttributeID>Last BH Date</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Last ACP Date</AttributeID>
                 </Attribute>
                 <Attribute>
                   <AttributeID>Last BH Provider</AttributeID>
                 </Attribute>
                 <Attribute>
                   <AttributeID>Last BH MA</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Days Since BH</AttributeID>
                 </Attribute>
               </Attributes>
             </Dimension>
@@ -22786,6 +22903,21 @@
                 </Attribute>
                 <Attribute>
                   <AttributeID>ACP N No Docs</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Last AD Date</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Last Polst Date</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Last AD Scan</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Last Polst Scan</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Last ACP Date</AttributeID>
                 </Attribute>
               </Attributes>
             </Dimension>
@@ -27588,20 +27720,6 @@
                       </KeyColumns>
                     </Attribute>
                     <Attribute>
-                      <AttributeID>Last ACP Doc Date</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Date</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Last_x0020_ACP_x0020_Doc_x0020_Date</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
                       <AttributeID>Last BH Date</AttributeID>
                       <KeyColumns>
                         <KeyColumn>
@@ -27611,20 +27729,6 @@
                           <Source xsi:type="ColumnBinding">
                             <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
                             <ColumnID>Last_x0020_BH_x0020_Date</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Last ACP Date</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Date</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Last_x0020_ACP_x0020_Date</ColumnID>
                           </Source>
                         </KeyColumn>
                       </KeyColumns>
@@ -27653,6 +27757,20 @@
                           <Source xsi:type="ColumnBinding">
                             <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
                             <ColumnID>Last_x0020_BH_x0020_MA</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Days Since BH</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Days_x0020_Since_x0020_BH</ColumnID>
                           </Source>
                         </KeyColumn>
                       </KeyColumns>
@@ -33744,20 +33862,6 @@
                       </KeyColumns>
                     </Attribute>
                     <Attribute>
-                      <AttributeID>Last ACP Doc Date</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Date</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Last_x0020_ACP_x0020_Doc_x0020_Date</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
                       <AttributeID>Last BH Date</AttributeID>
                       <KeyColumns>
                         <KeyColumn>
@@ -33767,20 +33871,6 @@
                           <Source xsi:type="ColumnBinding">
                             <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
                             <ColumnID>Last_x0020_BH_x0020_Date</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Last ACP Date</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Date</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Last_x0020_ACP_x0020_Date</ColumnID>
                           </Source>
                         </KeyColumn>
                       </KeyColumns>
@@ -33809,6 +33899,20 @@
                           <Source xsi:type="ColumnBinding">
                             <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
                             <ColumnID>Last_x0020_BH_x0020_MA</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Days Since BH</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Days_x0020_Since_x0020_BH</ColumnID>
                           </Source>
                         </KeyColumn>
                       </KeyColumns>
@@ -36796,20 +36900,6 @@
                       </KeyColumns>
                     </Attribute>
                     <Attribute>
-                      <AttributeID>Last ACP Doc Date</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Date</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Last_x0020_ACP_x0020_Doc_x0020_Date</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
                       <AttributeID>Last BH Date</AttributeID>
                       <KeyColumns>
                         <KeyColumn>
@@ -36819,20 +36909,6 @@
                           <Source xsi:type="ColumnBinding">
                             <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
                             <ColumnID>Last_x0020_BH_x0020_Date</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Last ACP Date</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Date</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Last_x0020_ACP_x0020_Date</ColumnID>
                           </Source>
                         </KeyColumn>
                       </KeyColumns>
@@ -36861,6 +36937,20 @@
                           <Source xsi:type="ColumnBinding">
                             <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
                             <ColumnID>Last_x0020_BH_x0020_MA</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Days Since BH</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Days_x0020_Since_x0020_BH</ColumnID>
                           </Source>
                         </KeyColumn>
                       </KeyColumns>
@@ -37129,50 +37219,10 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;Hedis CRC Den&lt;/string&gt;
+        &lt;string&gt;Days Since BH&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;102&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Hedis BC Den&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;94&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Hedis BP Den&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;93&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Hedis CRC Num&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;104&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Hedis BC Num&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;96&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Hedis BP Num&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;95&lt;/int&gt;
+        &lt;int&gt;98&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -37710,7 +37760,7 @@
         &lt;string&gt;Vintage Month Range&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;65&lt;/int&gt;
+        &lt;int&gt;59&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -37827,479 +37877,7 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;Hedis CRC Den&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;21&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Hedis BC Den&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;22&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Hedis BP Den&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;23&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Hedis CRC Num&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;24&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Hedis BC Num&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;25&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Hedis BP Num&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;26&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Age Cur&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;61&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Alternate Phone Number&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;27&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Marital Status&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;28&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Race&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;29&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Ethnicity&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;30&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Homeless Status&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;31&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Homeless Indicator&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;32&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Disability 1&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;33&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Disability 2&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;34&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Medical Record Number&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;35&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Address Full&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;36&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Last Appointment Date&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;37&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Last Encounter Date&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;38&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Next Appointment Date&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;39&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Last Appointment Provider&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;40&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Last Encounter Provider&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;41&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Next Appointment Provider&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;42&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Chart Create Date&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;43&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Chart Create User&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;44&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Person Create Date&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;45&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Person Creat User&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;46&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Time as Member&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;47&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;membership_time_sort&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;48&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Is Patient New&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;49&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Is Patient Established&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;50&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Is Patient Alive&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;51&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Vintage Month&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;64&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Membership Month&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;52&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Deceased Status&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;75&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Status Cur&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;63&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Patient Vintage Month sort&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;53&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Hedis CRC Due&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;54&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Hedis BP Due&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;55&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Hedis BC Due&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;56&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Days to Appt&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;57&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Days Since Enc&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;58&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;PCP Cur&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;59&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Last Enc MA&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;60&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Age Range Cur&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;62&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Has Dm2&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;66&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Has CKD&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;67&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Last Med Date&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;68&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Last Med Provider&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;69&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Last Med MA&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;70&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Days Since ED&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;71&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Days Since DC&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;72&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt; Last Med Team&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;73&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Next Appt Team&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;74&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;PCP Cur Team&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;76&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Avg Cycle Time&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;77&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Days Since Med&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;78&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;High NS 12M&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;79&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;MH Cur&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;int&gt;80&lt;/int&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;MH Cur Site&lt;/string&gt;
+        &lt;string&gt;Days Since BH&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;int&gt;81&lt;/int&gt;
@@ -38307,10 +37885,442 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
+        &lt;string&gt;Age Cur&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;55&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Alternate Phone Number&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;21&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Marital Status&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;22&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Race&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;23&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Ethnicity&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;24&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Homeless Status&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;25&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Homeless Indicator&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;26&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Disability 1&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;27&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Disability 2&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;28&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Medical Record Number&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;29&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Address Full&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;30&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last Appointment Date&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;31&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last Encounter Date&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;32&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Next Appointment Date&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;33&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last Appointment Provider&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;34&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last Encounter Provider&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;35&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Next Appointment Provider&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;36&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Chart Create Date&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;37&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Chart Create User&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;38&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Person Create Date&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;39&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Person Creat User&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;40&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Time as Member&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;41&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;membership_time_sort&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;42&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Is Patient New&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;43&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Is Patient Established&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;44&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Is Patient Alive&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;45&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Vintage Month&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;58&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Membership Month&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;46&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Deceased Status&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;69&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Status Cur&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;57&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Patient Vintage Month sort&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;47&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Hedis CRC Due&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;48&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Hedis BP Due&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;49&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Hedis BC Due&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;50&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Days to Appt&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;51&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Days Since Enc&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;52&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;PCP Cur&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;53&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last Enc MA&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;54&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Age Range Cur&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;56&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Has Dm2&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;60&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Has CKD&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;61&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last Med Date&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;62&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last Med Provider&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;63&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last Med MA&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;64&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Days Since ED&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;65&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Days Since DC&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;66&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt; Last Med Team&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;67&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Next Appt Team&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;68&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;PCP Cur Team&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;70&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Avg Cycle Time&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;71&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Days Since Med&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;72&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;High NS 12M&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;73&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;MH Cur&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;74&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;MH Cur Site&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;75&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
         &lt;string&gt;Last ACP Doc Date&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;82&lt;/int&gt;
+        &lt;int&gt;76&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -38318,7 +38328,7 @@
         &lt;string&gt;Last BH Date&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;83&lt;/int&gt;
+        &lt;int&gt;77&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -38326,7 +38336,7 @@
         &lt;string&gt;Last ACP Date&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;84&lt;/int&gt;
+        &lt;int&gt;78&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -38334,7 +38344,7 @@
         &lt;string&gt;Last BH Provider&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;85&lt;/int&gt;
+        &lt;int&gt;79&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -38342,7 +38352,7 @@
         &lt;string&gt;Last BH MA&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;86&lt;/int&gt;
+        &lt;int&gt;80&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
   &lt;/ColumnDisplayIndex&gt;
@@ -38350,47 +38360,7 @@
   &lt;ColumnChecked&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;Hedis CRC Den&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;boolean&gt;true&lt;/boolean&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Hedis BC Den&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;boolean&gt;true&lt;/boolean&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Hedis BP Den&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;boolean&gt;true&lt;/boolean&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Hedis CRC Num&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;boolean&gt;true&lt;/boolean&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Hedis BC Num&lt;/string&gt;
-      &lt;/key&gt;
-      &lt;value&gt;
-        &lt;boolean&gt;true&lt;/boolean&gt;
-      &lt;/value&gt;
-    &lt;/item&gt;
-    &lt;item&gt;
-      &lt;key&gt;
-        &lt;string&gt;Hedis BP Num&lt;/string&gt;
+        &lt;string&gt;Days Since BH&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -38401,7 +38371,7 @@
         &lt;string&gt;Hedis CRC Due&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;boolean&gt;true&lt;/boolean&gt;
+        &lt;boolean&gt;false&lt;/boolean&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -38409,7 +38379,7 @@
         &lt;string&gt;Hedis BP Due&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;boolean&gt;true&lt;/boolean&gt;
+        &lt;boolean&gt;false&lt;/boolean&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -38417,7 +38387,7 @@
         &lt;string&gt;Hedis BC Due&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;boolean&gt;true&lt;/boolean&gt;
+        &lt;boolean&gt;false&lt;/boolean&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -38625,7 +38595,7 @@
         &lt;string&gt;Last ACP Doc Date&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;boolean&gt;true&lt;/boolean&gt;
+        &lt;boolean&gt;false&lt;/boolean&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -38641,7 +38611,7 @@
         &lt;string&gt;Last ACP Date&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;boolean&gt;true&lt;/boolean&gt;
+        &lt;boolean&gt;false&lt;/boolean&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -38680,7 +38650,7 @@
                   </Annotations>
                   <Source xsi:type="QueryBinding">
                     <DataSourceID>8fbc5f95-2a43-4976-9dfe-f5a578e0a753</DataSourceID>
-                    <QueryDefinition>SELECT [fdt].[PHI Patient Cur].* 		FROM [fdt].[PHI Patient Cur]</QueryDefinition>
+                    <QueryDefinition>SELECT [fdt].[PHI Patient Cur].[person_key],[fdt].[PHI Patient Cur].[per_mon_id],[fdt].[PHI Patient Cur].[first_mon_date],[fdt].[PHI Patient Cur].[mh_cur_key],[fdt].[PHI Patient Cur].[pcp_cur_key],[fdt].[PHI Patient Cur].[mh_hx_key],[fdt].[PHI Patient Cur].[pcp_hx_key],[fdt].[PHI Patient Cur].[PCP Cur],[fdt].[PHI Patient Cur].[PCP Cur Team],[fdt].[PHI Patient Cur].[MH Cur],[fdt].[PHI Patient Cur].[MH Cur Site],[fdt].[PHI Patient Cur].[Status Cur],[fdt].[PHI Patient Cur].[Language],[fdt].[PHI Patient Cur].[Full Name],[fdt].[PHI Patient Cur].[First Name],[fdt].[PHI Patient Cur].[Last Name],[fdt].[PHI Patient Cur].[Middle Name],[fdt].[PHI Patient Cur].[Address 1],[fdt].[PHI Patient Cur].[Adress 2],[fdt].[PHI Patient Cur].[City],[fdt].[PHI Patient Cur].[State],[fdt].[PHI Patient Cur].[Zipcode],[fdt].[PHI Patient Cur].[Home Phone Number],[fdt].[PHI Patient Cur].[Gender],[fdt].[PHI Patient Cur].[SSN],[fdt].[PHI Patient Cur].[DOB],[fdt].[PHI Patient Cur].[Has Dm2],[fdt].[PHI Patient Cur].[Has CKD],[fdt].[PHI Patient Cur].[Age Cur],[fdt].[PHI Patient Cur].[Age Range Cur],[fdt].[PHI Patient Cur].[Alternate Phone Number],[fdt].[PHI Patient Cur].[Marital Status],[fdt].[PHI Patient Cur].[Race],[fdt].[PHI Patient Cur].[Ethnicity],[fdt].[PHI Patient Cur].[Homeless Status],[fdt].[PHI Patient Cur].[Homeless Indicator],[fdt].[PHI Patient Cur].[Disability 1],[fdt].[PHI Patient Cur].[Disability 2],[fdt].[PHI Patient Cur].[Medical Record Number],[fdt].[PHI Patient Cur].[Address Full],[fdt].[PHI Patient Cur].[Last Appointment Date],[fdt].[PHI Patient Cur].[Last Encounter Date],[fdt].[PHI Patient Cur].[Last Med Date],[fdt].[PHI Patient Cur].[Next Appointment Date],[fdt].[PHI Patient Cur].[Last BH Date],[fdt].[PHI Patient Cur].[Last Appointment Provider],[fdt].[PHI Patient Cur].[Last Encounter Provider],[fdt].[PHI Patient Cur].[Last Med Provider],[fdt].[PHI Patient Cur].[Next Appointment Provider],[fdt].[PHI Patient Cur].[Last BH Provider],[fdt].[PHI Patient Cur].[Last Enc MA],[fdt].[PHI Patient Cur].[Last Med MA],[fdt].[PHI Patient Cur].[Last BH MA],[fdt].[PHI Patient Cur].[ Last Med Team],[fdt].[PHI Patient Cur].[Next Appt Team],[fdt].[PHI Patient Cur].[Avg Cycle Time],[fdt].[PHI Patient Cur].[Chart Create Date],[fdt].[PHI Patient Cur].[Chart Create User],[fdt].[PHI Patient Cur].[Person Create Date],[fdt].[PHI Patient Cur].[Person Creat User],[fdt].[PHI Patient Cur].[Days Since Enc],[fdt].[PHI Patient Cur].[Days Since Med],[fdt].[PHI Patient Cur].[Days to Appt],[fdt].[PHI Patient Cur].[Days Since ED],[fdt].[PHI Patient Cur].[Days Since DC],[fdt].[PHI Patient Cur].[Days Since BH],[fdt].[PHI Patient Cur].[High NS 12M],[fdt].[PHI Patient Cur].[Time as Member],[fdt].[PHI Patient Cur].[membership_time_sort],[fdt].[PHI Patient Cur].[Is Patient New],[fdt].[PHI Patient Cur].[Is Patient Established],[fdt].[PHI Patient Cur].[Is Patient Alive],[fdt].[PHI Patient Cur].[Deceased Status],[fdt].[PHI Patient Cur].[Membership Month],[fdt].[PHI Patient Cur].[Vintage Month],[fdt].[PHI Patient Cur].[Vintage Month Range],[fdt].[PHI Patient Cur].[Patient Vintage Month sort] 		FROM [fdt].[PHI Patient Cur]</QueryDefinition>
                   </Source>
                   <StorageMode valuens="ddl200_200">InMemory</StorageMode>
                   <ProcessingMode>Regular</ProcessingMode>
@@ -40019,6 +39989,76 @@
                           <Source xsi:type="ColumnBinding">
                             <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
                             <ColumnID>ACP_x0020_N_x0020_No_x0020_Docs</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Last AD Date</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Date</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                            <ColumnID>Last_x0020_AD_x0020_Date</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Last Polst Date</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Date</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                            <ColumnID>Last_x0020_Polst_x0020_Date</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Last AD Scan</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Date</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                            <ColumnID>Last_x0020_AD_x0020_Scan</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Last Polst Scan</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Date</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                            <ColumnID>Last_x0020_Polst_x0020_Scan</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Last ACP Date</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Date</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                            <ColumnID>Last_x0020_ACP_x0020_Date</ColumnID>
                           </Source>
                         </KeyColumn>
                       </KeyColumns>
@@ -42384,20 +42424,6 @@
                       </KeyColumns>
                     </Attribute>
                     <Attribute>
-                      <AttributeID>Last ACP Doc Date</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Date</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Last_x0020_ACP_x0020_Doc_x0020_Date</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
                       <AttributeID>Last BH Date</AttributeID>
                       <KeyColumns>
                         <KeyColumn>
@@ -42407,20 +42433,6 @@
                           <Source xsi:type="ColumnBinding">
                             <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
                             <ColumnID>Last_x0020_BH_x0020_Date</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Last ACP Date</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Date</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>Last_x0020_ACP_x0020_Date</ColumnID>
                           </Source>
                         </KeyColumn>
                       </KeyColumns>
@@ -42449,6 +42461,20 @@
                           <Source xsi:type="ColumnBinding">
                             <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
                             <ColumnID>Last_x0020_BH_x0020_MA</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Days Since BH</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Days_x0020_Since_x0020_BH</ColumnID>
                           </Source>
                         </KeyColumn>
                       </KeyColumns>
@@ -43260,6 +43286,46 @@
         &lt;int&gt;102&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last AD Date&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;93&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last Polst Date&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;102&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last AD Scan&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;93&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last Polst Scan&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;102&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last ACP Date&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;99&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnWidths&gt;
   &lt;ColumnDisplayIndex&gt;
     &lt;item&gt;
@@ -43982,6 +44048,46 @@
         &lt;int&gt;89&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last AD Date&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;90&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last Polst Date&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;91&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last AD Scan&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;92&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last Polst Scan&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;93&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last ACP Date&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;94&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnDisplayIndex&gt;
   &lt;ColumnFrozen /&gt;
   &lt;ColumnChecked&gt;
@@ -44588,6 +44694,46 @@
     &lt;item&gt;
       &lt;key&gt;
         &lt;string&gt;ACP N No Docs&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last AD Date&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last Polst Date&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last AD Scan&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last Polst Scan&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Last ACP Date&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -48296,6 +48442,7 @@ CREATE MEASURE 'PHI Patient SCD'[ACP % AD and Polst Only]=(divide(SUM('PHI Patie
 CREATE MEASURE 'PHI Patient SCD'[ACP % None]=(divide(SUM('PHI Patient SCD'[ACP N None]),SUM('PHI Patient SCD'[AD Denom])));
 CREATE MEASURE 'PHI Patient SCD'[ACP % Visit Only]=(divide(SUM('PHI Patient SCD'[ACP N Visit Only]),SUM('PHI Patient SCD'[AD Denom])));
 CREATE MEASURE 'PHI Patient SCD'[ACP % No Docs]=(divide(SUM('PHI Patient SCD'[ACP N No Docs]),SUM('PHI Patient SCD'[AD Denom])));
+CREATE MEASURE 'Encounter and Appointment'[ADV]=Divide(SUM('Encounter and Appointment'[Billable Encounters]),COUNTROWS(Time));
 </Text>
                 </Command>
               </Commands>
@@ -48973,6 +49120,27 @@ CREATE MEASURE 'PHI Patient SCD'[ACP % No Docs]=(divide(SUM('PHI Patient SCD'[AC
                   <FormatString>'0.00 %;-0.00 %;0.00 %'</FormatString>
                 </CalculationProperty>
                 <CalculationProperty>
+                  <Annotations>
+                    <Annotation>
+                      <Name>Type</Name>
+                      <Value>User</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>IsPrivate</Name>
+                      <Value>False</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>Format</Name>
+                      <Value>
+                        <Format Format="NumberWhole" ThousandSeparator="True" xmlns="" />
+                      </Value>
+                    </Annotation>
+                  </Annotations>
+                  <CalculationReference>[ADV]</CalculationReference>
+                  <CalculationType>Member</CalculationType>
+                  <FormatString>'#,0'</FormatString>
+                </CalculationProperty>
+                <CalculationProperty>
                   <CalculationReference>Measures.[__No measures defined]</CalculationReference>
                   <CalculationType>Member</CalculationType>
                   <Visible>false</Visible>
@@ -49476,7 +49644,7 @@ CREATE MEASURE 'PHI Patient SCD'[ACP % No Docs]=(divide(SUM('PHI Patient SCD'[AC
                         </xs:sequence>
                       </xs:complexType>
                     </xs:element>
-                    <xs:element name="PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef" msdata:Locale="" msprop:IsLogical="True" msprop:FriendlyName="PHI Patient Cur" msprop:DbSchemaName="fdt" msprop:DbTableName="PHI Patient Cur" msprop:TableType="View" msprop:Description="PHI Patient Cur" msprop:QueryDefinition="      SELECT [fdt].[PHI Patient Cur].*   FROM [fdt].[PHI Patient Cur] ">
+                    <xs:element name="PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef" msdata:Locale="" msprop:IsLogical="True" msprop:FriendlyName="PHI Patient Cur" msprop:DbSchemaName="fdt" msprop:DbTableName="PHI Patient Cur" msprop:TableType="View" msprop:Description="PHI Patient Cur" msprop:QueryDefinition="      SELECT [fdt].[PHI Patient Cur].[person_key],[fdt].[PHI Patient Cur].[per_mon_id],[fdt].[PHI Patient Cur].[first_mon_date],[fdt].[PHI Patient Cur].[mh_cur_key],[fdt].[PHI Patient Cur].[pcp_cur_key],[fdt].[PHI Patient Cur].[mh_hx_key],[fdt].[PHI Patient Cur].[pcp_hx_key],[fdt].[PHI Patient Cur].[PCP Cur],[fdt].[PHI Patient Cur].[PCP Cur Team],[fdt].[PHI Patient Cur].[MH Cur],[fdt].[PHI Patient Cur].[MH Cur Site],[fdt].[PHI Patient Cur].[Status Cur],[fdt].[PHI Patient Cur].[Language],[fdt].[PHI Patient Cur].[Full Name],[fdt].[PHI Patient Cur].[First Name],[fdt].[PHI Patient Cur].[Last Name],[fdt].[PHI Patient Cur].[Middle Name],[fdt].[PHI Patient Cur].[Address 1],[fdt].[PHI Patient Cur].[Adress 2],[fdt].[PHI Patient Cur].[City],[fdt].[PHI Patient Cur].[State],[fdt].[PHI Patient Cur].[Zipcode],[fdt].[PHI Patient Cur].[Home Phone Number],[fdt].[PHI Patient Cur].[Gender],[fdt].[PHI Patient Cur].[SSN],[fdt].[PHI Patient Cur].[DOB],[fdt].[PHI Patient Cur].[Has Dm2],[fdt].[PHI Patient Cur].[Has CKD],[fdt].[PHI Patient Cur].[Age Cur],[fdt].[PHI Patient Cur].[Age Range Cur],[fdt].[PHI Patient Cur].[Alternate Phone Number],[fdt].[PHI Patient Cur].[Marital Status],[fdt].[PHI Patient Cur].[Race],[fdt].[PHI Patient Cur].[Ethnicity],[fdt].[PHI Patient Cur].[Homeless Status],[fdt].[PHI Patient Cur].[Homeless Indicator],[fdt].[PHI Patient Cur].[Disability 1],[fdt].[PHI Patient Cur].[Disability 2],[fdt].[PHI Patient Cur].[Medical Record Number],[fdt].[PHI Patient Cur].[Address Full],[fdt].[PHI Patient Cur].[Last Appointment Date],[fdt].[PHI Patient Cur].[Last Encounter Date],[fdt].[PHI Patient Cur].[Last Med Date],[fdt].[PHI Patient Cur].[Next Appointment Date],[fdt].[PHI Patient Cur].[Last BH Date],[fdt].[PHI Patient Cur].[Last Appointment Provider],[fdt].[PHI Patient Cur].[Last Encounter Provider],[fdt].[PHI Patient Cur].[Last Med Provider],[fdt].[PHI Patient Cur].[Next Appointment Provider],[fdt].[PHI Patient Cur].[Last BH Provider],[fdt].[PHI Patient Cur].[Last Enc MA],[fdt].[PHI Patient Cur].[Last Med MA],[fdt].[PHI Patient Cur].[Last BH MA],[fdt].[PHI Patient Cur].[ Last Med Team],[fdt].[PHI Patient Cur].[Next Appt Team],[fdt].[PHI Patient Cur].[Avg Cycle Time],[fdt].[PHI Patient Cur].[Chart Create Date],[fdt].[PHI Patient Cur].[Chart Create User],[fdt].[PHI Patient Cur].[Person Create Date],[fdt].[PHI Patient Cur].[Person Creat User],[fdt].[PHI Patient Cur].[Days Since Enc],[fdt].[PHI Patient Cur].[Days Since Med],[fdt].[PHI Patient Cur].[Days to Appt],[fdt].[PHI Patient Cur].[Days Since ED],[fdt].[PHI Patient Cur].[Days Since DC],[fdt].[PHI Patient Cur].[Days Since BH],[fdt].[PHI Patient Cur].[High NS 12M],[fdt].[PHI Patient Cur].[Time as Member],[fdt].[PHI Patient Cur].[membership_time_sort],[fdt].[PHI Patient Cur].[Is Patient New],[fdt].[PHI Patient Cur].[Is Patient Established],[fdt].[PHI Patient Cur].[Is Patient Alive],[fdt].[PHI Patient Cur].[Deceased Status],[fdt].[PHI Patient Cur].[Membership Month],[fdt].[PHI Patient Cur].[Vintage Month],[fdt].[PHI Patient Cur].[Vintage Month Range],[fdt].[PHI Patient Cur].[Patient Vintage Month sort]   FROM [fdt].[PHI Patient Cur] ">
                       <xs:complexType>
                         <xs:sequence>
                           <xs:element name="person_key" msprop:DbColumnName="person_key" msprop:FriendlyName="person_key" type="xs:long" minOccurs="0" />
@@ -49713,15 +49881,6 @@ CREATE MEASURE 'PHI Patient SCD'[ACP % No Docs]=(divide(SUM('PHI Patient SCD'[AC
                           </xs:element>
                           <xs:element name="Membership_x0020_Month" msprop:DbColumnName="Membership Month" msprop:FriendlyName="Membership Month" type="xs:long" minOccurs="0" />
                           <xs:element name="Patient_x0020_Vintage_x0020_Month_x0020_sort" msprop:DbColumnName="Patient Vintage Month sort" msprop:FriendlyName="Patient Vintage Month sort" type="xs:long" minOccurs="0" />
-                          <xs:element name="Hedis_x0020_CRC_x0020_Den" msprop:DbColumnName="Hedis CRC Den" msprop:FriendlyName="Hedis CRC Den" type="xs:int" minOccurs="0" />
-                          <xs:element name="Hedis_x0020_BC_x0020_Den" msprop:DbColumnName="Hedis BC Den" msprop:FriendlyName="Hedis BC Den" type="xs:int" minOccurs="0" />
-                          <xs:element name="Hedis_x0020_BP_x0020_Den" msprop:DbColumnName="Hedis BP Den" msprop:FriendlyName="Hedis BP Den" type="xs:int" minOccurs="0" />
-                          <xs:element name="Hedis_x0020_CRC_x0020_Num" msprop:DbColumnName="Hedis CRC Num" msprop:FriendlyName="Hedis CRC Num" type="xs:int" minOccurs="0" />
-                          <xs:element name="Hedis_x0020_BC_x0020_Num" msprop:DbColumnName="Hedis BC Num" msprop:FriendlyName="Hedis BC Num" type="xs:int" minOccurs="0" />
-                          <xs:element name="Hedis_x0020_BP_x0020_Num" msprop:DbColumnName="Hedis BP Num" msprop:FriendlyName="Hedis BP Num" type="xs:int" minOccurs="0" />
-                          <xs:element name="Hedis_x0020_CRC_x0020_Due" msprop:DbColumnName="Hedis CRC Due" msprop:FriendlyName="Hedis CRC Due" type="xs:int" minOccurs="0" />
-                          <xs:element name="Hedis_x0020_BP_x0020_Due" msprop:DbColumnName="Hedis BP Due" msprop:FriendlyName="Hedis BP Due" type="xs:int" minOccurs="0" />
-                          <xs:element name="Hedis_x0020_BC_x0020_Due" msprop:DbColumnName="Hedis BC Due" msprop:FriendlyName="Hedis BC Due" type="xs:int" minOccurs="0" />
                           <xs:element name="Days_x0020_to_x0020_Appt" msprop:DbColumnName="Days to Appt" msprop:FriendlyName="Days to Appt" type="xs:int" minOccurs="0" />
                           <xs:element name="Days_x0020_Since_x0020_Enc" msprop:DbColumnName="Days Since Enc" msprop:FriendlyName="Days Since Enc" type="xs:int" minOccurs="0" />
                           <xs:element name="PCP_x0020_Cur" msprop:DbColumnName="PCP Cur" msprop:FriendlyName="PCP Cur" minOccurs="0">
@@ -49831,9 +49990,7 @@ CREATE MEASURE 'PHI Patient SCD'[ACP % No Docs]=(divide(SUM('PHI Patient SCD'[AC
                               </xs:restriction>
                             </xs:simpleType>
                           </xs:element>
-                          <xs:element name="Last_x0020_ACP_x0020_Doc_x0020_Date" msprop:DbColumnName="Last ACP Doc Date" msprop:FriendlyName="Last ACP Doc Date" type="xs:dateTime" minOccurs="0" />
                           <xs:element name="Last_x0020_BH_x0020_Date" msprop:DbColumnName="Last BH Date" msprop:FriendlyName="Last BH Date" type="xs:dateTime" minOccurs="0" />
-                          <xs:element name="Last_x0020_ACP_x0020_Date" msprop:DbColumnName="Last ACP Date" msprop:FriendlyName="Last ACP Date" type="xs:dateTime" minOccurs="0" />
                           <xs:element name="Last_x0020_BH_x0020_Provider" msprop:DbColumnName="Last BH Provider" msprop:FriendlyName="Last BH Provider" minOccurs="0">
                             <xs:simpleType>
                               <xs:restriction base="xs:string">
@@ -49848,6 +50005,7 @@ CREATE MEASURE 'PHI Patient SCD'[ACP % No Docs]=(divide(SUM('PHI Patient SCD'[AC
                               </xs:restriction>
                             </xs:simpleType>
                           </xs:element>
+                          <xs:element name="Days_x0020_Since_x0020_BH" msprop:DbColumnName="Days Since BH" msprop:FriendlyName="Days Since BH" type="xs:int" minOccurs="0" />
                         </xs:sequence>
                       </xs:complexType>
                     </xs:element>
@@ -50022,6 +50180,11 @@ CREATE MEASURE 'PHI Patient SCD'[ACP % No Docs]=(divide(SUM('PHI Patient SCD'[AC
                           <xs:element name="ACP_x0020_N_x0020_AD_x0020_Only" msprop:DbColumnName="ACP N AD Only" msprop:FriendlyName="ACP N AD Only" type="xs:int" minOccurs="0" />
                           <xs:element name="ACP_x0020_N_x0020_Visit_x0020_Only" msprop:DbColumnName="ACP N Visit Only" msprop:FriendlyName="ACP N Visit Only" type="xs:int" minOccurs="0" />
                           <xs:element name="ACP_x0020_N_x0020_No_x0020_Docs" msprop:DbColumnName="ACP N No Docs" msprop:FriendlyName="ACP N No Docs" type="xs:int" minOccurs="0" />
+                          <xs:element name="Last_x0020_AD_x0020_Date" msprop:DbColumnName="Last AD Date" msprop:FriendlyName="Last AD Date" type="xs:dateTime" minOccurs="0" />
+                          <xs:element name="Last_x0020_Polst_x0020_Date" msprop:DbColumnName="Last Polst Date" msprop:FriendlyName="Last Polst Date" type="xs:dateTime" minOccurs="0" />
+                          <xs:element name="Last_x0020_AD_x0020_Scan" msprop:DbColumnName="Last AD Scan" msprop:FriendlyName="Last AD Scan" type="xs:dateTime" minOccurs="0" />
+                          <xs:element name="Last_x0020_Polst_x0020_Scan" msprop:DbColumnName="Last Polst Scan" msprop:FriendlyName="Last Polst Scan" type="xs:dateTime" minOccurs="0" />
+                          <xs:element name="Last_x0020_ACP_x0020_Date" msprop:DbColumnName="Last ACP Date" msprop:FriendlyName="Last ACP Date" type="xs:dateTime" minOccurs="0" />
                         </xs:sequence>
                       </xs:complexType>
                     </xs:element>
