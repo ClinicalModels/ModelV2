@@ -6994,7 +6994,7 @@
         &lt;string&gt;Last ACP Doc Date&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;120&lt;/int&gt;
+        &lt;int&gt;170&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -11262,18 +11262,18 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;CRC ONC&lt;/string&gt;
+        &lt;string&gt;IQ BC ONC&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;76&lt;/int&gt;
+        &lt;int&gt;83&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;BC ONC&lt;/string&gt;
+        &lt;string&gt;IQ CRC ONC&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;68&lt;/int&gt;
+        &lt;int&gt;91&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -11636,6 +11636,62 @@
         &lt;int&gt;91&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;IQ CRC AO Num&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;108&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Hedis CC Den&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;95&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Hedis CC Num&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;97&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;UDS CC Den&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;89&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;UDS CC Num&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;91&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;IQ CC Den&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;81&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;IQ CC Num&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;83&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnWidths&gt;
   &lt;ColumnDisplayIndex&gt;
     &lt;item&gt;
@@ -11875,7 +11931,7 @@
         &lt;string&gt;Deceased Status&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;49&lt;/int&gt;
+        &lt;int&gt;47&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -11979,7 +12035,7 @@
         &lt;string&gt;IQ BP Due&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;94&lt;/int&gt;
+        &lt;int&gt;92&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -11987,7 +12043,7 @@
         &lt;string&gt;IQ BC Due&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;93&lt;/int&gt;
+        &lt;int&gt;91&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -11995,7 +12051,7 @@
         &lt;string&gt;IQ CRC Due&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;92&lt;/int&gt;
+        &lt;int&gt;90&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12032,18 +12088,18 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;CRC ONC&lt;/string&gt;
+        &lt;string&gt;IQ BC ONC&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;45&lt;/int&gt;
+        &lt;int&gt;95&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;BC ONC&lt;/string&gt;
+        &lt;string&gt;IQ CRC ONC&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;46&lt;/int&gt;
+        &lt;int&gt;94&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12051,7 +12107,7 @@
         &lt;string&gt;AD Denom&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;47&lt;/int&gt;
+        &lt;int&gt;45&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12059,7 +12115,7 @@
         &lt;string&gt;Hosp 12M&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;51&lt;/int&gt;
+        &lt;int&gt;49&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12067,7 +12123,7 @@
         &lt;string&gt;ED 12M&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;50&lt;/int&gt;
+        &lt;int&gt;48&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12075,7 +12131,7 @@
         &lt;string&gt;ACP N None&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;76&lt;/int&gt;
+        &lt;int&gt;74&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12083,7 +12139,7 @@
         &lt;string&gt;ACP N Visit&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;75&lt;/int&gt;
+        &lt;int&gt;73&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12091,7 +12147,7 @@
         &lt;string&gt;ACP N Comp&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;74&lt;/int&gt;
+        &lt;int&gt;72&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12099,7 +12155,7 @@
         &lt;string&gt;RFA Comp&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;48&lt;/int&gt;
+        &lt;int&gt;46&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12107,7 +12163,7 @@
         &lt;string&gt;All DAO&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;53&lt;/int&gt;
+        &lt;int&gt;51&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12115,7 +12171,7 @@
         &lt;string&gt;All Due&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;52&lt;/int&gt;
+        &lt;int&gt;50&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12123,7 +12179,7 @@
         &lt;string&gt;PCP Hx Team&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;54&lt;/int&gt;
+        &lt;int&gt;52&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12131,7 +12187,7 @@
         &lt;string&gt;multi_ed_12mon_flag&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;55&lt;/int&gt;
+        &lt;int&gt;53&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12139,7 +12195,7 @@
         &lt;string&gt;dc_12mon_flag&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;56&lt;/int&gt;
+        &lt;int&gt;54&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12147,7 +12203,7 @@
         &lt;string&gt;BH 12M&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;57&lt;/int&gt;
+        &lt;int&gt;55&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12155,7 +12211,7 @@
         &lt;string&gt;multi_bh_12mon_flag&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;58&lt;/int&gt;
+        &lt;int&gt;56&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12163,7 +12219,7 @@
         &lt;string&gt;UDS CRC Den&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;59&lt;/int&gt;
+        &lt;int&gt;57&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12171,7 +12227,7 @@
         &lt;string&gt;UDS BP Den&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;60&lt;/int&gt;
+        &lt;int&gt;58&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12179,7 +12235,7 @@
         &lt;string&gt;UDS CRC Num&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;61&lt;/int&gt;
+        &lt;int&gt;59&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12187,7 +12243,7 @@
         &lt;string&gt;UDS BP Num&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;62&lt;/int&gt;
+        &lt;int&gt;60&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12195,7 +12251,7 @@
         &lt;string&gt;IQ CRC Den&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;63&lt;/int&gt;
+        &lt;int&gt;61&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12203,7 +12259,7 @@
         &lt;string&gt;IQ BP Den&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;64&lt;/int&gt;
+        &lt;int&gt;62&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12211,7 +12267,7 @@
         &lt;string&gt;IQ CRC Num&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;65&lt;/int&gt;
+        &lt;int&gt;63&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12219,7 +12275,7 @@
         &lt;string&gt;IQ BP Num&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;66&lt;/int&gt;
+        &lt;int&gt;64&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12227,7 +12283,7 @@
         &lt;string&gt;IQ DM2 Den&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;67&lt;/int&gt;
+        &lt;int&gt;65&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12235,7 +12291,7 @@
         &lt;string&gt;iq_dm2_o9_num&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;68&lt;/int&gt;
+        &lt;int&gt;66&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12243,7 +12299,7 @@
         &lt;string&gt;IQ DM2 Num&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;69&lt;/int&gt;
+        &lt;int&gt;67&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12251,7 +12307,7 @@
         &lt;string&gt;IQ BC Den&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;70&lt;/int&gt;
+        &lt;int&gt;68&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12259,7 +12315,7 @@
         &lt;string&gt;IQ BC Num&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;71&lt;/int&gt;
+        &lt;int&gt;69&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12267,7 +12323,7 @@
         &lt;string&gt;MH Hx&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;72&lt;/int&gt;
+        &lt;int&gt;70&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12275,7 +12331,7 @@
         &lt;string&gt;MH Hx Site&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;73&lt;/int&gt;
+        &lt;int&gt;71&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12283,7 +12339,7 @@
         &lt;string&gt;ACP N Visit Dx&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;77&lt;/int&gt;
+        &lt;int&gt;75&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12291,7 +12347,7 @@
         &lt;string&gt;ACP N Visit CPT&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;78&lt;/int&gt;
+        &lt;int&gt;76&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12299,7 +12355,7 @@
         &lt;string&gt;ACP N Polst&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;79&lt;/int&gt;
+        &lt;int&gt;77&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12307,7 +12363,7 @@
         &lt;string&gt;ACP N AD&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;80&lt;/int&gt;
+        &lt;int&gt;78&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12315,7 +12371,7 @@
         &lt;string&gt;ACP N Polst or AD&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;81&lt;/int&gt;
+        &lt;int&gt;79&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12323,7 +12379,7 @@
         &lt;string&gt;ACP N Polst Only&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;82&lt;/int&gt;
+        &lt;int&gt;80&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12331,7 +12387,7 @@
         &lt;string&gt;ACP N AD Only&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;84&lt;/int&gt;
+        &lt;int&gt;82&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12339,7 +12395,7 @@
         &lt;string&gt;ACP N AD and Polst Only&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;83&lt;/int&gt;
+        &lt;int&gt;81&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12347,7 +12403,7 @@
         &lt;string&gt;ACP N Visit Only&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;85&lt;/int&gt;
+        &lt;int&gt;83&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12355,7 +12411,7 @@
         &lt;string&gt;ACP N No Docs&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;86&lt;/int&gt;
+        &lt;int&gt;84&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12363,7 +12419,7 @@
         &lt;string&gt;Last AD Date&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;87&lt;/int&gt;
+        &lt;int&gt;85&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12371,7 +12427,7 @@
         &lt;string&gt;Last Polst Date&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;88&lt;/int&gt;
+        &lt;int&gt;86&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12379,7 +12435,7 @@
         &lt;string&gt;Last AD Scan&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;89&lt;/int&gt;
+        &lt;int&gt;87&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12387,7 +12443,7 @@
         &lt;string&gt;Last Polst Scan&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;90&lt;/int&gt;
+        &lt;int&gt;88&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12395,7 +12451,7 @@
         &lt;string&gt;Last ACP Date&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;91&lt;/int&gt;
+        &lt;int&gt;89&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12403,7 +12459,63 @@
         &lt;string&gt;IQ CRC DAO&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;95&lt;/int&gt;
+        &lt;int&gt;93&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;IQ CRC AO Num&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;102&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Hedis CC Den&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;96&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Hedis CC Num&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;97&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;UDS CC Den&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;98&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;UDS CC Num&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;99&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;IQ CC Den&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;100&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;IQ CC Num&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;101&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
   &lt;/ColumnDisplayIndex&gt;
@@ -12691,7 +12803,7 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;CRC ONC&lt;/string&gt;
+        &lt;string&gt;IQ BC ONC&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -12699,7 +12811,7 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;BC ONC&lt;/string&gt;
+        &lt;string&gt;IQ CRC ONC&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -13065,6 +13177,62 @@
         &lt;boolean&gt;true&lt;/boolean&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;IQ CRC AO Num&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Hedis CC Den&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;false&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Hedis CC Num&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;false&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;UDS CC Den&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;false&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;UDS CC Num&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;false&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;IQ CC Den&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;IQ CC Num&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnChecked&gt;
   &lt;ColumnFilter /&gt;
   &lt;SelectionFilter /&gt;
@@ -13334,16 +13502,6 @@
                   <Name>Never Act</Name>
                 </AttributeRelationship>
                 <AttributeRelationship>
-                  <AttributeID>CRC ONC</AttributeID>
-                  <OverrideBehavior>None</OverrideBehavior>
-                  <Name>CRC ONC</Name>
-                </AttributeRelationship>
-                <AttributeRelationship>
-                  <AttributeID>BC ONC</AttributeID>
-                  <OverrideBehavior>None</OverrideBehavior>
-                  <Name>BC ONC</Name>
-                </AttributeRelationship>
-                <AttributeRelationship>
                   <AttributeID>AD Denom</AttributeID>
                   <OverrideBehavior>None</OverrideBehavior>
                   <Name>AD Denom</Name>
@@ -13592,6 +13750,31 @@
                   <AttributeID>IQ CRC DAO</AttributeID>
                   <OverrideBehavior>None</OverrideBehavior>
                   <Name>IQ CRC DAO</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>IQ CRC ONC</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>IQ CRC ONC</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>IQ BC ONC</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>IQ BC ONC</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>IQ CC Den</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>IQ CC Den</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>IQ CC Num</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>IQ CC Num</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>IQ CRC AO Num</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>IQ CRC AO Num</Name>
                 </AttributeRelationship>
               </AttributeRelationships>
               <OrderBy>Key</OrderBy>
@@ -14851,56 +15034,6 @@
               <OrderBy>Key</OrderBy>
             </Attribute>
             <Attribute>
-              <ID>CRC ONC</ID>
-              <Name>CRC ONC</Name>
-              <KeyColumns>
-                <KeyColumn>
-                  <DataType>Integer</DataType>
-                  <DataSize>-1</DataSize>
-                  <NullProcessing>Preserve</NullProcessing>
-                  <Source xsi:type="ColumnBinding">
-                    <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
-                    <ColumnID>CRC_x0020_ONC</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <NameColumn>
-                <DataType>WChar</DataType>
-                <DataSize>-1</DataSize>
-                <NullProcessing>ZeroOrBlank</NullProcessing>
-                <Source xsi:type="ColumnBinding">
-                  <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
-                  <ColumnID>CRC_x0020_ONC</ColumnID>
-                </Source>
-              </NameColumn>
-              <OrderBy>Key</OrderBy>
-            </Attribute>
-            <Attribute>
-              <ID>BC ONC</ID>
-              <Name>BC ONC</Name>
-              <KeyColumns>
-                <KeyColumn>
-                  <DataType>Integer</DataType>
-                  <DataSize>-1</DataSize>
-                  <NullProcessing>Preserve</NullProcessing>
-                  <Source xsi:type="ColumnBinding">
-                    <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
-                    <ColumnID>BC_x0020_ONC</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <NameColumn>
-                <DataType>WChar</DataType>
-                <DataSize>-1</DataSize>
-                <NullProcessing>ZeroOrBlank</NullProcessing>
-                <Source xsi:type="ColumnBinding">
-                  <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
-                  <ColumnID>BC_x0020_ONC</ColumnID>
-                </Source>
-              </NameColumn>
-              <OrderBy>Key</OrderBy>
-            </Attribute>
-            <Attribute>
               <ID>AD Denom</ID>
               <Name>AD Denom</Name>
               <KeyColumns>
@@ -16150,6 +16283,131 @@
                 <Source xsi:type="ColumnBinding">
                   <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
                   <ColumnID>IQ_x0020_CRC_x0020_DAO</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>IQ CRC ONC</ID>
+              <Name>IQ CRC ONC</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <DataSize>-1</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                    <ColumnID>IQ_x0020_CRC_x0020_ONC</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>-1</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                  <ColumnID>IQ_x0020_CRC_x0020_ONC</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>IQ BC ONC</ID>
+              <Name>IQ BC ONC</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <DataSize>-1</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                    <ColumnID>IQ_x0020_BC_x0020_ONC</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>-1</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                  <ColumnID>IQ_x0020_BC_x0020_ONC</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>IQ CC Den</ID>
+              <Name>IQ CC Den</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <DataSize>-1</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                    <ColumnID>IQ_x0020_CC_x0020_Den</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>-1</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                  <ColumnID>IQ_x0020_CC_x0020_Den</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>IQ CC Num</ID>
+              <Name>IQ CC Num</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <DataSize>-1</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                    <ColumnID>IQ_x0020_CC_x0020_Num</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>-1</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                  <ColumnID>IQ_x0020_CC_x0020_Num</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>IQ CRC AO Num</ID>
+              <Name>IQ CRC AO Num</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <DataSize>-1</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                    <ColumnID>IQ_x0020_CRC_x0020_AO_x0020_Num</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>-1</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                  <ColumnID>IQ_x0020_CRC_x0020_AO_x0020_Num</ColumnID>
                 </Source>
               </NameColumn>
               <OrderBy>Key</OrderBy>
@@ -22802,12 +23060,6 @@
                   <AttributeID>Never Act</AttributeID>
                 </Attribute>
                 <Attribute>
-                  <AttributeID>CRC ONC</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>BC ONC</AttributeID>
-                </Attribute>
-                <Attribute>
                   <AttributeID>AD Denom</AttributeID>
                 </Attribute>
                 <Attribute>
@@ -22960,6 +23212,21 @@
                 </Attribute>
                 <Attribute>
                   <AttributeID>IQ CRC DAO</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>IQ CRC ONC</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>IQ BC ONC</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>IQ CC Den</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>IQ CC Num</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>IQ CRC AO Num</AttributeID>
                 </Attribute>
               </Attributes>
             </Dimension>
@@ -37730,7 +37997,7 @@
         &lt;string&gt;Last ACP Doc Date&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;120&lt;/int&gt;
+        &lt;int&gt;170&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -39386,34 +39653,6 @@
                       </KeyColumns>
                     </Attribute>
                     <Attribute>
-                      <AttributeID>CRC ONC</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Integer</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
-                            <ColumnID>CRC_x0020_ONC</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>BC ONC</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>Integer</DataType>
-                          <DataSize>-1</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
-                            <ColumnID>BC_x0020_ONC</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
                       <AttributeID>AD Denom</AttributeID>
                       <KeyColumns>
                         <KeyColumn>
@@ -40109,6 +40348,76 @@
                           <Source xsi:type="ColumnBinding">
                             <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
                             <ColumnID>IQ_x0020_CRC_x0020_DAO</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>IQ CRC ONC</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                            <ColumnID>IQ_x0020_CRC_x0020_ONC</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>IQ BC ONC</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                            <ColumnID>IQ_x0020_BC_x0020_ONC</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>IQ CC Den</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                            <ColumnID>IQ_x0020_CC_x0020_Den</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>IQ CC Num</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                            <ColumnID>IQ_x0020_CC_x0020_Num</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>IQ CRC AO Num</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                            <ColumnID>IQ_x0020_CRC_x0020_AO_x0020_Num</ColumnID>
                           </Source>
                         </KeyColumn>
                       </KeyColumns>
@@ -43024,18 +43333,18 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;CRC ONC&lt;/string&gt;
+        &lt;string&gt;IQ BC ONC&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;76&lt;/int&gt;
+        &lt;int&gt;83&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;BC ONC&lt;/string&gt;
+        &lt;string&gt;IQ CRC ONC&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;68&lt;/int&gt;
+        &lt;int&gt;91&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -43398,6 +43707,62 @@
         &lt;int&gt;91&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;IQ CRC AO Num&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;108&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Hedis CC Den&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;95&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Hedis CC Num&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;97&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;UDS CC Den&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;89&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;UDS CC Num&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;91&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;IQ CC Den&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;81&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;IQ CC Num&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;83&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnWidths&gt;
   &lt;ColumnDisplayIndex&gt;
     &lt;item&gt;
@@ -43637,7 +44002,7 @@
         &lt;string&gt;Deceased Status&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;49&lt;/int&gt;
+        &lt;int&gt;47&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -43741,7 +44106,7 @@
         &lt;string&gt;IQ BP Due&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;94&lt;/int&gt;
+        &lt;int&gt;92&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -43749,7 +44114,7 @@
         &lt;string&gt;IQ BC Due&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;93&lt;/int&gt;
+        &lt;int&gt;91&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -43757,7 +44122,7 @@
         &lt;string&gt;IQ CRC Due&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;92&lt;/int&gt;
+        &lt;int&gt;90&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -43794,18 +44159,18 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;CRC ONC&lt;/string&gt;
+        &lt;string&gt;IQ BC ONC&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;45&lt;/int&gt;
+        &lt;int&gt;95&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;BC ONC&lt;/string&gt;
+        &lt;string&gt;IQ CRC ONC&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;46&lt;/int&gt;
+        &lt;int&gt;94&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -43813,7 +44178,7 @@
         &lt;string&gt;AD Denom&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;47&lt;/int&gt;
+        &lt;int&gt;45&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -43821,7 +44186,7 @@
         &lt;string&gt;Hosp 12M&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;51&lt;/int&gt;
+        &lt;int&gt;49&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -43829,7 +44194,7 @@
         &lt;string&gt;ED 12M&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;50&lt;/int&gt;
+        &lt;int&gt;48&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -43837,7 +44202,7 @@
         &lt;string&gt;ACP N None&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;76&lt;/int&gt;
+        &lt;int&gt;74&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -43845,7 +44210,7 @@
         &lt;string&gt;ACP N Visit&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;75&lt;/int&gt;
+        &lt;int&gt;73&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -43853,7 +44218,7 @@
         &lt;string&gt;ACP N Comp&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;74&lt;/int&gt;
+        &lt;int&gt;72&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -43861,7 +44226,7 @@
         &lt;string&gt;RFA Comp&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;48&lt;/int&gt;
+        &lt;int&gt;46&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -43869,7 +44234,7 @@
         &lt;string&gt;All DAO&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;53&lt;/int&gt;
+        &lt;int&gt;51&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -43877,7 +44242,7 @@
         &lt;string&gt;All Due&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;52&lt;/int&gt;
+        &lt;int&gt;50&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -43885,7 +44250,7 @@
         &lt;string&gt;PCP Hx Team&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;54&lt;/int&gt;
+        &lt;int&gt;52&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -43893,7 +44258,7 @@
         &lt;string&gt;multi_ed_12mon_flag&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;55&lt;/int&gt;
+        &lt;int&gt;53&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -43901,7 +44266,7 @@
         &lt;string&gt;dc_12mon_flag&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;56&lt;/int&gt;
+        &lt;int&gt;54&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -43909,7 +44274,7 @@
         &lt;string&gt;BH 12M&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;57&lt;/int&gt;
+        &lt;int&gt;55&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -43917,7 +44282,7 @@
         &lt;string&gt;multi_bh_12mon_flag&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;58&lt;/int&gt;
+        &lt;int&gt;56&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -43925,7 +44290,7 @@
         &lt;string&gt;UDS CRC Den&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;59&lt;/int&gt;
+        &lt;int&gt;57&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -43933,7 +44298,7 @@
         &lt;string&gt;UDS BP Den&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;60&lt;/int&gt;
+        &lt;int&gt;58&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -43941,7 +44306,7 @@
         &lt;string&gt;UDS CRC Num&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;61&lt;/int&gt;
+        &lt;int&gt;59&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -43949,7 +44314,7 @@
         &lt;string&gt;UDS BP Num&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;62&lt;/int&gt;
+        &lt;int&gt;60&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -43957,7 +44322,7 @@
         &lt;string&gt;IQ CRC Den&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;63&lt;/int&gt;
+        &lt;int&gt;61&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -43965,7 +44330,7 @@
         &lt;string&gt;IQ BP Den&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;64&lt;/int&gt;
+        &lt;int&gt;62&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -43973,7 +44338,7 @@
         &lt;string&gt;IQ CRC Num&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;65&lt;/int&gt;
+        &lt;int&gt;63&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -43981,7 +44346,7 @@
         &lt;string&gt;IQ BP Num&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;66&lt;/int&gt;
+        &lt;int&gt;64&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -43989,7 +44354,7 @@
         &lt;string&gt;IQ DM2 Den&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;67&lt;/int&gt;
+        &lt;int&gt;65&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -43997,7 +44362,7 @@
         &lt;string&gt;iq_dm2_o9_num&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;68&lt;/int&gt;
+        &lt;int&gt;66&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -44005,7 +44370,7 @@
         &lt;string&gt;IQ DM2 Num&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;69&lt;/int&gt;
+        &lt;int&gt;67&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -44013,7 +44378,7 @@
         &lt;string&gt;IQ BC Den&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;70&lt;/int&gt;
+        &lt;int&gt;68&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -44021,7 +44386,7 @@
         &lt;string&gt;IQ BC Num&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;71&lt;/int&gt;
+        &lt;int&gt;69&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -44029,7 +44394,7 @@
         &lt;string&gt;MH Hx&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;72&lt;/int&gt;
+        &lt;int&gt;70&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -44037,7 +44402,7 @@
         &lt;string&gt;MH Hx Site&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;73&lt;/int&gt;
+        &lt;int&gt;71&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -44045,7 +44410,7 @@
         &lt;string&gt;ACP N Visit Dx&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;77&lt;/int&gt;
+        &lt;int&gt;75&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -44053,7 +44418,7 @@
         &lt;string&gt;ACP N Visit CPT&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;78&lt;/int&gt;
+        &lt;int&gt;76&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -44061,7 +44426,7 @@
         &lt;string&gt;ACP N Polst&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;79&lt;/int&gt;
+        &lt;int&gt;77&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -44069,7 +44434,7 @@
         &lt;string&gt;ACP N AD&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;80&lt;/int&gt;
+        &lt;int&gt;78&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -44077,7 +44442,7 @@
         &lt;string&gt;ACP N Polst or AD&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;81&lt;/int&gt;
+        &lt;int&gt;79&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -44085,7 +44450,7 @@
         &lt;string&gt;ACP N Polst Only&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;82&lt;/int&gt;
+        &lt;int&gt;80&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -44093,7 +44458,7 @@
         &lt;string&gt;ACP N AD Only&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;84&lt;/int&gt;
+        &lt;int&gt;82&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -44101,7 +44466,7 @@
         &lt;string&gt;ACP N AD and Polst Only&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;83&lt;/int&gt;
+        &lt;int&gt;81&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -44109,7 +44474,7 @@
         &lt;string&gt;ACP N Visit Only&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;85&lt;/int&gt;
+        &lt;int&gt;83&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -44117,7 +44482,7 @@
         &lt;string&gt;ACP N No Docs&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;86&lt;/int&gt;
+        &lt;int&gt;84&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -44125,7 +44490,7 @@
         &lt;string&gt;Last AD Date&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;87&lt;/int&gt;
+        &lt;int&gt;85&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -44133,7 +44498,7 @@
         &lt;string&gt;Last Polst Date&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;88&lt;/int&gt;
+        &lt;int&gt;86&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -44141,7 +44506,7 @@
         &lt;string&gt;Last AD Scan&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;89&lt;/int&gt;
+        &lt;int&gt;87&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -44149,7 +44514,7 @@
         &lt;string&gt;Last Polst Scan&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;90&lt;/int&gt;
+        &lt;int&gt;88&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -44157,7 +44522,7 @@
         &lt;string&gt;Last ACP Date&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;91&lt;/int&gt;
+        &lt;int&gt;89&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -44165,7 +44530,63 @@
         &lt;string&gt;IQ CRC DAO&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;95&lt;/int&gt;
+        &lt;int&gt;93&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;IQ CRC AO Num&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;102&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Hedis CC Den&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;96&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Hedis CC Num&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;97&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;UDS CC Den&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;98&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;UDS CC Num&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;99&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;IQ CC Den&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;100&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;IQ CC Num&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;101&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
   &lt;/ColumnDisplayIndex&gt;
@@ -44453,7 +44874,7 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;CRC ONC&lt;/string&gt;
+        &lt;string&gt;IQ BC ONC&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -44461,7 +44882,7 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;BC ONC&lt;/string&gt;
+        &lt;string&gt;IQ CRC ONC&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -44827,6 +45248,62 @@
         &lt;boolean&gt;true&lt;/boolean&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;IQ CRC AO Num&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Hedis CC Den&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;false&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Hedis CC Num&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;false&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;UDS CC Den&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;false&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;UDS CC Num&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;false&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;IQ CC Den&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;IQ CC Num&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnChecked&gt;
   &lt;ColumnFilter /&gt;
   &lt;SelectionFilter /&gt;
@@ -44847,7 +45324,7 @@
                   </Annotations>
                   <Source xsi:type="QueryBinding">
                     <DataSourceID>8fbc5f95-2a43-4976-9dfe-f5a578e0a753</DataSourceID>
-                    <QueryDefinition>SELECT [fdt].[PHI Patient SCD].* 		FROM [fdt].[PHI Patient SCD]</QueryDefinition>
+                    <QueryDefinition>SELECT [fdt].[PHI Patient SCD].[per_mon_id],[fdt].[PHI Patient SCD].[first_mon_date],[fdt].[PHI Patient SCD].[person_key],[fdt].[PHI Patient SCD].[mh_hx_key],[fdt].[PHI Patient SCD].[pcp_hx_key],[fdt].[PHI Patient SCD].[PCP Hx],[fdt].[PHI Patient SCD].[PCP Hx Team],[fdt].[PHI Patient SCD].[MH Hx],[fdt].[PHI Patient SCD].[MH Hx Site],[fdt].[PHI Patient SCD].[Status Hx],[fdt].[PHI Patient SCD].[Time as Member],[fdt].[PHI Patient SCD].[membership_time_sort],[fdt].[PHI Patient SCD].[Is Patient New],[fdt].[PHI Patient SCD].[Is Patient Established],[fdt].[PHI Patient SCD].[Is Patient Alive],[fdt].[PHI Patient SCD].[Deceased Status],[fdt].[PHI Patient SCD].[Membership Month],[fdt].[PHI Patient SCD].[Age Hx],[fdt].[PHI Patient SCD].[Age Range Hx],[fdt].[PHI Patient SCD].[Age_Hx_sort],[fdt].[PHI Patient SCD].[Vintage Month],[fdt].[PHI Patient SCD].[Vintage Month Range],[fdt].[PHI Patient SCD].[Patient Vintage Month sort],[fdt].[PHI Patient SCD].[New this Month],[fdt].[PHI Patient SCD].[Patients],[fdt].[PHI Patient SCD].[Deceased],[fdt].[PHI Patient SCD].[Deceased this Month],[fdt].[PHI Patient SCD].[1M Act],[fdt].[PHI Patient SCD].[3M Act],[fdt].[PHI Patient SCD].[6M Act],[fdt].[PHI Patient SCD].[12M Act],[fdt].[PHI Patient SCD].[18M Act],[fdt].[PHI Patient SCD].[24M Act],[fdt].[PHI Patient SCD].[3M InAct],[fdt].[PHI Patient SCD].[6M InAct],[fdt].[PHI Patient SCD].[12M InAct],[fdt].[PHI Patient SCD].[18M InAct],[fdt].[PHI Patient SCD].[24M InAct],[fdt].[PHI Patient SCD].[MedHome Change],[fdt].[PHI Patient SCD].[PCP Change],[fdt].[PHI Patient SCD].[Never Act],[fdt].[PHI Patient SCD].[AD Denom],[fdt].[PHI Patient SCD].[BH 12M],[fdt].[PHI Patient SCD].[ED 12M],[fdt].[PHI Patient SCD].[Hosp 12M],[fdt].[PHI Patient SCD].[multi_ed_12mon_flag],[fdt].[PHI Patient SCD].[dc_12mon_flag],[fdt].[PHI Patient SCD].[multi_bh_12mon_flag],[fdt].[PHI Patient SCD].[ACP N Comp],[fdt].[PHI Patient SCD].[ACP N Visit],[fdt].[PHI Patient SCD].[ACP N Visit Only],[fdt].[PHI Patient SCD].[ACP N None],[fdt].[PHI Patient SCD].[ACP N Visit Dx],[fdt].[PHI Patient SCD].[ACP N Visit CPT],[fdt].[PHI Patient SCD].[ACP N Polst],[fdt].[PHI Patient SCD].[ACP N AD],[fdt].[PHI Patient SCD].[ACP N Polst or AD],[fdt].[PHI Patient SCD].[ACP N Polst Only],[fdt].[PHI Patient SCD].[ACP N AD Only],[fdt].[PHI Patient SCD].[ACP N AD and Polst Only],[fdt].[PHI Patient SCD].[ACP N No Docs],[fdt].[PHI Patient SCD].[Last AD Date],[fdt].[PHI Patient SCD].[Last Polst Date],[fdt].[PHI Patient SCD].[Last AD Scan],[fdt].[PHI Patient SCD].[Last Polst Scan],[fdt].[PHI Patient SCD].[Last ACP Date],[fdt].[PHI Patient SCD].[RFA Comp],[fdt].[PHI Patient SCD].[Hedis CRC Den],[fdt].[PHI Patient SCD].[Hedis BC Den],[fdt].[PHI Patient SCD].[Hedis BP Den],[fdt].[PHI Patient SCD].[Hedis CRC Num],[fdt].[PHI Patient SCD].[Hedis BC Num],[fdt].[PHI Patient SCD].[Hedis BP Num],[fdt].[PHI Patient SCD].[UDS CRC Den],[fdt].[PHI Patient SCD].[UDS BP Den],[fdt].[PHI Patient SCD].[UDS CRC Num],[fdt].[PHI Patient SCD].[UDS BP Num],[fdt].[PHI Patient SCD].[IQ CRC Den],[fdt].[PHI Patient SCD].[IQ BP Den],[fdt].[PHI Patient SCD].[IQ BC Den],[fdt].[PHI Patient SCD].[IQ CC Den],[fdt].[PHI Patient SCD].[IQ CC Num],[fdt].[PHI Patient SCD].[IQ DM2 Den],[fdt].[PHI Patient SCD].[IQ CRC Num],[fdt].[PHI Patient SCD].[IQ BP Num],[fdt].[PHI Patient SCD].[IQ BC Num],[fdt].[PHI Patient SCD].[iq_dm2_o9_num],[fdt].[PHI Patient SCD].[IQ DM2 Num],[fdt].[PHI Patient SCD].[Last BP Sys],[fdt].[PHI Patient SCD].[Last BP Dia],[fdt].[PHI Patient SCD].[IQ CRC Due],[fdt].[PHI Patient SCD].[IQ BC Due],[fdt].[PHI Patient SCD].[IQ BP Due],[fdt].[PHI Patient SCD].[IQ CRC ONC],[fdt].[PHI Patient SCD].[IQ BC ONC],[fdt].[PHI Patient SCD].[IQ CRC DAO],[fdt].[PHI Patient SCD].[IQ CRC AO Num],[fdt].[PHI Patient SCD].[All Due],[fdt].[PHI Patient SCD].[All DAO] 		FROM [fdt].[PHI Patient SCD]</QueryDefinition>
                   </Source>
                   <StorageMode valuens="ddl200_200">InMemory</StorageMode>
                   <ProcessingMode>Regular</ProcessingMode>
@@ -48511,11 +48988,11 @@ CREATE MEASURE 'PHI Patient SCD'[RFA Comp %]=(divide(SUM('PHI Patient SCD'[RFA C
 CREATE MEASURE 'PHI Patient SCD'[ED 12M %]=(divide(SUM('PHI Patient SCD'[multi_ed_12mon_flag]),SUM('PHI Patient SCD'[18M Act])));
 CREATE MEASURE 'PHI Patient SCD'[DC 12M %]=(divide(SUM('PHI Patient SCD'[dc_12mon_flag]),SUM('PHI Patient SCD'[18M Act])));
 CREATE MEASURE 'PHI Patient SCD'[BH 12M %]=(divide(SUM('PHI Patient SCD'[multi_bh_12mon_flag]),SUM('PHI Patient SCD'[18M Act])));
-CREATE MEASURE 'PHI Patient SCD'[IQ BP Hx]=(divide(SUM('PHI Patient SCD'[IQ BP Num]),SUM('PHI Patient SCD'[IQ BP Den])));
+CREATE MEASURE 'PHI Patient SCD'[IQ BP %]=(divide(SUM('PHI Patient SCD'[IQ BP Num]),SUM('PHI Patient SCD'[IQ BP Den])));
 CREATE MEASURE 'PHI Patient SCD'[UDS BP Hx]=(divide(SUM('PHI Patient SCD'[UDS BP Num]),SUM('PHI Patient SCD'[UDS BP Den])));
 CREATE MEASURE 'PHI Patient SCD'[UDS CRC Hx]=(divide(SUM('PHI Patient SCD'[UDS CRC Num]),SUM('PHI Patient SCD'[UDS CRC Den])));
-CREATE MEASURE 'PHI Patient SCD'[IQ DM2 Hx]=(divide(SUM('PHI Patient SCD'[IQ DM2 Num]),SUM('PHI Patient SCD'[IQ DM2 Den])));
-CREATE MEASURE 'PHI Patient SCD'[IQ BC Hx]=(divide(SUM('PHI Patient SCD'[IQ BC Num]),SUM('PHI Patient SCD'[IQ BC Den])));
+CREATE MEASURE 'PHI Patient SCD'[IQ DM2 %]=(divide(SUM('PHI Patient SCD'[IQ DM2 Num]),SUM('PHI Patient SCD'[IQ DM2 Den])));
+CREATE MEASURE 'PHI Patient SCD'[IQ BC %]=(divide(SUM('PHI Patient SCD'[IQ BC Num]),SUM('PHI Patient SCD'[IQ BC Den])));
 CREATE MEASURE 'PHI Patient SCD'[ACP % Comp]=(divide(SUM('PHI Patient SCD'[ACP N Comp]),SUM('PHI Patient SCD'[AD Denom])));
 CREATE MEASURE 'PHI Patient SCD'[ACP % Visit]=(divide(SUM('PHI Patient SCD'[ACP N Visit]),SUM('PHI Patient SCD'[AD Denom])));
 CREATE MEASURE 'PHI Patient SCD'[ACP % Visit Dx]=(divide(SUM('PHI Patient SCD'[ACP N Visit Dx]),SUM('PHI Patient SCD'[AD Denom])));
@@ -48530,12 +49007,18 @@ CREATE MEASURE 'PHI Patient SCD'[ACP % None]=(divide(SUM('PHI Patient SCD'[ACP N
 CREATE MEASURE 'PHI Patient SCD'[ACP % Visit Only]=(divide(SUM('PHI Patient SCD'[ACP N Visit Only]),SUM('PHI Patient SCD'[AD Denom])));
 CREATE MEASURE 'PHI Patient SCD'[ACP % No Docs]=(divide(SUM('PHI Patient SCD'[ACP N No Docs]),SUM('PHI Patient SCD'[AD Denom])));
 CREATE MEASURE 'Encounter and Appointment'[ADV]=Divide(SUM('Encounter and Appointment'[Billable Encounters]),COUNTROWS(Time));
-CREATE MEASURE 'PHI Patient SCD'[IQ CRC Hx]=(divide(SUM('PHI Patient SCD'[IQ CRC Num]),SUM('PHI Patient SCD'[IQ CRC Den])));
 CREATE MEASURE 'PHI Patient SCD'[CRC KPI]=(divide(SUM('PHI Patient SCD'[IQ CRC Num]),SUM('PHI Patient SCD'[IQ CRC Den])));
 CREATE MEMBER CURRENTCUBE.Measures.[_CRC KPI Goal] AS '100', ASSOCIATED_MEASURE_GROUP = 'PHI Patient SCD';
 CREATE MEMBER CURRENTCUBE.Measures.[_CRC KPI Status] AS 'Case When IsEmpty(KpiValue("CRC KPI")) Then Null When KpiValue("CRC KPI") &lt; 50 Then -1 When KpiValue("CRC KPI") &gt;= 50 And KpiValue("CRC KPI") &lt; 60 Then 0 Else 1 End', ASSOCIATED_MEASURE_GROUP = 'PHI Patient SCD';
 CREATE MEMBER CURRENTCUBE.Measures.[_CRC KPI Trend] AS '0', ASSOCIATED_MEASURE_GROUP = 'PHI Patient SCD';
-CREATE KPI CURRENTCUBE.[CRC KPI] AS Measures.[CRC KPI], ASSOCIATED_MEASURE_GROUP = 'PHI Patient SCD', GOAL = Measures.[_CRC KPI Goal], STATUS = Measures.[_CRC KPI Status], TREND = Measures.[_CRC KPI Trend], STATUS_GRAPHIC = 'Three Circles Colored', TREND_GRAPHIC = 'Three Circles Colored';
+CREATE KPI CURRENTCUBE.[CRC KPI] AS Measures.[CRC KPI], ASSOCIATED_MEASURE_GROUP = 'PHI Patient SCD', GOAL = Measures.[_CRC KPI Goal], STATUS = Measures.[_CRC KPI Status], TREND = Measures.[_CRC KPI Trend], STATUS_GRAPHIC = 'Three Symbols UnCircled Colored', TREND_GRAPHIC = 'Three Circles Colored';
+CREATE MEASURE 'PHI Patient SCD'[IQ CRC %]=(divide(SUM('PHI Patient SCD'[IQ CRC Num]),SUM('PHI Patient SCD'[IQ CRC Den])));
+CREATE MEMBER CURRENTCUBE.Measures.[_IQ CRC % Goal] AS '100', ASSOCIATED_MEASURE_GROUP = 'PHI Patient SCD';
+CREATE MEMBER CURRENTCUBE.Measures.[_IQ CRC % Status] AS 'Case When IsEmpty(KpiValue("IQ CRC %")) Then Null When KpiValue("IQ CRC %") &lt; 50 Then -1 When KpiValue("IQ CRC %") &gt;= 50 And KpiValue("IQ CRC %") &lt; 60 Then 0 Else 1 End', ASSOCIATED_MEASURE_GROUP = 'PHI Patient SCD';
+CREATE MEMBER CURRENTCUBE.Measures.[_IQ CRC % Trend] AS '0', ASSOCIATED_MEASURE_GROUP = 'PHI Patient SCD';
+CREATE KPI CURRENTCUBE.[IQ CRC %] AS Measures.[IQ CRC %], ASSOCIATED_MEASURE_GROUP = 'PHI Patient SCD', GOAL = Measures.[_IQ CRC % Goal], STATUS = Measures.[_IQ CRC % Status], TREND = Measures.[_IQ CRC % Trend], STATUS_GRAPHIC = 'Three Circles Colored', TREND_GRAPHIC = 'Three Circles Colored';
+CREATE MEASURE 'PHI Patient SCD'[IQ CRC AO %]=(divide(SUM('PHI Patient SCD'[IQ CRC AO Num]),SUM('PHI Patient SCD'[IQ CRC Den])));
+CREATE MEASURE 'PHI Patient SCD'[IQ CC Hx]=(divide(SUM('PHI Patient SCD'[IQ CC Num]),SUM('PHI Patient SCD'[IQ CC Den])));
 </Text>
                 </Command>
               </Commands>
@@ -48830,7 +49313,7 @@ CREATE KPI CURRENTCUBE.[CRC KPI] AS Measures.[CRC KPI], ASSOCIATED_MEASURE_GROUP
                       </Value>
                     </Annotation>
                   </Annotations>
-                  <CalculationReference>[IQ BP Hx]</CalculationReference>
+                  <CalculationReference>[IQ BP %]</CalculationReference>
                   <CalculationType>Member</CalculationType>
                   <FormatString>'0.00 %;-0.00 %;0.00 %'</FormatString>
                 </CalculationProperty>
@@ -48893,7 +49376,7 @@ CREATE KPI CURRENTCUBE.[CRC KPI] AS Measures.[CRC KPI], ASSOCIATED_MEASURE_GROUP
                       </Value>
                     </Annotation>
                   </Annotations>
-                  <CalculationReference>[IQ DM2 Hx]</CalculationReference>
+                  <CalculationReference>[IQ DM2 %]</CalculationReference>
                   <CalculationType>Member</CalculationType>
                   <FormatString>'0.00 %;-0.00 %;0.00 %'</FormatString>
                 </CalculationProperty>
@@ -48914,7 +49397,7 @@ CREATE KPI CURRENTCUBE.[CRC KPI] AS Measures.[CRC KPI], ASSOCIATED_MEASURE_GROUP
                       </Value>
                     </Annotation>
                   </Annotations>
-                  <CalculationReference>[IQ BC Hx]</CalculationReference>
+                  <CalculationReference>[IQ BC %]</CalculationReference>
                   <CalculationType>Member</CalculationType>
                   <FormatString>'0.00 %;-0.00 %;0.00 %'</FormatString>
                 </CalculationProperty>
@@ -49216,27 +49699,6 @@ CREATE KPI CURRENTCUBE.[CRC KPI] AS Measures.[CRC KPI], ASSOCIATED_MEASURE_GROUP
                   <Annotations>
                     <Annotation>
                       <Name>Type</Name>
-                      <Value>User</Value>
-                    </Annotation>
-                    <Annotation>
-                      <Name>IsPrivate</Name>
-                      <Value>False</Value>
-                    </Annotation>
-                    <Annotation>
-                      <Name>Format</Name>
-                      <Value>
-                        <Format Format="Percentage" Accuracy="2" xmlns="" />
-                      </Value>
-                    </Annotation>
-                  </Annotations>
-                  <CalculationReference>[IQ CRC Hx]</CalculationReference>
-                  <CalculationType>Member</CalculationType>
-                  <FormatString>'0.00 %;-0.00 %;0.00 %'</FormatString>
-                </CalculationProperty>
-                <CalculationProperty>
-                  <Annotations>
-                    <Annotation>
-                      <Name>Type</Name>
                       <Value>Kpi</Value>
                     </Annotation>
                     <Annotation>
@@ -49252,10 +49714,6 @@ CREATE KPI CURRENTCUBE.[CRC KPI] AS Measures.[CRC KPI], ASSOCIATED_MEASURE_GROUP
                     <Annotation>
                       <Name>GoalType</Name>
                       <Value>StaticValue</Value>
-                    </Annotation>
-                    <Annotation>
-                      <Name>GoalValue</Name>
-                      <Value>100</Value>
                     </Annotation>
                     <Annotation>
                       <Name>KpiStatusType</Name>
@@ -49292,6 +49750,10 @@ CREATE KPI CURRENTCUBE.[CRC KPI] AS Measures.[CRC KPI], ASSOCIATED_MEASURE_GROUP
                     </Annotation>
                     <Annotation>
                       <Name>TrendDescription</Name>
+                    </Annotation>
+                    <Annotation>
+                      <Name>GoalValue</Name>
+                      <Value>100</Value>
                     </Annotation>
                   </Annotations>
                   <CalculationReference>[CRC KPI]</CalculationReference>
@@ -49372,6 +49834,188 @@ CREATE KPI CURRENTCUBE.[CRC KPI] AS Measures.[CRC KPI], ASSOCIATED_MEASURE_GROUP
                   </Annotations>
                   <CalculationReference>KPIs.[CRC KPI]</CalculationReference>
                   <CalculationType>Member</CalculationType>
+                </CalculationProperty>
+                <CalculationProperty>
+                  <Annotations>
+                    <Annotation>
+                      <Name>Type</Name>
+                      <Value>Kpi</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>IsPrivate</Name>
+                      <Value>False</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>Format</Name>
+                      <Value>
+                        <Format Format="Percentage" Accuracy="2" xmlns="" />
+                      </Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>GoalType</Name>
+                      <Value>StaticValue</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>GoalValue</Name>
+                      <Value>100</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>KpiStatusType</Name>
+                      <Value>Linear</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>KpiThresholdType</Name>
+                      <Value>Absolute</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>KpiThresholdOrdering</Name>
+                      <Value>Ascending</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>KpiThresholdCount</Name>
+                      <Value>2</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>KpiThreshold_0</Name>
+                      <Value>50</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>KpiThreshold_1</Name>
+                      <Value>60</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>ValueDescription</Name>
+                    </Annotation>
+                    <Annotation>
+                      <Name>GoalDescription</Name>
+                    </Annotation>
+                    <Annotation>
+                      <Name>StatusDescription</Name>
+                    </Annotation>
+                    <Annotation>
+                      <Name>TrendDescription</Name>
+                    </Annotation>
+                  </Annotations>
+                  <CalculationReference>[IQ CRC %]</CalculationReference>
+                  <CalculationType>Member</CalculationType>
+                  <FormatString>'0.00 %;-0.00 %;0.00 %'</FormatString>
+                </CalculationProperty>
+                <CalculationProperty>
+                  <Annotations>
+                    <Annotation>
+                      <Name>Type</Name>
+                      <Value>SupportMdx</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>MainObjectType</Name>
+                      <Value>Measure</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>MainObjectName</Name>
+                      <Value>IQ CRC %</Value>
+                    </Annotation>
+                  </Annotations>
+                  <CalculationReference>Measures.[_IQ CRC % Goal]</CalculationReference>
+                  <CalculationType>Member</CalculationType>
+                  <Visible>false</Visible>
+                </CalculationProperty>
+                <CalculationProperty>
+                  <Annotations>
+                    <Annotation>
+                      <Name>Type</Name>
+                      <Value>SupportMdx</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>MainObjectType</Name>
+                      <Value>Measure</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>MainObjectName</Name>
+                      <Value>IQ CRC %</Value>
+                    </Annotation>
+                  </Annotations>
+                  <CalculationReference>Measures.[_IQ CRC % Status]</CalculationReference>
+                  <CalculationType>Member</CalculationType>
+                  <Visible>false</Visible>
+                </CalculationProperty>
+                <CalculationProperty>
+                  <Annotations>
+                    <Annotation>
+                      <Name>Type</Name>
+                      <Value>SupportMdx</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>MainObjectType</Name>
+                      <Value>Measure</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>MainObjectName</Name>
+                      <Value>IQ CRC %</Value>
+                    </Annotation>
+                  </Annotations>
+                  <CalculationReference>Measures.[_IQ CRC % Trend]</CalculationReference>
+                  <CalculationType>Member</CalculationType>
+                  <Visible>false</Visible>
+                </CalculationProperty>
+                <CalculationProperty>
+                  <Annotations>
+                    <Annotation>
+                      <Name>Type</Name>
+                      <Value>SupportKpi</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>MainObjectType</Name>
+                      <Value>Measure</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>MainObjectName</Name>
+                      <Value>IQ CRC %</Value>
+                    </Annotation>
+                  </Annotations>
+                  <CalculationReference>KPIs.[IQ CRC %]</CalculationReference>
+                  <CalculationType>Member</CalculationType>
+                </CalculationProperty>
+                <CalculationProperty>
+                  <Annotations>
+                    <Annotation>
+                      <Name>Type</Name>
+                      <Value>User</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>IsPrivate</Name>
+                      <Value>False</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>Format</Name>
+                      <Value>
+                        <Format Format="Percentage" Accuracy="2" xmlns="" />
+                      </Value>
+                    </Annotation>
+                  </Annotations>
+                  <CalculationReference>[IQ CRC AO %]</CalculationReference>
+                  <CalculationType>Member</CalculationType>
+                  <FormatString>'0.00 %;-0.00 %;0.00 %'</FormatString>
+                </CalculationProperty>
+                <CalculationProperty>
+                  <Annotations>
+                    <Annotation>
+                      <Name>Type</Name>
+                      <Value>User</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>IsPrivate</Name>
+                      <Value>False</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>Format</Name>
+                      <Value>
+                        <Format Format="Percentage" Accuracy="2" xmlns="" />
+                      </Value>
+                    </Annotation>
+                  </Annotations>
+                  <CalculationReference>[IQ CC Hx]</CalculationReference>
+                  <CalculationType>Member</CalculationType>
+                  <FormatString>'0.00 %;-0.00 %;0.00 %'</FormatString>
                 </CalculationProperty>
                 <CalculationProperty>
                   <CalculationReference>Measures.[__No measures defined]</CalculationReference>
@@ -50249,7 +50893,7 @@ CREATE KPI CURRENTCUBE.[CRC KPI] AS Measures.[CRC KPI], ASSOCIATED_MEASURE_GROUP
                         </xs:sequence>
                       </xs:complexType>
                     </xs:element>
-                    <xs:element name="PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd" msdata:Locale="" msprop:IsLogical="True" msprop:FriendlyName="PHI Patient SCD" msprop:DbSchemaName="fdt" msprop:DbTableName="PHI Patient SCD" msprop:TableType="View" msprop:Description="PHI Patient SCD" msprop:QueryDefinition="      SELECT [fdt].[PHI Patient SCD].*   FROM [fdt].[PHI Patient SCD] ">
+                    <xs:element name="PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd" msdata:Locale="" msprop:IsLogical="True" msprop:FriendlyName="PHI Patient SCD" msprop:DbSchemaName="fdt" msprop:DbTableName="PHI Patient SCD" msprop:TableType="View" msprop:Description="PHI Patient SCD" msprop:QueryDefinition="      SELECT [fdt].[PHI Patient SCD].[per_mon_id],[fdt].[PHI Patient SCD].[first_mon_date],[fdt].[PHI Patient SCD].[person_key],[fdt].[PHI Patient SCD].[mh_hx_key],[fdt].[PHI Patient SCD].[pcp_hx_key],[fdt].[PHI Patient SCD].[PCP Hx],[fdt].[PHI Patient SCD].[PCP Hx Team],[fdt].[PHI Patient SCD].[MH Hx],[fdt].[PHI Patient SCD].[MH Hx Site],[fdt].[PHI Patient SCD].[Status Hx],[fdt].[PHI Patient SCD].[Time as Member],[fdt].[PHI Patient SCD].[membership_time_sort],[fdt].[PHI Patient SCD].[Is Patient New],[fdt].[PHI Patient SCD].[Is Patient Established],[fdt].[PHI Patient SCD].[Is Patient Alive],[fdt].[PHI Patient SCD].[Deceased Status],[fdt].[PHI Patient SCD].[Membership Month],[fdt].[PHI Patient SCD].[Age Hx],[fdt].[PHI Patient SCD].[Age Range Hx],[fdt].[PHI Patient SCD].[Age_Hx_sort],[fdt].[PHI Patient SCD].[Vintage Month],[fdt].[PHI Patient SCD].[Vintage Month Range],[fdt].[PHI Patient SCD].[Patient Vintage Month sort],[fdt].[PHI Patient SCD].[New this Month],[fdt].[PHI Patient SCD].[Patients],[fdt].[PHI Patient SCD].[Deceased],[fdt].[PHI Patient SCD].[Deceased this Month],[fdt].[PHI Patient SCD].[1M Act],[fdt].[PHI Patient SCD].[3M Act],[fdt].[PHI Patient SCD].[6M Act],[fdt].[PHI Patient SCD].[12M Act],[fdt].[PHI Patient SCD].[18M Act],[fdt].[PHI Patient SCD].[24M Act],[fdt].[PHI Patient SCD].[3M InAct],[fdt].[PHI Patient SCD].[6M InAct],[fdt].[PHI Patient SCD].[12M InAct],[fdt].[PHI Patient SCD].[18M InAct],[fdt].[PHI Patient SCD].[24M InAct],[fdt].[PHI Patient SCD].[MedHome Change],[fdt].[PHI Patient SCD].[PCP Change],[fdt].[PHI Patient SCD].[Never Act],[fdt].[PHI Patient SCD].[AD Denom],[fdt].[PHI Patient SCD].[BH 12M],[fdt].[PHI Patient SCD].[ED 12M],[fdt].[PHI Patient SCD].[Hosp 12M],[fdt].[PHI Patient SCD].[multi_ed_12mon_flag],[fdt].[PHI Patient SCD].[dc_12mon_flag],[fdt].[PHI Patient SCD].[multi_bh_12mon_flag],[fdt].[PHI Patient SCD].[ACP N Comp],[fdt].[PHI Patient SCD].[ACP N Visit],[fdt].[PHI Patient SCD].[ACP N Visit Only],[fdt].[PHI Patient SCD].[ACP N None],[fdt].[PHI Patient SCD].[ACP N Visit Dx],[fdt].[PHI Patient SCD].[ACP N Visit CPT],[fdt].[PHI Patient SCD].[ACP N Polst],[fdt].[PHI Patient SCD].[ACP N AD],[fdt].[PHI Patient SCD].[ACP N Polst or AD],[fdt].[PHI Patient SCD].[ACP N Polst Only],[fdt].[PHI Patient SCD].[ACP N AD Only],[fdt].[PHI Patient SCD].[ACP N AD and Polst Only],[fdt].[PHI Patient SCD].[ACP N No Docs],[fdt].[PHI Patient SCD].[Last AD Date],[fdt].[PHI Patient SCD].[Last Polst Date],[fdt].[PHI Patient SCD].[Last AD Scan],[fdt].[PHI Patient SCD].[Last Polst Scan],[fdt].[PHI Patient SCD].[Last ACP Date],[fdt].[PHI Patient SCD].[RFA Comp],[fdt].[PHI Patient SCD].[Hedis CRC Den],[fdt].[PHI Patient SCD].[Hedis BC Den],[fdt].[PHI Patient SCD].[Hedis BP Den],[fdt].[PHI Patient SCD].[Hedis CRC Num],[fdt].[PHI Patient SCD].[Hedis BC Num],[fdt].[PHI Patient SCD].[Hedis BP Num],[fdt].[PHI Patient SCD].[UDS CRC Den],[fdt].[PHI Patient SCD].[UDS BP Den],[fdt].[PHI Patient SCD].[UDS CRC Num],[fdt].[PHI Patient SCD].[UDS BP Num],[fdt].[PHI Patient SCD].[IQ CRC Den],[fdt].[PHI Patient SCD].[IQ BP Den],[fdt].[PHI Patient SCD].[IQ BC Den],[fdt].[PHI Patient SCD].[IQ CC Den],[fdt].[PHI Patient SCD].[IQ CC Num],[fdt].[PHI Patient SCD].[IQ DM2 Den],[fdt].[PHI Patient SCD].[IQ CRC Num],[fdt].[PHI Patient SCD].[IQ BP Num],[fdt].[PHI Patient SCD].[IQ BC Num],[fdt].[PHI Patient SCD].[iq_dm2_o9_num],[fdt].[PHI Patient SCD].[IQ DM2 Num],[fdt].[PHI Patient SCD].[Last BP Sys],[fdt].[PHI Patient SCD].[Last BP Dia],[fdt].[PHI Patient SCD].[IQ CRC Due],[fdt].[PHI Patient SCD].[IQ BC Due],[fdt].[PHI Patient SCD].[IQ BP Due],[fdt].[PHI Patient SCD].[IQ CRC ONC],[fdt].[PHI Patient SCD].[IQ BC ONC],[fdt].[PHI Patient SCD].[IQ CRC DAO],[fdt].[PHI Patient SCD].[IQ CRC AO Num],[fdt].[PHI Patient SCD].[All Due],[fdt].[PHI Patient SCD].[All DAO]   FROM [fdt].[PHI Patient SCD] ">
                       <xs:complexType>
                         <xs:sequence>
                           <xs:element name="per_mon_id" msprop:DbColumnName="per_mon_id" msprop:FriendlyName="per_mon_id" type="xs:long" />
@@ -50350,8 +50994,6 @@ CREATE KPI CURRENTCUBE.[CRC KPI] AS Measures.[CRC KPI], ASSOCIATED_MEASURE_GROUP
                           <xs:element name="MedHome_x0020_Change" msprop:DbColumnName="MedHome Change" msprop:FriendlyName="MedHome Change" type="xs:int" minOccurs="0" />
                           <xs:element name="PCP_x0020_Change" msprop:DbColumnName="PCP Change" msprop:FriendlyName="PCP Change" type="xs:int" minOccurs="0" />
                           <xs:element name="Never_x0020_Act" msprop:DbColumnName="Never Act" msprop:FriendlyName="Never Act" type="xs:int" minOccurs="0" />
-                          <xs:element name="CRC_x0020_ONC" msprop:DbColumnName="CRC ONC" msprop:FriendlyName="CRC ONC" type="xs:int" minOccurs="0" />
-                          <xs:element name="BC_x0020_ONC" msprop:DbColumnName="BC ONC" msprop:FriendlyName="BC ONC" type="xs:int" minOccurs="0" />
                           <xs:element name="AD_x0020_Denom" msprop:DbColumnName="AD Denom" msprop:FriendlyName="AD Denom" type="xs:int" minOccurs="0" />
                           <xs:element name="RFA_x0020_Comp" msprop:DbColumnName="RFA Comp" msprop:FriendlyName="RFA Comp" type="xs:int" minOccurs="0" />
                           <xs:element name="ED_x0020_12M" msprop:DbColumnName="ED 12M" msprop:FriendlyName="ED 12M" type="xs:int" minOccurs="0" />
@@ -50426,6 +51068,11 @@ CREATE KPI CURRENTCUBE.[CRC KPI] AS Measures.[CRC KPI], ASSOCIATED_MEASURE_GROUP
                           <xs:element name="IQ_x0020_BC_x0020_Due" msprop:DbColumnName="IQ BC Due" msprop:FriendlyName="IQ BC Due" type="xs:int" minOccurs="0" />
                           <xs:element name="IQ_x0020_BP_x0020_Due" msprop:DbColumnName="IQ BP Due" msprop:FriendlyName="IQ BP Due" type="xs:int" minOccurs="0" />
                           <xs:element name="IQ_x0020_CRC_x0020_DAO" msprop:DbColumnName="IQ CRC DAO" msprop:FriendlyName="IQ CRC DAO" type="xs:int" minOccurs="0" />
+                          <xs:element name="IQ_x0020_CRC_x0020_ONC" msprop:DbColumnName="IQ CRC ONC" msprop:FriendlyName="IQ CRC ONC" type="xs:int" minOccurs="0" />
+                          <xs:element name="IQ_x0020_BC_x0020_ONC" msprop:DbColumnName="IQ BC ONC" msprop:FriendlyName="IQ BC ONC" type="xs:int" minOccurs="0" />
+                          <xs:element name="IQ_x0020_CC_x0020_Den" msprop:DbColumnName="IQ CC Den" msprop:FriendlyName="IQ CC Den" type="xs:int" minOccurs="0" />
+                          <xs:element name="IQ_x0020_CC_x0020_Num" msprop:DbColumnName="IQ CC Num" msprop:FriendlyName="IQ CC Num" type="xs:int" minOccurs="0" />
+                          <xs:element name="IQ_x0020_CRC_x0020_AO_x0020_Num" msprop:DbColumnName="IQ CRC AO Num" msprop:FriendlyName="IQ CRC AO Num" type="xs:int" minOccurs="0" />
                         </xs:sequence>
                       </xs:complexType>
                     </xs:element>
