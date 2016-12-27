@@ -57091,11 +57091,30 @@ CREATE MEASURE 'PHI Patient SCD'[IQ CC DAV %]=(divide(SUM('PHI Patient SCD'[IQ C
 ----------------------------------------------------------
 
 
+CREATE MEASURE 'PHI Patient SCD'[IQ CRC %]=(divide(SUM('PHI Patient SCD'[IQ CRC Num]),SUM('PHI Patient SCD'[IQ CRC Den])));
+</Text>
+                  <Annotations>
+                    <Annotation>
+                      <Name>FullName</Name>
+                      <Value>IQ CRC %</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>Table</Name>
+                      <Value>PHI Patient SCD</Value>
+                    </Annotation>
+                  </Annotations>
+                </Command>
+                <Command>
+                  <Text>----------------------------------------------------------
+-- PowerPivot measures command (do not modify manually) --
+----------------------------------------------------------
+
+
 CREATE MEASURE 'PHI Patient SCD'[CRC KPI]=(divide(SUM('PHI Patient SCD'[IQ CRC Num]),SUM('PHI Patient SCD'[IQ CRC Den])));
-CREATE MEASURE 'PHI Patient SCD'[_CRC KPI Goal] = 100; 
+CREATE MEASURE 'PHI Patient SCD'[_CRC KPI Goal] = 1; 
 CREATE MEASURE 'PHI Patient SCD'[_CRC KPI Status] = if(ISBLANK('PHI Patient SCD'[CRC KPI]),BLANK(),
-        If('PHI Patient SCD'[CRC KPI]&lt;50,-1,
-	    If('PHI Patient SCD'[CRC KPI]&lt;60,0,1)
+        If('PHI Patient SCD'[CRC KPI]&lt;0.5,-1,
+	    If('PHI Patient SCD'[CRC KPI]&lt;0.6,0,1)
     )
 )
 ; 
@@ -57118,30 +57137,11 @@ CREATE KPI CURRENTCUBE.[CRC KPI] AS Measures.[CRC KPI], ASSOCIATED_MEASURE_GROUP
 ----------------------------------------------------------
 
 
-CREATE MEASURE 'PHI Patient SCD'[IQ CRC %]=(divide(SUM('PHI Patient SCD'[IQ CRC Num]),SUM('PHI Patient SCD'[IQ CRC Den])));
-</Text>
-                  <Annotations>
-                    <Annotation>
-                      <Name>FullName</Name>
-                      <Value>IQ CRC %</Value>
-                    </Annotation>
-                    <Annotation>
-                      <Name>Table</Name>
-                      <Value>PHI Patient SCD</Value>
-                    </Annotation>
-                  </Annotations>
-                </Command>
-                <Command>
-                  <Text>----------------------------------------------------------
--- PowerPivot measures command (do not modify manually) --
-----------------------------------------------------------
-
-
 CREATE MEASURE 'PHI Patient SCD'[BP KPI]=(divide(SUM('PHI Patient SCD'[IQ BP Num]),SUM('PHI Patient SCD'[IQ BP Den])));
-CREATE MEASURE 'PHI Patient SCD'[_BP KPI Goal] = 100; 
+CREATE MEASURE 'PHI Patient SCD'[_BP KPI Goal] = 1; 
 CREATE MEASURE 'PHI Patient SCD'[_BP KPI Status] = if(ISBLANK('PHI Patient SCD'[BP KPI]),BLANK(),
-        If('PHI Patient SCD'[BP KPI]&lt;50,-1,
-	    If('PHI Patient SCD'[BP KPI]&lt;60,0,1)
+        If('PHI Patient SCD'[BP KPI]&lt;0.5,-1,
+	    If('PHI Patient SCD'[BP KPI]&lt;0.6,0,1)
     )
 )
 ; 
@@ -57165,10 +57165,10 @@ CREATE KPI CURRENTCUBE.[BP KPI] AS Measures.[BP KPI], ASSOCIATED_MEASURE_GROUP =
 
 
 CREATE MEASURE 'PHI Patient SCD'[BC KPI]=(divide(SUM('PHI Patient SCD'[IQ BC Num]),SUM('PHI Patient SCD'[IQ BC Den])));
-CREATE MEASURE 'PHI Patient SCD'[_BC KPI Goal] = 100; 
+CREATE MEASURE 'PHI Patient SCD'[_BC KPI Goal] = 1; 
 CREATE MEASURE 'PHI Patient SCD'[_BC KPI Status] = if(ISBLANK('PHI Patient SCD'[BC KPI]),BLANK(),
-        If('PHI Patient SCD'[BC KPI]&lt;50,-1,
-	    If('PHI Patient SCD'[BC KPI]&lt;60,0,1)
+        If('PHI Patient SCD'[BC KPI]&lt;0.5,-1,
+	    If('PHI Patient SCD'[BC KPI]&lt;0.6,0,1)
     )
 )
 ; 
@@ -57192,10 +57192,10 @@ CREATE KPI CURRENTCUBE.[BC KPI] AS Measures.[BC KPI], ASSOCIATED_MEASURE_GROUP =
 
 
 CREATE MEASURE 'PHI Patient SCD'[DM2 KPI]=(divide(SUM('PHI Patient SCD'[IQ DM2 Num]),SUM('PHI Patient SCD'[IQ DM2 Den])));
-CREATE MEASURE 'PHI Patient SCD'[_DM2 KPI Goal] = 100; 
+CREATE MEASURE 'PHI Patient SCD'[_DM2 KPI Goal] = 1; 
 CREATE MEASURE 'PHI Patient SCD'[_DM2 KPI Status] = if(ISBLANK('PHI Patient SCD'[DM2 KPI]),BLANK(),
-        If('PHI Patient SCD'[DM2 KPI]&lt;50,-1,
-	    If('PHI Patient SCD'[DM2 KPI]&lt;60,0,1)
+        If('PHI Patient SCD'[DM2 KPI]&lt;0.5,-1,
+	    If('PHI Patient SCD'[DM2 KPI]&lt;0.6,0,1)
     )
 )
 ; 
@@ -57219,10 +57219,10 @@ CREATE KPI CURRENTCUBE.[DM2 KPI] AS Measures.[DM2 KPI], ASSOCIATED_MEASURE_GROUP
 
 
 CREATE MEASURE 'PHI Patient SCD'[CC KPI]=(divide(SUM('PHI Patient SCD'[IQ CC Num]),SUM('PHI Patient SCD'[IQ CC Den])));
-CREATE MEASURE 'PHI Patient SCD'[_CC KPI Goal] = 100; 
+CREATE MEASURE 'PHI Patient SCD'[_CC KPI Goal] = 1; 
 CREATE MEASURE 'PHI Patient SCD'[_CC KPI Status] = if(ISBLANK('PHI Patient SCD'[CC KPI]),BLANK(),
-        If('PHI Patient SCD'[CC KPI]&lt;50,-1,
-	    If('PHI Patient SCD'[CC KPI]&lt;60,0,1)
+        If('PHI Patient SCD'[CC KPI]&lt;0.5,-1,
+	    If('PHI Patient SCD'[CC KPI]&lt;0.6,0,1)
     )
 )
 ; 
@@ -58001,6 +58001,27 @@ CREATE KPI CURRENTCUBE.[CC KPI] AS Measures.[CC KPI], ASSOCIATED_MEASURE_GROUP =
                   <Annotations>
                     <Annotation>
                       <Name>Type</Name>
+                      <Value>User</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>IsPrivate</Name>
+                      <Value>False</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>Format</Name>
+                      <Value>
+                        <Format Format="Percentage" Accuracy="2" xmlns="" />
+                      </Value>
+                    </Annotation>
+                  </Annotations>
+                  <CalculationReference>[IQ CRC %]</CalculationReference>
+                  <CalculationType>Member</CalculationType>
+                  <FormatString>'0.00 %;-0.00 %;0.00 %'</FormatString>
+                </CalculationProperty>
+                <CalculationProperty>
+                  <Annotations>
+                    <Annotation>
+                      <Name>Type</Name>
                       <Value>Kpi</Value>
                     </Annotation>
                     <Annotation>
@@ -58019,7 +58040,7 @@ CREATE KPI CURRENTCUBE.[CC KPI] AS Measures.[CC KPI], ASSOCIATED_MEASURE_GROUP =
                     </Annotation>
                     <Annotation>
                       <Name>GoalValue</Name>
-                      <Value>100</Value>
+                      <Value>1</Value>
                     </Annotation>
                     <Annotation>
                       <Name>KpiStatusType</Name>
@@ -58039,11 +58060,11 @@ CREATE KPI CURRENTCUBE.[CC KPI] AS Measures.[CC KPI], ASSOCIATED_MEASURE_GROUP =
                     </Annotation>
                     <Annotation>
                       <Name>KpiThreshold_0</Name>
-                      <Value>50</Value>
+                      <Value>0.5</Value>
                     </Annotation>
                     <Annotation>
                       <Name>KpiThreshold_1</Name>
-                      <Value>60</Value>
+                      <Value>0.6</Value>
                     </Annotation>
                     <Annotation>
                       <Name>ValueDescription</Name>
@@ -58122,27 +58143,6 @@ CREATE KPI CURRENTCUBE.[CC KPI] AS Measures.[CC KPI], ASSOCIATED_MEASURE_GROUP =
                   <Annotations>
                     <Annotation>
                       <Name>Type</Name>
-                      <Value>User</Value>
-                    </Annotation>
-                    <Annotation>
-                      <Name>IsPrivate</Name>
-                      <Value>False</Value>
-                    </Annotation>
-                    <Annotation>
-                      <Name>Format</Name>
-                      <Value>
-                        <Format Format="Percentage" Accuracy="2" xmlns="" />
-                      </Value>
-                    </Annotation>
-                  </Annotations>
-                  <CalculationReference>[IQ CRC %]</CalculationReference>
-                  <CalculationType>Member</CalculationType>
-                  <FormatString>'0.00 %;-0.00 %;0.00 %'</FormatString>
-                </CalculationProperty>
-                <CalculationProperty>
-                  <Annotations>
-                    <Annotation>
-                      <Name>Type</Name>
                       <Value>Kpi</Value>
                     </Annotation>
                     <Annotation>
@@ -58161,7 +58161,7 @@ CREATE KPI CURRENTCUBE.[CC KPI] AS Measures.[CC KPI], ASSOCIATED_MEASURE_GROUP =
                     </Annotation>
                     <Annotation>
                       <Name>GoalValue</Name>
-                      <Value>100</Value>
+                      <Value>1</Value>
                     </Annotation>
                     <Annotation>
                       <Name>KpiStatusType</Name>
@@ -58181,11 +58181,11 @@ CREATE KPI CURRENTCUBE.[CC KPI] AS Measures.[CC KPI], ASSOCIATED_MEASURE_GROUP =
                     </Annotation>
                     <Annotation>
                       <Name>KpiThreshold_0</Name>
-                      <Value>50</Value>
+                      <Value>0.5</Value>
                     </Annotation>
                     <Annotation>
                       <Name>KpiThreshold_1</Name>
-                      <Value>60</Value>
+                      <Value>0.6</Value>
                     </Annotation>
                     <Annotation>
                       <Name>ValueDescription</Name>
@@ -58282,7 +58282,7 @@ CREATE KPI CURRENTCUBE.[CC KPI] AS Measures.[CC KPI], ASSOCIATED_MEASURE_GROUP =
                     </Annotation>
                     <Annotation>
                       <Name>GoalValue</Name>
-                      <Value>100</Value>
+                      <Value>1</Value>
                     </Annotation>
                     <Annotation>
                       <Name>KpiStatusType</Name>
@@ -58302,11 +58302,11 @@ CREATE KPI CURRENTCUBE.[CC KPI] AS Measures.[CC KPI], ASSOCIATED_MEASURE_GROUP =
                     </Annotation>
                     <Annotation>
                       <Name>KpiThreshold_0</Name>
-                      <Value>50</Value>
+                      <Value>0.5</Value>
                     </Annotation>
                     <Annotation>
                       <Name>KpiThreshold_1</Name>
-                      <Value>60</Value>
+                      <Value>0.6</Value>
                     </Annotation>
                     <Annotation>
                       <Name>ValueDescription</Name>
@@ -58403,7 +58403,7 @@ CREATE KPI CURRENTCUBE.[CC KPI] AS Measures.[CC KPI], ASSOCIATED_MEASURE_GROUP =
                     </Annotation>
                     <Annotation>
                       <Name>GoalValue</Name>
-                      <Value>100</Value>
+                      <Value>1</Value>
                     </Annotation>
                     <Annotation>
                       <Name>KpiStatusType</Name>
@@ -58423,11 +58423,11 @@ CREATE KPI CURRENTCUBE.[CC KPI] AS Measures.[CC KPI], ASSOCIATED_MEASURE_GROUP =
                     </Annotation>
                     <Annotation>
                       <Name>KpiThreshold_0</Name>
-                      <Value>50</Value>
+                      <Value>0.5</Value>
                     </Annotation>
                     <Annotation>
                       <Name>KpiThreshold_1</Name>
-                      <Value>60</Value>
+                      <Value>0.6</Value>
                     </Annotation>
                     <Annotation>
                       <Name>ValueDescription</Name>
@@ -58524,7 +58524,7 @@ CREATE KPI CURRENTCUBE.[CC KPI] AS Measures.[CC KPI], ASSOCIATED_MEASURE_GROUP =
                     </Annotation>
                     <Annotation>
                       <Name>GoalValue</Name>
-                      <Value>100</Value>
+                      <Value>1</Value>
                     </Annotation>
                     <Annotation>
                       <Name>KpiStatusType</Name>
@@ -58544,11 +58544,11 @@ CREATE KPI CURRENTCUBE.[CC KPI] AS Measures.[CC KPI], ASSOCIATED_MEASURE_GROUP =
                     </Annotation>
                     <Annotation>
                       <Name>KpiThreshold_0</Name>
-                      <Value>50</Value>
+                      <Value>0.5</Value>
                     </Annotation>
                     <Annotation>
                       <Name>KpiThreshold_1</Name>
-                      <Value>60</Value>
+                      <Value>0.6</Value>
                     </Annotation>
                     <Annotation>
                       <Name>ValueDescription</Name>
