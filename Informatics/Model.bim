@@ -57099,7 +57099,7 @@ CREATE MEASURE 'PHI Patient SCD'[_CRC KPI Status] = if(ISBLANK('PHI Patient SCD'
     )
 )
 ; 
-CREATE KPI CURRENTCUBE.[CRC KPI] AS Measures.[CRC KPI], ASSOCIATED_MEASURE_GROUP = 'PHI Patient SCD', GOAL = Measures.[_CRC KPI Goal], STATUS = Measures.[_CRC KPI Status], STATUS_GRAPHIC = 'Three Symbols UnCircled Colored';
+CREATE KPI CURRENTCUBE.[CRC KPI] AS Measures.[CRC KPI], ASSOCIATED_MEASURE_GROUP = 'PHI Patient SCD', GOAL = Measures.[_CRC KPI Goal], STATUS = Measures.[_CRC KPI Status], STATUS_GRAPHIC = 'Road Signs';
 </Text>
                   <Annotations>
                     <Annotation>
@@ -57119,19 +57119,119 @@ CREATE KPI CURRENTCUBE.[CRC KPI] AS Measures.[CRC KPI], ASSOCIATED_MEASURE_GROUP
 
 
 CREATE MEASURE 'PHI Patient SCD'[IQ CRC %]=(divide(SUM('PHI Patient SCD'[IQ CRC Num]),SUM('PHI Patient SCD'[IQ CRC Den])));
-CREATE MEASURE 'PHI Patient SCD'[_IQ CRC % Goal] = 100; 
-CREATE MEASURE 'PHI Patient SCD'[_IQ CRC % Status] = if(ISBLANK('PHI Patient SCD'[IQ CRC %]),BLANK(),
-        If('PHI Patient SCD'[IQ CRC %]&lt;50,-1,
-	    If('PHI Patient SCD'[IQ CRC %]&lt;60,0,1)
-    )
-)
-; 
-CREATE KPI CURRENTCUBE.[IQ CRC %] AS Measures.[IQ CRC %], ASSOCIATED_MEASURE_GROUP = 'PHI Patient SCD', GOAL = Measures.[_IQ CRC % Goal], STATUS = Measures.[_IQ CRC % Status], STATUS_GRAPHIC = 'Traffic Light - Single';
 </Text>
                   <Annotations>
                     <Annotation>
                       <Name>FullName</Name>
                       <Value>IQ CRC %</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>Table</Name>
+                      <Value>PHI Patient SCD</Value>
+                    </Annotation>
+                  </Annotations>
+                </Command>
+                <Command>
+                  <Text>----------------------------------------------------------
+-- PowerPivot measures command (do not modify manually) --
+----------------------------------------------------------
+
+
+CREATE MEASURE 'PHI Patient SCD'[BP KPI]=(divide(SUM('PHI Patient SCD'[IQ BP Num]),SUM('PHI Patient SCD'[IQ BP Den])));
+CREATE MEASURE 'PHI Patient SCD'[_BP KPI Goal] = 100; 
+CREATE MEASURE 'PHI Patient SCD'[_BP KPI Status] = if(ISBLANK('PHI Patient SCD'[BP KPI]),BLANK(),
+        If('PHI Patient SCD'[BP KPI]&lt;50,-1,
+	    If('PHI Patient SCD'[BP KPI]&lt;60,0,1)
+    )
+)
+; 
+CREATE KPI CURRENTCUBE.[BP KPI] AS Measures.[BP KPI], ASSOCIATED_MEASURE_GROUP = 'PHI Patient SCD', GOAL = Measures.[_BP KPI Goal], STATUS = Measures.[_BP KPI Status], STATUS_GRAPHIC = 'Road Signs';
+</Text>
+                  <Annotations>
+                    <Annotation>
+                      <Name>FullName</Name>
+                      <Value>BP KPI</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>Table</Name>
+                      <Value>PHI Patient SCD</Value>
+                    </Annotation>
+                  </Annotations>
+                </Command>
+                <Command>
+                  <Text>----------------------------------------------------------
+-- PowerPivot measures command (do not modify manually) --
+----------------------------------------------------------
+
+
+CREATE MEASURE 'PHI Patient SCD'[BC KPI]=(divide(SUM('PHI Patient SCD'[IQ BC Num]),SUM('PHI Patient SCD'[IQ BC Den])));
+CREATE MEASURE 'PHI Patient SCD'[_BC KPI Goal] = 100; 
+CREATE MEASURE 'PHI Patient SCD'[_BC KPI Status] = if(ISBLANK('PHI Patient SCD'[BC KPI]),BLANK(),
+        If('PHI Patient SCD'[BC KPI]&lt;50,-1,
+	    If('PHI Patient SCD'[BC KPI]&lt;60,0,1)
+    )
+)
+; 
+CREATE KPI CURRENTCUBE.[BC KPI] AS Measures.[BC KPI], ASSOCIATED_MEASURE_GROUP = 'PHI Patient SCD', GOAL = Measures.[_BC KPI Goal], STATUS = Measures.[_BC KPI Status], STATUS_GRAPHIC = 'Road Signs';
+</Text>
+                  <Annotations>
+                    <Annotation>
+                      <Name>FullName</Name>
+                      <Value>BC KPI</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>Table</Name>
+                      <Value>PHI Patient SCD</Value>
+                    </Annotation>
+                  </Annotations>
+                </Command>
+                <Command>
+                  <Text>----------------------------------------------------------
+-- PowerPivot measures command (do not modify manually) --
+----------------------------------------------------------
+
+
+CREATE MEASURE 'PHI Patient SCD'[DM2 KPI]=(divide(SUM('PHI Patient SCD'[IQ DM2 Num]),SUM('PHI Patient SCD'[IQ DM2 Den])));
+CREATE MEASURE 'PHI Patient SCD'[_DM2 KPI Goal] = 100; 
+CREATE MEASURE 'PHI Patient SCD'[_DM2 KPI Status] = if(ISBLANK('PHI Patient SCD'[DM2 KPI]),BLANK(),
+        If('PHI Patient SCD'[DM2 KPI]&lt;50,-1,
+	    If('PHI Patient SCD'[DM2 KPI]&lt;60,0,1)
+    )
+)
+; 
+CREATE KPI CURRENTCUBE.[DM2 KPI] AS Measures.[DM2 KPI], ASSOCIATED_MEASURE_GROUP = 'PHI Patient SCD', GOAL = Measures.[_DM2 KPI Goal], STATUS = Measures.[_DM2 KPI Status], STATUS_GRAPHIC = 'Road Signs';
+</Text>
+                  <Annotations>
+                    <Annotation>
+                      <Name>FullName</Name>
+                      <Value>DM2 KPI</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>Table</Name>
+                      <Value>PHI Patient SCD</Value>
+                    </Annotation>
+                  </Annotations>
+                </Command>
+                <Command>
+                  <Text>----------------------------------------------------------
+-- PowerPivot measures command (do not modify manually) --
+----------------------------------------------------------
+
+
+CREATE MEASURE 'PHI Patient SCD'[CC KPI]=(divide(SUM('PHI Patient SCD'[IQ CC Num]),SUM('PHI Patient SCD'[IQ CC Den])));
+CREATE MEASURE 'PHI Patient SCD'[_CC KPI Goal] = 100; 
+CREATE MEASURE 'PHI Patient SCD'[_CC KPI Status] = if(ISBLANK('PHI Patient SCD'[CC KPI]),BLANK(),
+        If('PHI Patient SCD'[CC KPI]&lt;50,-1,
+	    If('PHI Patient SCD'[CC KPI]&lt;60,0,1)
+    )
+)
+; 
+CREATE KPI CURRENTCUBE.[CC KPI] AS Measures.[CC KPI], ASSOCIATED_MEASURE_GROUP = 'PHI Patient SCD', GOAL = Measures.[_CC KPI Goal], STATUS = Measures.[_CC KPI Status], STATUS_GRAPHIC = 'Road Signs';
+</Text>
+                  <Annotations>
+                    <Annotation>
+                      <Name>FullName</Name>
+                      <Value>CC KPI</Value>
                     </Annotation>
                     <Annotation>
                       <Name>Table</Name>
@@ -57918,6 +58018,10 @@ CREATE KPI CURRENTCUBE.[IQ CRC %] AS Measures.[IQ CRC %], ASSOCIATED_MEASURE_GRO
                       <Value>StaticValue</Value>
                     </Annotation>
                     <Annotation>
+                      <Name>GoalValue</Name>
+                      <Value>100</Value>
+                    </Annotation>
+                    <Annotation>
                       <Name>KpiStatusType</Name>
                       <Value>Linear</Value>
                     </Annotation>
@@ -57952,10 +58056,6 @@ CREATE KPI CURRENTCUBE.[IQ CRC %] AS Measures.[IQ CRC %], ASSOCIATED_MEASURE_GRO
                     </Annotation>
                     <Annotation>
                       <Name>TrendDescription</Name>
-                    </Annotation>
-                    <Annotation>
-                      <Name>GoalValue</Name>
-                      <Value>100</Value>
                     </Annotation>
                   </Annotations>
                   <CalculationReference>[CRC KPI]</CalculationReference>
@@ -58022,6 +58122,27 @@ CREATE KPI CURRENTCUBE.[IQ CRC %] AS Measures.[IQ CRC %], ASSOCIATED_MEASURE_GRO
                   <Annotations>
                     <Annotation>
                       <Name>Type</Name>
+                      <Value>User</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>IsPrivate</Name>
+                      <Value>False</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>Format</Name>
+                      <Value>
+                        <Format Format="Percentage" Accuracy="2" xmlns="" />
+                      </Value>
+                    </Annotation>
+                  </Annotations>
+                  <CalculationReference>[IQ CRC %]</CalculationReference>
+                  <CalculationType>Member</CalculationType>
+                  <FormatString>'0.00 %;-0.00 %;0.00 %'</FormatString>
+                </CalculationProperty>
+                <CalculationProperty>
+                  <Annotations>
+                    <Annotation>
+                      <Name>Type</Name>
                       <Value>Kpi</Value>
                     </Annotation>
                     <Annotation>
@@ -58079,7 +58200,7 @@ CREATE KPI CURRENTCUBE.[IQ CRC %] AS Measures.[IQ CRC %], ASSOCIATED_MEASURE_GRO
                       <Name>TrendDescription</Name>
                     </Annotation>
                   </Annotations>
-                  <CalculationReference>[IQ CRC %]</CalculationReference>
+                  <CalculationReference>[BP KPI]</CalculationReference>
                   <CalculationType>Member</CalculationType>
                   <FormatString>'0.00 %;-0.00 %;0.00 %'</FormatString>
                 </CalculationProperty>
@@ -58095,10 +58216,10 @@ CREATE KPI CURRENTCUBE.[IQ CRC %] AS Measures.[IQ CRC %], ASSOCIATED_MEASURE_GRO
                     </Annotation>
                     <Annotation>
                       <Name>MainObjectName</Name>
-                      <Value>IQ CRC %</Value>
+                      <Value>BP KPI</Value>
                     </Annotation>
                   </Annotations>
-                  <CalculationReference>[_IQ CRC % Goal]</CalculationReference>
+                  <CalculationReference>[_BP KPI Goal]</CalculationReference>
                   <CalculationType>Member</CalculationType>
                   <Visible>false</Visible>
                 </CalculationProperty>
@@ -58114,10 +58235,10 @@ CREATE KPI CURRENTCUBE.[IQ CRC %] AS Measures.[IQ CRC %], ASSOCIATED_MEASURE_GRO
                     </Annotation>
                     <Annotation>
                       <Name>MainObjectName</Name>
-                      <Value>IQ CRC %</Value>
+                      <Value>BP KPI</Value>
                     </Annotation>
                   </Annotations>
-                  <CalculationReference>[_IQ CRC % Status]</CalculationReference>
+                  <CalculationReference>[_BP KPI Status]</CalculationReference>
                   <CalculationType>Member</CalculationType>
                   <Visible>false</Visible>
                 </CalculationProperty>
@@ -58133,10 +58254,373 @@ CREATE KPI CURRENTCUBE.[IQ CRC %] AS Measures.[IQ CRC %], ASSOCIATED_MEASURE_GRO
                     </Annotation>
                     <Annotation>
                       <Name>MainObjectName</Name>
-                      <Value>IQ CRC %</Value>
+                      <Value>BP KPI</Value>
                     </Annotation>
                   </Annotations>
-                  <CalculationReference>KPIs.[IQ CRC %]</CalculationReference>
+                  <CalculationReference>KPIs.[BP KPI]</CalculationReference>
+                  <CalculationType>Member</CalculationType>
+                </CalculationProperty>
+                <CalculationProperty>
+                  <Annotations>
+                    <Annotation>
+                      <Name>Type</Name>
+                      <Value>Kpi</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>IsPrivate</Name>
+                      <Value>False</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>Format</Name>
+                      <Value>
+                        <Format Format="Percentage" Accuracy="2" xmlns="" />
+                      </Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>GoalType</Name>
+                      <Value>StaticValue</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>GoalValue</Name>
+                      <Value>100</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>KpiStatusType</Name>
+                      <Value>Linear</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>KpiThresholdType</Name>
+                      <Value>Absolute</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>KpiThresholdOrdering</Name>
+                      <Value>Ascending</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>KpiThresholdCount</Name>
+                      <Value>2</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>KpiThreshold_0</Name>
+                      <Value>50</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>KpiThreshold_1</Name>
+                      <Value>60</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>ValueDescription</Name>
+                    </Annotation>
+                    <Annotation>
+                      <Name>GoalDescription</Name>
+                    </Annotation>
+                    <Annotation>
+                      <Name>StatusDescription</Name>
+                    </Annotation>
+                    <Annotation>
+                      <Name>TrendDescription</Name>
+                    </Annotation>
+                  </Annotations>
+                  <CalculationReference>[BC KPI]</CalculationReference>
+                  <CalculationType>Member</CalculationType>
+                  <FormatString>'0.00 %;-0.00 %;0.00 %'</FormatString>
+                </CalculationProperty>
+                <CalculationProperty>
+                  <Annotations>
+                    <Annotation>
+                      <Name>Type</Name>
+                      <Value>SupportMdx</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>MainObjectType</Name>
+                      <Value>Measure</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>MainObjectName</Name>
+                      <Value>BC KPI</Value>
+                    </Annotation>
+                  </Annotations>
+                  <CalculationReference>[_BC KPI Goal]</CalculationReference>
+                  <CalculationType>Member</CalculationType>
+                  <Visible>false</Visible>
+                </CalculationProperty>
+                <CalculationProperty>
+                  <Annotations>
+                    <Annotation>
+                      <Name>Type</Name>
+                      <Value>SupportMdx</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>MainObjectType</Name>
+                      <Value>Measure</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>MainObjectName</Name>
+                      <Value>BC KPI</Value>
+                    </Annotation>
+                  </Annotations>
+                  <CalculationReference>[_BC KPI Status]</CalculationReference>
+                  <CalculationType>Member</CalculationType>
+                  <Visible>false</Visible>
+                </CalculationProperty>
+                <CalculationProperty>
+                  <Annotations>
+                    <Annotation>
+                      <Name>Type</Name>
+                      <Value>SupportKpi</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>MainObjectType</Name>
+                      <Value>Measure</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>MainObjectName</Name>
+                      <Value>BC KPI</Value>
+                    </Annotation>
+                  </Annotations>
+                  <CalculationReference>KPIs.[BC KPI]</CalculationReference>
+                  <CalculationType>Member</CalculationType>
+                </CalculationProperty>
+                <CalculationProperty>
+                  <Annotations>
+                    <Annotation>
+                      <Name>Type</Name>
+                      <Value>Kpi</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>IsPrivate</Name>
+                      <Value>False</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>Format</Name>
+                      <Value>
+                        <Format Format="Percentage" Accuracy="2" xmlns="" />
+                      </Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>GoalType</Name>
+                      <Value>StaticValue</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>GoalValue</Name>
+                      <Value>100</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>KpiStatusType</Name>
+                      <Value>Linear</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>KpiThresholdType</Name>
+                      <Value>Absolute</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>KpiThresholdOrdering</Name>
+                      <Value>Ascending</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>KpiThresholdCount</Name>
+                      <Value>2</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>KpiThreshold_0</Name>
+                      <Value>50</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>KpiThreshold_1</Name>
+                      <Value>60</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>ValueDescription</Name>
+                    </Annotation>
+                    <Annotation>
+                      <Name>GoalDescription</Name>
+                    </Annotation>
+                    <Annotation>
+                      <Name>StatusDescription</Name>
+                    </Annotation>
+                    <Annotation>
+                      <Name>TrendDescription</Name>
+                    </Annotation>
+                  </Annotations>
+                  <CalculationReference>[DM2 KPI]</CalculationReference>
+                  <CalculationType>Member</CalculationType>
+                  <FormatString>'0.00 %;-0.00 %;0.00 %'</FormatString>
+                </CalculationProperty>
+                <CalculationProperty>
+                  <Annotations>
+                    <Annotation>
+                      <Name>Type</Name>
+                      <Value>SupportMdx</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>MainObjectType</Name>
+                      <Value>Measure</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>MainObjectName</Name>
+                      <Value>DM2 KPI</Value>
+                    </Annotation>
+                  </Annotations>
+                  <CalculationReference>[_DM2 KPI Goal]</CalculationReference>
+                  <CalculationType>Member</CalculationType>
+                  <Visible>false</Visible>
+                </CalculationProperty>
+                <CalculationProperty>
+                  <Annotations>
+                    <Annotation>
+                      <Name>Type</Name>
+                      <Value>SupportMdx</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>MainObjectType</Name>
+                      <Value>Measure</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>MainObjectName</Name>
+                      <Value>DM2 KPI</Value>
+                    </Annotation>
+                  </Annotations>
+                  <CalculationReference>[_DM2 KPI Status]</CalculationReference>
+                  <CalculationType>Member</CalculationType>
+                  <Visible>false</Visible>
+                </CalculationProperty>
+                <CalculationProperty>
+                  <Annotations>
+                    <Annotation>
+                      <Name>Type</Name>
+                      <Value>SupportKpi</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>MainObjectType</Name>
+                      <Value>Measure</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>MainObjectName</Name>
+                      <Value>DM2 KPI</Value>
+                    </Annotation>
+                  </Annotations>
+                  <CalculationReference>KPIs.[DM2 KPI]</CalculationReference>
+                  <CalculationType>Member</CalculationType>
+                </CalculationProperty>
+                <CalculationProperty>
+                  <Annotations>
+                    <Annotation>
+                      <Name>Type</Name>
+                      <Value>Kpi</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>IsPrivate</Name>
+                      <Value>False</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>Format</Name>
+                      <Value>
+                        <Format Format="Percentage" Accuracy="2" xmlns="" />
+                      </Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>GoalType</Name>
+                      <Value>StaticValue</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>GoalValue</Name>
+                      <Value>100</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>KpiStatusType</Name>
+                      <Value>Linear</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>KpiThresholdType</Name>
+                      <Value>Absolute</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>KpiThresholdOrdering</Name>
+                      <Value>Ascending</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>KpiThresholdCount</Name>
+                      <Value>2</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>KpiThreshold_0</Name>
+                      <Value>50</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>KpiThreshold_1</Name>
+                      <Value>60</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>ValueDescription</Name>
+                    </Annotation>
+                    <Annotation>
+                      <Name>GoalDescription</Name>
+                    </Annotation>
+                    <Annotation>
+                      <Name>StatusDescription</Name>
+                    </Annotation>
+                    <Annotation>
+                      <Name>TrendDescription</Name>
+                    </Annotation>
+                  </Annotations>
+                  <CalculationReference>[CC KPI]</CalculationReference>
+                  <CalculationType>Member</CalculationType>
+                  <FormatString>'0.00 %;-0.00 %;0.00 %'</FormatString>
+                </CalculationProperty>
+                <CalculationProperty>
+                  <Annotations>
+                    <Annotation>
+                      <Name>Type</Name>
+                      <Value>SupportMdx</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>MainObjectType</Name>
+                      <Value>Measure</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>MainObjectName</Name>
+                      <Value>CC KPI</Value>
+                    </Annotation>
+                  </Annotations>
+                  <CalculationReference>[_CC KPI Goal]</CalculationReference>
+                  <CalculationType>Member</CalculationType>
+                  <Visible>false</Visible>
+                </CalculationProperty>
+                <CalculationProperty>
+                  <Annotations>
+                    <Annotation>
+                      <Name>Type</Name>
+                      <Value>SupportMdx</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>MainObjectType</Name>
+                      <Value>Measure</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>MainObjectName</Name>
+                      <Value>CC KPI</Value>
+                    </Annotation>
+                  </Annotations>
+                  <CalculationReference>[_CC KPI Status]</CalculationReference>
+                  <CalculationType>Member</CalculationType>
+                  <Visible>false</Visible>
+                </CalculationProperty>
+                <CalculationProperty>
+                  <Annotations>
+                    <Annotation>
+                      <Name>Type</Name>
+                      <Value>SupportKpi</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>MainObjectType</Name>
+                      <Value>Measure</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>MainObjectName</Name>
+                      <Value>CC KPI</Value>
+                    </Annotation>
+                  </Annotations>
+                  <CalculationReference>KPIs.[CC KPI]</CalculationReference>
                   <CalculationType>Member</CalculationType>
                 </CalculationProperty>
                 <CalculationProperty>
