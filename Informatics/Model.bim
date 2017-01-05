@@ -6759,10 +6759,10 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;MH Cur&lt;/string&gt;
+        &lt;string&gt;Medical Home Cur&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;65&lt;/int&gt;
+        &lt;int&gt;115&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -7084,7 +7084,7 @@
         &lt;string&gt;Days Since BH&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;67&lt;/int&gt;
+        &lt;int&gt;66&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -7180,7 +7180,7 @@
         &lt;string&gt;Next Appt Prov BH&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;79&lt;/int&gt;
+        &lt;int&gt;78&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -7188,7 +7188,7 @@
         &lt;string&gt;Next Appt Date BH&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;78&lt;/int&gt;
+        &lt;int&gt;77&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -7196,7 +7196,7 @@
         &lt;string&gt;Next Appt Team Med&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;77&lt;/int&gt;
+        &lt;int&gt;76&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -7204,7 +7204,7 @@
         &lt;string&gt;Next Appt Prov Med&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;76&lt;/int&gt;
+        &lt;int&gt;75&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -7212,7 +7212,7 @@
         &lt;string&gt;Next Appt Date Med&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;75&lt;/int&gt;
+        &lt;int&gt;74&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -7220,7 +7220,7 @@
         &lt;string&gt;Next Appt Team Any&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;74&lt;/int&gt;
+        &lt;int&gt;73&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -7340,7 +7340,7 @@
         &lt;string&gt;Last Enc Team&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;69&lt;/int&gt;
+        &lt;int&gt;68&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -7348,7 +7348,7 @@
         &lt;string&gt;Next Appt Prov Any&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;73&lt;/int&gt;
+        &lt;int&gt;72&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -7412,7 +7412,7 @@
         &lt;string&gt;Next Appt Date Any&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;72&lt;/int&gt;
+        &lt;int&gt;71&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -7444,7 +7444,7 @@
         &lt;string&gt;Last Med Team&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;68&lt;/int&gt;
+        &lt;int&gt;67&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -7452,7 +7452,7 @@
         &lt;string&gt;Last Appt Prov Any&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;71&lt;/int&gt;
+        &lt;int&gt;70&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -7489,10 +7489,10 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;MH Cur&lt;/string&gt;
+        &lt;string&gt;Medical Home Cur&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;61&lt;/int&gt;
+        &lt;int&gt;90&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -7500,7 +7500,7 @@
         &lt;string&gt;MH Cur Site&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;62&lt;/int&gt;
+        &lt;int&gt;61&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -7508,7 +7508,7 @@
         &lt;string&gt;Last ACP Doc Date&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;63&lt;/int&gt;
+        &lt;int&gt;62&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -7516,7 +7516,7 @@
         &lt;string&gt;Last BH Date&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;64&lt;/int&gt;
+        &lt;int&gt;63&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -7524,7 +7524,7 @@
         &lt;string&gt;Last ACP Date&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;65&lt;/int&gt;
+        &lt;int&gt;64&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -7532,7 +7532,7 @@
         &lt;string&gt;Last Appt Date Any&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;70&lt;/int&gt;
+        &lt;int&gt;69&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -7540,7 +7540,7 @@
         &lt;string&gt;Last BH MA&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;66&lt;/int&gt;
+        &lt;int&gt;65&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -7548,7 +7548,7 @@
         &lt;string&gt;Next Appt Team BH&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;80&lt;/int&gt;
+        &lt;int&gt;79&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -7556,7 +7556,7 @@
         &lt;string&gt;Last Enc Date&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;81&lt;/int&gt;
+        &lt;int&gt;80&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -7564,7 +7564,7 @@
         &lt;string&gt;Last Enc Prov&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;82&lt;/int&gt;
+        &lt;int&gt;81&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -7572,7 +7572,7 @@
         &lt;string&gt;Last Med Prov&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;83&lt;/int&gt;
+        &lt;int&gt;82&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -7580,7 +7580,7 @@
         &lt;string&gt;Last BH Prov&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;84&lt;/int&gt;
+        &lt;int&gt;83&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -7588,7 +7588,7 @@
         &lt;string&gt;Days to Appt Any&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;85&lt;/int&gt;
+        &lt;int&gt;84&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -7596,7 +7596,7 @@
         &lt;string&gt;Days to Appt Med&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;86&lt;/int&gt;
+        &lt;int&gt;85&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -7604,7 +7604,7 @@
         &lt;string&gt;Days to Appt BH&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;87&lt;/int&gt;
+        &lt;int&gt;86&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -7612,7 +7612,7 @@
         &lt;string&gt;Next Appt Date Gyn&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;88&lt;/int&gt;
+        &lt;int&gt;87&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -7620,7 +7620,7 @@
         &lt;string&gt;Next Appt Prov Gyn&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;89&lt;/int&gt;
+        &lt;int&gt;88&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -7628,7 +7628,7 @@
         &lt;string&gt;Next Appt Team Gyn&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;90&lt;/int&gt;
+        &lt;int&gt;89&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
   &lt;/ColumnDisplayIndex&gt;
@@ -7836,7 +7836,7 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;MH Cur&lt;/string&gt;
+        &lt;string&gt;Medical Home Cur&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -8381,11 +8381,6 @@
                   <Name>High NS 12M</Name>
                 </AttributeRelationship>
                 <AttributeRelationship>
-                  <AttributeID>MH Cur</AttributeID>
-                  <OverrideBehavior>None</OverrideBehavior>
-                  <Name>MH Cur</Name>
-                </AttributeRelationship>
-                <AttributeRelationship>
                   <AttributeID>MH Cur Site</AttributeID>
                   <OverrideBehavior>None</OverrideBehavior>
                   <Name>MH Cur Site</Name>
@@ -8519,6 +8514,11 @@
                   <AttributeID>Next Appt Team Gyn</AttributeID>
                   <OverrideBehavior>None</OverrideBehavior>
                   <Name>Next Appt Team Gyn</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>Medical Home Cur</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>Medical Home Cur</Name>
                 </AttributeRelationship>
               </AttributeRelationships>
               <OrderBy>Key</OrderBy>
@@ -10483,31 +10483,6 @@
               <OrderBy>Key</OrderBy>
             </Attribute>
             <Attribute>
-              <ID>MH Cur</ID>
-              <Name>MH Cur</Name>
-              <KeyColumns>
-                <KeyColumn>
-                  <DataType>WChar</DataType>
-                  <DataSize>32768</DataSize>
-                  <NullProcessing>Preserve</NullProcessing>
-                  <Source xsi:type="ColumnBinding">
-                    <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                    <ColumnID>MH_x0020_Cur</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <NameColumn>
-                <DataType>WChar</DataType>
-                <DataSize>32768</DataSize>
-                <NullProcessing>ZeroOrBlank</NullProcessing>
-                <Source xsi:type="ColumnBinding">
-                  <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                  <ColumnID>MH_x0020_Cur</ColumnID>
-                </Source>
-              </NameColumn>
-              <OrderBy>Key</OrderBy>
-            </Attribute>
-            <Attribute>
               <ID>MH Cur Site</ID>
               <Name>MH Cur Site</Name>
               <KeyColumns>
@@ -11182,6 +11157,31 @@
               </NameColumn>
               <OrderBy>Key</OrderBy>
             </Attribute>
+            <Attribute>
+              <ID>Medical Home Cur</ID>
+              <Name>Medical Home Cur</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>32768</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                    <ColumnID>Medical_x0020_Home_x0020_Cur</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>32768</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                  <ColumnID>Medical_x0020_Home_x0020_Cur</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
           </Attributes>
           <ProactiveCaching>
             <SilenceInterval>-PT1S</SilenceInterval>
@@ -11840,10 +11840,10 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;MH Hx Site&lt;/string&gt;
+        &lt;string&gt;Medical Home Hx&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;82&lt;/int&gt;
+        &lt;int&gt;111&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12044,6 +12044,14 @@
       &lt;/key&gt;
       &lt;value&gt;
         &lt;int&gt;106&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;MH Site&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;66&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
   &lt;/ColumnWidths&gt;
@@ -12389,7 +12397,7 @@
         &lt;string&gt;IQ BP Due&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;92&lt;/int&gt;
+        &lt;int&gt;91&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12397,7 +12405,7 @@
         &lt;string&gt;IQ BC Due&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;91&lt;/int&gt;
+        &lt;int&gt;90&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12405,7 +12413,7 @@
         &lt;string&gt;IQ CRC Due&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;90&lt;/int&gt;
+        &lt;int&gt;89&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12445,7 +12453,7 @@
         &lt;string&gt;IQ BC ONC&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;95&lt;/int&gt;
+        &lt;int&gt;94&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12453,7 +12461,7 @@
         &lt;string&gt;IQ CRC ONC&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;94&lt;/int&gt;
+        &lt;int&gt;93&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12485,7 +12493,7 @@
         &lt;string&gt;ACP N None&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;74&lt;/int&gt;
+        &lt;int&gt;73&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12493,7 +12501,7 @@
         &lt;string&gt;ACP N Visit&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;73&lt;/int&gt;
+        &lt;int&gt;72&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12501,7 +12509,7 @@
         &lt;string&gt;ACP N Comp&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;72&lt;/int&gt;
+        &lt;int&gt;71&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12682,10 +12690,10 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;MH Hx Site&lt;/string&gt;
+        &lt;string&gt;Medical Home Hx&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;71&lt;/int&gt;
+        &lt;int&gt;104&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12693,7 +12701,7 @@
         &lt;string&gt;ACP N Visit Dx&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;75&lt;/int&gt;
+        &lt;int&gt;74&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12701,7 +12709,7 @@
         &lt;string&gt;ACP N Visit CPT&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;76&lt;/int&gt;
+        &lt;int&gt;75&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12709,7 +12717,7 @@
         &lt;string&gt;ACP N Polst&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;77&lt;/int&gt;
+        &lt;int&gt;76&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12717,7 +12725,7 @@
         &lt;string&gt;ACP N AD&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;78&lt;/int&gt;
+        &lt;int&gt;77&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12725,7 +12733,7 @@
         &lt;string&gt;ACP N Polst or AD&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;79&lt;/int&gt;
+        &lt;int&gt;78&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12733,7 +12741,7 @@
         &lt;string&gt;ACP N Polst Only&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;80&lt;/int&gt;
+        &lt;int&gt;79&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12741,7 +12749,7 @@
         &lt;string&gt;ACP N AD Only&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;82&lt;/int&gt;
+        &lt;int&gt;81&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12749,7 +12757,7 @@
         &lt;string&gt;ACP N AD and Polst Only&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;81&lt;/int&gt;
+        &lt;int&gt;80&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12757,7 +12765,7 @@
         &lt;string&gt;ACP N Visit Only&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;83&lt;/int&gt;
+        &lt;int&gt;82&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12765,7 +12773,7 @@
         &lt;string&gt;ACP N No Docs&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;84&lt;/int&gt;
+        &lt;int&gt;83&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12773,7 +12781,7 @@
         &lt;string&gt;Last AD Date&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;85&lt;/int&gt;
+        &lt;int&gt;84&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12781,7 +12789,7 @@
         &lt;string&gt;Last Polst Date&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;86&lt;/int&gt;
+        &lt;int&gt;85&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12789,7 +12797,7 @@
         &lt;string&gt;Last AD Scan&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;87&lt;/int&gt;
+        &lt;int&gt;86&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12797,7 +12805,7 @@
         &lt;string&gt;Last Polst Scan&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;88&lt;/int&gt;
+        &lt;int&gt;87&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12805,7 +12813,7 @@
         &lt;string&gt;Last ACP Date&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;89&lt;/int&gt;
+        &lt;int&gt;88&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12813,7 +12821,7 @@
         &lt;string&gt;IQ CRC DAO&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;93&lt;/int&gt;
+        &lt;int&gt;92&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12821,7 +12829,7 @@
         &lt;string&gt;IQ CRC AO Num&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;102&lt;/int&gt;
+        &lt;int&gt;101&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12829,7 +12837,7 @@
         &lt;string&gt;Hedis CC Den&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;96&lt;/int&gt;
+        &lt;int&gt;95&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12837,7 +12845,7 @@
         &lt;string&gt;Hedis CC Num&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;97&lt;/int&gt;
+        &lt;int&gt;96&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12845,7 +12853,7 @@
         &lt;string&gt;UDS CC Den&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;98&lt;/int&gt;
+        &lt;int&gt;97&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12853,7 +12861,7 @@
         &lt;string&gt;UDS CC Num&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;99&lt;/int&gt;
+        &lt;int&gt;98&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12861,7 +12869,7 @@
         &lt;string&gt;IQ CC Den&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;100&lt;/int&gt;
+        &lt;int&gt;99&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12869,7 +12877,7 @@
         &lt;string&gt;IQ CC Num&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;101&lt;/int&gt;
+        &lt;int&gt;100&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12877,7 +12885,7 @@
         &lt;string&gt;IQ CC VNC Num&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;103&lt;/int&gt;
+        &lt;int&gt;102&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -12885,7 +12893,15 @@
         &lt;string&gt;IQ CC DAV Num&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;104&lt;/int&gt;
+        &lt;int&gt;103&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;MH Site&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;105&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
   &lt;/ColumnDisplayIndex&gt;
@@ -13413,7 +13429,7 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;MH Hx Site&lt;/string&gt;
+        &lt;string&gt;Medical Home Hx&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -13614,6 +13630,14 @@
     &lt;item&gt;
       &lt;key&gt;
         &lt;string&gt;IQ CC DAV Num&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;MH Site&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -14023,11 +14047,6 @@
                   <Name>MH Hx</Name>
                 </AttributeRelationship>
                 <AttributeRelationship>
-                  <AttributeID>MH Hx Site</AttributeID>
-                  <OverrideBehavior>None</OverrideBehavior>
-                  <Name>MH Hx Site</Name>
-                </AttributeRelationship>
-                <AttributeRelationship>
                   <AttributeID>ACP N Comp</AttributeID>
                   <OverrideBehavior>None</OverrideBehavior>
                   <Name>ACP N Comp</Name>
@@ -14171,6 +14190,16 @@
                   <AttributeID>IQ CC DAV Num</AttributeID>
                   <OverrideBehavior>None</OverrideBehavior>
                   <Name>IQ CC DAV Num</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>Medical Home Hx</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>Medical Home Hx</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>MH Site</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>MH Site</Name>
                 </AttributeRelationship>
               </AttributeRelationships>
               <OrderBy>Key</OrderBy>
@@ -16109,31 +16138,6 @@
               <OrderBy>Key</OrderBy>
             </Attribute>
             <Attribute>
-              <ID>MH Hx Site</ID>
-              <Name>MH Hx Site</Name>
-              <KeyColumns>
-                <KeyColumn>
-                  <DataType>WChar</DataType>
-                  <DataSize>32768</DataSize>
-                  <NullProcessing>Preserve</NullProcessing>
-                  <Source xsi:type="ColumnBinding">
-                    <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
-                    <ColumnID>MH_x0020_Hx_x0020_Site</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <NameColumn>
-                <DataType>WChar</DataType>
-                <DataSize>32768</DataSize>
-                <NullProcessing>ZeroOrBlank</NullProcessing>
-                <Source xsi:type="ColumnBinding">
-                  <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
-                  <ColumnID>MH_x0020_Hx_x0020_Site</ColumnID>
-                </Source>
-              </NameColumn>
-              <OrderBy>Key</OrderBy>
-            </Attribute>
-            <Attribute>
               <ID>ACP N Comp</ID>
               <Name>ACP N Comp</Name>
               <KeyColumns>
@@ -16854,6 +16858,56 @@
                 <Source xsi:type="ColumnBinding">
                   <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
                   <ColumnID>IQ_x0020_CC_x0020_DAV_x0020_Num</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>Medical Home Hx</ID>
+              <Name>Medical Home Hx</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>32768</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                    <ColumnID>Medical_x0020_Home_x0020_Hx</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>32768</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                  <ColumnID>Medical_x0020_Home_x0020_Hx</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>MH Site</ID>
+              <Name>MH Site</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>32768</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                    <ColumnID>MH_x0020_Site</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>32768</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                  <ColumnID>MH_x0020_Site</ColumnID>
                 </Source>
               </NameColumn>
               <OrderBy>Key</OrderBy>
@@ -23648,6 +23702,14 @@
         &lt;int&gt;89&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;User Ordering&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;97&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnWidths&gt;
   &lt;ColumnDisplayIndex&gt;
     &lt;item&gt;
@@ -23962,12 +24024,28 @@
         &lt;int&gt;38&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;User Ordering&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;39&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnDisplayIndex&gt;
   &lt;ColumnFrozen /&gt;
   &lt;ColumnChecked&gt;
     &lt;item&gt;
       &lt;key&gt;
         &lt;string&gt;Med Category&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;User Ordering&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -24215,6 +24293,11 @@
                   <AttributeID>Med Category</AttributeID>
                   <OverrideBehavior>None</OverrideBehavior>
                   <Name>Med Category</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>User Ordering</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>User Ordering</Name>
                 </AttributeRelationship>
               </AttributeRelationships>
               <OrderBy>Key</OrderBy>
@@ -24648,6 +24731,7 @@
                 </Source>
               </NameColumn>
               <OrderBy>Key</OrderBy>
+              <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
             </Attribute>
             <Attribute>
               <Annotations>
@@ -25589,6 +25673,31 @@
               </NameColumn>
               <OrderBy>Key</OrderBy>
             </Attribute>
+            <Attribute>
+              <ID>User Ordering</ID>
+              <Name>User Ordering</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>32768</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>Medication_155fe7b1-0cf2-41fb-9417-56404b491362</TableID>
+                    <ColumnID>User_x0020_Ordering</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>32768</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>Medication_155fe7b1-0cf2-41fb-9417-56404b491362</TableID>
+                  <ColumnID>User_x0020_Ordering</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
           </Attributes>
           <ProactiveCaching>
             <SilenceInterval>-PT1S</SilenceInterval>
@@ -26229,9 +26338,6 @@
                   <AttributeID>High NS 12M</AttributeID>
                 </Attribute>
                 <Attribute>
-                  <AttributeID>MH Cur</AttributeID>
-                </Attribute>
-                <Attribute>
                   <AttributeID>MH Cur Site</AttributeID>
                 </Attribute>
                 <Attribute>
@@ -26311,6 +26417,9 @@
                 </Attribute>
                 <Attribute>
                   <AttributeID>Next Appt Team Gyn</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Medical Home Cur</AttributeID>
                 </Attribute>
               </Attributes>
             </Dimension>
@@ -26554,9 +26663,6 @@
                   <AttributeID>MH Hx</AttributeID>
                 </Attribute>
                 <Attribute>
-                  <AttributeID>MH Hx Site</AttributeID>
-                </Attribute>
-                <Attribute>
                   <AttributeID>ACP N Comp</AttributeID>
                 </Attribute>
                 <Attribute>
@@ -26642,6 +26748,12 @@
                 </Attribute>
                 <Attribute>
                   <AttributeID>IQ CC DAV Num</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Medical Home Hx</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>MH Site</AttributeID>
                 </Attribute>
               </Attributes>
             </Dimension>
@@ -27185,6 +27297,7 @@
                 </Attribute>
                 <Attribute>
                   <AttributeID>rx_site_name</AttributeID>
+                  <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
                 </Attribute>
                 <Attribute>
                   <AttributeID>Rx Start</AttributeID>
@@ -27267,6 +27380,9 @@
                 </Attribute>
                 <Attribute>
                   <AttributeID>Med Category</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>User Ordering</AttributeID>
                 </Attribute>
               </Attributes>
             </Dimension>
@@ -31621,20 +31737,6 @@
                       </KeyColumns>
                     </Attribute>
                     <Attribute>
-                      <AttributeID>MH Cur</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>WChar</DataType>
-                          <DataSize>32768</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>MH_x0020_Cur</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
                       <AttributeID>MH Cur Site</AttributeID>
                       <KeyColumns>
                         <KeyColumn>
@@ -32008,6 +32110,20 @@
                           <Source xsi:type="ColumnBinding">
                             <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
                             <ColumnID>Next_x0020_Appt_x0020_Team_x0020_Gyn</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Medical Home Cur</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Medical_x0020_Home_x0020_Cur</ColumnID>
                           </Source>
                         </KeyColumn>
                       </KeyColumns>
@@ -36448,20 +36564,6 @@
                       </KeyColumns>
                     </Attribute>
                     <Attribute>
-                      <AttributeID>MH Cur</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>WChar</DataType>
-                          <DataSize>32768</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>MH_x0020_Cur</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
                       <AttributeID>MH Cur Site</AttributeID>
                       <KeyColumns>
                         <KeyColumn>
@@ -36835,6 +36937,20 @@
                           <Source xsi:type="ColumnBinding">
                             <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
                             <ColumnID>Next_x0020_Appt_x0020_Team_x0020_Gyn</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Medical Home Cur</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Medical_x0020_Home_x0020_Cur</ColumnID>
                           </Source>
                         </KeyColumn>
                       </KeyColumns>
@@ -40753,20 +40869,6 @@
                       </KeyColumns>
                     </Attribute>
                     <Attribute>
-                      <AttributeID>MH Cur</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>WChar</DataType>
-                          <DataSize>32768</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>MH_x0020_Cur</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
                       <AttributeID>MH Cur Site</AttributeID>
                       <KeyColumns>
                         <KeyColumn>
@@ -41140,6 +41242,20 @@
                           <Source xsi:type="ColumnBinding">
                             <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
                             <ColumnID>Next_x0020_Appt_x0020_Team_x0020_Gyn</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Medical Home Cur</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Medical_x0020_Home_x0020_Cur</ColumnID>
                           </Source>
                         </KeyColumn>
                       </KeyColumns>
@@ -41750,10 +41866,10 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;MH Cur&lt;/string&gt;
+        &lt;string&gt;Medical Home Cur&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;65&lt;/int&gt;
+        &lt;int&gt;115&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42075,7 +42191,7 @@
         &lt;string&gt;Days Since BH&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;67&lt;/int&gt;
+        &lt;int&gt;66&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42171,7 +42287,7 @@
         &lt;string&gt;Next Appt Prov BH&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;79&lt;/int&gt;
+        &lt;int&gt;78&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42179,7 +42295,7 @@
         &lt;string&gt;Next Appt Date BH&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;78&lt;/int&gt;
+        &lt;int&gt;77&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42187,7 +42303,7 @@
         &lt;string&gt;Next Appt Team Med&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;77&lt;/int&gt;
+        &lt;int&gt;76&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42195,7 +42311,7 @@
         &lt;string&gt;Next Appt Prov Med&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;76&lt;/int&gt;
+        &lt;int&gt;75&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42203,7 +42319,7 @@
         &lt;string&gt;Next Appt Date Med&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;75&lt;/int&gt;
+        &lt;int&gt;74&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42211,7 +42327,7 @@
         &lt;string&gt;Next Appt Team Any&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;74&lt;/int&gt;
+        &lt;int&gt;73&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42331,7 +42447,7 @@
         &lt;string&gt;Last Enc Team&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;69&lt;/int&gt;
+        &lt;int&gt;68&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42339,7 +42455,7 @@
         &lt;string&gt;Next Appt Prov Any&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;73&lt;/int&gt;
+        &lt;int&gt;72&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42403,7 +42519,7 @@
         &lt;string&gt;Next Appt Date Any&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;72&lt;/int&gt;
+        &lt;int&gt;71&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42435,7 +42551,7 @@
         &lt;string&gt;Last Med Team&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;68&lt;/int&gt;
+        &lt;int&gt;67&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42443,7 +42559,7 @@
         &lt;string&gt;Last Appt Prov Any&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;71&lt;/int&gt;
+        &lt;int&gt;70&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42480,10 +42596,10 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;MH Cur&lt;/string&gt;
+        &lt;string&gt;Medical Home Cur&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;61&lt;/int&gt;
+        &lt;int&gt;90&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42491,7 +42607,7 @@
         &lt;string&gt;MH Cur Site&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;62&lt;/int&gt;
+        &lt;int&gt;61&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42499,7 +42615,7 @@
         &lt;string&gt;Last ACP Doc Date&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;63&lt;/int&gt;
+        &lt;int&gt;62&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42507,7 +42623,7 @@
         &lt;string&gt;Last BH Date&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;64&lt;/int&gt;
+        &lt;int&gt;63&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42515,7 +42631,7 @@
         &lt;string&gt;Last ACP Date&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;65&lt;/int&gt;
+        &lt;int&gt;64&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42523,7 +42639,7 @@
         &lt;string&gt;Last Appt Date Any&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;70&lt;/int&gt;
+        &lt;int&gt;69&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42531,7 +42647,7 @@
         &lt;string&gt;Last BH MA&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;66&lt;/int&gt;
+        &lt;int&gt;65&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42539,7 +42655,7 @@
         &lt;string&gt;Next Appt Team BH&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;80&lt;/int&gt;
+        &lt;int&gt;79&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42547,7 +42663,7 @@
         &lt;string&gt;Last Enc Date&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;81&lt;/int&gt;
+        &lt;int&gt;80&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42555,7 +42671,7 @@
         &lt;string&gt;Last Enc Prov&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;82&lt;/int&gt;
+        &lt;int&gt;81&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42563,7 +42679,7 @@
         &lt;string&gt;Last Med Prov&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;83&lt;/int&gt;
+        &lt;int&gt;82&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42571,7 +42687,7 @@
         &lt;string&gt;Last BH Prov&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;84&lt;/int&gt;
+        &lt;int&gt;83&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42579,7 +42695,7 @@
         &lt;string&gt;Days to Appt Any&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;85&lt;/int&gt;
+        &lt;int&gt;84&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42587,7 +42703,7 @@
         &lt;string&gt;Days to Appt Med&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;86&lt;/int&gt;
+        &lt;int&gt;85&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42595,7 +42711,7 @@
         &lt;string&gt;Days to Appt BH&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;87&lt;/int&gt;
+        &lt;int&gt;86&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42603,7 +42719,7 @@
         &lt;string&gt;Next Appt Date Gyn&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;88&lt;/int&gt;
+        &lt;int&gt;87&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42611,7 +42727,7 @@
         &lt;string&gt;Next Appt Prov Gyn&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;89&lt;/int&gt;
+        &lt;int&gt;88&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -42619,7 +42735,7 @@
         &lt;string&gt;Next Appt Team Gyn&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;90&lt;/int&gt;
+        &lt;int&gt;89&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
   &lt;/ColumnDisplayIndex&gt;
@@ -42827,7 +42943,7 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;MH Cur&lt;/string&gt;
+        &lt;string&gt;Medical Home Cur&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -43037,7 +43153,7 @@
                   </Annotations>
                   <Source xsi:type="QueryBinding">
                     <DataSourceID>8fbc5f95-2a43-4976-9dfe-f5a578e0a753</DataSourceID>
-                    <QueryDefinition>SELECT [fdt].[PHI Patient Cur].[person_key],[fdt].[PHI Patient Cur].[per_mon_id],[fdt].[PHI Patient Cur].[first_mon_date],[fdt].[PHI Patient Cur].[mh_cur_key],[fdt].[PHI Patient Cur].[pcp_cur_key],[fdt].[PHI Patient Cur].[mh_hx_key],[fdt].[PHI Patient Cur].[pcp_hx_key],[fdt].[PHI Patient Cur].[PCP Cur],[fdt].[PHI Patient Cur].[PCP Cur Team],[fdt].[PHI Patient Cur].[MH Cur],[fdt].[PHI Patient Cur].[MH Cur Site],[fdt].[PHI Patient Cur].[Status Cur],[fdt].[PHI Patient Cur].[Language],[fdt].[PHI Patient Cur].[Full Name],[fdt].[PHI Patient Cur].[First Name],[fdt].[PHI Patient Cur].[Last Name],[fdt].[PHI Patient Cur].[Middle Name],[fdt].[PHI Patient Cur].[Address 1],[fdt].[PHI Patient Cur].[Adress 2],[fdt].[PHI Patient Cur].[City],[fdt].[PHI Patient Cur].[State],[fdt].[PHI Patient Cur].[Zipcode],[fdt].[PHI Patient Cur].[Home Phone Number],[fdt].[PHI Patient Cur].[Gender],[fdt].[PHI Patient Cur].[SSN],[fdt].[PHI Patient Cur].[DOB],[fdt].[PHI Patient Cur].[Has Dm2],[fdt].[PHI Patient Cur].[Has CKD],[fdt].[PHI Patient Cur].[Age Cur],[fdt].[PHI Patient Cur].[Age Range Cur],[fdt].[PHI Patient Cur].[Alternate Phone Number],[fdt].[PHI Patient Cur].[Marital Status],[fdt].[PHI Patient Cur].[Race],[fdt].[PHI Patient Cur].[Ethnicity],[fdt].[PHI Patient Cur].[Homeless Status],[fdt].[PHI Patient Cur].[Homeless Indicator],[fdt].[PHI Patient Cur].[Disability 1],[fdt].[PHI Patient Cur].[Disability 2],[fdt].[PHI Patient Cur].[Medical Record Number],[fdt].[PHI Patient Cur].[Address Full],[fdt].[PHI Patient Cur].[Last Appt Date Any],[fdt].[PHI Patient Cur].[Last Appt Prov Any],[fdt].[PHI Patient Cur].[Next Appt Date Any],[fdt].[PHI Patient Cur].[Next Appt Prov Any],[fdt].[PHI Patient Cur].[Next Appt Team Any],[fdt].[PHI Patient Cur].[Next Appt Date Gyn],[fdt].[PHI Patient Cur].[Next Appt Prov Gyn],[fdt].[PHI Patient Cur].[Next Appt Team Gyn],[fdt].[PHI Patient Cur].[Next Appt Date Med],[fdt].[PHI Patient Cur].[Next Appt Prov Med],[fdt].[PHI Patient Cur].[Next Appt Team Med],[fdt].[PHI Patient Cur].[Next Appt Date BH],[fdt].[PHI Patient Cur].[Next Appt Prov BH],[fdt].[PHI Patient Cur].[Next Appt Team BH],[fdt].[PHI Patient Cur].[Last Enc Date],[fdt].[PHI Patient Cur].[Last Enc Prov],[fdt].[PHI Patient Cur].[Last Enc MA],[fdt].[PHI Patient Cur].[Last Enc Team],[fdt].[PHI Patient Cur].[Last Med Date],[fdt].[PHI Patient Cur].[Last Med Prov],[fdt].[PHI Patient Cur].[Last Med MA],[fdt].[PHI Patient Cur].[Last Med Team],[fdt].[PHI Patient Cur].[Last BH Date],[fdt].[PHI Patient Cur].[Last BH Prov],[fdt].[PHI Patient Cur].[Last BH MA],[fdt].[PHI Patient Cur].[Avg Cycle Time],[fdt].[PHI Patient Cur].[Chart Create Date],[fdt].[PHI Patient Cur].[Chart Create User],[fdt].[PHI Patient Cur].[Person Create Date],[fdt].[PHI Patient Cur].[Person Creat User],[fdt].[PHI Patient Cur].[Days Since Enc],[fdt].[PHI Patient Cur].[Days Since Med],[fdt].[PHI Patient Cur].[Days to Appt Any],[fdt].[PHI Patient Cur].[Days to Appt Med],[fdt].[PHI Patient Cur].[Days to Appt BH],[fdt].[PHI Patient Cur].[Days Since ED],[fdt].[PHI Patient Cur].[Days Since DC],[fdt].[PHI Patient Cur].[Days Since BH],[fdt].[PHI Patient Cur].[High NS 12M],[fdt].[PHI Patient Cur].[Time as Member],[fdt].[PHI Patient Cur].[membership_time_sort],[fdt].[PHI Patient Cur].[Is Patient New],[fdt].[PHI Patient Cur].[Is Patient Established],[fdt].[PHI Patient Cur].[Is Patient Alive],[fdt].[PHI Patient Cur].[Deceased Status],[fdt].[PHI Patient Cur].[Membership Month],[fdt].[PHI Patient Cur].[Vintage Month],[fdt].[PHI Patient Cur].[Vintage Month Range],[fdt].[PHI Patient Cur].[Patient Vintage Month sort] 		FROM [fdt].[PHI Patient Cur]</QueryDefinition>
+                    <QueryDefinition>SELECT [fdt].[PHI Patient Cur].[person_key],[fdt].[PHI Patient Cur].[per_mon_id],[fdt].[PHI Patient Cur].[first_mon_date],[fdt].[PHI Patient Cur].[mh_cur_key],[fdt].[PHI Patient Cur].[pcp_cur_key],[fdt].[PHI Patient Cur].[mh_hx_key],[fdt].[PHI Patient Cur].[pcp_hx_key],[fdt].[PHI Patient Cur].[PCP Cur],[fdt].[PHI Patient Cur].[PCP Cur Team],[fdt].[PHI Patient Cur].[Medical Home Cur],[fdt].[PHI Patient Cur].[MH Cur Site],[fdt].[PHI Patient Cur].[Status Cur],[fdt].[PHI Patient Cur].[Language],[fdt].[PHI Patient Cur].[Full Name],[fdt].[PHI Patient Cur].[First Name],[fdt].[PHI Patient Cur].[Last Name],[fdt].[PHI Patient Cur].[Middle Name],[fdt].[PHI Patient Cur].[Address 1],[fdt].[PHI Patient Cur].[Adress 2],[fdt].[PHI Patient Cur].[City],[fdt].[PHI Patient Cur].[State],[fdt].[PHI Patient Cur].[Zipcode],[fdt].[PHI Patient Cur].[Home Phone Number],[fdt].[PHI Patient Cur].[Gender],[fdt].[PHI Patient Cur].[SSN],[fdt].[PHI Patient Cur].[DOB],[fdt].[PHI Patient Cur].[Has Dm2],[fdt].[PHI Patient Cur].[Has CKD],[fdt].[PHI Patient Cur].[Age Cur],[fdt].[PHI Patient Cur].[Age Range Cur],[fdt].[PHI Patient Cur].[Alternate Phone Number],[fdt].[PHI Patient Cur].[Marital Status],[fdt].[PHI Patient Cur].[Race],[fdt].[PHI Patient Cur].[Ethnicity],[fdt].[PHI Patient Cur].[Homeless Status],[fdt].[PHI Patient Cur].[Homeless Indicator],[fdt].[PHI Patient Cur].[Disability 1],[fdt].[PHI Patient Cur].[Disability 2],[fdt].[PHI Patient Cur].[Medical Record Number],[fdt].[PHI Patient Cur].[Address Full],[fdt].[PHI Patient Cur].[Last Appt Date Any],[fdt].[PHI Patient Cur].[Last Appt Prov Any],[fdt].[PHI Patient Cur].[Next Appt Date Any],[fdt].[PHI Patient Cur].[Next Appt Prov Any],[fdt].[PHI Patient Cur].[Next Appt Team Any],[fdt].[PHI Patient Cur].[Next Appt Date Gyn],[fdt].[PHI Patient Cur].[Next Appt Prov Gyn],[fdt].[PHI Patient Cur].[Next Appt Team Gyn],[fdt].[PHI Patient Cur].[Next Appt Date Med],[fdt].[PHI Patient Cur].[Next Appt Prov Med],[fdt].[PHI Patient Cur].[Next Appt Team Med],[fdt].[PHI Patient Cur].[Next Appt Date BH],[fdt].[PHI Patient Cur].[Next Appt Prov BH],[fdt].[PHI Patient Cur].[Next Appt Team BH],[fdt].[PHI Patient Cur].[Last Enc Date],[fdt].[PHI Patient Cur].[Last Enc Prov],[fdt].[PHI Patient Cur].[Last Enc MA],[fdt].[PHI Patient Cur].[Last Enc Team],[fdt].[PHI Patient Cur].[Last Med Date],[fdt].[PHI Patient Cur].[Last Med Prov],[fdt].[PHI Patient Cur].[Last Med MA],[fdt].[PHI Patient Cur].[Last Med Team],[fdt].[PHI Patient Cur].[Last BH Date],[fdt].[PHI Patient Cur].[Last BH Prov],[fdt].[PHI Patient Cur].[Last BH MA],[fdt].[PHI Patient Cur].[Avg Cycle Time],[fdt].[PHI Patient Cur].[Chart Create Date],[fdt].[PHI Patient Cur].[Chart Create User],[fdt].[PHI Patient Cur].[Person Create Date],[fdt].[PHI Patient Cur].[Person Creat User],[fdt].[PHI Patient Cur].[Days Since Enc],[fdt].[PHI Patient Cur].[Days Since Med],[fdt].[PHI Patient Cur].[Days to Appt Any],[fdt].[PHI Patient Cur].[Days to Appt Med],[fdt].[PHI Patient Cur].[Days to Appt BH],[fdt].[PHI Patient Cur].[Days Since ED],[fdt].[PHI Patient Cur].[Days Since DC],[fdt].[PHI Patient Cur].[Days Since BH],[fdt].[PHI Patient Cur].[High NS 12M],[fdt].[PHI Patient Cur].[Time as Member],[fdt].[PHI Patient Cur].[membership_time_sort],[fdt].[PHI Patient Cur].[Is Patient New],[fdt].[PHI Patient Cur].[Is Patient Established],[fdt].[PHI Patient Cur].[Is Patient Alive],[fdt].[PHI Patient Cur].[Deceased Status],[fdt].[PHI Patient Cur].[Membership Month],[fdt].[PHI Patient Cur].[Vintage Month],[fdt].[PHI Patient Cur].[Vintage Month Range],[fdt].[PHI Patient Cur].[Patient Vintage Month sort] 		FROM [fdt].[PHI Patient Cur]</QueryDefinition>
                   </Source>
                   <StorageMode valuens="ddl200_200">InMemory</StorageMode>
                   <ProcessingMode>Regular</ProcessingMode>
@@ -44115,20 +44231,6 @@
                       </KeyColumns>
                     </Attribute>
                     <Attribute>
-                      <AttributeID>MH Hx Site</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>WChar</DataType>
-                          <DataSize>32768</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
-                            <ColumnID>MH_x0020_Hx_x0020_Site</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
                       <AttributeID>ACP N Comp</AttributeID>
                       <KeyColumns>
                         <KeyColumn>
@@ -44530,6 +44632,34 @@
                           <Source xsi:type="ColumnBinding">
                             <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
                             <ColumnID>IQ_x0020_CC_x0020_DAV_x0020_Num</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Medical Home Hx</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                            <ColumnID>Medical_x0020_Home_x0020_Hx</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>MH Site</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd</TableID>
+                            <ColumnID>MH_x0020_Site</ColumnID>
                           </Source>
                         </KeyColumn>
                       </KeyColumns>
@@ -46655,20 +46785,6 @@
                       </KeyColumns>
                     </Attribute>
                     <Attribute>
-                      <AttributeID>MH Cur</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>WChar</DataType>
-                          <DataSize>32768</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>MH_x0020_Cur</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
                       <AttributeID>MH Cur Site</AttributeID>
                       <KeyColumns>
                         <KeyColumn>
@@ -47042,6 +47158,20 @@
                           <Source xsi:type="ColumnBinding">
                             <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
                             <ColumnID>Next_x0020_Appt_x0020_Team_x0020_Gyn</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Medical Home Cur</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Medical_x0020_Home_x0020_Cur</ColumnID>
                           </Source>
                         </KeyColumn>
                       </KeyColumns>
@@ -47703,10 +47833,10 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;MH Hx Site&lt;/string&gt;
+        &lt;string&gt;Medical Home Hx&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;82&lt;/int&gt;
+        &lt;int&gt;111&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -47907,6 +48037,14 @@
       &lt;/key&gt;
       &lt;value&gt;
         &lt;int&gt;106&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;MH Site&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;66&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
   &lt;/ColumnWidths&gt;
@@ -48252,7 +48390,7 @@
         &lt;string&gt;IQ BP Due&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;92&lt;/int&gt;
+        &lt;int&gt;91&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -48260,7 +48398,7 @@
         &lt;string&gt;IQ BC Due&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;91&lt;/int&gt;
+        &lt;int&gt;90&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -48268,7 +48406,7 @@
         &lt;string&gt;IQ CRC Due&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;90&lt;/int&gt;
+        &lt;int&gt;89&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -48308,7 +48446,7 @@
         &lt;string&gt;IQ BC ONC&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;95&lt;/int&gt;
+        &lt;int&gt;94&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -48316,7 +48454,7 @@
         &lt;string&gt;IQ CRC ONC&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;94&lt;/int&gt;
+        &lt;int&gt;93&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -48348,7 +48486,7 @@
         &lt;string&gt;ACP N None&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;74&lt;/int&gt;
+        &lt;int&gt;73&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -48356,7 +48494,7 @@
         &lt;string&gt;ACP N Visit&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;73&lt;/int&gt;
+        &lt;int&gt;72&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -48364,7 +48502,7 @@
         &lt;string&gt;ACP N Comp&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;72&lt;/int&gt;
+        &lt;int&gt;71&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -48545,10 +48683,10 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;MH Hx Site&lt;/string&gt;
+        &lt;string&gt;Medical Home Hx&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;71&lt;/int&gt;
+        &lt;int&gt;104&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -48556,7 +48694,7 @@
         &lt;string&gt;ACP N Visit Dx&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;75&lt;/int&gt;
+        &lt;int&gt;74&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -48564,7 +48702,7 @@
         &lt;string&gt;ACP N Visit CPT&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;76&lt;/int&gt;
+        &lt;int&gt;75&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -48572,7 +48710,7 @@
         &lt;string&gt;ACP N Polst&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;77&lt;/int&gt;
+        &lt;int&gt;76&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -48580,7 +48718,7 @@
         &lt;string&gt;ACP N AD&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;78&lt;/int&gt;
+        &lt;int&gt;77&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -48588,7 +48726,7 @@
         &lt;string&gt;ACP N Polst or AD&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;79&lt;/int&gt;
+        &lt;int&gt;78&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -48596,7 +48734,7 @@
         &lt;string&gt;ACP N Polst Only&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;80&lt;/int&gt;
+        &lt;int&gt;79&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -48604,7 +48742,7 @@
         &lt;string&gt;ACP N AD Only&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;82&lt;/int&gt;
+        &lt;int&gt;81&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -48612,7 +48750,7 @@
         &lt;string&gt;ACP N AD and Polst Only&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;81&lt;/int&gt;
+        &lt;int&gt;80&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -48620,7 +48758,7 @@
         &lt;string&gt;ACP N Visit Only&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;83&lt;/int&gt;
+        &lt;int&gt;82&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -48628,7 +48766,7 @@
         &lt;string&gt;ACP N No Docs&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;84&lt;/int&gt;
+        &lt;int&gt;83&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -48636,7 +48774,7 @@
         &lt;string&gt;Last AD Date&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;85&lt;/int&gt;
+        &lt;int&gt;84&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -48644,7 +48782,7 @@
         &lt;string&gt;Last Polst Date&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;86&lt;/int&gt;
+        &lt;int&gt;85&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -48652,7 +48790,7 @@
         &lt;string&gt;Last AD Scan&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;87&lt;/int&gt;
+        &lt;int&gt;86&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -48660,7 +48798,7 @@
         &lt;string&gt;Last Polst Scan&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;88&lt;/int&gt;
+        &lt;int&gt;87&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -48668,7 +48806,7 @@
         &lt;string&gt;Last ACP Date&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;89&lt;/int&gt;
+        &lt;int&gt;88&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -48676,7 +48814,7 @@
         &lt;string&gt;IQ CRC DAO&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;93&lt;/int&gt;
+        &lt;int&gt;92&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -48684,7 +48822,7 @@
         &lt;string&gt;IQ CRC AO Num&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;102&lt;/int&gt;
+        &lt;int&gt;101&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -48692,7 +48830,7 @@
         &lt;string&gt;Hedis CC Den&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;96&lt;/int&gt;
+        &lt;int&gt;95&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -48700,7 +48838,7 @@
         &lt;string&gt;Hedis CC Num&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;97&lt;/int&gt;
+        &lt;int&gt;96&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -48708,7 +48846,7 @@
         &lt;string&gt;UDS CC Den&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;98&lt;/int&gt;
+        &lt;int&gt;97&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -48716,7 +48854,7 @@
         &lt;string&gt;UDS CC Num&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;99&lt;/int&gt;
+        &lt;int&gt;98&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -48724,7 +48862,7 @@
         &lt;string&gt;IQ CC Den&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;100&lt;/int&gt;
+        &lt;int&gt;99&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -48732,7 +48870,7 @@
         &lt;string&gt;IQ CC Num&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;101&lt;/int&gt;
+        &lt;int&gt;100&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -48740,7 +48878,7 @@
         &lt;string&gt;IQ CC VNC Num&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;103&lt;/int&gt;
+        &lt;int&gt;102&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
     &lt;item&gt;
@@ -48748,7 +48886,15 @@
         &lt;string&gt;IQ CC DAV Num&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
-        &lt;int&gt;104&lt;/int&gt;
+        &lt;int&gt;103&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;MH Site&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;105&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
   &lt;/ColumnDisplayIndex&gt;
@@ -49276,7 +49422,7 @@
     &lt;/item&gt;
     &lt;item&gt;
       &lt;key&gt;
-        &lt;string&gt;MH Hx Site&lt;/string&gt;
+        &lt;string&gt;Medical Home Hx&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -49482,6 +49628,14 @@
         &lt;boolean&gt;true&lt;/boolean&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;MH Site&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnChecked&gt;
   &lt;ColumnFilter /&gt;
   &lt;SelectionFilter /&gt;
@@ -49502,7 +49656,7 @@
                   </Annotations>
                   <Source xsi:type="QueryBinding">
                     <DataSourceID>8fbc5f95-2a43-4976-9dfe-f5a578e0a753</DataSourceID>
-                    <QueryDefinition>SELECT [fdt].[PHI Patient SCD].[per_mon_id],[fdt].[PHI Patient SCD].[first_mon_date],[fdt].[PHI Patient SCD].[person_key],[fdt].[PHI Patient SCD].[mh_hx_key],[fdt].[PHI Patient SCD].[pcp_hx_key],[fdt].[PHI Patient SCD].[PCP Hx],[fdt].[PHI Patient SCD].[PCP Hx Team],[fdt].[PHI Patient SCD].[MH Hx],[fdt].[PHI Patient SCD].[MH Hx Site],[fdt].[PHI Patient SCD].[Status Hx],[fdt].[PHI Patient SCD].[Time as Member],[fdt].[PHI Patient SCD].[membership_time_sort],[fdt].[PHI Patient SCD].[Is Patient New],[fdt].[PHI Patient SCD].[Is Patient Established],[fdt].[PHI Patient SCD].[Is Patient Alive],[fdt].[PHI Patient SCD].[Deceased Status],[fdt].[PHI Patient SCD].[Membership Month],[fdt].[PHI Patient SCD].[Age Hx],[fdt].[PHI Patient SCD].[Age Range Hx],[fdt].[PHI Patient SCD].[Age_Hx_sort],[fdt].[PHI Patient SCD].[Vintage Month],[fdt].[PHI Patient SCD].[Vintage Month Range],[fdt].[PHI Patient SCD].[Patient Vintage Month sort],[fdt].[PHI Patient SCD].[New this Month],[fdt].[PHI Patient SCD].[Patients],[fdt].[PHI Patient SCD].[Deceased],[fdt].[PHI Patient SCD].[Deceased this Month],[fdt].[PHI Patient SCD].[1M Act],[fdt].[PHI Patient SCD].[3M Act],[fdt].[PHI Patient SCD].[6M Act],[fdt].[PHI Patient SCD].[12M Act],[fdt].[PHI Patient SCD].[18M Act],[fdt].[PHI Patient SCD].[24M Act],[fdt].[PHI Patient SCD].[3M InAct],[fdt].[PHI Patient SCD].[6M InAct],[fdt].[PHI Patient SCD].[12M InAct],[fdt].[PHI Patient SCD].[18M InAct],[fdt].[PHI Patient SCD].[24M InAct],[fdt].[PHI Patient SCD].[MedHome Change],[fdt].[PHI Patient SCD].[PCP Change],[fdt].[PHI Patient SCD].[Never Act],[fdt].[PHI Patient SCD].[AD Denom],[fdt].[PHI Patient SCD].[BH 12M],[fdt].[PHI Patient SCD].[ED 12M],[fdt].[PHI Patient SCD].[Hosp 12M],[fdt].[PHI Patient SCD].[multi_ed_12mon_flag],[fdt].[PHI Patient SCD].[dc_12mon_flag],[fdt].[PHI Patient SCD].[multi_bh_12mon_flag],[fdt].[PHI Patient SCD].[ACP N Comp],[fdt].[PHI Patient SCD].[ACP N Visit],[fdt].[PHI Patient SCD].[ACP N Visit Only],[fdt].[PHI Patient SCD].[ACP N None],[fdt].[PHI Patient SCD].[ACP N Visit Dx],[fdt].[PHI Patient SCD].[ACP N Visit CPT],[fdt].[PHI Patient SCD].[ACP N Polst],[fdt].[PHI Patient SCD].[ACP N AD],[fdt].[PHI Patient SCD].[ACP N Polst or AD],[fdt].[PHI Patient SCD].[ACP N Polst Only],[fdt].[PHI Patient SCD].[ACP N AD Only],[fdt].[PHI Patient SCD].[ACP N AD and Polst Only],[fdt].[PHI Patient SCD].[ACP N No Docs],[fdt].[PHI Patient SCD].[Last AD Date],[fdt].[PHI Patient SCD].[Last Polst Date],[fdt].[PHI Patient SCD].[Last AD Scan],[fdt].[PHI Patient SCD].[Last Polst Scan],[fdt].[PHI Patient SCD].[Last ACP Date],[fdt].[PHI Patient SCD].[RFA Comp],[fdt].[PHI Patient SCD].[Hedis CRC Den],[fdt].[PHI Patient SCD].[Hedis BC Den],[fdt].[PHI Patient SCD].[Hedis BP Den],[fdt].[PHI Patient SCD].[Hedis CRC Num],[fdt].[PHI Patient SCD].[Hedis BC Num],[fdt].[PHI Patient SCD].[Hedis BP Num],[fdt].[PHI Patient SCD].[UDS CRC Den],[fdt].[PHI Patient SCD].[UDS BP Den],[fdt].[PHI Patient SCD].[UDS CRC Num],[fdt].[PHI Patient SCD].[UDS BP Num],[fdt].[PHI Patient SCD].[IQ CRC Den],[fdt].[PHI Patient SCD].[IQ BP Den],[fdt].[PHI Patient SCD].[IQ BC Den],[fdt].[PHI Patient SCD].[IQ CC Den],[fdt].[PHI Patient SCD].[IQ CC Num],[fdt].[PHI Patient SCD].[IQ DM2 Den],[fdt].[PHI Patient SCD].[IQ CRC Num],[fdt].[PHI Patient SCD].[IQ BP Num],[fdt].[PHI Patient SCD].[IQ BC Num],[fdt].[PHI Patient SCD].[IQ CC VNC Num],[fdt].[PHI Patient SCD].[IQ CC DAV Num],[fdt].[PHI Patient SCD].[iq_dm2_o9_num],[fdt].[PHI Patient SCD].[IQ DM2 Num],[fdt].[PHI Patient SCD].[Last BP Sys],[fdt].[PHI Patient SCD].[Last BP Dia],[fdt].[PHI Patient SCD].[IQ CRC Due],[fdt].[PHI Patient SCD].[IQ BC Due],[fdt].[PHI Patient SCD].[IQ BP Due],[fdt].[PHI Patient SCD].[IQ CRC ONC],[fdt].[PHI Patient SCD].[IQ BC ONC],[fdt].[PHI Patient SCD].[IQ CRC DAO],[fdt].[PHI Patient SCD].[IQ CRC AO Num],[fdt].[PHI Patient SCD].[All Due],[fdt].[PHI Patient SCD].[All DAO] 		FROM [fdt].[PHI Patient SCD]</QueryDefinition>
+                    <QueryDefinition>SELECT [fdt].[PHI Patient SCD].[per_mon_id],[fdt].[PHI Patient SCD].[first_mon_date],[fdt].[PHI Patient SCD].[person_key],[fdt].[PHI Patient SCD].[mh_hx_key],[fdt].[PHI Patient SCD].[pcp_hx_key],[fdt].[PHI Patient SCD].[PCP Hx],[fdt].[PHI Patient SCD].[PCP Hx Team],[fdt].[PHI Patient SCD].[MH Hx],[fdt].[PHI Patient SCD].[Medical Home Hx],[fdt].[PHI Patient SCD].[MH Site],[fdt].[PHI Patient SCD].[Status Hx],[fdt].[PHI Patient SCD].[Time as Member],[fdt].[PHI Patient SCD].[membership_time_sort],[fdt].[PHI Patient SCD].[Is Patient New],[fdt].[PHI Patient SCD].[Is Patient Established],[fdt].[PHI Patient SCD].[Is Patient Alive],[fdt].[PHI Patient SCD].[Deceased Status],[fdt].[PHI Patient SCD].[Membership Month],[fdt].[PHI Patient SCD].[Age Hx],[fdt].[PHI Patient SCD].[Age Range Hx],[fdt].[PHI Patient SCD].[Age_Hx_sort],[fdt].[PHI Patient SCD].[Vintage Month],[fdt].[PHI Patient SCD].[Vintage Month Range],[fdt].[PHI Patient SCD].[Patient Vintage Month sort],[fdt].[PHI Patient SCD].[New this Month],[fdt].[PHI Patient SCD].[Patients],[fdt].[PHI Patient SCD].[Deceased],[fdt].[PHI Patient SCD].[Deceased this Month],[fdt].[PHI Patient SCD].[1M Act],[fdt].[PHI Patient SCD].[3M Act],[fdt].[PHI Patient SCD].[6M Act],[fdt].[PHI Patient SCD].[12M Act],[fdt].[PHI Patient SCD].[18M Act],[fdt].[PHI Patient SCD].[24M Act],[fdt].[PHI Patient SCD].[3M InAct],[fdt].[PHI Patient SCD].[6M InAct],[fdt].[PHI Patient SCD].[12M InAct],[fdt].[PHI Patient SCD].[18M InAct],[fdt].[PHI Patient SCD].[24M InAct],[fdt].[PHI Patient SCD].[MedHome Change],[fdt].[PHI Patient SCD].[PCP Change],[fdt].[PHI Patient SCD].[Never Act],[fdt].[PHI Patient SCD].[AD Denom],[fdt].[PHI Patient SCD].[BH 12M],[fdt].[PHI Patient SCD].[ED 12M],[fdt].[PHI Patient SCD].[Hosp 12M],[fdt].[PHI Patient SCD].[multi_ed_12mon_flag],[fdt].[PHI Patient SCD].[dc_12mon_flag],[fdt].[PHI Patient SCD].[multi_bh_12mon_flag],[fdt].[PHI Patient SCD].[ACP N Comp],[fdt].[PHI Patient SCD].[ACP N Visit],[fdt].[PHI Patient SCD].[ACP N Visit Only],[fdt].[PHI Patient SCD].[ACP N None],[fdt].[PHI Patient SCD].[ACP N Visit Dx],[fdt].[PHI Patient SCD].[ACP N Visit CPT],[fdt].[PHI Patient SCD].[ACP N Polst],[fdt].[PHI Patient SCD].[ACP N AD],[fdt].[PHI Patient SCD].[ACP N Polst or AD],[fdt].[PHI Patient SCD].[ACP N Polst Only],[fdt].[PHI Patient SCD].[ACP N AD Only],[fdt].[PHI Patient SCD].[ACP N AD and Polst Only],[fdt].[PHI Patient SCD].[ACP N No Docs],[fdt].[PHI Patient SCD].[Last AD Date],[fdt].[PHI Patient SCD].[Last Polst Date],[fdt].[PHI Patient SCD].[Last AD Scan],[fdt].[PHI Patient SCD].[Last Polst Scan],[fdt].[PHI Patient SCD].[Last ACP Date],[fdt].[PHI Patient SCD].[RFA Comp],[fdt].[PHI Patient SCD].[Hedis CRC Den],[fdt].[PHI Patient SCD].[Hedis BC Den],[fdt].[PHI Patient SCD].[Hedis BP Den],[fdt].[PHI Patient SCD].[Hedis CRC Num],[fdt].[PHI Patient SCD].[Hedis BC Num],[fdt].[PHI Patient SCD].[Hedis BP Num],[fdt].[PHI Patient SCD].[UDS CRC Den],[fdt].[PHI Patient SCD].[UDS BP Den],[fdt].[PHI Patient SCD].[UDS CRC Num],[fdt].[PHI Patient SCD].[UDS BP Num],[fdt].[PHI Patient SCD].[IQ CRC Den],[fdt].[PHI Patient SCD].[IQ BP Den],[fdt].[PHI Patient SCD].[IQ BC Den],[fdt].[PHI Patient SCD].[IQ CC Den],[fdt].[PHI Patient SCD].[IQ CC Num],[fdt].[PHI Patient SCD].[IQ DM2 Den],[fdt].[PHI Patient SCD].[IQ CRC Num],[fdt].[PHI Patient SCD].[IQ BP Num],[fdt].[PHI Patient SCD].[IQ BC Num],[fdt].[PHI Patient SCD].[IQ CC VNC Num],[fdt].[PHI Patient SCD].[IQ CC DAV Num],[fdt].[PHI Patient SCD].[iq_dm2_o9_num],[fdt].[PHI Patient SCD].[IQ DM2 Num],[fdt].[PHI Patient SCD].[Last BP Sys],[fdt].[PHI Patient SCD].[Last BP Dia],[fdt].[PHI Patient SCD].[IQ CRC Due],[fdt].[PHI Patient SCD].[IQ BC Due],[fdt].[PHI Patient SCD].[IQ BP Due],[fdt].[PHI Patient SCD].[IQ CRC ONC],[fdt].[PHI Patient SCD].[IQ BC ONC],[fdt].[PHI Patient SCD].[IQ CRC DAO],[fdt].[PHI Patient SCD].[IQ CRC AO Num],[fdt].[PHI Patient SCD].[All Due],[fdt].[PHI Patient SCD].[All DAO] 		FROM [fdt].[PHI Patient SCD]</QueryDefinition>
                   </Source>
                   <StorageMode valuens="ddl200_200">InMemory</StorageMode>
                   <ProcessingMode>Regular</ProcessingMode>
@@ -54330,20 +54484,6 @@
                       </KeyColumns>
                     </Attribute>
                     <Attribute>
-                      <AttributeID>MH Cur</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>WChar</DataType>
-                          <DataSize>32768</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>MH_x0020_Cur</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
                       <AttributeID>MH Cur Site</AttributeID>
                       <KeyColumns>
                         <KeyColumn>
@@ -54717,6 +54857,20 @@
                           <Source xsi:type="ColumnBinding">
                             <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
                             <ColumnID>Next_x0020_Appt_x0020_Team_x0020_Gyn</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Medical Home Cur</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Medical_x0020_Home_x0020_Cur</ColumnID>
                           </Source>
                         </KeyColumn>
                       </KeyColumns>
@@ -58322,6 +58476,20 @@
                         </KeyColumn>
                       </KeyColumns>
                     </Attribute>
+                    <Attribute>
+                      <AttributeID>User Ordering</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>Medication_155fe7b1-0cf2-41fb-9417-56404b491362</TableID>
+                            <ColumnID>User_x0020_Ordering</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
                   </Attributes>
                   <ddl200_200:ShareDimensionStorage>Shared</ddl200_200:ShareDimensionStorage>
                 </Dimension>
@@ -60392,20 +60560,6 @@
                       </KeyColumns>
                     </Attribute>
                     <Attribute>
-                      <AttributeID>MH Cur</AttributeID>
-                      <KeyColumns>
-                        <KeyColumn>
-                          <DataType>WChar</DataType>
-                          <DataSize>32768</DataSize>
-                          <NullProcessing>Preserve</NullProcessing>
-                          <Source xsi:type="ColumnBinding">
-                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
-                            <ColumnID>MH_x0020_Cur</ColumnID>
-                          </Source>
-                        </KeyColumn>
-                      </KeyColumns>
-                    </Attribute>
-                    <Attribute>
                       <AttributeID>MH Cur Site</AttributeID>
                       <KeyColumns>
                         <KeyColumn>
@@ -60779,6 +60933,20 @@
                           <Source xsi:type="ColumnBinding">
                             <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
                             <ColumnID>Next_x0020_Appt_x0020_Team_x0020_Gyn</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Medical Home Cur</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>WChar</DataType>
+                          <DataSize>32768</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef</TableID>
+                            <ColumnID>Medical_x0020_Home_x0020_Cur</ColumnID>
                           </Source>
                         </KeyColumn>
                       </KeyColumns>
@@ -62886,6 +63054,14 @@
         &lt;int&gt;89&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;User Ordering&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;97&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnWidths&gt;
   &lt;ColumnDisplayIndex&gt;
     &lt;item&gt;
@@ -63200,12 +63376,28 @@
         &lt;int&gt;38&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;User Ordering&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;39&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnDisplayIndex&gt;
   &lt;ColumnFrozen /&gt;
   &lt;ColumnChecked&gt;
     &lt;item&gt;
       &lt;key&gt;
         &lt;string&gt;Med Category&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;User Ordering&lt;/string&gt;
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
@@ -63581,7 +63773,7 @@ CREATE MEASURE 'PHI Patient SCD'[UDS CRC Hx]=(divide(SUM('PHI Patient SCD'[UDS C
 ----------------------------------------------------------
 
 
-CREATE MEASURE 'PHI Patient SCD'[IQ DM2 %]=(divide(SUM('PHI Patient SCD'[IQ DM2 Num]),SUM('PHI Patient SCD'[IQ DM2 Den])));
+CREATE MEASURE 'PHI Patient SCD'[IQ DM2 %]=(DIVIDE(SUM('PHI Patient SCD'[IQ DM2 Num]),SUM('PHI Patient SCD'[IQ DM2 Den])));
 </Text>
                   <Annotations>
                     <Annotation>
@@ -63980,20 +64172,20 @@ CREATE MEASURE 'PHI Patient SCD'[IQ CRC %]=(divide(SUM('PHI Patient SCD'[IQ CRC 
 ----------------------------------------------------------
 
 
-CREATE MEASURE 'PHI Patient SCD'[CRC KPI]=(divide(SUM('PHI Patient SCD'[IQ CRC Num]),SUM('PHI Patient SCD'[IQ CRC Den])));
-CREATE MEASURE 'PHI Patient SCD'[_CRC KPI Goal] = 1; 
-CREATE MEASURE 'PHI Patient SCD'[_CRC KPI Status] = if(ISBLANK('PHI Patient SCD'[CRC KPI]),BLANK(),
-        If('PHI Patient SCD'[CRC KPI]&lt;0.5,-1,
-	    If('PHI Patient SCD'[CRC KPI]&lt;0.6,0,1)
+CREATE MEASURE 'PHI Patient SCD'[IQ CRC KPI]=(divide(SUM('PHI Patient SCD'[IQ CRC Num]),SUM('PHI Patient SCD'[IQ CRC Den])));
+CREATE MEASURE 'PHI Patient SCD'[_IQ CRC KPI Goal] = 1; 
+CREATE MEASURE 'PHI Patient SCD'[_IQ CRC KPI Status] = if(ISBLANK('PHI Patient SCD'[IQ CRC KPI]),BLANK(),
+        If('PHI Patient SCD'[IQ CRC KPI]&lt;0.5,-1,
+	    If('PHI Patient SCD'[IQ CRC KPI]&lt;0.6,0,1)
     )
 )
 ; 
-CREATE KPI CURRENTCUBE.[CRC KPI] AS Measures.[CRC KPI], ASSOCIATED_MEASURE_GROUP = 'PHI Patient SCD', GOAL = Measures.[_CRC KPI Goal], STATUS = Measures.[_CRC KPI Status], STATUS_GRAPHIC = 'Road Signs';
+CREATE KPI CURRENTCUBE.[IQ CRC KPI] AS Measures.[IQ CRC KPI], ASSOCIATED_MEASURE_GROUP = 'PHI Patient SCD', GOAL = Measures.[_IQ CRC KPI Goal], STATUS = Measures.[_IQ CRC KPI Status], STATUS_GRAPHIC = 'Road Signs';
 </Text>
                   <Annotations>
                     <Annotation>
                       <Name>FullName</Name>
-                      <Value>CRC KPI</Value>
+                      <Value>IQ CRC KPI</Value>
                     </Annotation>
                     <Annotation>
                       <Name>Table</Name>
@@ -64007,20 +64199,20 @@ CREATE KPI CURRENTCUBE.[CRC KPI] AS Measures.[CRC KPI], ASSOCIATED_MEASURE_GROUP
 ----------------------------------------------------------
 
 
-CREATE MEASURE 'PHI Patient SCD'[BP KPI]=(divide(SUM('PHI Patient SCD'[IQ BP Num]),SUM('PHI Patient SCD'[IQ BP Den])));
-CREATE MEASURE 'PHI Patient SCD'[_BP KPI Goal] = 1; 
-CREATE MEASURE 'PHI Patient SCD'[_BP KPI Status] = if(ISBLANK('PHI Patient SCD'[BP KPI]),BLANK(),
-        If('PHI Patient SCD'[BP KPI]&lt;0.5,-1,
-	    If('PHI Patient SCD'[BP KPI]&lt;0.6,0,1)
+CREATE MEASURE 'PHI Patient SCD'[IQ BP KPI]=(divide(SUM('PHI Patient SCD'[IQ BP Num]),SUM('PHI Patient SCD'[IQ BP Den])));
+CREATE MEASURE 'PHI Patient SCD'[_IQ BP KPI Goal] = 1; 
+CREATE MEASURE 'PHI Patient SCD'[_IQ BP KPI Status] = if(ISBLANK('PHI Patient SCD'[IQ BP KPI]),BLANK(),
+        If('PHI Patient SCD'[IQ BP KPI]&lt;0.5,-1,
+	    If('PHI Patient SCD'[IQ BP KPI]&lt;0.6,0,1)
     )
 )
 ; 
-CREATE KPI CURRENTCUBE.[BP KPI] AS Measures.[BP KPI], ASSOCIATED_MEASURE_GROUP = 'PHI Patient SCD', GOAL = Measures.[_BP KPI Goal], STATUS = Measures.[_BP KPI Status], STATUS_GRAPHIC = 'Road Signs';
+CREATE KPI CURRENTCUBE.[IQ BP KPI] AS Measures.[IQ BP KPI], ASSOCIATED_MEASURE_GROUP = 'PHI Patient SCD', GOAL = Measures.[_IQ BP KPI Goal], STATUS = Measures.[_IQ BP KPI Status], STATUS_GRAPHIC = 'Road Signs';
 </Text>
                   <Annotations>
                     <Annotation>
                       <Name>FullName</Name>
-                      <Value>BP KPI</Value>
+                      <Value>IQ BP KPI</Value>
                     </Annotation>
                     <Annotation>
                       <Name>Table</Name>
@@ -64034,20 +64226,20 @@ CREATE KPI CURRENTCUBE.[BP KPI] AS Measures.[BP KPI], ASSOCIATED_MEASURE_GROUP =
 ----------------------------------------------------------
 
 
-CREATE MEASURE 'PHI Patient SCD'[BC KPI]=(divide(SUM('PHI Patient SCD'[IQ BC Num]),SUM('PHI Patient SCD'[IQ BC Den])));
-CREATE MEASURE 'PHI Patient SCD'[_BC KPI Goal] = 1; 
-CREATE MEASURE 'PHI Patient SCD'[_BC KPI Status] = if(ISBLANK('PHI Patient SCD'[BC KPI]),BLANK(),
-        If('PHI Patient SCD'[BC KPI]&lt;0.5,-1,
-	    If('PHI Patient SCD'[BC KPI]&lt;0.6,0,1)
+CREATE MEASURE 'PHI Patient SCD'[IQ BC KPI]=(divide(SUM('PHI Patient SCD'[IQ BC Num]),SUM('PHI Patient SCD'[IQ BC Den])));
+CREATE MEASURE 'PHI Patient SCD'[_IQ BC KPI Goal] = 1; 
+CREATE MEASURE 'PHI Patient SCD'[_IQ BC KPI Status] = if(ISBLANK('PHI Patient SCD'[IQ BC KPI]),BLANK(),
+        If('PHI Patient SCD'[IQ BC KPI]&lt;0.5,-1,
+	    If('PHI Patient SCD'[IQ BC KPI]&lt;0.6,0,1)
     )
 )
 ; 
-CREATE KPI CURRENTCUBE.[BC KPI] AS Measures.[BC KPI], ASSOCIATED_MEASURE_GROUP = 'PHI Patient SCD', GOAL = Measures.[_BC KPI Goal], STATUS = Measures.[_BC KPI Status], STATUS_GRAPHIC = 'Road Signs';
+CREATE KPI CURRENTCUBE.[IQ BC KPI] AS Measures.[IQ BC KPI], ASSOCIATED_MEASURE_GROUP = 'PHI Patient SCD', GOAL = Measures.[_IQ BC KPI Goal], STATUS = Measures.[_IQ BC KPI Status], STATUS_GRAPHIC = 'Road Signs';
 </Text>
                   <Annotations>
                     <Annotation>
                       <Name>FullName</Name>
-                      <Value>BC KPI</Value>
+                      <Value>IQ BC KPI</Value>
                     </Annotation>
                     <Annotation>
                       <Name>Table</Name>
@@ -64061,20 +64253,20 @@ CREATE KPI CURRENTCUBE.[BC KPI] AS Measures.[BC KPI], ASSOCIATED_MEASURE_GROUP =
 ----------------------------------------------------------
 
 
-CREATE MEASURE 'PHI Patient SCD'[DM2 KPI]=(divide(SUM('PHI Patient SCD'[IQ DM2 Num]),SUM('PHI Patient SCD'[IQ DM2 Den])));
-CREATE MEASURE 'PHI Patient SCD'[_DM2 KPI Goal] = 1; 
-CREATE MEASURE 'PHI Patient SCD'[_DM2 KPI Status] = if(ISBLANK('PHI Patient SCD'[DM2 KPI]),BLANK(),
-        If('PHI Patient SCD'[DM2 KPI]&lt;0.5,-1,
-	    If('PHI Patient SCD'[DM2 KPI]&lt;0.6,0,1)
+CREATE MEASURE 'PHI Patient SCD'[IQ DM2 KPI]=(divide(SUM('PHI Patient SCD'[IQ DM2 Num]),SUM('PHI Patient SCD'[IQ DM2 Den])));
+CREATE MEASURE 'PHI Patient SCD'[_IQ DM2 KPI Goal] = 1; 
+CREATE MEASURE 'PHI Patient SCD'[_IQ DM2 KPI Status] = if(ISBLANK('PHI Patient SCD'[IQ DM2 KPI]),BLANK(),
+        If('PHI Patient SCD'[IQ DM2 KPI]&lt;0.5,-1,
+	    If('PHI Patient SCD'[IQ DM2 KPI]&lt;0.6,0,1)
     )
 )
 ; 
-CREATE KPI CURRENTCUBE.[DM2 KPI] AS Measures.[DM2 KPI], ASSOCIATED_MEASURE_GROUP = 'PHI Patient SCD', GOAL = Measures.[_DM2 KPI Goal], STATUS = Measures.[_DM2 KPI Status], STATUS_GRAPHIC = 'Road Signs';
+CREATE KPI CURRENTCUBE.[IQ DM2 KPI] AS Measures.[IQ DM2 KPI], ASSOCIATED_MEASURE_GROUP = 'PHI Patient SCD', GOAL = Measures.[_IQ DM2 KPI Goal], STATUS = Measures.[_IQ DM2 KPI Status], STATUS_GRAPHIC = 'Road Signs';
 </Text>
                   <Annotations>
                     <Annotation>
                       <Name>FullName</Name>
-                      <Value>DM2 KPI</Value>
+                      <Value>IQ DM2 KPI</Value>
                     </Annotation>
                     <Annotation>
                       <Name>Table</Name>
@@ -64088,20 +64280,20 @@ CREATE KPI CURRENTCUBE.[DM2 KPI] AS Measures.[DM2 KPI], ASSOCIATED_MEASURE_GROUP
 ----------------------------------------------------------
 
 
-CREATE MEASURE 'PHI Patient SCD'[CC KPI]=(divide(SUM('PHI Patient SCD'[IQ CC Num]),SUM('PHI Patient SCD'[IQ CC Den])));
-CREATE MEASURE 'PHI Patient SCD'[_CC KPI Goal] = 1; 
-CREATE MEASURE 'PHI Patient SCD'[_CC KPI Status] = if(ISBLANK('PHI Patient SCD'[CC KPI]),BLANK(),
-        If('PHI Patient SCD'[CC KPI]&lt;0.5,-1,
-	    If('PHI Patient SCD'[CC KPI]&lt;0.6,0,1)
+CREATE MEASURE 'PHI Patient SCD'[IQ CC KPI]=(divide(SUM('PHI Patient SCD'[IQ CC Num]),SUM('PHI Patient SCD'[IQ CC Den])));
+CREATE MEASURE 'PHI Patient SCD'[_IQ CC KPI Goal] = 1; 
+CREATE MEASURE 'PHI Patient SCD'[_IQ CC KPI Status] = if(ISBLANK('PHI Patient SCD'[IQ CC KPI]),BLANK(),
+        If('PHI Patient SCD'[IQ CC KPI]&lt;0.5,-1,
+	    If('PHI Patient SCD'[IQ CC KPI]&lt;0.6,0,1)
     )
 )
 ; 
-CREATE KPI CURRENTCUBE.[CC KPI] AS Measures.[CC KPI], ASSOCIATED_MEASURE_GROUP = 'PHI Patient SCD', GOAL = Measures.[_CC KPI Goal], STATUS = Measures.[_CC KPI Status], STATUS_GRAPHIC = 'Road Signs';
+CREATE KPI CURRENTCUBE.[IQ CC KPI] AS Measures.[IQ CC KPI], ASSOCIATED_MEASURE_GROUP = 'PHI Patient SCD', GOAL = Measures.[_IQ CC KPI Goal], STATUS = Measures.[_IQ CC KPI Status], STATUS_GRAPHIC = 'Road Signs';
 </Text>
                   <Annotations>
                     <Annotation>
                       <Name>FullName</Name>
-                      <Value>CC KPI</Value>
+                      <Value>IQ CC KPI</Value>
                     </Annotation>
                     <Annotation>
                       <Name>Table</Name>
@@ -64949,7 +65141,7 @@ CREATE KPI CURRENTCUBE.[CC KPI] AS Measures.[CC KPI], ASSOCIATED_MEASURE_GROUP =
                       <Name>TrendDescription</Name>
                     </Annotation>
                   </Annotations>
-                  <CalculationReference>[CRC KPI]</CalculationReference>
+                  <CalculationReference>[IQ CRC KPI]</CalculationReference>
                   <CalculationType>Member</CalculationType>
                   <FormatString>'0.00 %;-0.00 %;0.00 %'</FormatString>
                 </CalculationProperty>
@@ -64965,10 +65157,10 @@ CREATE KPI CURRENTCUBE.[CC KPI] AS Measures.[CC KPI], ASSOCIATED_MEASURE_GROUP =
                     </Annotation>
                     <Annotation>
                       <Name>MainObjectName</Name>
-                      <Value>CRC KPI</Value>
+                      <Value>IQ CRC KPI</Value>
                     </Annotation>
                   </Annotations>
-                  <CalculationReference>[_CRC KPI Goal]</CalculationReference>
+                  <CalculationReference>[_IQ CRC KPI Goal]</CalculationReference>
                   <CalculationType>Member</CalculationType>
                   <Visible>false</Visible>
                 </CalculationProperty>
@@ -64984,10 +65176,10 @@ CREATE KPI CURRENTCUBE.[CC KPI] AS Measures.[CC KPI], ASSOCIATED_MEASURE_GROUP =
                     </Annotation>
                     <Annotation>
                       <Name>MainObjectName</Name>
-                      <Value>CRC KPI</Value>
+                      <Value>IQ CRC KPI</Value>
                     </Annotation>
                   </Annotations>
-                  <CalculationReference>[_CRC KPI Status]</CalculationReference>
+                  <CalculationReference>[_IQ CRC KPI Status]</CalculationReference>
                   <CalculationType>Member</CalculationType>
                   <Visible>false</Visible>
                 </CalculationProperty>
@@ -65003,10 +65195,10 @@ CREATE KPI CURRENTCUBE.[CC KPI] AS Measures.[CC KPI], ASSOCIATED_MEASURE_GROUP =
                     </Annotation>
                     <Annotation>
                       <Name>MainObjectName</Name>
-                      <Value>CRC KPI</Value>
+                      <Value>IQ CRC KPI</Value>
                     </Annotation>
                   </Annotations>
-                  <CalculationReference>KPIs.[CRC KPI]</CalculationReference>
+                  <CalculationReference>KPIs.[IQ CRC KPI]</CalculationReference>
                   <CalculationType>Member</CalculationType>
                 </CalculationProperty>
                 <CalculationProperty>
@@ -65070,7 +65262,7 @@ CREATE KPI CURRENTCUBE.[CC KPI] AS Measures.[CC KPI], ASSOCIATED_MEASURE_GROUP =
                       <Name>TrendDescription</Name>
                     </Annotation>
                   </Annotations>
-                  <CalculationReference>[BP KPI]</CalculationReference>
+                  <CalculationReference>[IQ BP KPI]</CalculationReference>
                   <CalculationType>Member</CalculationType>
                   <FormatString>'0.00 %;-0.00 %;0.00 %'</FormatString>
                 </CalculationProperty>
@@ -65086,10 +65278,10 @@ CREATE KPI CURRENTCUBE.[CC KPI] AS Measures.[CC KPI], ASSOCIATED_MEASURE_GROUP =
                     </Annotation>
                     <Annotation>
                       <Name>MainObjectName</Name>
-                      <Value>BP KPI</Value>
+                      <Value>IQ BP KPI</Value>
                     </Annotation>
                   </Annotations>
-                  <CalculationReference>[_BP KPI Goal]</CalculationReference>
+                  <CalculationReference>[_IQ BP KPI Goal]</CalculationReference>
                   <CalculationType>Member</CalculationType>
                   <Visible>false</Visible>
                 </CalculationProperty>
@@ -65105,10 +65297,10 @@ CREATE KPI CURRENTCUBE.[CC KPI] AS Measures.[CC KPI], ASSOCIATED_MEASURE_GROUP =
                     </Annotation>
                     <Annotation>
                       <Name>MainObjectName</Name>
-                      <Value>BP KPI</Value>
+                      <Value>IQ BP KPI</Value>
                     </Annotation>
                   </Annotations>
-                  <CalculationReference>[_BP KPI Status]</CalculationReference>
+                  <CalculationReference>[_IQ BP KPI Status]</CalculationReference>
                   <CalculationType>Member</CalculationType>
                   <Visible>false</Visible>
                 </CalculationProperty>
@@ -65124,10 +65316,10 @@ CREATE KPI CURRENTCUBE.[CC KPI] AS Measures.[CC KPI], ASSOCIATED_MEASURE_GROUP =
                     </Annotation>
                     <Annotation>
                       <Name>MainObjectName</Name>
-                      <Value>BP KPI</Value>
+                      <Value>IQ BP KPI</Value>
                     </Annotation>
                   </Annotations>
-                  <CalculationReference>KPIs.[BP KPI]</CalculationReference>
+                  <CalculationReference>KPIs.[IQ BP KPI]</CalculationReference>
                   <CalculationType>Member</CalculationType>
                 </CalculationProperty>
                 <CalculationProperty>
@@ -65191,7 +65383,7 @@ CREATE KPI CURRENTCUBE.[CC KPI] AS Measures.[CC KPI], ASSOCIATED_MEASURE_GROUP =
                       <Name>TrendDescription</Name>
                     </Annotation>
                   </Annotations>
-                  <CalculationReference>[BC KPI]</CalculationReference>
+                  <CalculationReference>[IQ BC KPI]</CalculationReference>
                   <CalculationType>Member</CalculationType>
                   <FormatString>'0.00 %;-0.00 %;0.00 %'</FormatString>
                 </CalculationProperty>
@@ -65207,10 +65399,10 @@ CREATE KPI CURRENTCUBE.[CC KPI] AS Measures.[CC KPI], ASSOCIATED_MEASURE_GROUP =
                     </Annotation>
                     <Annotation>
                       <Name>MainObjectName</Name>
-                      <Value>BC KPI</Value>
+                      <Value>IQ BC KPI</Value>
                     </Annotation>
                   </Annotations>
-                  <CalculationReference>[_BC KPI Goal]</CalculationReference>
+                  <CalculationReference>[_IQ BC KPI Goal]</CalculationReference>
                   <CalculationType>Member</CalculationType>
                   <Visible>false</Visible>
                 </CalculationProperty>
@@ -65226,10 +65418,10 @@ CREATE KPI CURRENTCUBE.[CC KPI] AS Measures.[CC KPI], ASSOCIATED_MEASURE_GROUP =
                     </Annotation>
                     <Annotation>
                       <Name>MainObjectName</Name>
-                      <Value>BC KPI</Value>
+                      <Value>IQ BC KPI</Value>
                     </Annotation>
                   </Annotations>
-                  <CalculationReference>[_BC KPI Status]</CalculationReference>
+                  <CalculationReference>[_IQ BC KPI Status]</CalculationReference>
                   <CalculationType>Member</CalculationType>
                   <Visible>false</Visible>
                 </CalculationProperty>
@@ -65245,10 +65437,10 @@ CREATE KPI CURRENTCUBE.[CC KPI] AS Measures.[CC KPI], ASSOCIATED_MEASURE_GROUP =
                     </Annotation>
                     <Annotation>
                       <Name>MainObjectName</Name>
-                      <Value>BC KPI</Value>
+                      <Value>IQ BC KPI</Value>
                     </Annotation>
                   </Annotations>
-                  <CalculationReference>KPIs.[BC KPI]</CalculationReference>
+                  <CalculationReference>KPIs.[IQ BC KPI]</CalculationReference>
                   <CalculationType>Member</CalculationType>
                 </CalculationProperty>
                 <CalculationProperty>
@@ -65312,7 +65504,7 @@ CREATE KPI CURRENTCUBE.[CC KPI] AS Measures.[CC KPI], ASSOCIATED_MEASURE_GROUP =
                       <Name>TrendDescription</Name>
                     </Annotation>
                   </Annotations>
-                  <CalculationReference>[DM2 KPI]</CalculationReference>
+                  <CalculationReference>[IQ DM2 KPI]</CalculationReference>
                   <CalculationType>Member</CalculationType>
                   <FormatString>'0.00 %;-0.00 %;0.00 %'</FormatString>
                 </CalculationProperty>
@@ -65328,10 +65520,10 @@ CREATE KPI CURRENTCUBE.[CC KPI] AS Measures.[CC KPI], ASSOCIATED_MEASURE_GROUP =
                     </Annotation>
                     <Annotation>
                       <Name>MainObjectName</Name>
-                      <Value>DM2 KPI</Value>
+                      <Value>IQ DM2 KPI</Value>
                     </Annotation>
                   </Annotations>
-                  <CalculationReference>[_DM2 KPI Goal]</CalculationReference>
+                  <CalculationReference>[_IQ DM2 KPI Goal]</CalculationReference>
                   <CalculationType>Member</CalculationType>
                   <Visible>false</Visible>
                 </CalculationProperty>
@@ -65347,10 +65539,10 @@ CREATE KPI CURRENTCUBE.[CC KPI] AS Measures.[CC KPI], ASSOCIATED_MEASURE_GROUP =
                     </Annotation>
                     <Annotation>
                       <Name>MainObjectName</Name>
-                      <Value>DM2 KPI</Value>
+                      <Value>IQ DM2 KPI</Value>
                     </Annotation>
                   </Annotations>
-                  <CalculationReference>[_DM2 KPI Status]</CalculationReference>
+                  <CalculationReference>[_IQ DM2 KPI Status]</CalculationReference>
                   <CalculationType>Member</CalculationType>
                   <Visible>false</Visible>
                 </CalculationProperty>
@@ -65366,10 +65558,10 @@ CREATE KPI CURRENTCUBE.[CC KPI] AS Measures.[CC KPI], ASSOCIATED_MEASURE_GROUP =
                     </Annotation>
                     <Annotation>
                       <Name>MainObjectName</Name>
-                      <Value>DM2 KPI</Value>
+                      <Value>IQ DM2 KPI</Value>
                     </Annotation>
                   </Annotations>
-                  <CalculationReference>KPIs.[DM2 KPI]</CalculationReference>
+                  <CalculationReference>KPIs.[IQ DM2 KPI]</CalculationReference>
                   <CalculationType>Member</CalculationType>
                 </CalculationProperty>
                 <CalculationProperty>
@@ -65433,7 +65625,7 @@ CREATE KPI CURRENTCUBE.[CC KPI] AS Measures.[CC KPI], ASSOCIATED_MEASURE_GROUP =
                       <Name>TrendDescription</Name>
                     </Annotation>
                   </Annotations>
-                  <CalculationReference>[CC KPI]</CalculationReference>
+                  <CalculationReference>[IQ CC KPI]</CalculationReference>
                   <CalculationType>Member</CalculationType>
                   <FormatString>'0.00 %;-0.00 %;0.00 %'</FormatString>
                 </CalculationProperty>
@@ -65449,10 +65641,10 @@ CREATE KPI CURRENTCUBE.[CC KPI] AS Measures.[CC KPI], ASSOCIATED_MEASURE_GROUP =
                     </Annotation>
                     <Annotation>
                       <Name>MainObjectName</Name>
-                      <Value>CC KPI</Value>
+                      <Value>IQ CC KPI</Value>
                     </Annotation>
                   </Annotations>
-                  <CalculationReference>[_CC KPI Goal]</CalculationReference>
+                  <CalculationReference>[_IQ CC KPI Goal]</CalculationReference>
                   <CalculationType>Member</CalculationType>
                   <Visible>false</Visible>
                 </CalculationProperty>
@@ -65468,10 +65660,10 @@ CREATE KPI CURRENTCUBE.[CC KPI] AS Measures.[CC KPI], ASSOCIATED_MEASURE_GROUP =
                     </Annotation>
                     <Annotation>
                       <Name>MainObjectName</Name>
-                      <Value>CC KPI</Value>
+                      <Value>IQ CC KPI</Value>
                     </Annotation>
                   </Annotations>
-                  <CalculationReference>[_CC KPI Status]</CalculationReference>
+                  <CalculationReference>[_IQ CC KPI Status]</CalculationReference>
                   <CalculationType>Member</CalculationType>
                   <Visible>false</Visible>
                 </CalculationProperty>
@@ -65487,10 +65679,10 @@ CREATE KPI CURRENTCUBE.[CC KPI] AS Measures.[CC KPI], ASSOCIATED_MEASURE_GROUP =
                     </Annotation>
                     <Annotation>
                       <Name>MainObjectName</Name>
-                      <Value>CC KPI</Value>
+                      <Value>IQ CC KPI</Value>
                     </Annotation>
                   </Annotations>
-                  <CalculationReference>KPIs.[CC KPI]</CalculationReference>
+                  <CalculationReference>KPIs.[IQ CC KPI]</CalculationReference>
                   <CalculationType>Member</CalculationType>
                 </CalculationProperty>
                 <CalculationProperty>
@@ -65956,7 +66148,7 @@ CREATE KPI CURRENTCUBE.[CC KPI] AS Measures.[CC KPI], ASSOCIATED_MEASURE_GROUP =
                         </xs:sequence>
                       </xs:complexType>
                     </xs:element>
-                    <xs:element name="PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef" msdata:Locale="" msprop:IsLogical="True" msprop:FriendlyName="PHI Patient Cur" msprop:DbSchemaName="fdt" msprop:DbTableName="PHI Patient Cur" msprop:TableType="View" msprop:Description="PHI Patient Cur" msprop:QueryDefinition="      SELECT [fdt].[PHI Patient Cur].[person_key],[fdt].[PHI Patient Cur].[per_mon_id],[fdt].[PHI Patient Cur].[first_mon_date],[fdt].[PHI Patient Cur].[mh_cur_key],[fdt].[PHI Patient Cur].[pcp_cur_key],[fdt].[PHI Patient Cur].[mh_hx_key],[fdt].[PHI Patient Cur].[pcp_hx_key],[fdt].[PHI Patient Cur].[PCP Cur],[fdt].[PHI Patient Cur].[PCP Cur Team],[fdt].[PHI Patient Cur].[MH Cur],[fdt].[PHI Patient Cur].[MH Cur Site],[fdt].[PHI Patient Cur].[Status Cur],[fdt].[PHI Patient Cur].[Language],[fdt].[PHI Patient Cur].[Full Name],[fdt].[PHI Patient Cur].[First Name],[fdt].[PHI Patient Cur].[Last Name],[fdt].[PHI Patient Cur].[Middle Name],[fdt].[PHI Patient Cur].[Address 1],[fdt].[PHI Patient Cur].[Adress 2],[fdt].[PHI Patient Cur].[City],[fdt].[PHI Patient Cur].[State],[fdt].[PHI Patient Cur].[Zipcode],[fdt].[PHI Patient Cur].[Home Phone Number],[fdt].[PHI Patient Cur].[Gender],[fdt].[PHI Patient Cur].[SSN],[fdt].[PHI Patient Cur].[DOB],[fdt].[PHI Patient Cur].[Has Dm2],[fdt].[PHI Patient Cur].[Has CKD],[fdt].[PHI Patient Cur].[Age Cur],[fdt].[PHI Patient Cur].[Age Range Cur],[fdt].[PHI Patient Cur].[Alternate Phone Number],[fdt].[PHI Patient Cur].[Marital Status],[fdt].[PHI Patient Cur].[Race],[fdt].[PHI Patient Cur].[Ethnicity],[fdt].[PHI Patient Cur].[Homeless Status],[fdt].[PHI Patient Cur].[Homeless Indicator],[fdt].[PHI Patient Cur].[Disability 1],[fdt].[PHI Patient Cur].[Disability 2],[fdt].[PHI Patient Cur].[Medical Record Number],[fdt].[PHI Patient Cur].[Address Full],[fdt].[PHI Patient Cur].[Last Appt Date Any],[fdt].[PHI Patient Cur].[Last Appt Prov Any],[fdt].[PHI Patient Cur].[Next Appt Date Any],[fdt].[PHI Patient Cur].[Next Appt Prov Any],[fdt].[PHI Patient Cur].[Next Appt Team Any],[fdt].[PHI Patient Cur].[Next Appt Date Gyn],[fdt].[PHI Patient Cur].[Next Appt Prov Gyn],[fdt].[PHI Patient Cur].[Next Appt Team Gyn],[fdt].[PHI Patient Cur].[Next Appt Date Med],[fdt].[PHI Patient Cur].[Next Appt Prov Med],[fdt].[PHI Patient Cur].[Next Appt Team Med],[fdt].[PHI Patient Cur].[Next Appt Date BH],[fdt].[PHI Patient Cur].[Next Appt Prov BH],[fdt].[PHI Patient Cur].[Next Appt Team BH],[fdt].[PHI Patient Cur].[Last Enc Date],[fdt].[PHI Patient Cur].[Last Enc Prov],[fdt].[PHI Patient Cur].[Last Enc MA],[fdt].[PHI Patient Cur].[Last Enc Team],[fdt].[PHI Patient Cur].[Last Med Date],[fdt].[PHI Patient Cur].[Last Med Prov],[fdt].[PHI Patient Cur].[Last Med MA],[fdt].[PHI Patient Cur].[Last Med Team],[fdt].[PHI Patient Cur].[Last BH Date],[fdt].[PHI Patient Cur].[Last BH Prov],[fdt].[PHI Patient Cur].[Last BH MA],[fdt].[PHI Patient Cur].[Avg Cycle Time],[fdt].[PHI Patient Cur].[Chart Create Date],[fdt].[PHI Patient Cur].[Chart Create User],[fdt].[PHI Patient Cur].[Person Create Date],[fdt].[PHI Patient Cur].[Person Creat User],[fdt].[PHI Patient Cur].[Days Since Enc],[fdt].[PHI Patient Cur].[Days Since Med],[fdt].[PHI Patient Cur].[Days to Appt Any],[fdt].[PHI Patient Cur].[Days to Appt Med],[fdt].[PHI Patient Cur].[Days to Appt BH],[fdt].[PHI Patient Cur].[Days Since ED],[fdt].[PHI Patient Cur].[Days Since DC],[fdt].[PHI Patient Cur].[Days Since BH],[fdt].[PHI Patient Cur].[High NS 12M],[fdt].[PHI Patient Cur].[Time as Member],[fdt].[PHI Patient Cur].[membership_time_sort],[fdt].[PHI Patient Cur].[Is Patient New],[fdt].[PHI Patient Cur].[Is Patient Established],[fdt].[PHI Patient Cur].[Is Patient Alive],[fdt].[PHI Patient Cur].[Deceased Status],[fdt].[PHI Patient Cur].[Membership Month],[fdt].[PHI Patient Cur].[Vintage Month],[fdt].[PHI Patient Cur].[Vintage Month Range],[fdt].[PHI Patient Cur].[Patient Vintage Month sort]   FROM [fdt].[PHI Patient Cur] ">
+                    <xs:element name="PHI_x0020_Patient_x0020_Cur_8200f968-4628-4d12-911e-76ed2e4e6aef" msdata:Locale="" msprop:IsLogical="True" msprop:FriendlyName="PHI Patient Cur" msprop:DbSchemaName="fdt" msprop:DbTableName="PHI Patient Cur" msprop:TableType="View" msprop:Description="PHI Patient Cur" msprop:QueryDefinition="      SELECT [fdt].[PHI Patient Cur].[person_key],[fdt].[PHI Patient Cur].[per_mon_id],[fdt].[PHI Patient Cur].[first_mon_date],[fdt].[PHI Patient Cur].[mh_cur_key],[fdt].[PHI Patient Cur].[pcp_cur_key],[fdt].[PHI Patient Cur].[mh_hx_key],[fdt].[PHI Patient Cur].[pcp_hx_key],[fdt].[PHI Patient Cur].[PCP Cur],[fdt].[PHI Patient Cur].[PCP Cur Team],[fdt].[PHI Patient Cur].[Medical Home Cur],[fdt].[PHI Patient Cur].[MH Cur Site],[fdt].[PHI Patient Cur].[Status Cur],[fdt].[PHI Patient Cur].[Language],[fdt].[PHI Patient Cur].[Full Name],[fdt].[PHI Patient Cur].[First Name],[fdt].[PHI Patient Cur].[Last Name],[fdt].[PHI Patient Cur].[Middle Name],[fdt].[PHI Patient Cur].[Address 1],[fdt].[PHI Patient Cur].[Adress 2],[fdt].[PHI Patient Cur].[City],[fdt].[PHI Patient Cur].[State],[fdt].[PHI Patient Cur].[Zipcode],[fdt].[PHI Patient Cur].[Home Phone Number],[fdt].[PHI Patient Cur].[Gender],[fdt].[PHI Patient Cur].[SSN],[fdt].[PHI Patient Cur].[DOB],[fdt].[PHI Patient Cur].[Has Dm2],[fdt].[PHI Patient Cur].[Has CKD],[fdt].[PHI Patient Cur].[Age Cur],[fdt].[PHI Patient Cur].[Age Range Cur],[fdt].[PHI Patient Cur].[Alternate Phone Number],[fdt].[PHI Patient Cur].[Marital Status],[fdt].[PHI Patient Cur].[Race],[fdt].[PHI Patient Cur].[Ethnicity],[fdt].[PHI Patient Cur].[Homeless Status],[fdt].[PHI Patient Cur].[Homeless Indicator],[fdt].[PHI Patient Cur].[Disability 1],[fdt].[PHI Patient Cur].[Disability 2],[fdt].[PHI Patient Cur].[Medical Record Number],[fdt].[PHI Patient Cur].[Address Full],[fdt].[PHI Patient Cur].[Last Appt Date Any],[fdt].[PHI Patient Cur].[Last Appt Prov Any],[fdt].[PHI Patient Cur].[Next Appt Date Any],[fdt].[PHI Patient Cur].[Next Appt Prov Any],[fdt].[PHI Patient Cur].[Next Appt Team Any],[fdt].[PHI Patient Cur].[Next Appt Date Gyn],[fdt].[PHI Patient Cur].[Next Appt Prov Gyn],[fdt].[PHI Patient Cur].[Next Appt Team Gyn],[fdt].[PHI Patient Cur].[Next Appt Date Med],[fdt].[PHI Patient Cur].[Next Appt Prov Med],[fdt].[PHI Patient Cur].[Next Appt Team Med],[fdt].[PHI Patient Cur].[Next Appt Date BH],[fdt].[PHI Patient Cur].[Next Appt Prov BH],[fdt].[PHI Patient Cur].[Next Appt Team BH],[fdt].[PHI Patient Cur].[Last Enc Date],[fdt].[PHI Patient Cur].[Last Enc Prov],[fdt].[PHI Patient Cur].[Last Enc MA],[fdt].[PHI Patient Cur].[Last Enc Team],[fdt].[PHI Patient Cur].[Last Med Date],[fdt].[PHI Patient Cur].[Last Med Prov],[fdt].[PHI Patient Cur].[Last Med MA],[fdt].[PHI Patient Cur].[Last Med Team],[fdt].[PHI Patient Cur].[Last BH Date],[fdt].[PHI Patient Cur].[Last BH Prov],[fdt].[PHI Patient Cur].[Last BH MA],[fdt].[PHI Patient Cur].[Avg Cycle Time],[fdt].[PHI Patient Cur].[Chart Create Date],[fdt].[PHI Patient Cur].[Chart Create User],[fdt].[PHI Patient Cur].[Person Create Date],[fdt].[PHI Patient Cur].[Person Creat User],[fdt].[PHI Patient Cur].[Days Since Enc],[fdt].[PHI Patient Cur].[Days Since Med],[fdt].[PHI Patient Cur].[Days to Appt Any],[fdt].[PHI Patient Cur].[Days to Appt Med],[fdt].[PHI Patient Cur].[Days to Appt BH],[fdt].[PHI Patient Cur].[Days Since ED],[fdt].[PHI Patient Cur].[Days Since DC],[fdt].[PHI Patient Cur].[Days Since BH],[fdt].[PHI Patient Cur].[High NS 12M],[fdt].[PHI Patient Cur].[Time as Member],[fdt].[PHI Patient Cur].[membership_time_sort],[fdt].[PHI Patient Cur].[Is Patient New],[fdt].[PHI Patient Cur].[Is Patient Established],[fdt].[PHI Patient Cur].[Is Patient Alive],[fdt].[PHI Patient Cur].[Deceased Status],[fdt].[PHI Patient Cur].[Membership Month],[fdt].[PHI Patient Cur].[Vintage Month],[fdt].[PHI Patient Cur].[Vintage Month Range],[fdt].[PHI Patient Cur].[Patient Vintage Month sort]   FROM [fdt].[PHI Patient Cur] ">
                       <xs:complexType>
                         <xs:sequence>
                           <xs:element name="person_key" msprop:DbColumnName="person_key" msprop:FriendlyName="person_key" type="xs:long" minOccurs="0" />
@@ -66242,13 +66434,6 @@ CREATE KPI CURRENTCUBE.[CC KPI] AS Measures.[CC KPI], ASSOCIATED_MEASURE_GROUP =
                           <xs:element name="Avg_x0020_Cycle_x0020_Time" msprop:DbColumnName="Avg Cycle Time" msprop:FriendlyName="Avg Cycle Time" type="xs:int" minOccurs="0" />
                           <xs:element name="Days_x0020_Since_x0020_Med" msprop:DbColumnName="Days Since Med" msprop:FriendlyName="Days Since Med" type="xs:int" minOccurs="0" />
                           <xs:element name="High_x0020_NS_x0020_12M" msprop:DbColumnName="High NS 12M" msprop:FriendlyName="High NS 12M" type="xs:int" minOccurs="0" />
-                          <xs:element name="MH_x0020_Cur" msprop:DbColumnName="MH Cur" msprop:FriendlyName="MH Cur" minOccurs="0">
-                            <xs:simpleType>
-                              <xs:restriction base="xs:string">
-                                <xs:maxLength value="32768" />
-                              </xs:restriction>
-                            </xs:simpleType>
-                          </xs:element>
                           <xs:element name="MH_x0020_Cur_x0020_Site" msprop:DbColumnName="MH Cur Site" msprop:FriendlyName="MH Cur Site" minOccurs="0">
                             <xs:simpleType>
                               <xs:restriction base="xs:string">
@@ -66372,10 +66557,17 @@ CREATE KPI CURRENTCUBE.[CC KPI] AS Measures.[CC KPI], ASSOCIATED_MEASURE_GROUP =
                               </xs:restriction>
                             </xs:simpleType>
                           </xs:element>
+                          <xs:element name="Medical_x0020_Home_x0020_Cur" msprop:DbColumnName="Medical Home Cur" msprop:FriendlyName="Medical Home Cur" minOccurs="0">
+                            <xs:simpleType>
+                              <xs:restriction base="xs:string">
+                                <xs:maxLength value="32768" />
+                              </xs:restriction>
+                            </xs:simpleType>
+                          </xs:element>
                         </xs:sequence>
                       </xs:complexType>
                     </xs:element>
-                    <xs:element name="PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd" msdata:Locale="" msprop:IsLogical="True" msprop:FriendlyName="PHI Patient SCD" msprop:DbSchemaName="fdt" msprop:DbTableName="PHI Patient SCD" msprop:TableType="View" msprop:Description="PHI Patient SCD" msprop:QueryDefinition="      SELECT [fdt].[PHI Patient SCD].[per_mon_id],[fdt].[PHI Patient SCD].[first_mon_date],[fdt].[PHI Patient SCD].[person_key],[fdt].[PHI Patient SCD].[mh_hx_key],[fdt].[PHI Patient SCD].[pcp_hx_key],[fdt].[PHI Patient SCD].[PCP Hx],[fdt].[PHI Patient SCD].[PCP Hx Team],[fdt].[PHI Patient SCD].[MH Hx],[fdt].[PHI Patient SCD].[MH Hx Site],[fdt].[PHI Patient SCD].[Status Hx],[fdt].[PHI Patient SCD].[Time as Member],[fdt].[PHI Patient SCD].[membership_time_sort],[fdt].[PHI Patient SCD].[Is Patient New],[fdt].[PHI Patient SCD].[Is Patient Established],[fdt].[PHI Patient SCD].[Is Patient Alive],[fdt].[PHI Patient SCD].[Deceased Status],[fdt].[PHI Patient SCD].[Membership Month],[fdt].[PHI Patient SCD].[Age Hx],[fdt].[PHI Patient SCD].[Age Range Hx],[fdt].[PHI Patient SCD].[Age_Hx_sort],[fdt].[PHI Patient SCD].[Vintage Month],[fdt].[PHI Patient SCD].[Vintage Month Range],[fdt].[PHI Patient SCD].[Patient Vintage Month sort],[fdt].[PHI Patient SCD].[New this Month],[fdt].[PHI Patient SCD].[Patients],[fdt].[PHI Patient SCD].[Deceased],[fdt].[PHI Patient SCD].[Deceased this Month],[fdt].[PHI Patient SCD].[1M Act],[fdt].[PHI Patient SCD].[3M Act],[fdt].[PHI Patient SCD].[6M Act],[fdt].[PHI Patient SCD].[12M Act],[fdt].[PHI Patient SCD].[18M Act],[fdt].[PHI Patient SCD].[24M Act],[fdt].[PHI Patient SCD].[3M InAct],[fdt].[PHI Patient SCD].[6M InAct],[fdt].[PHI Patient SCD].[12M InAct],[fdt].[PHI Patient SCD].[18M InAct],[fdt].[PHI Patient SCD].[24M InAct],[fdt].[PHI Patient SCD].[MedHome Change],[fdt].[PHI Patient SCD].[PCP Change],[fdt].[PHI Patient SCD].[Never Act],[fdt].[PHI Patient SCD].[AD Denom],[fdt].[PHI Patient SCD].[BH 12M],[fdt].[PHI Patient SCD].[ED 12M],[fdt].[PHI Patient SCD].[Hosp 12M],[fdt].[PHI Patient SCD].[multi_ed_12mon_flag],[fdt].[PHI Patient SCD].[dc_12mon_flag],[fdt].[PHI Patient SCD].[multi_bh_12mon_flag],[fdt].[PHI Patient SCD].[ACP N Comp],[fdt].[PHI Patient SCD].[ACP N Visit],[fdt].[PHI Patient SCD].[ACP N Visit Only],[fdt].[PHI Patient SCD].[ACP N None],[fdt].[PHI Patient SCD].[ACP N Visit Dx],[fdt].[PHI Patient SCD].[ACP N Visit CPT],[fdt].[PHI Patient SCD].[ACP N Polst],[fdt].[PHI Patient SCD].[ACP N AD],[fdt].[PHI Patient SCD].[ACP N Polst or AD],[fdt].[PHI Patient SCD].[ACP N Polst Only],[fdt].[PHI Patient SCD].[ACP N AD Only],[fdt].[PHI Patient SCD].[ACP N AD and Polst Only],[fdt].[PHI Patient SCD].[ACP N No Docs],[fdt].[PHI Patient SCD].[Last AD Date],[fdt].[PHI Patient SCD].[Last Polst Date],[fdt].[PHI Patient SCD].[Last AD Scan],[fdt].[PHI Patient SCD].[Last Polst Scan],[fdt].[PHI Patient SCD].[Last ACP Date],[fdt].[PHI Patient SCD].[RFA Comp],[fdt].[PHI Patient SCD].[Hedis CRC Den],[fdt].[PHI Patient SCD].[Hedis BC Den],[fdt].[PHI Patient SCD].[Hedis BP Den],[fdt].[PHI Patient SCD].[Hedis CRC Num],[fdt].[PHI Patient SCD].[Hedis BC Num],[fdt].[PHI Patient SCD].[Hedis BP Num],[fdt].[PHI Patient SCD].[UDS CRC Den],[fdt].[PHI Patient SCD].[UDS BP Den],[fdt].[PHI Patient SCD].[UDS CRC Num],[fdt].[PHI Patient SCD].[UDS BP Num],[fdt].[PHI Patient SCD].[IQ CRC Den],[fdt].[PHI Patient SCD].[IQ BP Den],[fdt].[PHI Patient SCD].[IQ BC Den],[fdt].[PHI Patient SCD].[IQ CC Den],[fdt].[PHI Patient SCD].[IQ CC Num],[fdt].[PHI Patient SCD].[IQ DM2 Den],[fdt].[PHI Patient SCD].[IQ CRC Num],[fdt].[PHI Patient SCD].[IQ BP Num],[fdt].[PHI Patient SCD].[IQ BC Num],[fdt].[PHI Patient SCD].[IQ CC VNC Num],[fdt].[PHI Patient SCD].[IQ CC DAV Num],[fdt].[PHI Patient SCD].[iq_dm2_o9_num],[fdt].[PHI Patient SCD].[IQ DM2 Num],[fdt].[PHI Patient SCD].[Last BP Sys],[fdt].[PHI Patient SCD].[Last BP Dia],[fdt].[PHI Patient SCD].[IQ CRC Due],[fdt].[PHI Patient SCD].[IQ BC Due],[fdt].[PHI Patient SCD].[IQ BP Due],[fdt].[PHI Patient SCD].[IQ CRC ONC],[fdt].[PHI Patient SCD].[IQ BC ONC],[fdt].[PHI Patient SCD].[IQ CRC DAO],[fdt].[PHI Patient SCD].[IQ CRC AO Num],[fdt].[PHI Patient SCD].[All Due],[fdt].[PHI Patient SCD].[All DAO]   FROM [fdt].[PHI Patient SCD] ">
+                    <xs:element name="PHI_x0020_Patient_x0020_SCD_1a2d7b7b-75d6-4bd6-bdfe-ed26c5b4b3fd" msdata:Locale="" msprop:IsLogical="True" msprop:FriendlyName="PHI Patient SCD" msprop:DbSchemaName="fdt" msprop:DbTableName="PHI Patient SCD" msprop:TableType="View" msprop:Description="PHI Patient SCD" msprop:QueryDefinition="      SELECT [fdt].[PHI Patient SCD].[per_mon_id],[fdt].[PHI Patient SCD].[first_mon_date],[fdt].[PHI Patient SCD].[person_key],[fdt].[PHI Patient SCD].[mh_hx_key],[fdt].[PHI Patient SCD].[pcp_hx_key],[fdt].[PHI Patient SCD].[PCP Hx],[fdt].[PHI Patient SCD].[PCP Hx Team],[fdt].[PHI Patient SCD].[MH Hx],[fdt].[PHI Patient SCD].[Medical Home Hx],[fdt].[PHI Patient SCD].[MH Site],[fdt].[PHI Patient SCD].[Status Hx],[fdt].[PHI Patient SCD].[Time as Member],[fdt].[PHI Patient SCD].[membership_time_sort],[fdt].[PHI Patient SCD].[Is Patient New],[fdt].[PHI Patient SCD].[Is Patient Established],[fdt].[PHI Patient SCD].[Is Patient Alive],[fdt].[PHI Patient SCD].[Deceased Status],[fdt].[PHI Patient SCD].[Membership Month],[fdt].[PHI Patient SCD].[Age Hx],[fdt].[PHI Patient SCD].[Age Range Hx],[fdt].[PHI Patient SCD].[Age_Hx_sort],[fdt].[PHI Patient SCD].[Vintage Month],[fdt].[PHI Patient SCD].[Vintage Month Range],[fdt].[PHI Patient SCD].[Patient Vintage Month sort],[fdt].[PHI Patient SCD].[New this Month],[fdt].[PHI Patient SCD].[Patients],[fdt].[PHI Patient SCD].[Deceased],[fdt].[PHI Patient SCD].[Deceased this Month],[fdt].[PHI Patient SCD].[1M Act],[fdt].[PHI Patient SCD].[3M Act],[fdt].[PHI Patient SCD].[6M Act],[fdt].[PHI Patient SCD].[12M Act],[fdt].[PHI Patient SCD].[18M Act],[fdt].[PHI Patient SCD].[24M Act],[fdt].[PHI Patient SCD].[3M InAct],[fdt].[PHI Patient SCD].[6M InAct],[fdt].[PHI Patient SCD].[12M InAct],[fdt].[PHI Patient SCD].[18M InAct],[fdt].[PHI Patient SCD].[24M InAct],[fdt].[PHI Patient SCD].[MedHome Change],[fdt].[PHI Patient SCD].[PCP Change],[fdt].[PHI Patient SCD].[Never Act],[fdt].[PHI Patient SCD].[AD Denom],[fdt].[PHI Patient SCD].[BH 12M],[fdt].[PHI Patient SCD].[ED 12M],[fdt].[PHI Patient SCD].[Hosp 12M],[fdt].[PHI Patient SCD].[multi_ed_12mon_flag],[fdt].[PHI Patient SCD].[dc_12mon_flag],[fdt].[PHI Patient SCD].[multi_bh_12mon_flag],[fdt].[PHI Patient SCD].[ACP N Comp],[fdt].[PHI Patient SCD].[ACP N Visit],[fdt].[PHI Patient SCD].[ACP N Visit Only],[fdt].[PHI Patient SCD].[ACP N None],[fdt].[PHI Patient SCD].[ACP N Visit Dx],[fdt].[PHI Patient SCD].[ACP N Visit CPT],[fdt].[PHI Patient SCD].[ACP N Polst],[fdt].[PHI Patient SCD].[ACP N AD],[fdt].[PHI Patient SCD].[ACP N Polst or AD],[fdt].[PHI Patient SCD].[ACP N Polst Only],[fdt].[PHI Patient SCD].[ACP N AD Only],[fdt].[PHI Patient SCD].[ACP N AD and Polst Only],[fdt].[PHI Patient SCD].[ACP N No Docs],[fdt].[PHI Patient SCD].[Last AD Date],[fdt].[PHI Patient SCD].[Last Polst Date],[fdt].[PHI Patient SCD].[Last AD Scan],[fdt].[PHI Patient SCD].[Last Polst Scan],[fdt].[PHI Patient SCD].[Last ACP Date],[fdt].[PHI Patient SCD].[RFA Comp],[fdt].[PHI Patient SCD].[Hedis CRC Den],[fdt].[PHI Patient SCD].[Hedis BC Den],[fdt].[PHI Patient SCD].[Hedis BP Den],[fdt].[PHI Patient SCD].[Hedis CRC Num],[fdt].[PHI Patient SCD].[Hedis BC Num],[fdt].[PHI Patient SCD].[Hedis BP Num],[fdt].[PHI Patient SCD].[UDS CRC Den],[fdt].[PHI Patient SCD].[UDS BP Den],[fdt].[PHI Patient SCD].[UDS CRC Num],[fdt].[PHI Patient SCD].[UDS BP Num],[fdt].[PHI Patient SCD].[IQ CRC Den],[fdt].[PHI Patient SCD].[IQ BP Den],[fdt].[PHI Patient SCD].[IQ BC Den],[fdt].[PHI Patient SCD].[IQ CC Den],[fdt].[PHI Patient SCD].[IQ CC Num],[fdt].[PHI Patient SCD].[IQ DM2 Den],[fdt].[PHI Patient SCD].[IQ CRC Num],[fdt].[PHI Patient SCD].[IQ BP Num],[fdt].[PHI Patient SCD].[IQ BC Num],[fdt].[PHI Patient SCD].[IQ CC VNC Num],[fdt].[PHI Patient SCD].[IQ CC DAV Num],[fdt].[PHI Patient SCD].[iq_dm2_o9_num],[fdt].[PHI Patient SCD].[IQ DM2 Num],[fdt].[PHI Patient SCD].[Last BP Sys],[fdt].[PHI Patient SCD].[Last BP Dia],[fdt].[PHI Patient SCD].[IQ CRC Due],[fdt].[PHI Patient SCD].[IQ BC Due],[fdt].[PHI Patient SCD].[IQ BP Due],[fdt].[PHI Patient SCD].[IQ CRC ONC],[fdt].[PHI Patient SCD].[IQ BC ONC],[fdt].[PHI Patient SCD].[IQ CRC DAO],[fdt].[PHI Patient SCD].[IQ CRC AO Num],[fdt].[PHI Patient SCD].[All Due],[fdt].[PHI Patient SCD].[All DAO]   FROM [fdt].[PHI Patient SCD] ">
                       <xs:complexType>
                         <xs:sequence>
                           <xs:element name="per_mon_id" msprop:DbColumnName="per_mon_id" msprop:FriendlyName="per_mon_id" type="xs:long" />
@@ -66521,13 +66713,6 @@ CREATE KPI CURRENTCUBE.[CC KPI] AS Measures.[CC KPI], ASSOCIATED_MEASURE_GROUP =
                               </xs:restriction>
                             </xs:simpleType>
                           </xs:element>
-                          <xs:element name="MH_x0020_Hx_x0020_Site" msprop:DbColumnName="MH Hx Site" msprop:FriendlyName="MH Hx Site" minOccurs="0">
-                            <xs:simpleType>
-                              <xs:restriction base="xs:string">
-                                <xs:maxLength value="32768" />
-                              </xs:restriction>
-                            </xs:simpleType>
-                          </xs:element>
                           <xs:element name="ACP_x0020_N_x0020_Comp" msprop:DbColumnName="ACP N Comp" msprop:FriendlyName="ACP N Comp" type="xs:int" minOccurs="0" />
                           <xs:element name="ACP_x0020_N_x0020_Visit" msprop:DbColumnName="ACP N Visit" msprop:FriendlyName="ACP N Visit" type="xs:int" minOccurs="0" />
                           <xs:element name="ACP_x0020_N_x0020_None" msprop:DbColumnName="ACP N None" msprop:FriendlyName="ACP N None" type="xs:int" minOccurs="0" />
@@ -66557,6 +66742,20 @@ CREATE KPI CURRENTCUBE.[CC KPI] AS Measures.[CC KPI], ASSOCIATED_MEASURE_GROUP =
                           <xs:element name="IQ_x0020_CRC_x0020_AO_x0020_Num" msprop:DbColumnName="IQ CRC AO Num" msprop:FriendlyName="IQ CRC AO Num" type="xs:int" minOccurs="0" />
                           <xs:element name="IQ_x0020_CC_x0020_VNC_x0020_Num" msprop:DbColumnName="IQ CC VNC Num" msprop:FriendlyName="IQ CC VNC Num" type="xs:int" minOccurs="0" />
                           <xs:element name="IQ_x0020_CC_x0020_DAV_x0020_Num" msprop:DbColumnName="IQ CC DAV Num" msprop:FriendlyName="IQ CC DAV Num" type="xs:int" minOccurs="0" />
+                          <xs:element name="Medical_x0020_Home_x0020_Hx" msprop:DbColumnName="Medical Home Hx" msprop:FriendlyName="Medical Home Hx" minOccurs="0">
+                            <xs:simpleType>
+                              <xs:restriction base="xs:string">
+                                <xs:maxLength value="32768" />
+                              </xs:restriction>
+                            </xs:simpleType>
+                          </xs:element>
+                          <xs:element name="MH_x0020_Site" msprop:DbColumnName="MH Site" msprop:FriendlyName="MH Site" minOccurs="0">
+                            <xs:simpleType>
+                              <xs:restriction base="xs:string">
+                                <xs:maxLength value="32768" />
+                              </xs:restriction>
+                            </xs:simpleType>
+                          </xs:element>
                         </xs:sequence>
                       </xs:complexType>
                     </xs:element>
@@ -67257,6 +67456,13 @@ CREATE KPI CURRENTCUBE.[CC KPI] AS Measures.[CC KPI], ASSOCIATED_MEASURE_GROUP =
                           <xs:element name="Sched_x0020_V" msprop:DbColumnName="Sched V" msprop:FriendlyName="Sched V" type="xs:long" minOccurs="0" />
                           <xs:element name="create_date" msprop:DbColumnName="create_date" msprop:FriendlyName="create_date" type="xs:dateTime" minOccurs="0" />
                           <xs:element name="Med_x0020_Category" msprop:DbColumnName="Med Category" msprop:FriendlyName="Med Category" minOccurs="0">
+                            <xs:simpleType>
+                              <xs:restriction base="xs:string">
+                                <xs:maxLength value="32768" />
+                              </xs:restriction>
+                            </xs:simpleType>
+                          </xs:element>
+                          <xs:element name="User_x0020_Ordering" msprop:DbColumnName="User Ordering" msprop:FriendlyName="User Ordering" minOccurs="0">
                             <xs:simpleType>
                               <xs:restriction base="xs:string">
                                 <xs:maxLength value="32768" />
