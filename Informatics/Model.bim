@@ -1786,6 +1786,22 @@
         &lt;int&gt;48&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Visits&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;54&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;PCP Avail&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;75&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnWidths&gt;
   &lt;ColumnDisplayIndex&gt;
     &lt;item&gt;
@@ -2404,6 +2420,22 @@
         &lt;int&gt;76&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Visits&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;77&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;PCP Avail&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;78&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnDisplayIndex&gt;
   &lt;ColumnFrozen /&gt;
   &lt;ColumnChecked&gt;
@@ -2573,6 +2605,22 @@
       &lt;/key&gt;
       &lt;value&gt;
         &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Visits&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;PCP Avail&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;false&lt;/boolean&gt;
       &lt;/value&gt;
     &lt;/item&gt;
   &lt;/ColumnChecked&gt;
@@ -3008,6 +3056,11 @@
                   <AttributeID>Site</AttributeID>
                   <OverrideBehavior>None</OverrideBehavior>
                   <Name>Site</Name>
+                </AttributeRelationship>
+                <AttributeRelationship>
+                  <AttributeID>Visits</AttributeID>
+                  <OverrideBehavior>None</OverrideBehavior>
+                  <Name>Visits</Name>
                 </AttributeRelationship>
               </AttributeRelationships>
               <OrderBy>Key</OrderBy>
@@ -5506,6 +5559,31 @@
                 <Source xsi:type="ColumnBinding">
                   <TableID>Encounter_x0020_and_x0020_Appointment_d1c60146-8607-4288-bcd2-c7711873898a</TableID>
                   <ColumnID>Site</ColumnID>
+                </Source>
+              </NameColumn>
+              <OrderBy>Key</OrderBy>
+            </Attribute>
+            <Attribute>
+              <ID>Visits</ID>
+              <Name>Visits</Name>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <DataSize>-1</DataSize>
+                  <NullProcessing>Preserve</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>Encounter_x0020_and_x0020_Appointment_d1c60146-8607-4288-bcd2-c7711873898a</TableID>
+                    <ColumnID>Visits</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <NameColumn>
+                <DataType>WChar</DataType>
+                <DataSize>-1</DataSize>
+                <NullProcessing>ZeroOrBlank</NullProcessing>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>Encounter_x0020_and_x0020_Appointment_d1c60146-8607-4288-bcd2-c7711873898a</TableID>
+                  <ColumnID>Visits</ColumnID>
                 </Source>
               </NameColumn>
               <OrderBy>Key</OrderBy>
@@ -26083,6 +26161,9 @@
                 <Attribute>
                   <AttributeID>Site</AttributeID>
                 </Attribute>
+                <Attribute>
+                  <AttributeID>Visits</AttributeID>
+                </Attribute>
               </Attributes>
             </Dimension>
             <Dimension>
@@ -30822,6 +30903,20 @@
                         </KeyColumn>
                       </KeyColumns>
                     </Attribute>
+                    <Attribute>
+                      <AttributeID>Visits</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>Encounter_x0020_and_x0020_Appointment_d1c60146-8607-4288-bcd2-c7711873898a</TableID>
+                            <ColumnID>Visits</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
                   </Attributes>
                   <ddl200_200:ShareDimensionStorage>Shared</ddl200_200:ShareDimensionStorage>
                 </Dimension>
@@ -34545,6 +34640,22 @@
         &lt;int&gt;48&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Visits&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;54&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;PCP Avail&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;75&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnWidths&gt;
   &lt;ColumnDisplayIndex&gt;
     &lt;item&gt;
@@ -35163,6 +35274,22 @@
         &lt;int&gt;76&lt;/int&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Visits&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;77&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;PCP Avail&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;int&gt;78&lt;/int&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnDisplayIndex&gt;
   &lt;ColumnFrozen /&gt;
   &lt;ColumnChecked&gt;
@@ -35334,6 +35461,22 @@
         &lt;boolean&gt;true&lt;/boolean&gt;
       &lt;/value&gt;
     &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;Visits&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;true&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+      &lt;key&gt;
+        &lt;string&gt;PCP Avail&lt;/string&gt;
+      &lt;/key&gt;
+      &lt;value&gt;
+        &lt;boolean&gt;false&lt;/boolean&gt;
+      &lt;/value&gt;
+    &lt;/item&gt;
   &lt;/ColumnChecked&gt;
   &lt;ColumnFilter /&gt;
   &lt;SelectionFilter /&gt;
@@ -35354,7 +35497,7 @@
                   </Annotations>
                   <Source xsi:type="QueryBinding">
                     <DataSourceID>8fbc5f95-2a43-4976-9dfe-f5a578e0a753</DataSourceID>
-                    <QueryDefinition>SELECT [fdt].[Encounter and Appointment].* 		FROM [fdt].[Encounter and Appointment]</QueryDefinition>
+                    <QueryDefinition>SELECT [fdt].[Encounter and Appointment].[enc_appt_key],[fdt].[Encounter and Appointment].[person_key],[fdt].[Encounter and Appointment].[User Resource],[fdt].[Encounter and Appointment].[Team],[fdt].[Encounter and Appointment].[enc_rendering_key],[fdt].[Encounter and Appointment].[provider_key],[fdt].[Encounter and Appointment].[location_key],[fdt].[Encounter and Appointment].[per_mon_id],[fdt].[Encounter and Appointment].[event_id],[fdt].[Encounter and Appointment].[enc_app_date],[fdt].[Encounter and Appointment].[User Appt Create],[fdt].[Encounter and Appointment].[User Checkout],[fdt].[Encounter and Appointment].[User Ready Prov],[fdt].[Encounter and Appointment].[User Enc Create],[fdt].[Encounter and Appointment].[User Charted],[fdt].[Encounter and Appointment].[enc_nbr],[fdt].[Encounter and Appointment].[Enc Number],[fdt].[Encounter and Appointment].[event_key],[fdt].[Encounter and Appointment].[enc_status],[fdt].[Encounter and Appointment].[appt_status],[fdt].[Encounter and Appointment].[appt_w_pcp_status_txt],[fdt].[Encounter and Appointment].[enc_slot_type],[fdt].[Encounter and Appointment].[appt_duration],[fdt].[Encounter and Appointment].[Location],[fdt].[Encounter and Appointment].[Site],[fdt].[Encounter and Appointment].[Appt Duration],[fdt].[Encounter and Appointment].[appt_time],[fdt].[Encounter and Appointment].[Appt Booked with PCP],[fdt].[Encounter and Appointment].[Appt Booked Not with PCP],[fdt].[Encounter and Appointment].[All Appt],[fdt].[Encounter and Appointment].[Appt without a Pt],[fdt].[Encounter and Appointment].[Appt Kept with Enc],[fdt].[Encounter and Appointment].[Appt Kept with No Enc],[fdt].[Encounter and Appointment].[Appt in Future],[fdt].[Encounter and Appointment].[Appt No Show],[fdt].[Encounter and Appointment].[Appt No Show with No Patient],[fdt].[Encounter and Appointment].[Appt Future with No Patient],[fdt].[Encounter and Appointment].[Appt Cancelled],[fdt].[Encounter and Appointment].[Appt Deleted],[fdt].[Encounter and Appointment].[Appt Rescheduled],[fdt].[Encounter and Appointment].[Enc or Appt],[fdt].[Encounter and Appointment].[Encounters],[fdt].[Encounter and Appointment].[Billable Encounters],[fdt].[Encounter and Appointment].[Visits],[fdt].[Encounter and Appointment].[Non-billable Encounters],[fdt].[Encounter and Appointment].[Billable Enc with Appt],[fdt].[Encounter and Appointment].[Non-Billable Enc with Appt],[fdt].[Encounter and Appointment].[Billable Appts with Enc Kept],[fdt].[Encounter and Appointment].[Non-Billable Appts with Enc Kept],[fdt].[Encounter and Appointment].[Unduplicated],[fdt].[Encounter and Appointment].[Days from Booked to Appt],[fdt].[Encounter and Appointment].[Min from Appt Time to Kept],[fdt].[Encounter and Appointment].[Min from Kept to Checkout],[fdt].[Encounter and Appointment].[Min Kept to Ready for Prov],[fdt].[Encounter and Appointment].[Min from Kept to Charted],[fdt].[Encounter and Appointment].[Mins from Kept to Charted],[fdt].[Encounter and Appointment].[Min from Ready for Prov to Checkout],[fdt].[Encounter and Appointment].[Date of Appointment Made],[fdt].[Encounter and Appointment].[Payer],[fdt].[Encounter and Appointment].[Payer 1 Name],[fdt].[Encounter and Appointment].[Payer 1 Financial Class],[fdt].[Encounter and Appointment].[Payer 2 Name],[fdt].[Encounter and Appointment].[Payer 2 Financial Class],[fdt].[Encounter and Appointment].[Payer 3 Name],[fdt].[Encounter and Appointment].[Payer 3 Financial Class],[fdt].[Encounter and Appointment].[Date of Last Appointment],[fdt].[Encounter and Appointment].[Date of Last Encounter],[fdt].[Encounter and Appointment].[Status of Appointment],[fdt].[Encounter and Appointment].[Booking PCP],[fdt].[Encounter and Appointment].[Appt booked with a patient],[fdt].[Encounter and Appointment].[Appt had encounter],[fdt].[Encounter and Appointment].[Enc had appt],[fdt].[Encounter and Appointment].[Enc billable status],[fdt].[Encounter and Appointment].[Status of Enc],[fdt].[Encounter and Appointment].[Appt was Kept],[fdt].[Encounter and Appointment].[Appt cancel reason],[fdt].[Encounter and Appointment].[Enc had charges],[fdt].[Encounter and Appointment].[Can crossbook with PCP] 		FROM [fdt].[Encounter and Appointment]</QueryDefinition>
                   </Source>
                   <StorageMode valuens="ddl200_200">InMemory</StorageMode>
                   <ProcessingMode>Regular</ProcessingMode>
@@ -39874,6 +40017,20 @@
                           <Source xsi:type="ColumnBinding">
                             <TableID>Encounter_x0020_and_x0020_Appointment_d1c60146-8607-4288-bcd2-c7711873898a</TableID>
                             <ColumnID>Site</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Visits</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>Encounter_x0020_and_x0020_Appointment_d1c60146-8607-4288-bcd2-c7711873898a</TableID>
+                            <ColumnID>Visits</ColumnID>
                           </Source>
                         </KeyColumn>
                       </KeyColumns>
@@ -57798,6 +57955,20 @@
                         </KeyColumn>
                       </KeyColumns>
                     </Attribute>
+                    <Attribute>
+                      <AttributeID>Visits</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>Encounter_x0020_and_x0020_Appointment_d1c60146-8607-4288-bcd2-c7711873898a</TableID>
+                            <ColumnID>Visits</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
                   </Attributes>
                   <IntermediateCubeDimensionID>tran_survey_8f2893a1-9fed-45c9-bfce-1a21c65b54af</IntermediateCubeDimensionID>
                   <IntermediateGranularityAttributeID>enc_appt_key</IntermediateGranularityAttributeID>
@@ -59638,6 +59809,20 @@
                           <Source xsi:type="ColumnBinding">
                             <TableID>Encounter_x0020_and_x0020_Appointment_d1c60146-8607-4288-bcd2-c7711873898a</TableID>
                             <ColumnID>Site</ColumnID>
+                          </Source>
+                        </KeyColumn>
+                      </KeyColumns>
+                    </Attribute>
+                    <Attribute>
+                      <AttributeID>Visits</AttributeID>
+                      <KeyColumns>
+                        <KeyColumn>
+                          <DataType>Integer</DataType>
+                          <DataSize>-1</DataSize>
+                          <NullProcessing>Preserve</NullProcessing>
+                          <Source xsi:type="ColumnBinding">
+                            <TableID>Encounter_x0020_and_x0020_Appointment_d1c60146-8607-4288-bcd2-c7711873898a</TableID>
+                            <ColumnID>Visits</ColumnID>
                           </Source>
                         </KeyColumn>
                       </KeyColumns>
@@ -65816,7 +66001,7 @@ CREATE KPI CURRENTCUBE.[IQ CC KPI] AS Measures.[IQ CC KPI], ASSOCIATED_MEASURE_G
                         </xs:sequence>
                       </xs:complexType>
                     </xs:element>
-                    <xs:element name="Encounter_x0020_and_x0020_Appointment_d1c60146-8607-4288-bcd2-c7711873898a" msdata:Locale="" msprop:IsLogical="True" msprop:FriendlyName="Encounter and Appointment" msprop:DbSchemaName="fdt" msprop:DbTableName="Encounter and Appointment" msprop:TableType="View" msprop:Description="Encounter and Appointment" msprop:QueryDefinition="      SELECT [fdt].[Encounter and Appointment].*   FROM [fdt].[Encounter and Appointment] ">
+                    <xs:element name="Encounter_x0020_and_x0020_Appointment_d1c60146-8607-4288-bcd2-c7711873898a" msdata:Locale="" msprop:IsLogical="True" msprop:FriendlyName="Encounter and Appointment" msprop:DbSchemaName="fdt" msprop:DbTableName="Encounter and Appointment" msprop:TableType="View" msprop:Description="Encounter and Appointment" msprop:QueryDefinition="      SELECT [fdt].[Encounter and Appointment].[enc_appt_key],[fdt].[Encounter and Appointment].[person_key],[fdt].[Encounter and Appointment].[User Resource],[fdt].[Encounter and Appointment].[Team],[fdt].[Encounter and Appointment].[enc_rendering_key],[fdt].[Encounter and Appointment].[provider_key],[fdt].[Encounter and Appointment].[location_key],[fdt].[Encounter and Appointment].[per_mon_id],[fdt].[Encounter and Appointment].[event_id],[fdt].[Encounter and Appointment].[enc_app_date],[fdt].[Encounter and Appointment].[User Appt Create],[fdt].[Encounter and Appointment].[User Checkout],[fdt].[Encounter and Appointment].[User Ready Prov],[fdt].[Encounter and Appointment].[User Enc Create],[fdt].[Encounter and Appointment].[User Charted],[fdt].[Encounter and Appointment].[enc_nbr],[fdt].[Encounter and Appointment].[Enc Number],[fdt].[Encounter and Appointment].[event_key],[fdt].[Encounter and Appointment].[enc_status],[fdt].[Encounter and Appointment].[appt_status],[fdt].[Encounter and Appointment].[appt_w_pcp_status_txt],[fdt].[Encounter and Appointment].[enc_slot_type],[fdt].[Encounter and Appointment].[appt_duration],[fdt].[Encounter and Appointment].[Location],[fdt].[Encounter and Appointment].[Site],[fdt].[Encounter and Appointment].[Appt Duration],[fdt].[Encounter and Appointment].[appt_time],[fdt].[Encounter and Appointment].[Appt Booked with PCP],[fdt].[Encounter and Appointment].[Appt Booked Not with PCP],[fdt].[Encounter and Appointment].[All Appt],[fdt].[Encounter and Appointment].[Appt without a Pt],[fdt].[Encounter and Appointment].[Appt Kept with Enc],[fdt].[Encounter and Appointment].[Appt Kept with No Enc],[fdt].[Encounter and Appointment].[Appt in Future],[fdt].[Encounter and Appointment].[Appt No Show],[fdt].[Encounter and Appointment].[Appt No Show with No Patient],[fdt].[Encounter and Appointment].[Appt Future with No Patient],[fdt].[Encounter and Appointment].[Appt Cancelled],[fdt].[Encounter and Appointment].[Appt Deleted],[fdt].[Encounter and Appointment].[Appt Rescheduled],[fdt].[Encounter and Appointment].[Enc or Appt],[fdt].[Encounter and Appointment].[Encounters],[fdt].[Encounter and Appointment].[Billable Encounters],[fdt].[Encounter and Appointment].[Visits],[fdt].[Encounter and Appointment].[Non-billable Encounters],[fdt].[Encounter and Appointment].[Billable Enc with Appt],[fdt].[Encounter and Appointment].[Non-Billable Enc with Appt],[fdt].[Encounter and Appointment].[Billable Appts with Enc Kept],[fdt].[Encounter and Appointment].[Non-Billable Appts with Enc Kept],[fdt].[Encounter and Appointment].[Unduplicated],[fdt].[Encounter and Appointment].[Days from Booked to Appt],[fdt].[Encounter and Appointment].[Min from Appt Time to Kept],[fdt].[Encounter and Appointment].[Min from Kept to Checkout],[fdt].[Encounter and Appointment].[Min Kept to Ready for Prov],[fdt].[Encounter and Appointment].[Min from Kept to Charted],[fdt].[Encounter and Appointment].[Mins from Kept to Charted],[fdt].[Encounter and Appointment].[Min from Ready for Prov to Checkout],[fdt].[Encounter and Appointment].[Date of Appointment Made],[fdt].[Encounter and Appointment].[Payer],[fdt].[Encounter and Appointment].[Payer 1 Name],[fdt].[Encounter and Appointment].[Payer 1 Financial Class],[fdt].[Encounter and Appointment].[Payer 2 Name],[fdt].[Encounter and Appointment].[Payer 2 Financial Class],[fdt].[Encounter and Appointment].[Payer 3 Name],[fdt].[Encounter and Appointment].[Payer 3 Financial Class],[fdt].[Encounter and Appointment].[Date of Last Appointment],[fdt].[Encounter and Appointment].[Date of Last Encounter],[fdt].[Encounter and Appointment].[Status of Appointment],[fdt].[Encounter and Appointment].[Booking PCP],[fdt].[Encounter and Appointment].[Appt booked with a patient],[fdt].[Encounter and Appointment].[Appt had encounter],[fdt].[Encounter and Appointment].[Enc had appt],[fdt].[Encounter and Appointment].[Enc billable status],[fdt].[Encounter and Appointment].[Status of Enc],[fdt].[Encounter and Appointment].[Appt was Kept],[fdt].[Encounter and Appointment].[Appt cancel reason],[fdt].[Encounter and Appointment].[Enc had charges],[fdt].[Encounter and Appointment].[Can crossbook with PCP]   FROM [fdt].[Encounter and Appointment] ">
                       <xs:complexType>
                         <xs:sequence>
                           <xs:element name="enc_appt_key" msprop:DbColumnName="enc_appt_key" msprop:FriendlyName="enc_appt_key" type="xs:long" />
@@ -66094,6 +66279,7 @@ CREATE KPI CURRENTCUBE.[IQ CC KPI] AS Measures.[IQ CC KPI], ASSOCIATED_MEASURE_G
                               </xs:restriction>
                             </xs:simpleType>
                           </xs:element>
+                          <xs:element name="Visits" msprop:DbColumnName="Visits" msprop:FriendlyName="Visits" type="xs:int" minOccurs="0" />
                         </xs:sequence>
                       </xs:complexType>
                     </xs:element>
