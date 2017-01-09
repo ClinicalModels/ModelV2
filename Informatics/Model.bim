@@ -68534,6 +68534,25 @@ CREATE MEASURE 'PHI Patient SCD'[IQ CRC %]=(divide(SUM('PHI Patient SCD'[IQ CRC 
 ----------------------------------------------------------
 
 
+CREATE MEASURE 'PHI Patient SCD'[IQ BP Mn %]=(divide(SUM('PHI Patient SCD'[IQ BP Mn Num]),SUM('PHI Patient SCD'[IQ BP Mn Den])));
+</Text>
+                  <Annotations>
+                    <Annotation>
+                      <Name>FullName</Name>
+                      <Value>IQ BP Mn %</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>Table</Name>
+                      <Value>PHI Patient SCD</Value>
+                    </Annotation>
+                  </Annotations>
+                </Command>
+                <Command>
+                  <Text>----------------------------------------------------------
+-- PowerPivot measures command (do not modify manually) --
+----------------------------------------------------------
+
+
 CREATE MEASURE 'PHI Patient SCD'[IQ CRC KPI]=(divide(SUM('PHI Patient SCD'[IQ CRC Num]),SUM('PHI Patient SCD'[IQ CRC Den])));
 CREATE MEASURE 'PHI Patient SCD'[_IQ CRC KPI Goal] = 1; 
 CREATE MEASURE 'PHI Patient SCD'[_IQ CRC KPI Status] = if(ISBLANK('PHI Patient SCD'[IQ CRC KPI]),BLANK(),
@@ -68669,16 +68688,16 @@ CREATE KPI CURRENTCUBE.[IQ CC KPI] AS Measures.[IQ CC KPI], ASSOCIATED_MEASURE_G
 ----------------------------------------------------------
 
 
-CREATE MEASURE 'PHI Patient SCD'[IQ BP Mn %]=(divide(SUM('PHI Patient SCD'[IQ BP Mn Num]),SUM('PHI Patient SCD'[IQ BP Mn Den])));
+CREATE MEASURE 'Schedule'[Sched Efficiency %]=1-CALCULATE(DIVIDE(SUM(Schedule[Nbr Slots Avail Final]),SUM(Schedule[Nbr Slots for Appt])));
 </Text>
                   <Annotations>
                     <Annotation>
                       <Name>FullName</Name>
-                      <Value>IQ BP Mn %</Value>
+                      <Value>Sched Efficiency %</Value>
                     </Annotation>
                     <Annotation>
                       <Name>Table</Name>
-                      <Value>PHI Patient SCD</Value>
+                      <Value>Schedule</Value>
                     </Annotation>
                   </Annotations>
                 </Command>
@@ -69465,6 +69484,27 @@ CREATE MEASURE 'PHI Patient SCD'[IQ BP Mn %]=(divide(SUM('PHI Patient SCD'[IQ BP
                   <Annotations>
                     <Annotation>
                       <Name>Type</Name>
+                      <Value>User</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>IsPrivate</Name>
+                      <Value>False</Value>
+                    </Annotation>
+                    <Annotation>
+                      <Name>Format</Name>
+                      <Value>
+                        <Format Format="General" xmlns="" />
+                      </Value>
+                    </Annotation>
+                  </Annotations>
+                  <CalculationReference>[IQ BP Mn %]</CalculationReference>
+                  <CalculationType>Member</CalculationType>
+                  <FormatString>''</FormatString>
+                </CalculationProperty>
+                <CalculationProperty>
+                  <Annotations>
+                    <Annotation>
+                      <Name>Type</Name>
                       <Value>Kpi</Value>
                     </Annotation>
                     <Annotation>
@@ -70079,13 +70119,13 @@ CREATE MEASURE 'PHI Patient SCD'[IQ BP Mn %]=(divide(SUM('PHI Patient SCD'[IQ BP
                     <Annotation>
                       <Name>Format</Name>
                       <Value>
-                        <Format Format="General" xmlns="" />
+                        <Format Format="Percentage" Accuracy="2" xmlns="" />
                       </Value>
                     </Annotation>
                   </Annotations>
-                  <CalculationReference>[IQ BP Mn %]</CalculationReference>
+                  <CalculationReference>[Sched Efficiency %]</CalculationReference>
                   <CalculationType>Member</CalculationType>
-                  <FormatString>''</FormatString>
+                  <FormatString>'0.00 %;-0.00 %;0.00 %'</FormatString>
                 </CalculationProperty>
                 <CalculationProperty>
                   <CalculationReference>Measures.[__No measures defined]</CalculationReference>
